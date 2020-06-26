@@ -1,15 +1,18 @@
-## Legal Notices
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+---
+ms.openlocfilehash: 788258d786752d9430c25170ce67efe4b74c6e7a
+ms.sourcegitcommit: 537dd9ad3826ae7151e47d646b6315b89942173d
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "10795290"
+---
+## <span data-ttu-id="a9297-101">Юридические уведомления</span><span class="sxs-lookup"><span data-stu-id="a9297-101">Legal Notices</span></span>
+<span data-ttu-id="a9297-102">Корпорация Майкрософт и другие участники предоставляют вам лицензию на документацию корпорации Майкрософт и другое содержимое данного репозитория в соответствии с положениями [лицензии Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode) (см. файл [LICENSE](LICENSE)) и лицензию на любой код, находящийся в этом репозитории, в соответствии с положениями [лицензии MIT](https://opensource.org/licenses/MIT) (см. файл [LICENSE-CODE](LICENSE-CODE)).</span><span class="sxs-lookup"><span data-stu-id="a9297-102">Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE](LICENSE-CODE) file.</span></span>
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+<span data-ttu-id="a9297-103">Microsoft, Windows, Microsoft Azure и/или другие продукты и службы Майкрософт, указанные в данной документации, могут являться товарными знаками или зарегистрированными товарными знаками корпорации Майкрософт в Соединенных Штатах и/или других странах.</span><span class="sxs-lookup"><span data-stu-id="a9297-103">Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.</span></span>
+<span data-ttu-id="a9297-104">Лицензии этого проекта не дают вам право использовать какие бы то ни было имена, логотипы и товарные знаки корпорации Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a9297-104">The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.</span></span>
+<span data-ttu-id="a9297-105">Общие положения о торговых марках Майкрософт можно найти по адресу http://go.microsoft.com/fwlink/?LinkID=254653 .</span><span class="sxs-lookup"><span data-stu-id="a9297-105">Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.</span></span>
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+<span data-ttu-id="a9297-106">Сведения о конфиденциальности можно найти по адресуhttps://privacy.microsoft.com/en-us/</span><span class="sxs-lookup"><span data-stu-id="a9297-106">Privacy information can be found at https://privacy.microsoft.com/en-us/</span></span>
 
-Microsoft and any contributors reserve all others rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+<span data-ttu-id="a9297-107">Корпорация Майкрософт и другие участники оставляют за собой все остальные права, принадлежащие им как на основании соответствующих авторских прав, патентов или товарных знаков, так и подразумеваемые, принадлежащие в силу правовой презумпции или иным способом.</span><span class="sxs-lookup"><span data-stu-id="a9297-107">Microsoft and any contributors reserve all others rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel or otherwise.</span></span>
