@@ -1,3 +1,28 @@
-## Microsoft Open Source Code of Conduct
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+---
+ms.openlocfilehash: 618f216a0d88a2401c447abbe3586f3edb0bf9e1
+ms.sourcegitcommit: 537dd9ad3826ae7151e47d646b6315b89942173d
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "10794786"
+---
+# Возможности вносить данные
+
+Этот проект задобро пожаловать в мои публикации и предложения.  Для большинства публикаций требуется согласие с условиями лицензионного соглашения участника (CLA), в котором вы имеете право на то, что в действительности предоставляете нам права на использование вашего вклада. Подробности можно найти по адресу https://cla.opensource.microsoft.com .
+
+Когда вы отправляете запрос на включение внесенных изменений, CLA Bot автоматически определяет необходимость предоставления CLA и оформления (например, проверки состояния, примечания). Просто следуйте инструкциям, приведенным в разделе Bot. Вам потребуется сделать это только один раз для всех Repos, используя наш CLA.
+
+Этот проект принял [Исходный код поведения Microsoft Open](https://opensource.microsoft.com/codeofconduct/).
+Для получения дополнительных сведений ознакомьтесь с кодексом [поведения](https://opensource.microsoft.com/codeofconduct/faq/) и обратитесь в [opencode@microsoft.com](mailto:opencode@microsoft.com) с дополнительными вопросами или комментариями.
+
+# Юридические уведомления
+
+Корпорация Майкрософт и другие участники предоставляют вам лицензию на документацию корпорации Майкрософт и другое содержимое данного репозитория в соответствии с положениями [лицензии Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode) (см. файл [LICENSE](LICENSE)) и лицензию на любой код, находящийся в этом репозитории, в соответствии с положениями [лицензии MIT](https://opensource.org/licenses/MIT) (см. файл [LICENSE-CODE](LICENSE-CODE)).
+
+Microsoft, Windows, Microsoft Azure и/или другие продукты и службы Майкрософт, указанные в данной документации, могут являться товарными знаками или зарегистрированными товарными знаками корпорации Майкрософт в Соединенных Штатах и/или других странах.
+Лицензии этого проекта не дают вам право использовать какие бы то ни было имена, логотипы и товарные знаки корпорации Майкрософт.
+Общие положения о торговых марках Майкрософт можно найти по адресу http://go.microsoft.com/fwlink/?LinkID=254653 .
+
+Сведения о конфиденциальности можно найти по адресуhttps://privacy.microsoft.com/en-us/
+
+Корпорация Майкрософт и любые участники зарезервированы все другие права, будь то их авторские права, патенты или товарные знаки, будь то estoppel или иным образом.
