@@ -1,29 +1,25 @@
 ---
-title: Устранение неполадок HoloLens
+title: Поиск и устранение неисправностей
 description: Решения для распространенных проблем с HoloLens.
 author: mattzmsft
 ms.author: mazeller
 ms.date: 12/02/2019
 ms.prod: hololens
 ms.topic: article
-ms.custom:
-- CI 111456
-- CSSTroubleshooting
-audience: ITPro
+audience: HoloLens
 ms.localizationpriority: medium
 keywords: проблемы, ошибки, устранение неполадок, исправление, Справка, поддержка, HoloLens
 manager: jarrettr
-appliesto:
-- HoloLens (1st gen)
-- HoloLens 2
-ms.openlocfilehash: 4897d02f4b789c77204d57c0a7750e3c3803d7bb
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
-ms.translationtype: MT
+ms.custom:
+- CI 111456
+- CSSTroubleshooting
+ms.openlocfilehash: 15998fe11de1e7be4f12087a2724bec7e22337b0
+ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10829024"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10857747"
 ---
-# Устранение неполадок HoloLens
+# Поиск и устранение неисправностей
 
 В этой статье объясняется, как устранить несколько распространенных проблем с HoloLens.
 

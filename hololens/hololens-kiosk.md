@@ -17,12 +17,11 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 0163e028756743922302b46f04309f3d7f738233
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
-ms.translationtype: MT
+ms.openlocfilehash: 7409865f63199dead1779fa183128b30445053aa
+ms.sourcegitcommit: 2b1518675b9962518e08b13c12b43b6d9827fe17
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10829314"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10858003"
 ---
 # Настройка HoloLens в качестве терминала
 
@@ -99,7 +98,8 @@ ms.locfileid: "10829314"
 |Calendar |Microsoft. windowscommunicationsapps \ _8wekyb3d8bbwe \! Microsoft. windowslive. Calendar |
 |Камера <sup> 1, 2</sup> |HoloCamera \ _cw5n1h2txyewy \! HoloCamera |
 |Кортана <sup> 3</sup> |Microsoft. 549981C3F5F10 \ _8wekyb3d8bbwe \! · |
-|Средство выбора устройств |HoloDevicesFlow \ _cw5n1h2txyewy \! HoloDevicesFlow |
+|Средство выбора устройств для HoloLens (1-го поколения) |HoloDevicesFlow \ _cw5n1h2txyewy \! HoloDevicesFlow |
+|Средство выбора устройств на HoloLens 2 |Microsoft. Windows. DevicesFlowHost \ _cw5n1h2txyewy \! Microsoft. Windows. DevicesFlowHost |
 |Руководства по Dynamics 365 |Microsoft. Dynamics365. Guide \ _8wekyb3d8bbwe \! MicrosoftGuides |
 |Dynamics 365 Remote Assist |Microsoft. MicrosoftRemoteAssist \ _8wekyb3d8bbwe \! Microsoft. RemoteAssist |
 |&nbsp;Центр отзывов |Microsoft. WindowsFeedbackHub \ _8wekyb3d8bbwe \! · |
@@ -119,7 +119,7 @@ ms.locfileid: "10829314"
 > - Кроме того, необходимо включить приложение (например, фотографии, почту или OneDrive), которое может взаимодействовать с рисунками или извлекать их.  
 >  
 > <sup>3 </sup> несмотря на то, что Кортана не включена как приложение с киоском, включены встроенные голосовые команды. Однако команды, связанные с отключенными функциями, не действуют.  
-> <sup>4 </sup> невозможно включить Miracast напрямую. Чтобы включить Miracast как приложение с киоском, включите приложение "Камера" и приложение "средство выбора устройств".
+> <sup>4 </sup> невозможно включить Miracast напрямую. Чтобы включить Miracast как приложение с киоском, включите приложение "Камера" и приложение "Выбор устройства".
 
 ### Планирование групп пользователей и устройств
 
@@ -358,7 +358,7 @@ ms.locfileid: "10829314"
 
 #### <a id="start-layout-for-hololens"></a>Начальный макет заполнителя для HoloLens
 
-Если вы используете [пакет подготовки](##use-a-provisioning-package-to-set-up-a-single-app-or-multi-app-kiosk) для настройки многоприложенийого киоска, для процедуры требуется начальный макет. Настройка макета "Начало работы" не поддерживается в Windows holographic для бизнеса. Таким образом, вам придется использовать заполнитель с начальным макетом.
+Если вы используете [пакет подготовки](#use-a-provisioning-package-to-set-up-a-single-app-or-multi-app-kiosk) для настройки многоприложенийого киоска, для процедуры требуется начальный макет. Настройка макета "Начало работы" не поддерживается в Windows holographic для бизнеса. Таким образом, вам придется использовать заполнитель с начальным макетом.
 
 > [!NOTE]  
 > Так как приложение киоска запускается в режиме киоска, когда пользователь входит в свою учетную запись, она не использует меню "Пуск" и не обязательно имеет начальный макет.
