@@ -1,5 +1,5 @@
 ---
-title: Лицензии для развертывания смешанной реальности
+title: Требования к лицензиям
 description: ''
 ms.prod: hololens
 ms.sitesec: library
@@ -14,14 +14,14 @@ manager: bradke
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 0da2a2337b3b1f361ffbb698607f304efbf6d193
-ms.sourcegitcommit: f3cda6c6b3bfb7ba4be5f4da66d8ed5b03ca807d
+ms.openlocfilehash: 18a583f407b19c5b86870a49b8182d45f46a45f5
+ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830143"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10857807"
 ---
-# Определение необходимых лицензий
+# Требования к лицензиям
 
 ## Руководство по лицензированию управления мобильными устройствами (MDM)
 

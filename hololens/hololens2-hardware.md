@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 0b686801651710e6e8c4dcaaaa39e1c0dc4a76b4
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: e41dc6c9d12ee57bb306ebca7e2eeac0b3478014
+ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10829259"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10857727"
 ---
 # Оборудование HoloLens 2
 
@@ -138,7 +138,9 @@ Microsoft HoloLens 2 — это голографический автономн�
 
 ### Безопасность
 
-[Безопасность продукта](https://support.microsoft.com/en-us/help/4023454/safety-information)Безопасность для глаз: устройство HoloLens 2 было протестировано и соответствует базовым требованиям защиты ANSI z 87.1, CSA z 94.3 и EN 166.
+* [Безопасность продукта](https://support.microsoft.com/en-us/help/4023454/safety-information)
+* [Предупреждения и инструкции по безопасности продукта](https://support.microsoft.com/en-us/help/4558037/product-safety-warnings-and-instructions)
+* Безопасность для глаз: устройство HoloLens 2 было протестировано и соответствует базовым требованиям защиты ANSI Z87.1, CSA Z94.3 и EN 166.
 
 ### Нормативная информация
 [Нормативная информация по HoloLens](https://support.microsoft.com/en-us/help/13761/hololens-regulatory-information)

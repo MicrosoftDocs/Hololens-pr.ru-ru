@@ -16,14 +16,14 @@ ms.localizationpriority: high
 manager: yannisle
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 837a019f110a58c490618d3d5c47e83e58231d18
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 36192315e234db16c7747457e69d6d6281c31bfe
+ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828584"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10857737"
 ---
-# Перезапуск, сброс и восстановление HoloLens первого поколения
+# Перезапуск, сброс и восстановление HoloLens (1-е поколение)
 
 Если у вас возникли проблемы с HoloLens, попробуйте выполнить перезагрузку или сброс устройства или даже восстановление образа.
 

@@ -1,5 +1,5 @@
 ---
-title: Подключение к сети
+title: Подключение HoloLens к сети
 description: Инструкции по подключению HoloLens к Интернету и определению IP-адреса устройства.
 ms.assetid: 0895606e-96c0-491e-8b1c-52e56b00365d
 author: mattzmsft
@@ -10,17 +10,14 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: jarrettr
-appliesto:
-- HoloLens (1st gen)
-- HoloLens 2
-ms.openlocfilehash: 0bc5a5f7f3eaf3d811da055a7bda664fd3f0daff
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 734176dcf8a789f130aa8b010f5f3c9ec1d22c72
+ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10829283"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "10857797"
 ---
-# Подключение к сети
+# Подключение HoloLens к сети
 
 Для выполнения большинства задач на устройстве HoloLens устройство должно быть подключено к сети. Это руководство поможет вам:
 
