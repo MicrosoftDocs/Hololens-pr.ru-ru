@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: cb9234556d0b5c654747e0f404d1d10d8a2cd539
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 51cbef57cc3384b7026ae5d0b1ea98fdd942291f
+ms.sourcegitcommit: 896bdfccf4612a692a25a6bfaecfa2146860407e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828837"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "10865578"
 ---
 # Вопросы и ответы об устройствах HoloLens и голограммах
 
@@ -281,7 +281,8 @@ HoloLens не поддерживает профили звуковых устр�
 
 ## Вопросы о защите устройств HoloLens
 
-См. [Вопросы и ответы о защите устройств HoloLens](hololens-faq-security.md).
+Ознакомьтесь с [нашими сведениями о безопасности HoloLens 2](security-overview.md).
+Ознакомьтесь с [вопросами и](hololens1-faq-security.md)ответами для устройств HoloLens 1-го поколения.
 
 [Вернуться к списку](#list)
 
