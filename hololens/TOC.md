@@ -38,12 +38,27 @@
 ## Планирование корпоративного развертывания HoloLens 2
 ### [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
 ### [Распространенные сценарии развертывания инфраструктуры](common-scenarios.md)
+## Безопасность
+### [Обзор системы безопасности](security-overview.md)
+### [Architecture (Архитектура)](security-architecture.md)
+### [Разделение состояний и изоляция](security-state-separation-isolation.md)
+### [Операционная система, не защищенная администратором ](security-adminless-os.md)
+### [Ограничение использования паролей](security-limiting-password-use.md)
+### [Функция аппаратной поддержки обеспечения безопасности и аттестации процесса выполнения](security-hardware-backed-integrity.md)
+### [Шифрование и защита данных](security-encryption-data-protection.md)
+### [Сетевая безопасность](security-network-security.md)
+### [Беспроводная сеть и Wi-Fi](security-wireless-wifi.md)
+### [Разработка средств безопасности ](security-engineering.md)
+### Безопасность HoloLens 1-го поколения
+#### [Часто задаваемые вопросы о безопасности HoloLens 1-го поколения](hololens1-faq-security.md)
+#### [Шифрование BitLocker для HoloLens 1-го поколения](hololens1-encryption.md)
 ## [Требования к лицензиям](hololens-licenses-requirements.md)
 ## Среда
 ### [Требования к окружающей обстановке при использовании HoloLens](hololens-environment-considerations.md)
 ### [Сопоставление физических пространств с HoloLens](hololens-spaces.md)
 ## [Коммерческие функции](hololens-commercial-features.md)
 ## [Разблокировка функций Windows Holographic for Business](hololens1-upgrade-enterprise.md)
+
 # Настройка
 ## Удостоверение
 ### [Управление удостоверениями пользователей и входом для HoloLens](hololens-identity.md)
@@ -53,9 +68,8 @@
 ### [Подключение HoloLens к сети](hololens-network.md)
 ### [Управление конечными точками подключения для HoloLens](hololens-offline.md)
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
-## Безопасность
-### [Вопросы и ответы о безопасности](hololens-faq-security.md)
-### [Шифрование BitLocker для HoloLens](hololens-encryption.md)
+
+
 ## Политики
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
 ### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
