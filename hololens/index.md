@@ -16,12 +16,12 @@ ms.custom:
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: ca4256fc38253f6f1618da73f804ab3d4c0e66df
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 977f6b86e545e834bc9f7d5060b55755243531ac
+ms.sourcegitcommit: 896bdfccf4612a692a25a6bfaecfa2146860407e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10827524"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "10865548"
 ---
 # Microsoft HoloLens
 
@@ -56,7 +56,7 @@ ms.locfileid: "10827524"
 | [Управление обновлением HoloLens](hololens-updates.md) | Использование политик управления мобильными устройствами (MDM) для конфигурации настроек обновлений. |
 | [Управление пользователями HoloLens](hololens-multiple-users.md) | Несколько пользователей могут использовать одно устройством с HoloLens с помощью своих учетных записей Azure Active Directory. |
 | [Управление доступом к приложениям HoloLens](hololens-kiosk.md) | Управление доступом к приложениям для разных групп пользователей  |
-| [Восстановление и устранение неполадок с HoloLens](https://support.microsoft.com/products/hololens) |  Рассказываем, как извлекать журналы из HoloLens, восстановить плохо функционирующее устройство и перезагружать HoloLens при необходимости. |
+| [Восстановление и устранение неполадок с HoloLens](hololens-recovery.md) |  Узнайте, как восстановить неправильно функционирующее устройство и перезагрузить HoloLens 2 при необходимости. |
 | [обратитесь в службу поддержки](https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f) | Создайте новый запрос в службу поддержки для группы поддержки предприятий. | 
 | [Другие варианты поддержки](https://support.microsoft.com/products/hololens) | Свяжитесь с ресурсами службы поддержки Майкрософт для HoloLens в организации. |
 
