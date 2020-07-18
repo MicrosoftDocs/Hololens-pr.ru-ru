@@ -1,0 +1,78 @@
+### YamlMime:Landing
+title: Microsoft HoloLens
+summary: Microsoft HoloLens — это первый полностью самодостаточный голографической компьютер под управлением Windows 10. Благодаря появлению HoloLens 2 на каждом устройстве HoloLens теперь доступны возможности управления, готовые для коммерческого использования, подкрепленные надежностью, безопасностью и масштабом облачных служб и служб искусственного интеллекта от Майкрософт.
+metadata:
+  title: Microsoft HoloLens
+  description: Целевая страница для Microsoft HoloLens.
+  ms.prod: hololens
+  ms.subservice: subservice
+  ms.topic: landing-page
+  author: todmccoy
+  ms.author: v-todmc
+  ms.date: 5/22/2020
+  ms.assetid: 0947f5b3-8f0f-42f0-aa27-6d2cad51d040
+  ms.openlocfilehash: 9f2dd2fc798fb66de080e54718aaebb131b3e145
+  ms.sourcegitcommit: fc2ce4d843229bcc9ae6c7a42da559c0f6f558b7
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 07/17/2020
+  ms.locfileid: "10883016"
+landingContent:
+- title: Развертывание и управление
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Развертывание HoloLens в коммерческой среде
+      url: hololens-requirements.md
+    - text: 'Управление приложением: обзор'
+      url: app-deploy-overview.md
+    - text: Настройка HoloLens в качестве терминала
+      url: hololens-kiosk.md
+    - text: Управление обновлениями HoloLens
+      url: hololens-updates.md
+- title: Dynamics 365
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Документация по смешанной реальности Microsoft Dynamics 365
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/
+    - text: Использование удаленной поддержки в HoloLens
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens
+    - text: Использование руководств в HoloLens
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/guides/
+    - text: Учебные модули по удаленной поддержке
+      url: https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-remote-assist
+- title: Ресурсы по теме
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Документация для разработчиков смешанной реальности
+      url: https://developer.microsoft.com/windows/mixed-reality/development
+    - text: Цены и варианты HoloLens
+      url: https://www.microsoft.com/hololens/buy
+- title: Устранение неполадок
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Перезапуск, сброс и восстановление HoloLens 2
+      url: hololens-recovery.md
+    - text: Устранение неполадок HoloLens
+      url: hololens-troubleshooting.md
+- title: Поддержка
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Заметки о выпуске HoloLens 2
+      url: https://docs.microsoft.com/hololens/hololens-release-notes
+    - text: обратитесь в службу поддержки
+      url: https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f
+- title: Смешанная реальность
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Начало работы со смешанной реальностью
+      url: https://docs.microsoft.com/windows/mixed-reality/
+    - text: Начало разработки и создания прототипов
+      url: https://docs.microsoft.com/windows/mixed-reality/design
+    - text: Знакомство с инструментами и архитектурой
+      url: https://docs.microsoft.com/windows/mixed-reality/development
