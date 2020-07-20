@@ -1,4 +1,4 @@
-# [Microsoft HoloLens](index.md)
+# [Microsoft HoloLens](index.yml)
 
 # Обзор
 
@@ -97,5 +97,6 @@
 # Заметки о выпуске HoloLens
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
+### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
 # [Напишите нам свой отзыв](hololens-feedback.md)
