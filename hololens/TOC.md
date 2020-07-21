@@ -47,7 +47,6 @@
 ### [Функция аппаратной поддержки обеспечения безопасности и аттестации процесса выполнения](security-hardware-backed-integrity.md)
 ### [Шифрование и защита данных](security-encryption-data-protection.md)
 ### [Сетевая безопасность](security-network-security.md)
-### [Беспроводная сеть и Wi-Fi](security-wireless-wifi.md)
 ### [Разработка средств безопасности ](security-engineering.md)
 ### Безопасность HoloLens 1-го поколения
 #### [Часто задаваемые вопросы о безопасности HoloLens 1-го поколения](hololens1-faq-security.md)
