@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: 8f62c09fd569e6c5dbeb961ae023c6f3cefff879
-ms.sourcegitcommit: 72be5b64e90dde339323012997440dfaca182027
+ms.openlocfilehash: 33463685818c3e864c698160776c76ec7d8cbefd
+ms.sourcegitcommit: 9197b9d507d8b9b195bdf512d1b832888b53162d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "10895793"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "10899111"
 ---
 # Windows Autopilot для HoloLens 2
 
@@ -68,7 +68,7 @@ ms.locfileid: "10895793"
 
 - Вы должны вручную установить новейшую ОС (Windows Holographic версии 2004 (сборка 19041.1103 или более поздняя) с помощью [Advanced Recovery Companion (ARC)](https://www.microsoft.com/p/advanced-recovery-companion/9p74z35sfrs8?rtc=1&activetab=pivot:overviewtab). Инструкции доступны [здесь](https://docs.microsoft.com/hololens/hololens-recovery#clean-reflash-the-device). 
 - Ваши устройства должны быть зарегистрированы в Windows Autopilot. Сведения о том, как зарегистрировать устройства, см. в разделе [4. Регистрация устройств в Windows Autopilot](#4-register-devices-in-windows-autopilot). 
-- В текущем выпуске устройства должны быть подключены к Интернету перед включением HoloLens и запуском подготовки Autopilot. Подключите свое устройство в Ethernet с помощью переходников "USB-C на Ethernet" для подключения к проводному Интернету или переходников "USB-C на Wifi" для подключения к беспроводному Интернету. 
+- В текущем выпуске устройства должны быть подключены к Интернету перед включением HoloLens и запуском подготовки Autopilot. Подключите устройство к Ethernet с помощью адаптера "USB-C to Ethernet" для проводного подключения к Интернету. 
 - Устройства еще не являются участниками Azure AD и не зарегистрированы в Intune (или другой системе MDM). Эти действия выполняют при саморазвертывании Autopilot. Чтобы убедиться, что очищена вся информация, связанная с устройством, проверьте страницы **Устройства** на порталах Azure AD и Intune.
 - Чтобы настроить профили режима саморазвертывания Autopilot и управлять ими, убедитесь, что у вас есть доступ к [Центру администрирования Microsoft Endpoint Manager](https://endpoint.microsoft.com).
 

@@ -14,12 +14,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 2f2c8afffdc24eedf9cb6b462448f5ed6ffc8d5d
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: a4a5478f396dff9eef84540286e0fa9672172076
+ms.sourcegitcommit: 9197b9d507d8b9b195bdf512d1b832888b53162d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828774"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "10899101"
 ---
 # Повышение качества изображения и комфорта
 
@@ -89,6 +89,8 @@ HoloLens 2 предлагает пользователю выполнить ка
 - Включите освещение в комнате или переместитесь вне зоны попадания прямых солнечных лучей
 
 Если вы не прошли все рекомендации, и при этом калибровка не завершились, можно отключить запрос на калибровку в параметрах. Кроме того, сообщите нам об этом, отправив свой отзыв в [Центре отзывов и предложений](hololens-feedback.md).
+
+Ознакомьтесь с соответствующими сведениями об [устранении неполадок с цветом и яркостью изображения](hololens2-fit-comfort-faq.md#hologram-image-color-or-brightness-does-not-look-right).
 
 Обратите внимание, что настройка расстояния между зрачками неприменима для Hololens 2, так как расположение глаз вычисляется системой. 
 
