@@ -13,12 +13,12 @@ manager: jarrettr
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
-ms.openlocfilehash: e00226852f92cf5b3137d8d41cfde0f01394f5bc
-ms.sourcegitcommit: 7c16570839893f4a4432286b13ae6d84c665d376
+ms.openlocfilehash: 469848cf306675fcfb99247b5c91b159c204a5fe
+ms.sourcegitcommit: 2122490074adb7f63edfc3576441980caa22695f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "10902294"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10915962"
 ---
 # Поиск и устранение неисправностей
 
@@ -28,7 +28,7 @@ ms.locfileid: "10902294"
 
 Если HoloLens не запускается, сделайте следующее:
 
-- Если индикаторы рядом с кнопкой выключения питания не выводятся или появляется только один индикатор, может потребоваться [взимать HoloLens.](hololens-recovery.md#charging-the-device)
+- Если индикаторы рядом с кнопкой выключения питания не выводятся или появляется только один индикатор, может потребоваться [взимать HoloLens.](hololens-recovery.md#charge-the-device)
 - Если индикаторы света выводятся при нажатии кнопки Power, но вы не видите ничего на дисплее, [preform аппаратную перегрузку устройства](hololens-recovery.md#hard-reset-procedure).
 
 Если устройство HoloLens зафиксировано или не отвечает, выполните указанные ниже действия.
