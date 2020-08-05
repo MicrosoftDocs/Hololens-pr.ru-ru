@@ -1,7 +1,7 @@
 ---
 title: Подготовка нового устройства HoloLens 2 к работе
 description: В этом руководстве описывается первая настройка оборудования.
-keywords: hololens
+keywords: hololens, индикаторы, посадка, комфорт, части
 ms.assetid: 02692dcf-aa22-4d1e-bd00-f89f51048e32
 ms.date: 9/17/2019
 ms.prod: hololens
@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b8803183382e3235c540c3bc175277ffdc7d04f2
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 943cc5af8f5be337a9cfcc0d3e4a4640aa307e72
+ms.sourcegitcommit: 14c30f412cd17058d0316444215f878ba1ee422f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10829218"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "10905626"
 ---
 # Подготовка HoloLens 2 к использованию
 
@@ -119,6 +119,8 @@ ms.locfileid: "10829218"
 ### Обеспечение комфорта
 
 Первые сеансы использования HoloLens должны быть короткими и между ними должны быть перерывы. При возникновении дискомфорта прекратите работу с устройством и отдохните, пока не почувствуете себя лучше. У вас может возникнуть временное ощущение тошноты, морской болезни, головокружения, дезориентации, головной боли, усталости, напряжения глаз или сухости в глазах.
+
+См. раздел [Предупреждения и инструкции по технике безопасности продукта](https://support.microsoft.com/help/4558037/product-safety-warnings-and-instructions).
 
 > [!div class="nextstepaction"]
 > [Запуск и настройка HoloLens 2](hololens2-start.md)
