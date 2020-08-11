@@ -1,7 +1,7 @@
 ---
 title: Поиск и сохранение файлов на HoloLens
 description: Просмотр файлов на устройстве и управление ими с помощью проводника на HoloLens
-keywords: hololens
+keywords: инструкции по использованию средств выбора файлов, файлов, фотографий, видео, изображений, OneDrive, системы хранения данных, проводника, а также hololens
 ms.assetid: 77d2e357-f65f-43c8-b62f-6cd9bf37070a
 author: mattzmsft
 ms.author: mazeller
@@ -16,14 +16,14 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 50a13e1634344bea66bb6b7ce90d9e3fc8c2a783
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: fb3287f0a074eddeac0c7ee2871e289b93eafcac
+ms.sourcegitcommit: 8b56f4b9b5f9c928fc361f18efcbea729055a0b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828557"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "10919130"
 ---
-# Поиск, открытие и сохранение файлов на HoloLens
+# Поиск, открытие и сохранение файлов в HoloLens
 
 Файлы, созданные на HoloLens, в том числе фотографии и видео, сохраняются прямо на устройстве HoloLens. Просматривайте эти файлы и управляйте ими так же, как и при управлении файлами в Windows 10:
 

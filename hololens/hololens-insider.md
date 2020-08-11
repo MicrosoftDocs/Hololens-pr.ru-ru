@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 11915bd6b2293be4491af2a7231b258b12d7b314
-ms.sourcegitcommit: 7c16570839893f4a4432286b13ae6d84c665d376
+ms.openlocfilehash: 5394e56882c0847333186cbbe25670231293ba4f
+ms.sourcegitcommit: 8b56f4b9b5f9c928fc361f18efcbea729055a0b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "10902321"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "10919150"
 ---
 # Предварительная версия Microsoft HoloLens
 
@@ -104,7 +104,7 @@ ms.locfileid: "10902321"
 
 Этот параметр определяет, сколько дней кэширование членства в группе AAD разрешено использовать для назначенных конфигураций доступа, нацеленных на группы AAD для пользователя, выполнившего вход. Если для этого значения политики задано значение больше 0, в противном случае используется кэш.  
 
-AADGroupMembershipCacheValidityInDays 
+Name (имя): AADGroupMembershipCacheValidityInDays значение URI:./Vendor/MSFT/Policy/Config/MixedReality/AADGroupMembershipCacheValidityInDays
 
 Минимум-0 дней  
 Максимум-60 дней 
@@ -112,6 +112,8 @@ AADGroupMembershipCacheValidityInDays
 Действия для правильного использования этой политики: 
 1. Создайте профиль конфигурации устройства для групп AAD и назначьте их устройствам HoloLens (-ов). 
 1. Создайте специальную конфигурацию устройства на основе URI для OMA, которая устанавливает для этого значения политики нужное количество дней (> 0) и назначьте его устройствам HoloLens (-ов). 
+    1. Значение универсального кода ресурса (URI) должно быть введено в текстовом поле OMA-URI как./Vendor/MSFT/Policy/Config/MixedReality/AADGroupMembershipCacheValidityInDays
+    1. Значение может быть от минимального к максимальному.
 1. Порегистрируйте устройства HoloLens и проверяйте обе конфигурации, применяемые к устройству. 
 1. Разрешить вход в службу AAD User 1 при доступе в Интернет, после того как регистрация пользователя и членство в группе AAD будут успешно подтверждены, будет создан кэш. 
 1. Теперь пользователь AAD 1 может перевести HoloLens в автономный режим и использовать его для режима киоска, если значение политики разрешено для X количества дней. 
