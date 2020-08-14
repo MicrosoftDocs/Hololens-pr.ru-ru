@@ -17,11 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 7409865f63199dead1779fa183128b30445053aa
-ms.sourcegitcommit: 2b1518675b9962518e08b13c12b43b6d9827fe17
+ms.openlocfilehash: f5c45477ab33064afe30e275f8b0003bc6022eac
+ms.sourcegitcommit: bdbaed42dd9ecbd0ed9517de2e98a0465f584c1d
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "10858003"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "10929855"
 ---
 # Настройка HoloLens в качестве терминала
 
@@ -251,7 +252,7 @@ ms.locfileid: "10858003"
 
 Дополнительные сведения о создании профиля конфигурации с киосками можно найти в разделе [Параметры устройства в Windows 10 и Windows holographic для работы в качестве выделенного киоска с помощью Intune](https://docs.microsoft.com/intune/configuration/kiosk-settings).
 
-### <a id="mdmconfigsingle"></a>MDM, шаг 3 (отдельное приложение) &ndash; Настройка параметров для одного приложения киоска
+### <a id="mdmconfigsingle"></a>MDM, шаг 3 (отдельное приложение) &ndash;  Настройка параметров для одного приложения киоска
 
 В этом разделе приведены общие сведения о параметрах, необходимых для отдельного приложения. Дополнительные сведения можно найти в следующих статьях:
 
@@ -445,7 +446,7 @@ ms.locfileid: "10858003"
 
 - Вы можете сначала [Применить пакет подготовки к HoloLens во время настройки](hololens-provisioning.md#apply-a-provisioning-package-to-hololens-during-setup).
 
-- Вы также можете [Применить пакет подготовки к HoloLens после настройки](hololens-provisioning.md#4-apply-a-provisioning-package-to-hololens-after-setup).
+- Вы также можете [Применить пакет подготовки к HoloLens после настройки](hololens-provisioning.md#apply-a-provisioning-package-to-hololens-after-setup).
 
 ## Настройка киоска с одним приложением с помощью портала устройств Windows
 

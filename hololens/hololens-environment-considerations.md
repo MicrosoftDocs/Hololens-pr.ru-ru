@@ -10,12 +10,12 @@ ms.prod: hololens
 ms.topic: article
 audience: ITPro
 ms.localizationpriority: high
-ms.openlocfilehash: 0fa147eb2b1194dacdcabff4995f5141a1b25bde
-ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
+ms.openlocfilehash: 2632c5bfd82feab4e21ee9c393f8c22efda28c42
+ms.sourcegitcommit: 458e07c0dcad66616fa98cfef125eb217713d89c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "10857857"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "10927843"
 ---
 # Требования к окружающей обстановке при использовании HoloLens
 
@@ -116,6 +116,9 @@ HoloLens может быстро адаптироваться к этим изм
 Чтобы скачать приложение для калибровки, перейдите в раздел **Параметры** > **Система** > **Служебные программы**. Выберите элемент **Открыть калибровку** и следуйте указаниям на экране.
 
 Если кто-то другой попытается использовать ваше устройство HoloLens, сначала необходимо запустить приложение для калибровки, чтобы правильно настроить устройство.
+
+### Температура и нормативная информация
+[Нормативная информация по HoloLens](https://support.microsoft.com/en-us/help/13761/hololens-regulatory-information): содержит данные о температуре, утилизации, радио- и телевизионных помехах и многое другое.
 
 ## См. также
 
