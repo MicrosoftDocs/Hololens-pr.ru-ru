@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d51616f23a63c1f45fe5ed7da88be4b5429c36eb
-ms.sourcegitcommit: 238d41844116ab94d347a2ffd0fbfa18b8a81947
+ms.openlocfilehash: e819dfb95a6735d0eae6287d97f5856856a33526
+ms.sourcegitcommit: 7f48e7103f869a22a0d20a54dc8f9b708b22484c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "10956775"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "10963677"
 ---
 # Предварительная версия Microsoft HoloLens
 
@@ -261,8 +261,10 @@ Name (имя): AADGroupMembershipCacheValidityInDays значение URI:./Vend
 
 ### Видимость страницы "включенные параметры" для HoloLens 2
 Теперь мы включили политику, которая позволяет ИТ-администраторам отключить отображение определенных страниц в приложении "системные параметры" или сделать их недоступными, или для всех страниц, кроме указанных. Чтобы получить сведения о том, как полностью настроить этот компонент, щелкните ссылку ниже.
- 
+
 - [PageVisibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist)
+
+Чтобы узнать, какие параметры страницы можно настроить для HoloLens 2, перейдите на [страницу Параметры URI](settings-uri-list.md). 
  
 ![Снимок экрана: активные часы изменяются в приложении "Параметры"](images/hololens-page-visibility-list.jpg)
 
@@ -270,7 +272,8 @@ Name (имя): AADGroupMembershipCacheValidityInDays значение URI:./Vend
 - Обновлена политика, позволяющая отключить перечисление функций USB с помощью MDM для NCM для AllowUsbConnection.
 - Дополнительные экраны в OOBE теперь находятся в темном режиме.
 - Узнайте больше о том, что содержимое должно указывать на Последнее заявление о конфиденциальности в Интернете.
-- Устранены и проблемы, из-за которых пользователи не могут подготавливать профили VPN с помощью пакетов подготовки.
+- Решена ошибка, из-за которой пользователи не могут подготавливать профили VPN с помощью пакетов подготовки.
+- Исправлена ошибка, из-за которой устройство HoloLens не отображается в проводнике по протоколу передачи мультимедиа (MTP), если устройство настроено как [киоск отдельного приложения](hololens-kiosk.md). Обратите внимание на то, что MTP (и USB-подключение в целом) по-прежнему можно отключить с помощью политики [AllowUSBConnection](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowusbconnection) .
 
 ## Начало получения сборок для участников программы предварительной оценки
 
