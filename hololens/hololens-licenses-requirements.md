@@ -14,12 +14,12 @@ manager: bradke
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 18a583f407b19c5b86870a49b8182d45f46a45f5
-ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
+ms.openlocfilehash: 3ac86512755620ebb6159dd4d845b488e203dbad
+ms.sourcegitcommit: 238d41844116ab94d347a2ffd0fbfa18b8a81947
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "10857807"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "10956765"
 ---
 # Требования к лицензиям
 
@@ -31,9 +31,9 @@ ms.locfileid: "10857807"
 
 ## Определение лицензий, необходимых для вашего сценария и продуктов
 
-### Требования к лицензиям на HoloLens
+### Требования к лицензиям HoloLens (1-го поколения)
 
-Возможно, вам потребуется обновить устройство HoloLens 1-го поколения до Windows Holographic для бизнеса. (См. [Коммерческие функции HoloLens](holoLens-commercial-features.md#feature-comparison-between-editions) для определения необходимости обновления).
+Возможно, вам потребуется обновить устройство HoloLens 1-го поколения до Windows Holographic for Business. (См. [Коммерческие функции HoloLens](holoLens-commercial-features.md#feature-comparison-between-editions) для определения необходимости обновления).
 
  Если это так, вам нужно будет сделать следующее:
 
@@ -45,6 +45,7 @@ ms.locfileid: "10857807"
 Убедитесь, что у вас есть требуемые лицензии и устройство. Обновленные требования к лицензиям и продукту см. [здесь](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements).
 
 1. [Лицензия для Удаленной поддержки](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/buy-and-deploy-remote-assist)
+    1. Или воспользуйтесь [пробной версией удаленной поддержки](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/try-remote-assist)
 1. [Teams Freemium/Teams](https://products.office.com/microsoft-teams/free)
 1. [Лицензия для Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 
