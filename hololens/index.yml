@@ -11,70 +11,124 @@ metadata:
   ms.author: v-todmc
   ms.date: 5/22/2020
   ms.assetid: 0947f5b3-8f0f-42f0-aa27-6d2cad51d040
-  ms.openlocfilehash: 10588713cc7670fb8e7f9601b504e327c3462aed
-  ms.sourcegitcommit: 5e9c558ff1c9c12eb17a7343a7571f710993e386
+  ms.openlocfilehash: 544582762cb950d319f96647fc41a75507389059
+  ms.sourcegitcommit: e17e3449d22e770ce45e9e7b9ad55396a1c7360c
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "10932122"
+  ms.lasthandoff: 08/28/2020
+  ms.locfileid: "10978636"
 landingContent:
-- title: Развертывание и управление
+- title: Общие сведения о HoloLens
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Оборудование HoloLens 2
+      url: hololens2-hardware.md
+    - text: Оборудование HoloLens (1-е поколение)
+      url: hololens1-hardware.md
+    - text: Использование меню "Пуск" и дома в смешанной реальности
+      url: holographic-home.md
+    - text: Поиск, установка и удаление приложений
+      url: holographic-store-apps.md
+    - text: Повышение качества изображения и комфорта
+      url: hololens-calibration.md
+    - text: Как обновить HoloLens
+      url: hololens-update-hololens.md
+- title: Подготовка
   linkLists:
   - linkListType: get-started
     links:
     - text: Развертывание HoloLens в коммерческой среде
       url: hololens-requirements.md
-    - text: 'Управление приложением: обзор'
-      url: app-deploy-overview.md
+    - text: Обзор системы безопасности
+      url: security-overview.md
+    - text: Требования к лицензиям
+      url: hololens-licenses-requirements.md
+    - text: Требования к окружающей обстановке при использовании HoloLens
+      url: hololens-environment-considerations.md
+    - text: Коммерческие функции
+      url: hololens-commercial-features.md
+- title: Настройка
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Управление удостоверениями пользователей и входом для HoloLens
+      url: hololens-identity.md
+    - text: Настройка сети для HoloLens
+      url: hololens-commercial-infrastructure.md
+    - text: Подключение HoloLens к сети
+      url: hololens-network.md
+    - text: Управление конечными точками подключения для HoloLens
+      url: hololens-offline.md
+    - text: Настройка HoloLens с помощью пакетов подготовки
+      url: hololens-provisioning.md
     - text: Настройка HoloLens в качестве терминала
       url: hololens-kiosk.md
+- title: Развертывание
+  linkLists:
+  - linkListType: deploy
+    links:
+    - text: Регистрация HoloLens в MDM
+      url: hololens-enroll-mdm.md
+    - text: Windows Autopilot для HoloLens 2
+      url: hololens2-autopilot.md
+    - text: Обзор управления приложениями
+      url: app-deploy-overview.md
+    - text: Microsoft Store для бизнеса
+      url: app-deploy-intune.md
+    - text: Microsoft Store для бизнеса
+      url: app-deploy-store-business.md
+    - text: Пакет подготовки
+      url: app-deploy-provisioning-package.md
+- title: Обслуживание
+  linkLists:
+  - linkListType: how-to-guide
+    links:
     - text: Управление обновлениями HoloLens
       url: hololens-updates.md
-- title: Dynamics 365
-  linkLists:
-  - linkListType: reference
-    links:
-    - text: Документация по смешанной реальности Microsoft Dynamics 365
-      url: https://docs.microsoft.com/dynamics365/mixed-reality/
-    - text: Использование удаленной поддержки в HoloLens
-      url: https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens
-    - text: Использование руководств в HoloLens
-      url: https://docs.microsoft.com/dynamics365/mixed-reality/guides/
-    - text: Учебные модули по удаленной поддержке
-      url: https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-remote-assist
-- title: Ресурсы по теме
-  linkLists:
-  - linkListType: reference
-    links:
-    - text: Документация для разработчиков смешанной реальности
-      url: https://developer.microsoft.com/windows/mixed-reality/development
-    - text: Цены и варианты HoloLens
-      url: https://www.microsoft.com/hololens/buy
-- title: Устранение неполадок
-  linkLists:
-  - linkListType: how-to-guide
-    links:
-    - text: Перезапуск, сброс и восстановление HoloLens 2
-      url: hololens-recovery.md
     - text: Устранение неполадок HoloLens
       url: hololens-troubleshooting.md
+    - text: Перезапуск, сброс и восстановление HoloLens 2
+      url: hololens-recovery.md
+    - text: Перезапуск, сброс и восстановление HoloLens (первого поколения)
+      url: hololens1-recovery.md
+    - text: Известные проблемы HoloLens
+      url: hololens-known-issues.md
     - text: Сбор и использование сведений диагностики с устройств HoloLens
       url: hololens-diagnostic-logs.md
-- title: Поддержка
+- title: Заметки о выпуске, отзывы и предложения
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Заметки о выпуске HoloLens 2
+      url: hololens-release-notes.md
+    - text: Предварительная версия Microsoft HoloLens
+      url: hololens-insider.md
+    - text: Напишите нам свой отзыв
+      url: hololens-feedback.md
+- title: Дополнительные службы
   linkLists:
   - linkListType: reference
     links:
-    - text: Заметки о выпуске HoloLens 2
-      url: https://docs.microsoft.com/hololens/hololens-release-notes
-    - text: обратитесь в службу поддержки
-      url: https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f
-- title: Смешанная реальность
+    - text: Документация для Dynamics365 Remote Assist
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/ra-overview
+    - text: Информация о Dynamics 365 Remote Assist
+      url: https://docs.microsoft.com/learn/browse/?products=dynamics-remote-assist
+    - text: Руководства по Dynamics 365
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/guides/
+    - text: Смешанная реальность Microsoft Dynamics 365
+      url: https://docs.microsoft.com/dynamics365/mixed-reality/
+    - text: Обзор облачных служб
+      url: https://docs.microsoft.com/windows/mixed-reality/mixed-reality-cloud-services#overview
+- title: Дополнительные ресурсы
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Начало работы со смешанной реальностью
-      url: https://docs.microsoft.com/windows/mixed-reality/
+    - text: Что такое смешанная реальность?
+      url: https://docs.microsoft.com/windows/mixed-reality/mixed-reality
     - text: Начало разработки и создания прототипов
       url: https://docs.microsoft.com/windows/mixed-reality/design
-    - text: Знакомство с инструментами и архитектурой
-      url: https://docs.microsoft.com/windows/mixed-reality/development
+    - text: Введение в разработку решений смешанной реальности
+      url: https://docs.microsoft.com/windows/mixed-reality/development?tabs=unity
+    - text: обратитесь в службу поддержки
+      url: https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f
