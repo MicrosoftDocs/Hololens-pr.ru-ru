@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 1ade83e263a8dcf7fbf0a6723f14e09befbd49f9
-ms.sourcegitcommit: 2b1de9c8f8a212a797fb0cb6056856dd4ff716a1
+ms.openlocfilehash: 1f7e2be19f525863a64ec7652e2418029a98cdca
+ms.sourcegitcommit: f79d8a6e863cebf18270d33a26548ba4ffdcf6b5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10985865"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "10994432"
 ---
 # Предварительная версия Microsoft HoloLens
 
@@ -38,7 +38,7 @@ ms.locfileid: "10985865"
 | [Подготовка автоматического запуска с USB](hololens-insider.md#auto-launch-provisioning-from-usb)                      | OOBE автоматически обнаруживает пакеты подготовки на USB-накопителях.                                | 19041.1361 +                 |
 | [Автоматическое подтверждение пакетов подготовки в OOBE](hololens-insider.md#auto-confirm-provisioning-packages-in-oobe)             | Автоматически применяет пакеты подготовки в OOBE.                                             | 19041.1361 +                 |
 | [Использование автопилота с подключением Wi-Fi](hololens-insider.md#using-autopilot-with-wi-fi-connection)                  | Используйте автопилот из Wi-Fi устройства, не требуя адаптера Ethernet.                             | 19041.1364 +                 |
-|[Tenantlockdown CSP и автопилот](hololens-insider.md#tenantlockdown-csp-and-autopilot) | После того как регистрация клиента и policiy применена, устройство может быть зарегистрировано в этом клиенте каждый раз, когда устройство сбрасывается или заново обновляется. | 19041.1366 +|
+|[Tenantlockdown CSP и автопилот](hololens-insider.md#tenantlockdown-csp-and-autopilot) | После регистрации клиента и применения политики устройство может быть зарегистрировано в нем только в том случае, если устройство будет сброшено или восстановлено. | 19041.1366 +|
 | [Глобальный ограниченный доступ](hololens-insider.md#global-assigned-access--kiosk-mode)                                 | Настройте устройство HoloLens 2 для многопользовательского режима киоска приложения, которое применимо на уровне системы. | 19041.1356 +                 |
 | [Автоматическое запуск приложения в киоске с несколькими приложениями](hololens-insider.md#automatic-launch-of-an-application-in-multiple-app-kiosk-mode)                  | Задает приложение для автоматического запуска при входе в полноэкранный режим с несколькими приложениями.     | 19041.1346 +                 |
 | [Автоматическое подключение посетителя для киосков](hololens-insider.md#visitor-auto-logon-for-kiosks)                          | Включение функции автоматического входа для учетных записей посетителей для полноэкранного режима.                         | 19041.1361 +                 |
