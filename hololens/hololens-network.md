@@ -10,12 +10,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: jarrettr
-ms.openlocfilehash: 0f46ff4a1bef95d153d9fa93c746c8977dc49771
-ms.sourcegitcommit: 47bc3b696936dd7011b3f9dd683deb872ed25b90
+ms.openlocfilehash: 0db64ffb4113ff948651c708c28b91da535cb09b
+ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "10883153"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009527"
 ---
 # Подключение HoloLens к сети
 
@@ -29,6 +29,8 @@ ms.locfileid: "10883153"
 ## Первое подключение
 
 При первом использовании HoloLens вам будет предложено пройти процедуру подключения к сети Wi-Fi. При наличии проблем с подключением к сети Wi-Fi во время настройки проверьте, открыта ли ваша сеть или она защищена паролем и имеет ли она портал авторизации. Убедитесь, что для подключения к сети не требуется использование сертификата. После завершения настройки можно будет подключаться к другим типам сетей Wi-Fi.
+
+На устройствах HoloLens 2 пользователь может также [использовать адаптер USB-C/Ethernet](hololens-connect-devices.md#hololens-2-connect-usb-c-devices), чтобы напрямую подключиться к сети Wi-Fi для получения помощи в настройке устройства. После завершения настройки устройства пользователь может продолжать использовать адаптер или отключить его от устройства и [подключиться к сети Wi-Fi](hololens-network.md#connecting-to-wi-fi-after-setup). 
 
 ## Подключение к сети Wi-Fi после настройки
 

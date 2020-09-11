@@ -72,6 +72,7 @@
 
 ## Политики
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
+### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
 ### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
 # Развертывание
 ## регистрация;
