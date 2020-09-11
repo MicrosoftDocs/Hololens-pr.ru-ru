@@ -1,23 +1,24 @@
 ---
 title: Функция аппаратной поддержки обеспечения целостности данных и аттестации процесса выполнения
-description: ограничение использования паролей для holoLens
-author: jbennett
+description: Функция аппаратной поддержки обеспечения целостности данных и аттестации процесса выполнения
+author: evmill
+ms.author: v-evmill
+ms.reviewer: tagran
 ms.date: 6/30/2020
 ms.topic: article
 keywords: безопасность, hololens, аппаратная поддержка обеспечения целостности данных, аттестация процесса выполнения, UEFI, безопасная загрузка UEFI, безопасная загрузка, доверенный платформенный модуль (TPM), защита от угроз, обеспечение защиты от угрозы постоянного доступа в Windows, обеспечение целостности кода, защита кода,
 ms.prod: hololens
 ms.sitesec: library
 ms.localizationpriority: high
-ms.reviewer: ''
-manager: yannisl
+manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d1a3fe02b64ce1566806119e5309fd262667b181
-ms.sourcegitcommit: 896bdfccf4612a692a25a6bfaecfa2146860407e
+ms.openlocfilehash: b3986d7310650c2fac20204488ae5f882754deab
+ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "10865802"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009477"
 ---
 # Функция аппаратной поддержки обеспечения целостности данных и аттестации процесса выполнения
 

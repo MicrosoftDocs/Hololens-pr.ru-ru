@@ -1,22 +1,24 @@
 ---
 title: безопасность ос, не защищенной администратором
 description: ос, не защищенная администратором, и безопасность hololens
-author: jbennett
+author: evmill
+ms.author: v-evmill
+ms.reviewer: tagran
 ms.date: 6/30/2020
+ms.prod: hololens
 ms.topic: article
 keywords: безопасность; hololens; не защищенная администратором; не защищенная администратором; операционная система; операционная система, не защищенная администратором; ос, защищенная администратором; ос, не защищенная администратором; hololens 2; безопасность hololens2; security, hololens, adminless, admin-less, operating system, admin-less operating system, admin os, admin-less os, hololens 2, hololens2 security,
 ms.localizationpriority: high
-ms.reviewer: ''
 manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 9243c6376348cfc3e0c44a049435a0f4b47fc6f7
-ms.sourcegitcommit: 896bdfccf4612a692a25a6bfaecfa2146860407e
+ms.openlocfilehash: e8a10a32d30206877eb79d53c90e59307b3990ab
+ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "10865769"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009567"
 ---
 # Операционная система, не защищенная администратором
 

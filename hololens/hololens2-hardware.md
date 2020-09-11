@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 5b1df54ea5112109a175f6d7172635042262ca14
-ms.sourcegitcommit: e85a55c110e729a4836b8a59aa29d786c74ed6bf
+ms.openlocfilehash: d5d875b17e69705591c6730349c8e23bc9692db1
+ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "10903334"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009437"
 ---
 # Оборудование HoloLens 2
 
@@ -126,13 +126,21 @@ Microsoft HoloLens 2 — это голографический автономн�
 ## Предустановленное ПО
 
 - Операционная система Windows Holographic
-- Microsoft Edge
-- Dynamics 365 Remote Assist
-- Руководства по Dynamics 365
 - Средство 3D-просмотра
-- OneDrive для бизнеса
-- Советы HoloLens
+- Календарь
 - Кортана
+- Руководства по Dynamics 365
+- Dynamics 365 Remote Assist
+- Центр отзывов
+- Проводник
+- Mail
+- Microsoft Edge
+- Microsoft Store
+- Кино и ТВ
+- OneDrive
+- Фотографии
+- Параметры
+- Советы
 
 ## Сертификаты устройства
 

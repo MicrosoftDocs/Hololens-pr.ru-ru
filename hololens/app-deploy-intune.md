@@ -2,7 +2,9 @@
 title: Intune и портал компании
 description: Intune, Управление приложениями, приложение, портал компании, портал
 keywords: Intune, Управление приложениями, приложение, портал компании, портал, hololens
-author: v-jodben
+author: evmill
+ms.author: v-evmill
+ms.reviewer: tagran
 ms.date: 6/22/2020
 ms.prod: hololens
 ms.custom:
@@ -12,17 +14,18 @@ ms.topic: article
 ms.sitesec: library
 ms.localizationpriority: medium
 audience: HoloLens
-manager: yannisl
+manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f6a79224d02b4251a76f97f0463d4a11f6496670
-ms.sourcegitcommit: 29755f5af0086a43c532fb5a9a4ae65c36bc82de
+ms.openlocfilehash: 5fc369caa2e5e26c91c07f9270c3984177507dbd
+ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "10857939"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009467"
 ---
-# Корпоративный портал Intune &
+# Intune и корпоративный портал
 
 С помощью управления мобильными устройствами (MDM) вы можете использовать собственные приложения с помощью [Microsoft Endpoint Manager (Intune)](https://docs.microsoft.com/intune/windows-holographic-for-business) , чтобы развернуть его непосредственно на устройствах HoloLens. Microsoft Intune — это облачная служба, ориентированная на управление мобильными устройствами (MDM) и управление мобильными приложениями (MAM). Intune входит в состав[корпоративного семейства Microsoft Mobility + Security + (EMS)](https://www.microsoft.com/microsoft-365/enterprise-mobility-security)и позволяет пользователям работать эффективнее с сохранением защиты данных Организации. Чтобы узнать больше о Intune, ознакомьтесь со статьей [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune).
 
