@@ -66,6 +66,7 @@
 ## Сеть и подключение
 ### [Настройка сети для HoloLens](hololens-commercial-infrastructure.md)
 ### [Подключение HoloLens к сети](hololens-network.md)
+### [Подготовка сертификатов и сетевых профилей для HoloLens 2](hololens-certificates-network.md)
 ### [Управление конечными точками подключения для HoloLens](hololens-offline.md)
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
 
