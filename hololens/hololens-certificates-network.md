@@ -1,0 +1,62 @@
+---
+title: Подготовка сертификатов и сетевых профилей для HoloLens 2
+description: Как настроить и использовать сертификаты для сети на устройствах HoloLens 2
+ms.prod: hololens
+ms.sitesec: library
+author: evmill
+ms.author: aboeger
+ms.topic: article
+ms.localizationpriority: high
+ms.date: 9/15/2020
+ms.reviewer: v-evmill
+audience: ITPro
+manager: ''
+appliesto:
+- HoloLens 2
+ms.openlocfilehash: 460b6f42de7413e77eaec041a5ab6141ed959cf4
+ms.sourcegitcommit: 9944fd2040fc1267ace1da1bd62ef36b68c7f318
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "11015529"
+---
+# <span data-ttu-id="587e5-103">Подготовка сертификатов и сетевых профилей для HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="587e5-103">Prepare certificates and network profiles for HoloLens 2</span></span>
+
+<span data-ttu-id="587e5-104">Проверка подлинности на основе сертификатов — это общее требование для клиентов, использующих HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="587e5-104">Certificate-based authentication is a common requirement for customers using HoloLens 2.</span></span> <span data-ttu-id="587e5-105">Для подключения к решениям VPN или для доступа к внутренним ресурсам вашей организации вам могут потребоваться сертификаты для доступа к Wi-Fi.</span><span class="sxs-lookup"><span data-stu-id="587e5-105">You might require certificates to access Wi-Fi, to connect to VPN solutions, or for accessing internal resources in your organization.</span></span>
+
+<span data-ttu-id="587e5-106">Поскольку устройства HoloLens 2 обычно подключаются к Azure Active Directory (Azure AD) и управляются Intune или другим поставщиком MDM, вам потребуется развернуть такие сертификаты с помощью службы регистрации сертификатов для сетевых устройств (SCEP) или стандартов криптографии с открытым ключом (PKCS), которая интегрирована с вашим решением MDM.</span><span class="sxs-lookup"><span data-stu-id="587e5-106">Because HoloLens 2 devices are typically joined to Azure Active Directory (Azure AD) and managed by Intune or other MDM provider, you will need to deploy such certificates by using a Simple Certificate Enrollment Protocol (SCEP) or Public Key Cryptography Standard (PKCS) certificate infrastructure that is integrated with your MDM solution.</span></span>
+
+## <span data-ttu-id="587e5-107">Требования к сертификатам</span><span class="sxs-lookup"><span data-stu-id="587e5-107">Certificate requirements</span></span>
+<span data-ttu-id="587e5-108">Корневые сертификаты необходимы для развертывания сертификатов через инфраструктуру SCEP или PKCS.</span><span class="sxs-lookup"><span data-stu-id="587e5-108">Root certificates are required to deploy certificates through a SCEP or PKCS infrastructure.</span></span> <span data-ttu-id="587e5-109">Для других приложений и служб в вашей организации может потребоваться развертывание корневых сертификатов на устройствах HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="587e5-109">Other applications and services in your organization might require root certificates to be deployed to your HoloLens 2 devices as well.</span></span> 
+
+## <span data-ttu-id="587e5-110">Требования по подключению к Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="587e5-110">Wi-Fi connectivity requirements</span></span>
+<span data-ttu-id="587e5-111">Для автоматического предоставления устройству необходимой конфигурации Wi-Fi для вашей корпоративной сети, вам понадобится профиль конфигурации Wi-Fi.</span><span class="sxs-lookup"><span data-stu-id="587e5-111">To allow a device to be automatically provided with the required Wi-Fi configuration for your enterprise network, you will need a Wi-Fi configuration profile.</span></span> <span data-ttu-id="587e5-112">Вы можете настроить Intune или другой поставщик MDM для развертывания этих профилей на ваших устройствах.</span><span class="sxs-lookup"><span data-stu-id="587e5-112">You can configure Intune or other MDM provider to deploy these profiles to your devices.</span></span> <span data-ttu-id="587e5-113">Если для сетевой безопасности необходимо, чтобы устройства были частью локального домена, вам также может понадобиться оценить вашу сетевую инфраструктуру Wi-Fi, чтобы убедиться, что она совместима с устройствами HoloLens 2 (устройства HoloLens 2 с присоединением к Azure AD).</span><span class="sxs-lookup"><span data-stu-id="587e5-113">If your network security requires devices to be part of the local domain, you might also need to evaluate your Wi-Fi network infrastructure to make sure it's compatible with HoloLens 2 devices (HoloLens 2 devices are Azure AD-joined only).</span></span>
+
+## <span data-ttu-id="587e5-114">Развертывание инфраструктуры сертификата</span><span class="sxs-lookup"><span data-stu-id="587e5-114">Deploy certificate infrastructure</span></span>
+<span data-ttu-id="587e5-115">Если инфраструктур SCEP или PKCS не существует, необходимо подготовить одну из них.</span><span class="sxs-lookup"><span data-stu-id="587e5-115">If no SCEP or PKCS infrastructure already exists, you'll need to prepare one.</span></span> <span data-ttu-id="587e5-116">Чтобы обеспечить проверку подлинности с использованием сертификатов SCEP или PKCS, Intune требует использовать [соединитель сертификатов](https://docs.microsoft.com/mem/intune/protect/certificate-connectors).</span><span class="sxs-lookup"><span data-stu-id="587e5-116">To support the use of SCEP or PKCS certificates for authentication, Intune requires the use of a [certificate connector](https://docs.microsoft.com/mem/intune/protect/certificate-connectors).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="587e5-117">При использовании SCEP в ЦС Microsoft необходимо также настроить [службу регистрации сертификатов для сетевых устройств (NDES)](https://docs.microsoft.com/mem/intune/protect/certificates-scep-configure#set-up-ndes)</span><span class="sxs-lookup"><span data-stu-id="587e5-117">When you use SCEP with a Microsoft CA, you must also configure the [Network Device Enrollment Service (NDES)](https://docs.microsoft.com/mem/intune/protect/certificates-scep-configure#set-up-ndes)</span></span>
+
+<span data-ttu-id="587e5-118">Дополнительные сведения см. в статье [Настройка профиля сертификата для устройств в Microsoft Intune](https://docs.microsoft.com/intune/certificates-configure).</span><span class="sxs-lookup"><span data-stu-id="587e5-118">For more information, see [Configure a certificate profile for your devices in Microsoft Intune.](https://docs.microsoft.com/intune/certificates-configure)</span></span>
+
+## <span data-ttu-id="587e5-119">Развертывание сертификатов и Wi-Fi/VPN профилей</span><span class="sxs-lookup"><span data-stu-id="587e5-119">Deploy certificates and Wi-Fi/VPN profile</span></span>
+<span data-ttu-id="587e5-120">Чтобы развернуть сертификаты и профили, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="587e5-120">To deploy certificates and profiles, follow these steps:</span></span>
+1.  <span data-ttu-id="587e5-121">Создайте профиль для каждого корневого и промежуточного сертификата (см. [Создание доверенных профилей сертификатов](https://docs.microsoft.com/intune/protect/certificates-configure#create-trusted-certificate-profiles)). Каждый из этих профилей должен иметь описание, включающее дату окончания срока действия в формате дд/мм/гггг.</span><span class="sxs-lookup"><span data-stu-id="587e5-121">Create a profile for each of the Root and Intermediate certificates (see [Create trusted certificate profiles](https://docs.microsoft.com/intune/protect/certificates-configure#create-trusted-certificate-profiles).) Each of these profiles must have a description that includes an expiration date in DD/MM/YYYY format.</span></span> **<span data-ttu-id="587e5-122">Профили сертификатов, для которых не указана дата окончания срока действия, не будут развернуты.</span><span class="sxs-lookup"><span data-stu-id="587e5-122">Certificate profiles without an expiration date will not be deployed.</span></span>**
+1.  <span data-ttu-id="587e5-123">Создайте профиль для каждого сертификата SCEP или PKCS (см. [«Создание профиля сертификата SCEP» или «Создание профиля сертификата PCKS»](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)). Каждый из этих профилей должен иметь описание, включающее дату окончания срока действия в формате дд/мм/гггг.</span><span class="sxs-lookup"><span data-stu-id="587e5-123">Create a profile for each SCEP or PKCS certificates (see [Create a SCEP certificate profile or Create a PKCS certificate profile](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)) Each of these profiles must have a description that includes an expiration date in DD/MM/YYYY format.</span></span> **<span data-ttu-id="587e5-124">Профили сертификатов, для которых не указана дата окончания срока действия, не будут развернуты.</span><span class="sxs-lookup"><span data-stu-id="587e5-124">Certificate profiles without an expiration date will not be deployed.</span></span>**
+
+> [!NOTE]
+> <span data-ttu-id="587e5-125">Поскольку HoloLens 2 — это общее устройство с множеством пользователей на устройство, рекомендуется развертывать сертификаты устройств, а не сертификаты пользователей для проверки подлинности Wi-Fi, где это возможно.</span><span class="sxs-lookup"><span data-stu-id="587e5-125">As the HoloLens 2 is considered for many to be a shared device, multiple users per device, it is recommended to deploy Device certificates instead of User certificates for Wi-Fi authentication where possible</span></span>
+
+3.  <span data-ttu-id="587e5-126">Создайте профиль для каждой корпоративной сети Wi-Fi (см. [Параметры Wi-Fi для устройств с Windows 10 и более поздними версиями](https://docs.microsoft.com/intune/wi-fi-settings-windows)).</span><span class="sxs-lookup"><span data-stu-id="587e5-126">Create a profile for each corporate Wi-Fi network (see [Wi-Fi settings for Windows 10 and later devices](https://docs.microsoft.com/intune/wi-fi-settings-windows)).</span></span> 
+> [!NOTE]
+> <span data-ttu-id="587e5-127">Рекомендуется по возможности [назначать](https://docs.microsoft.com/mem/intune/configuration/device-profile-assign) профиль Wi-Fi группам устройств, а не группам пользователей.</span><span class="sxs-lookup"><span data-stu-id="587e5-127">It is recommended that the Wi-Fi profile be [assigned](https://docs.microsoft.com/mem/intune/configuration/device-profile-assign) to Device groups rather than User groups where possible.</span></span> 
+
+> [!TIP]
+> <span data-ttu-id="587e5-128">Также можно экспортировать рабочий профиль Wi-Fi с компьютера с Windows 10 в корпоративную сеть.</span><span class="sxs-lookup"><span data-stu-id="587e5-128">You also can export a working Wi-Fi profile from a Windows 10 PC on your corporate network.</span></span> <span data-ttu-id="587e5-129">В результате экспорта будет создан XML-файл со всеми текущими параметрами.</span><span class="sxs-lookup"><span data-stu-id="587e5-129">This export creates an XML file with all the current settings.</span></span> <span data-ttu-id="587e5-130">Затем импортируйте этот файл в Intune и используйте его в качестве профиля Wi-Fi для ваших устройств HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="587e5-130">Then, import this file into Intune, and use it as the Wi-Fi profile for your HoloLens 2 devices.</span></span> <span data-ttu-id="587e5-131">Дополнительные сведения см. в статье [Экспорт и импорт параметров Wi-Fi для устройств с Windows](https://docs.microsoft.com/mem/intune/configuration/wi-fi-settings-import-windows-8-1).</span><span class="sxs-lookup"><span data-stu-id="587e5-131">See [Export and import Wi-Fi settings for Windows devices.](https://docs.microsoft.com/mem/intune/configuration/wi-fi-settings-import-windows-8-1)</span></span>
+
+4.  <span data-ttu-id="587e5-132">Создайте профиль для каждой корпоративной VPN (см. [Параметры устройств Windows 10 и Windows Holographic для добавления VPN-подключения с помощью Intune](https://docs.microsoft.com/intune/vpn-settings-windows-10)).</span><span class="sxs-lookup"><span data-stu-id="587e5-132">Create a profile for each corporate VPN (see [Windows 10 and Windows Holographic device settings to add VPN connections using Intune](https://docs.microsoft.com/intune/vpn-settings-windows-10)).</span></span>
+
+
+
+
