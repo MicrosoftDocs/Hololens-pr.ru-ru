@@ -3,7 +3,7 @@ title: URI параметров
 description: Список поддерживаемых HoloLens URI для PageVisibilityList
 author: evmill
 ms.author: v-evmill
-ms.date: 8/1/2020
+ms.date: 09/16/2020
 ms.topic: article
 keywords: hololens, hololens 2, ограниченный доступ, терминал, страница параметров
 ms.prod: hololens
@@ -13,30 +13,60 @@ ms.reviewer: widuff
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 6b506b36915c8f34b90c455410db67e55a2cca09
-ms.sourcegitcommit: 7f48e7103f869a22a0d20a54dc8f9b708b22484c
+ms.openlocfilehash: 17959fa25763d2c6b89d0956f29b9999b3012e60
+ms.sourcegitcommit: 785ac6f05aecffc0f3980960891617d161711a70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "10963722"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "11016703"
 ---
 # URI параметров
 
-Одной из управляемых функций для устройств HoloLens является использование [политики Settings/PageVisibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist), чтобы ограничивать страницы, отображаемые в приложении "Параметры". Устройства HoloLens и Windows 10 имеют разный выбор страниц в приложении "Параметры". На этой странице вы найдете только параметры, существующие в HoloLens. 
+Одной из управляемых функций для устройств HoloLens является использование [политики Settings/PageVisibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist), чтобы ограничивать страницы, отображаемые в приложении "Параметры". PageVisibilityList — это политика, позволяющая ИТ-администраторам запрещать отображение или открытие определенных страниц в приложении "Параметры системы" или наоборот — выполнять это для всех страниц, кроме указанных. 
 
-## Учетные записи
+> [!IMPORTANT]
+> Эта функция в настоящее время доступна только в [сборках участников программы предварительной оценки Windows](hololens-insider.md). Убедитесь, что на устройствах, для которых вы собираетесь ее использовать, установлена сборка 19041.1349 или более поздняя.
+
+В примере ниже показана политика, разрешающая доступ только к страницам сведений и Bluetooth с URI "ms-settings:network-wifi" и "ms-settings:bluetooth" соответственно:
+- showonly:network-wifi;network-proxy;bluetooth
+
+Чтобы выполнить настройку посредством пакета подготовки: 
+1. При создании пакета в конструкторе конфигураций Windows выберите **Политики > Параметры > PageVisibilityList**
+1. Введите строку: **showonly:network-wifi;network-proxy;bluetooth**
+1. Экспортируйте свой пакет подготовки.
+1. Примените пакет к устройству. Подробные сведения о создании и применении пакета подготовки см. [на этой странице](hololens-provisioning.md). 
+
+Это можно сделать в Intune с использованием OMA-URI.
+1. Создайте **пользовательскую политику**.
+1. При настройке OMA-URI используйте строку: **./Device/Vendor/MSFT/Policy/Config/Settings/PageVisibilityList**
+1. При выборе комплекта данных укажите: **Строка**
+1. При вводе значения используйте: **showonly:network-wifi;network-proxy;bluetooth**
+1. Назначьте настраиваемую конфигурацию устройства группе, в которой должно располагаться устройство.
+Дополнительные сведения о группах Intune и конфигурациях устройств [см. здесь](hololens-mdm-configure.md).
+
+Независимо от выбранного метода ваше устройство должно теперь получать изменения, а пользователи получат следующее приложение "Параметры". 
+
+![Снимок экрана: период активности, измененный в приложении "Параметры"](images/hololens-page-visibility-list.jpg)
+
+Чтобы настроить страницы приложения "Параметры" для отображения или скрытия выбранных вами страниц, просмотрите URI параметров, доступные в HoloLens. 
+
+## URI параметров
+
+Устройства HoloLens и Windows 10 имеют разный выбор страниц в приложении "Параметры". На этой странице вы найдете только параметры, существующие в HoloLens. 
+
+### Учетные записи
 | Страница параметров           | URI                                            |
 |-------------------------|------------------------------------------------|
 | Параметры входа         | ms-settings:signinoptions                      |
 | Регистрация Iris       | ms-settings:signinoptions-launchirisenrollment |
 | Доступ на рабочем месте или в учебном учреждении | ms-settings:workplace                          |
 
-## Устройства
+### Устройства
 | Страница параметров | URI                          |
 |---------------|------------------------------|
 | Bluetooth     | ms-settings:bluetooth <br> ms-settings:connecteddevices |
 
-## Конфиденциальность
+### Конфиденциальность
 | Страница параметров            | URI                                             |
 |--------------------------|-------------------------------------------------|
 | Сведения об учетной записи             | ms-settings:privacy-accountinfo                 |
@@ -63,14 +93,14 @@ ms.locfileid: "10963722"
 | Голосовая активация       | ms-settings:privacy-voiceactivation             |
 | Камера                   | ms-settings:privacy-webcam                      |
 
-## Сеть и Интернет
+### Сеть и Интернет
 | Страница параметров | URI                              |
 |---------------|----------------------------------|
 | Wi-Fi  | ms-settings:network-wifi<br>ms-settings:network-wifisettings<br>ms-settings:network-status<br>ms-settings:wifi-provisioning    |
 | VPN   | ms-settings:network-vpn          |
 | Proxy (Прокси) | ms-settings:network-proxy        |
 
-## Система
+### Система
 | Страница параметров      | URI                                |
 |--------------------|------------------------------------|
 | Общие возможности | ms-settings:crossdevice            |
@@ -78,13 +108,13 @@ ms.locfileid: "10963722"
 | Уведомления и действия  | ms-settings:notifications          |
 | Хранилище            | ms-settings:storagesense           |
 
-## Время и язык
+### Время и язык
 | Страница параметров | URI                                           |
 |---------------|-----------------------------------------------|
 | Region        | ms-settings:regionformatting                  |
 | Язык      | ms-settings:regionlanguage<br>ms-settings:regionlanguage-adddisplaylanguage<br>ms-settings:regionlanguage-setdisplaylanguage |
 
-## Обновление и безопасность
+### Обновление и безопасность
 | Страница параметров                         | URI                                       |
 |---------------------------------------|-------------------------------------------|
 | Программа предварительной оценки Windows               | ms-settings:windowsinsider <br>ms-settings:windowsinsider-optin          |

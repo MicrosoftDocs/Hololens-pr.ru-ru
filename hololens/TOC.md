@@ -71,10 +71,16 @@
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
 
 
-## Политики
+## Управление устройствами
+### [Обзор настройки CSP и управления устройством](hololens-csp-policy-overview.md)
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
 ### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
+### [Общие ограничения устройств](hololens-common-device-restrictions.md)
 ### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
+### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
+
+
+
 # Развертывание
 ## регистрация;
 ### [Регистрация HoloLens в MDM](hololens-enroll-mdm.md)
