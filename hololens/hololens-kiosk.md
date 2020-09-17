@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f5c45477ab33064afe30e275f8b0003bc6022eac
-ms.sourcegitcommit: bdbaed42dd9ecbd0ed9517de2e98a0465f584c1d
+ms.openlocfilehash: c6b2bf3d48da642e91b8709cfdf35d03a7913ac4
+ms.sourcegitcommit: 785ac6f05aecffc0f3980960891617d161711a70
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929855"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "11016693"
 ---
 # Настройка HoloLens в качестве терминала
 
@@ -31,7 +31,9 @@ ms.locfileid: "10929855"
 В этой статье приводятся сведения о различных аспектах конфигурации киоска, относящихся к устройствам HoloLens. Общие сведения о различных типах киосков для Windows и их настройке можно найти [в разделе Настройка киосков и цифровых знаков на выпусках Windows для настольных систем](https://docs.microsoft.com/windows/configuration/kiosk-methods).  
 
 > [!IMPORTANT]  
-> Режим киоска определяет, какие приложения доступны при входе пользователя на устройство. Однако режим киоска не является методом безопасности. Приложение "разрешено" не останавливает открытие другого приложения, которое не разрешено. Чтобы заблокировать открытие приложений или процессов, используйте [CSP Application Control (WDAC)](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp) для создания соответствующих политик.  
+> Режим киоска определяет, какие приложения доступны при входе пользователя на устройство. Однако режим киоска не является методом безопасности. Приложение "разрешено" не останавливает открытие другого приложения, которое не разрешено. Чтобы заблокировать открытие приложений или процессов, используйте [CSP Application Control (WDAC)](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp) для создания соответствующих политик.
+>
+> Ознакомьтесь с дополнительными сведениями о службах Microsoft, чтобы предоставить пользователям повышенный уровень безопасности, который использует HoloLens 2, ознакомьтесь с дополнительными сведениями об [разделениях состояния и защите от защитника](security-state-separation-isolation.md#defender-protections). Кроме того, вы узнаете, как [использовать WDAC и Windows PowerShell для разрешения и блокировки приложений на устройствах HoloLens 2 с помощью Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/custom-profile-hololens).
 
 Вы можете использовать режим киоска в одном приложении или конфигурации с несколькими приложениями, и вы можете использовать один из трех процессов для настройки и развертывания конфигурации киоска.
 
@@ -96,7 +98,7 @@ ms.locfileid: "10929855"
 |Имя приложения |AUMID |
 | --- | --- |
 |Средство 3D-просмотра |Microsoft. Microsoft3DViewer \ _8wekyb3d8bbwe \! Microsoft. Microsoft3DViewer |
-|Calendar |Microsoft. windowscommunicationsapps \ _8wekyb3d8bbwe \! Microsoft. windowslive. Calendar |
+|Календарь |Microsoft. windowscommunicationsapps \ _8wekyb3d8bbwe \! Microsoft. windowslive. Calendar |
 |Камера <sup> 1, 2</sup> |HoloCamera \ _cw5n1h2txyewy \! HoloCamera |
 |Кортана <sup> 3</sup> |Microsoft. 549981C3F5F10 \ _8wekyb3d8bbwe \! · |
 |Средство выбора устройств для HoloLens (1-го поколения) |HoloDevicesFlow \ _cw5n1h2txyewy \! HoloDevicesFlow |
