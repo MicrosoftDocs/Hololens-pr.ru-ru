@@ -107,5 +107,7 @@
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
 ### [URI параметров страницы для HoloLens](settings-uri-list.md)
+### [Установщик приложений](app-deploy-app-installer.md)
+### [Установщик веб-приложений](app-deploy-web-installer.md)
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
 # [Напишите нам свой отзыв](hololens-feedback.md)

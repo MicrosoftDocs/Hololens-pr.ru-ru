@@ -1,6 +1,6 @@
 ---
-title: URI параметров
-description: Список поддерживаемых HoloLens URI для PageVisibilityList
+title: Видимость параметров страницы
+description: Список поддерживаемых HoloLens URI для PageVisibilityList и руководство
 author: evmill
 ms.author: v-evmill
 ms.date: 09/16/2020
@@ -13,14 +13,14 @@ ms.reviewer: widuff
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 17959fa25763d2c6b89d0956f29b9999b3012e60
-ms.sourcegitcommit: 785ac6f05aecffc0f3980960891617d161711a70
+ms.openlocfilehash: 7a24d64b0b60be9f922260b7145d04c2c13951ed
+ms.sourcegitcommit: 8b5e349990ba5566bcc6a2a72ff83d1a21b099b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/17/2020
-ms.locfileid: "11016703"
+ms.locfileid: "11026942"
 ---
-# URI параметров
+# Видимость параметров страницы
 
 Одной из управляемых функций для устройств HoloLens является использование [политики Settings/PageVisibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist), чтобы ограничивать страницы, отображаемые в приложении "Параметры". PageVisibilityList — это политика, позволяющая ИТ-администраторам запрещать отображение или открытие определенных страниц в приложении "Параметры системы" или наоборот — выполнять это для всех страниц, кроме указанных. 
 
@@ -122,8 +122,7 @@ ms.locfileid: "11016703"
 | Центр обновления Windows — проверка наличия обновлений | ms-settings:windowsupdate-action          |
 | Дополнительные параметры                    | ms-settings:windowsupdate-options         |
 
-> [!NOTE]
->  1 Следующие два URI не отправляют вас на страницу расширенных параметров или на страницу обычных параметров. Они только блокируют или отображают основную страницу Центра обновления Windows. 
+>  <sup>1</sup> Следующие два URI не отправляют вас на страницы **Расширенные параметры** или **Параметры**. Они только блокируют или отображают основную страницу Центра обновления Windows. 
 > - ms-settings:windowsupdate-options
 > - ms-settings:windowsupdate-restartoptions 
 
