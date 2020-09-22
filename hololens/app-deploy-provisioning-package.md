@@ -14,12 +14,12 @@ manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 6daf99fbb60e0daf892d5d02e86492061a665070
-ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
+ms.openlocfilehash: 0803b5f1b77ac7f123d534d101cd24903b87094c
+ms.sourcegitcommit: 89ce6cdc0fc6d70a88217791c5f6d613778af614
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009507"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11052586"
 ---
 # Пакет подготовки
 
@@ -32,6 +32,9 @@ ms.locfileid: "11009507"
 
 > [!NOTE] 
 > Чтобы узнать основы создания пакета подготовки для устройств HoloLens, перейдите на страницу [Подготовка HoloLens](https://docs.microsoft.com/hololens/hololens-provisioning). Чтобы развернуть приложение, необходимо запустить расширенную подготовку. 
+
+> [!NOTE] 
+> HoloLens (1-ой gen) имеет ограниченную поддержку установки приложений (**UniversalAppInstall**) с помощью пакета подготовки. Устройства HoloLens (1-го поколения) поддерживают только установку приложения с помощью PPKG только во время OOBE и только при установке контекста пользователя.
 
 ## Настройка
 
