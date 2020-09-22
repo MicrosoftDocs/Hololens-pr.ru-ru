@@ -3,7 +3,7 @@ title: Глобальный ограниченный доступ
 description: Руководство по использованию OMA-URI для терминалов глобального ограниченного доступа
 author: evmill
 ms.author: v-evmill
-ms.date: 7/13/2020
+ms.date: 9/21/2020
 ms.topic: article
 keywords: hololens, hololens 2, ограниченный доступ, терминал
 ms.prod: hololens
@@ -13,12 +13,12 @@ ms.reviewer: lavinds
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 1a0a3eb8ef3d21b34e13711bcc890af57e5ae2c2
-ms.sourcegitcommit: 7c16570839893f4a4432286b13ae6d84c665d376
+ms.openlocfilehash: c2be1123d0e8a09d6955fb6e5da782daebc96bcf
+ms.sourcegitcommit: 89ce6cdc0fc6d70a88217791c5f6d613778af614
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "10902304"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11052628"
 ---
 # Глобальный ограниченный доступ — терминал
 
@@ -44,7 +44,7 @@ ms.locfileid: "10902304"
 
 2.  Выполните действия, описанные в разделе [Использование пакета подготовки для настройки терминала с одним или несколькими приложениями](https://docs.microsoft.com/hololens/hololens-kiosk#use-a-provisioning-package-to-set-up-a-single-app-or-multi-app-kiosk), в частности в секции "Пакет подготовки, шаг 2 — Добавление XML-файла конфигурации терминала в пакет подготовки" и см. XML-файл, сохраненный на предыдущем шаге. 
 
-## Могу ли я создать конфигурацию, которая глобально применяется ко всем, кроме 1 учетной записи AAD или группы AAD? 
+## Могу ли я создать конфигурацию, которая глобально применяется ко всем, и отдельную конфигурацию для 1 учетной записи AAD или группы AAD? 
 
 Да, см. пример большого двоичного объекта XML ниже. Профиль глобального ограниченного доступа применяется к Hololens, если не обнаружен специальный профиль для вошедшего пользователя, поэтому это стандартная конфигурация режима терминала для вошедшего пользователя. Пример большого двоичного объекта XML для использования: 
 
