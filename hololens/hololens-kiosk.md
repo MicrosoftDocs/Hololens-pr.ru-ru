@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: c6b2bf3d48da642e91b8709cfdf35d03a7913ac4
-ms.sourcegitcommit: 785ac6f05aecffc0f3980960891617d161711a70
+ms.openlocfilehash: 8844f691ec5395f9c69bce7df44125da9c838f14
+ms.sourcegitcommit: 7bf0f92aaf1683c7c39ed6b17ac47231c5088365
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11016693"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11072796"
 ---
 # Настройка HoloLens в качестве терминала
 
@@ -477,6 +477,9 @@ ms.locfileid: "11016693"
 
     ![Режим полного экрана](images/kiosk.png)
 1. Перезапустите HoloLens. Если вы по-прежнему открыли страницу портала устройства, вы можете нажать кнопку " **перезапустить** " в верхней части страницы.
+
+> [!NOTE]
+> Режим киоска можно настроить через API-интерфейс на портале устройств, выполнив в/API/holographic/kioskmode/Settings запись с одним обязательным параметром строки запроса ("kioskModeEnabled" со значением "истина" или "ложь") и одним необязательным параметром ("startupApp" со значением имени пакета). Имейте в виду, что портал устройств предназначен только для разработчиков и не должен включаться на устройствах, не являющихся разработчиками. API-интерфейс оставшейся части может измениться в будущих обновлениях и выпусках.
 
 ## Дополнительные сведения
 
