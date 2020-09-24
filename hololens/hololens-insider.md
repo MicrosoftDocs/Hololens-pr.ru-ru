@@ -11,17 +11,17 @@ ms.custom:
 - CSSTroubleshooting
 ms.localizationpriority: medium
 audience: ITPro
-ms.date: 8/21/2020
+ms.date: 9/23/2020
 ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 64e31a03eb3c8cf1c0e6112fd0605aaebb26ba64
-ms.sourcegitcommit: 89ce6cdc0fc6d70a88217791c5f6d613778af614
+ms.openlocfilehash: c5e050fefc9a6a0717dea2258ada39df302f2e45
+ms.sourcegitcommit: 8c036f12a341a063eb7827ee7b70784402dad57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11052638"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "11077696"
 ---
 # Предварительная версия Microsoft HoloLens
 
@@ -35,8 +35,6 @@ ms.locfileid: "11052638"
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------|
 | [Поддержка положения автоматического взгляда](hololens-insider.md#auto-eye-position-support)                              | Активно находит положения глаз и обеспечивает точное расположение голограммы.                        | 19041.1339 +                 |
 | [Диспетчер сертификатов](hololens-insider.md#certificate-manager)                                     | Пользователи могут просматривать, устанавливать и удалять сертификаты текущего пользователя и локального компьютера в приложении "Параметры".                                         | 19041.1361 +                 |
-| [Установщик приложений](hololens-insider.md#install-apps-on-hololens-2-via-app-installer) | В пользовательском интерфейсе устройства, чтобы установить приложения из appx-файлов. | 19041.1377 + |
-| [Установка приложений с веб-страницы](hololens-insider.md#installing-apps-from-a-web-page) | Настройте приложения, которые нужно скачать и установить из браузера. | 19041.1366 + | 
 | [Подготовка автоматического запуска с USB](hololens-insider.md#auto-launch-provisioning-from-usb)                      | OOBE автоматически обнаруживает пакеты подготовки на USB-накопителях.                                | 19041.1361 +                 |
 | [Автоматическое подтверждение пакетов подготовки в OOBE](hololens-insider.md#auto-confirm-provisioning-packages-in-oobe)             | Автоматически применяет пакеты подготовки в OOBE.                                             | 19041.1361 +                 |
 | [Использование автопилота с подключением Wi-Fi](hololens-insider.md#using-autopilot-with-wi-fi-connection)                  | Используйте автопилот из Wi-Fi устройства, не требуя адаптера Ethernet.                             | 19041.1364 +                 |
@@ -108,22 +106,6 @@ ms.locfileid: "11052638"
 ![Средство просмотра сертификатов в приложении "Параметры"](images/certificate-viewer-device.jpg)
 
 ![Рисунок, показывающий, как установить сертификат с помощью пользовательского интерфейса сертификата](images/certificate-device-install.jpg)
-
-### Установка приложений на HoloLens 2 с помощью установщика приложений
-Теперь пользователи могут устанавливать приложения через пакеты appx, не требуя включать режим разработчика или использовать портал устройств. Это очень просто для установки приложений на локальных устройствах или предоставления общего доступ к приложению другим пользователям, которые не знакомы с другими методами установки приложений на HoloLens.
-
-Это простой способ распространения полностью построенного приложения. Независимо от того, требуется ли вам демонстрация приложения для другого пользователя с помощью HoloLens или вы хотите развернуть приложение на масштабе, этот метод будет работать как для тех, и для того, чтобы.
-
-Ознакомьтесь со всеми процессами [установки приложений в HoloLens 2 с помощью установщика приложений](app-deploy-app-installer.md).  
-
-![Установка примеров MRTK с помощью установщика приложений](images/hololens-app-installer-picture.jpg)
-
-### Установка приложений с веб-страницы
-Теперь в рамках программы предварительной оценки Windows пользователи могут установить приложение непосредственно с веб-сервера с помощью 19041.1366 +. 
-
-Пакеты appx теперь можно разместить на веб-странице. В сочетании с развертыванием сертификатов этот метод распространения приложения может быть очень полезен для развертывания приложения.
-
-Прочтите весь процесс [установки приложений на HoloLens 2 с веб-страницы](app-deploy-web-installer.md)
 
 ### Подготовка автоматического запуска с USB
 Перед тем, как пользователи этого построения запустят экран подготовки вручную во время подготовки OOBE с помощью сочетания кнопок. Теперь пользователи могут пропустить сочетание кнопок, используя пакет подготовки на USB-накопителе. 
@@ -260,7 +242,10 @@ Name (имя): AADGroupMembershipCacheValidityInDays значение URI:./Vend
 - [AllowAddProvisioningPackage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-security#security-allowaddprovisioningpackage)
 - [AllowRemoveProvisioningPackage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-security#security-allowremoveprovisioningpackage) 
 - [ConfigureTimeZone](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-timelanguagesettings#timelanguagesettings-configuretimezone)
-- [RemoteLock](https://docs.microsoft.com/windows/client-management/mdm/remotelock-csp)
+- [RemoteLock](https://docs.microsoft.com/windows/client-management/mdm/remotelock-csp) *
+
+>[!NOTE]
+> В отношении [RemoteLock](https://docs.microsoft.com/windows/client-management/mdm/remotelock-csp)HoloLens поддерживает только настройку./Vendor/MSFT/RemoteLock/Lock. Конфигурации, которые связаны с закреплением, такие как Reset и Recover, не поддерживаются.
 
 ### Новые политики управления электроэнергиюю для Hololens 2
 Эти новые политики позволяют администраторам управлять состояниями электроуправления питанием, например тайм-аут простоя. Чтобы узнать больше о каждой отдельной политике, щелкните ссылку на эту политику.

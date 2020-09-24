@@ -15,14 +15,17 @@ ms.custom:
 audience: ITPro
 appliesto:
 - HoloLens 1
-ms.openlocfilehash: a3761fc383b991743c20c09ce430e8988af789fb
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: f610de413c9990bd3f8bc4df63fa8c7ed821e32b
+ms.sourcegitcommit: 8c036f12a341a063eb7827ee7b70784402dad57f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828564"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "11077676"
 ---
 # Заметки о выпуске для HoloLens 1 (Gen)
+
+## Долгосрочное обслуживание HoloLens (1-го поколения)
+HoloLens (1-го поколения) ввел состояние долгосрочного обслуживания (LTS). Будущие обновления будут сосредоточены на проблемах и исправлениях безопасности, сохраняя четность функций с помощью выпуска Windows 10 holographic, версия 1809 для HoloLens (1-го поколения).
 
 ### Windows 10 holographic версия 1809
 
