@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: c5e050fefc9a6a0717dea2258ada39df302f2e45
-ms.sourcegitcommit: 8c036f12a341a063eb7827ee7b70784402dad57f
+ms.openlocfilehash: caf860ad5926c03d1e87e829f04838531510df51
+ms.sourcegitcommit: 44de31c6d3534b6e0b73ddc2a9336147daf7a41d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "11077696"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078387"
 ---
 # Предварительная версия Microsoft HoloLens
 
@@ -258,6 +258,9 @@ Name (имя): AADGroupMembershipCacheValidityInDays значение URI:./Vend
 |     [EnergySaverBatteryThresholdPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-energysaverbatterythresholdpluggedin)     |     Пример значения для использования в конструкторе конфигураций Windows (например, 100)                                                                          |
 |     [StandbyTimeoutOnBattery](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutonbattery)                  |     Пример значения для использования в конструкторе конфигураций Windows, например:   `<enabled/><data   id="EnterDCStandbyTimeOut" value="100"/>`          |
 |     [StandbyTimeoutPluggedIn](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutpluggedin)                  |     Пример значения для использования в конструкторе конфигураций Windows, например:  `<enabled/><data   id="EnterACStandbyTimeOut" value="100"/>`           |
+
+> [!NOTE]
+> Для обеспечения постоянной работы в HoloLens 2 Убедитесь, что значения для обоих параметров DisplayOffTimeoutOnBattery и StandbyTimeoutOnBattery заданы одинаковым значением. То же применимо к DisplayOffTimeoutPluggedIn и StandbyTimeoutPluggedIn. Дополнительные сведения о современных режимах ожидания можно найти в разделе [таймеры отображения, спящего режима и спящего](https://docs.microsoft.com/windows-hardware/design/device-experiences/display--sleep--and-hibernate-idle-timers) режима.
 
 ### Новые включенные политики обновления для HoloLens
 Эти политики обновления теперь включены на устройствах HoloLens 2:
