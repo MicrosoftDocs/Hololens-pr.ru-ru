@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 8844f691ec5395f9c69bce7df44125da9c838f14
-ms.sourcegitcommit: 7bf0f92aaf1683c7c39ed6b17ac47231c5088365
+ms.openlocfilehash: 920ba7e84b1bb4818aef4efdee60be004d8a3300
+ms.sourcegitcommit: e6885d03c980b33dd0bab5c418cbd1892d5ff123
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11072796"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "11080448"
 ---
 # Настройка HoloLens в качестве терминала
 
@@ -90,8 +90,10 @@ ms.locfileid: "11072796"
 
 Если вы используете систему управления мобильными устройствами (MDM) или пакет подготовки для настройки режима киоска, вы можете указать приложения с помощью [поставщика услуг конфигурации AssignedAccess (CSP)](https://docs.microsoft.com/windows/client-management/mdm/assignedaccess-csp) . CSP использует [идентификаторы пользовательской модели приложения (aumid)](https://docs.microsoft.com/windows/configuration/find-the-application-user-model-id-of-an-installed-app) для идентификации приложений. В таблице ниже перечислены Aumid некоторых встроенных приложений, которые можно использовать в многоприложенийом киоске.
 
-> [!CAUTION]
-> Вы не можете выбрать приложение Shell в качестве приложения с киосками. Кроме того, мы рекомендуем **не** выбирать Microsoft EDGE, Microsoft Store или проводник в качестве приложения с киосками.  
+> [!IMPORTANT]
+> Режим киоска определяет, какие приложения доступны при входе пользователя на устройство. Однако режим киоска не является методом безопасности. Приложение "разрешено" не останавливает открытие другого приложения, которое не разрешено. Так как мы не ограничены этим поведением, приложения по-прежнему можно запускать из EDGE, проводника и приложений Microsoft Store. Если у вас есть приложения, которые вы не хотите запускать с самого киоска, используйте [поставщика службы управления приложениями для Windows (WDAC)](https://docs.microsoft.com/windows/client-management/mdm/applicationcontrol-csp) для создания соответствующих политик. 
+> 
+> Кроме того, Домашняя страница Mixed Reality не может быть настроена в качестве приложения с киосками.
 
 <a id="aumids"></a>
 
