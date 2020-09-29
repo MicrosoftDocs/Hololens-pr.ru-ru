@@ -39,6 +39,8 @@
 ## Планирование корпоративного развертывания HoloLens 2
 ### [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
 ### [Распространенные сценарии развертывания инфраструктуры](common-scenarios.md)
+## Общие сценарии
+### [Безопасная автономная работа](hololens-common-scenarios-offline-secure.md)
 ## Безопасность
 ### [Обзор системы безопасности](security-overview.md)
 ### [Architecture (Архитектура)](security-architecture.md)
