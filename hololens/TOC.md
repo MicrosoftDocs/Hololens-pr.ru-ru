@@ -87,6 +87,7 @@
 ## регистрация;
 ### [Регистрация HoloLens в MDM](hololens-enroll-mdm.md)
 ### [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) 
+### [Регистрация в среде Wi-Fi с ограниченным количеством MAC-адресов](mac-address-options.md)
 ## Приложения
 ### [Обзор управления приложениями](app-deploy-overview.md)
 ### [Intune и корпоративный портал](app-deploy-intune.md)
