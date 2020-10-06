@@ -62,6 +62,13 @@
 ## [Разблокировка функций Windows Holographic for Business](hololens1-upgrade-enterprise.md)
 
 # Настройка
+## Управление устройствами
+### [Обзор настройки CSP и управления устройством](hololens-csp-policy-overview.md)
+### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
+### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
+### [Общие ограничения устройств](hololens-common-device-restrictions.md)
+### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
+### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
 ## Удостоверение
 ### [Управление удостоверениями пользователей и входом для HoloLens](hololens-identity.md)
 ### [Предоставление доступа к HoloLens нескольким пользователям](hololens-multiple-users.md)
@@ -71,16 +78,6 @@
 ### [Подготовка сертификатов и сетевых профилей для HoloLens 2](hololens-certificates-network.md)
 ### [Управление конечными точками подключения для HoloLens](hololens-offline.md)
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
-
-
-## Управление устройствами
-### [Обзор настройки CSP и управления устройством](hololens-csp-policy-overview.md)
-### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
-### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
-### [Общие ограничения устройств](hololens-common-device-restrictions.md)
-### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
-### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
-
 
 
 # Развертывание
