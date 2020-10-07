@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: 33463685818c3e864c698160776c76ec7d8cbefd
-ms.sourcegitcommit: 9197b9d507d8b9b195bdf512d1b832888b53162d
+ms.openlocfilehash: 68e7b86259d4837be5bfa634c6ada4aa5b8006a1
+ms.sourcegitcommit: 5877c3e51de49f949b35ab840a3312a009a4487a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "10899111"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "11102348"
 ---
 # Windows Autopilot для HoloLens 2
 
@@ -199,6 +199,9 @@ ms.locfileid: "10899111"
 ## Пользовательский интерфейс Windows Autopilot для HoloLens 2
 
 После выполнения указанных выше инструкций ваши пользователи HoloLens 2 увидят следующий интерфейс для подготовки своих устройств HoloLens:  
+
+> [!NOTE]
+> Использование функции Autopilot повлияет на [владельца устройства](security-adminless-os.md#device-owner).
 
 1. Как указано, в текущем выпуске устройства должны быть подключены к Интернету перед включением HoloLens и запуском подготовки Autopilot. Подключите свое устройство в Ethernet с помощью переходников "USB-C на Ethernet" для подключения к проводному Интернету или переходников "USB-C на Wifi" для подключения к беспроводному Интернету.
    

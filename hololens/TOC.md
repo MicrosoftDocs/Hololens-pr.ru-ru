@@ -3,6 +3,7 @@
 # Обзор
 
 ## Начало работы с HoloLens2
+### [Обзор HoloLens 2](hololens2-options.md)
 ### [Оборудование HoloLens 2](hololens2-hardware.md)
 ### [Подготовка HoloLens 2 к использованию](hololens2-setup.md)
 ### [Настройка HoloLens 2](hololens2-start.md)
