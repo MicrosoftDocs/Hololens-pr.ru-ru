@@ -1,11 +1,11 @@
 ---
-title: Управление удостоверениями пользователей и входом для HoloLens
-description: Управляйте удостоверениями, безопасностью и входом в HoloLens.
-keywords: HoloLens, пользователь, учетная запись пользователя, аad, adfs, учетная запись Майкрософт, msa, credentials, reference
+title: Manage user identity and sign-in for HoloLens
+description: Manage user identity, security, and sign-in for HoloLens.
+keywords: HoloLens, user, account, aad, adfs, microsoft account, msa, credentials, reference
 ms.assetid: 728cfff2-81ce-4eb8-9aaa-0a3c3304660e
 author: scooley
 ms.author: scooley
-ms.date: 1/6/2020
+ms.date: 10/6/2020
 ms.prod: hololens
 ms.custom:
 - CI 111456
@@ -18,109 +18,109 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 17d55d8cd5540c9beaf4b7348688c362b079f5da
-ms.sourcegitcommit: ab9e70e68d546cc6965e1569e5d914995fa508da
+ms.openlocfilehash: 5963e71bd6fdd084ca442995b02d99fc40da9d43
+ms.sourcegitcommit: 5877c3e51de49f949b35ab840a3312a009a4487a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "10955451"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "11102338"
 ---
-# Управление удостоверениями пользователей и входом для HoloLens
+# Manage user identity and sign-in for HoloLens
 
 > [!NOTE]
-> Эта статья представляет собой технический справочник по ИТ-специалистам и тематическим специалистам. Если вам нужны инструкции по настройке HoloLens, прочитайте "Настройка[HoloLens (1 генер)](hololens1-start.md)" или["Настройка устройства HoloLens 2".](hololens2-start.md)
+> This article is a technical reference for IT Pros and tech enthusiasts. If you're looking for HoloLens set up instructions, read "[Setting up your HoloLens (1st gen)](hololens1-start.md)" or "[Setting up your HoloLens 2](hololens2-start.md)".
 
-Как и другие устройства с Windows, HoloLens всегда работает с контекстом пользователя. Всегда существует удостоверение пользователя. HoloLens обрабатывает удостоверения почти так же, как другие устройства с Windows 10. Эта статья является более динамическим справочным с преимуществом holoLens и знает, как holoLens отличается от holoLens от других устройств с Windows 10.
+Like other Windows devices, HoloLens always operates under a user context. There is always a user identity. HoloLens treats identity in almost the same manner as other Windows 10 devices do. This article is a deep-dive reference for identity on HoloLens, and focuses on how HoloLens differs from other Windows 10 devices.
 
-HoloLens поддерживает несколько типов удостоверений пользователей. Для входа можно использовать одну или несколько учетных записей пользователей. Вот общие сведения о типах удостоверений и параметров проверки подлинности в HoloLens:
+HoloLens supports several kinds of user identities. You can use one or more user accounts to sign in. Here's an overview of the identity types and authentication options on HoloLens:
 
-| Тип идентификатора | Учетные записи на устройство | Параметры проверки подлинности |
+| Identity type | Accounts per device | Authentication options |
 | --- | --- | --- |
-| [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/) | 64 | <ul><li>Поставщик учетных данных Azure</li><li>Приложение для проверки подлинности Azure</li><li>Только биометрическое (Iris) &ndash; HoloLens 2</li><li>&ndash;Необязательно пин-код для HoloLens (1 самое генеральный) для HoloLens 2</li><li>Пароль</li></ul> |
-| [Учетная запись Майкрософт (MSA)](https://docs.microsoft.com/windows/security/identity-protection/access-control/microsoft-accounts) | 1 | <ul><li>Только биометрическое (Iris) &ndash; HoloLens 2</li><li>&ndash;Необязательно пин-код для HoloLens (1 самое генеральный) для HoloLens 2</li><li>Пароль</li></ul> |
-| [Локальная учетная запись](https://docs.microsoft.com/windows/security/identity-protection/access-control/local-accounts) | 1 | Пароль |
+| [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/) | 64 | <ul><li>Azure web credential provider</li><li>Azure Authenticator App</li><li>Biometric (Iris) &ndash; HoloLens 2 only</li><li>PIN &ndash; Optional for HoloLens (1st gen), required for HoloLens 2</li><li>Password</li></ul> |
+| [Microsoft Account (MSA)](https://docs.microsoft.com/windows/security/identity-protection/access-control/microsoft-accounts) | 1 | <ul><li>Biometric (Iris) &ndash; HoloLens 2 only</li><li>PIN &ndash; Optional for HoloLens (1st gen), required for HoloLens 2</li><li>Password</li></ul> |
+| [Local account](https://docs.microsoft.com/windows/security/identity-protection/access-control/local-accounts) | 1 | Password |
 
-У подключенных к облачным учетным записям (AAD и MSA) предлагаются и другие возможности, так как они могут использовать службы Azure.  
+Cloud-connected accounts (AAD and MSA) offer more features because they can use Azure services.  
 
-## Настройка пользователей
+## Setting up users
 
-Наиболее распространенный способ настройки нового пользователя является взаимодействие HoloLens при невозможности использовать HoloLens. Во время установки HoloLens предлагает пользователю выполнить вход с помощью учетной записи, которую он сможет использовать на устройстве. Это может быть учетная запись Майкрософт или корпоративная учетная запись, настроенная в Azure. См. статью "Настройка [HoloLens (1-генер)](hololens1-start.md) или [HoloLens 2.](hololens2-start.md)
+The most common way to set up a new user is during the HoloLens out-of-box experience (OOBE). During setup, HoloLens prompts for a user to sign in by using the account that they want to use on the device. This account can be a consumer Microsoft account or an enterprise account that has been configured in Azure. See Setting up your [HoloLens (1st gen)](hololens1-start.md) or [HoloLens 2](hololens2-start.md).
 
-Как и другие устройства, при входе в систему на устройстве создается профиль пользователя. Приложения и данные профиля пользователя хранятся в профиле пользователя. Та же учетная запись предоставляет единый вход для приложений, таких как Microsoft Edge или Skype, с помощью API диспетчера учетных записей Windows.  
+Like Windows on other devices, signing in during setup creates a user profile on the device. The user profile stores apps and data. The same account also provides Single Sign-on for apps such as Edge or Skype by using the Windows Account Manager APIs.  
 
-Если вы используете корпоративную или учетную запись для входа в HoloLens, устройство HoloLens будет регистрироваться в ИТ-инфраструктуре организации. Эта регистрация позволяет ИТ-администратору настроить управление мобильными устройствами (MDM) для отправки политик группы в HoloLens.
+If you use an enterprise or organizational account to sign in to HoloLens, HoloLens enrolls in the organization's IT infrastructure. This enrollment allows your IT Admin to configure Mobile Device Management (MDM) to send group policies to your HoloLens.
 
-По умолчанию для других устройств с Windows 10 вам потребуется выполнить вход при перезапуске устройства holoLens или возобновлении. С помощью приложения "Параметры" можно изменить это поведение или поведение можно управлять групповой политикой.
+By default, as for other Windows 10 devices, you'll have to sign in again when HoloLens restarts or resumes from standby. You can use the Settings app to change this behavior, or the behavior can be controlled by group policy.
 
-### Связанные учетные записи
+### Linked accounts
 
-Как и в классической версии Для Windows, вы можете связать дополнительные учетные данные веб-учетной записи с учетной записью HoloLens. Такое связывание упрощает доступ к ресурсам из приложения (например, Store) или для общения доступа к личным и рабочим ресурсам. После подключения учетной записи к устройству вы сможете предоставить доступ к приложениям на устройстве, чтобы не выполнять вход в каждый из приложений по отдельности.
+As in the Desktop version of Windows, you can link additional web account credentials to your HoloLens account. Such linking makes it easier to access resources across or within apps (such as the Store) or to combine access to personal and work resources. After you connect an account to the device, you can grant permission to use the device to apps so that you don't have to sign in to each app individually.
 
-Связывание учетных записей не разделяет данные пользователя, созданные на устройстве, например изображения и загрузки.  
+Linking accounts does not separate the user data created on the device, such as images or downloads.  
 
-### Настройка поддержки нескольких пользователей (только для AAD)
+### Setting up multi-user support (AAD only)
 
-HoloLens поддерживает несколько пользователей из одного клиента AAD. Чтобы воспользоваться этой функцией, для настройки устройства необходимо использовать учетную запись, относящуюся к вашей организации. В последнем случае другие пользователи из этого того же клиента смогут входить на устройство с экрана входа или коснуться плитки пользователя на панели "Пуск". Одновременно можно выполнить вход только одного пользователя. При входе пользователя HoloLens выходит из предыдущего пользователя.  
+HoloLens supports multiple users from the same AAD tenant. To use this feature, you must use an account that belongs to your organization to set up the device. Subsequently, other users from the same tenant can sign in to the device from the sign-in screen or by tapping the user tile on the Start panel. Only one user can be signed in at a time. When a user signs in, HoloLens signs out the previous user. The first user on the device is considered the device owner, except in the case of AAD Join, [learn more about device owners](security-adminless-os.md#device-owner).
 
-Все пользователи могут использовать приложения, установленные на устройстве. Тем не менее у каждого пользователя есть собственные данные и параметры приложений. При удалении приложения с устройства оно удаляется для всех пользователей.  
+All users can use the apps installed on the device. However, each user has their own app data and preferences. Removing an app from the device removes it for all users.  
 
-На устройствах с учетными записями AAD не возможно вход в систему устройства с помощью учетной записи Майкрософт. Все последующие учетные записи должны быть учетными записями AAD из одного клиента, что и устройство. Вы по-прежнему [можете войти в систему](hololens-identity.md#setting-up-multi-user-support-aad-only) с помощью учетной записи Майкрософт, чтобы приложения, поддерживаемые ею (например, в Microsoft Store). Чтобы перейти с использованием учетных записей AAD на Учетные записи Майкрософт для входа на устройство, необходимо [отменить устройство.](hololens-recovery.md#clean-reflash-the-device)
-
-> [!NOTE]
-> **HoloLens (1 генеральный)** начало поддержки нескольких пользователей AAD в Центре обновления [Windows 10 апреля 2018](https://docs.microsoft.com/windows/mixed-reality/release-notes-april-2018) г. [в составе Windows Holographic для бизнеса.](hololens-upgrade-enterprise.md)
-
-## Удаление пользователей
-
-Чтобы удалить пользователя с устройства, откройте меню **"Параметры учетных записей"** и выберите элемент  >  **"Параметры учетных**  >  **записей".** Это действие также снимается за счет удаления всех данных приложения этого пользователя с устройства.  
-
-## Использование единый вход в приложении
-
-Разработчик приложения вы можете воспринимать связанные удостоверения в HoloLens с помощью [API](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web.Core)диспетчера учетных записей Windows точно так же, как на других устройствах с Windows. Некоторые примеры кодов для таких API доступны в образце gitHub: [управление веб-учетными записями.](https://go.microsoft.com/fwlink/p/?LinkId=620621)
-
-Любая учетная запись, которая может возникнуть, например запросить разрешение пользователя на отправку сведений об учетной записи, двухфакторную проверку подлинности и т. д., необходимо обрабатывать токен подлинности, если приложение запрашивает подлинность.
-
-Если приложению требуется учетная запись определенного типа, который еще не был связан ранее, приложение может запросить у пользователя систему, чтобы предложить пользователю добавить его. Этот запрос вызывает область параметров учетной записи, чтобы запуститься как модальный ребенок приложения. Для двухмерных приложений это окно выводится непосредственно в центре приложения. В приложениях для студентов этот запрос немного отправляет пользователю из вашего голографического приложения, чтобы обратить окно детей. Сведения о настройке команд и действий в этой области см. в [классе WebAccountCommand.](https://docs.microsoft.com/uwp/api/Windows.UI.ApplicationSettings.WebAccountCommand)
-
-## Корпоративные и другие проверки подлинности
-
-Если в вашем приложении используются другие типы проверки подлинности, например NTLM, Basic или Kerberos, можно использовать пользовательский интерфейс [учетных](https://docs.microsoft.com/uwp/api/Windows.Security.Credentials.UI) данных Windows для сбора, обработки и хранения учетных данных пользователя. Сбор этих учетных данных очень похож на другие облачные учетные записи на основе облачных хранилищ, и отображается как ребенок поверх двухмерного приложения или кратко приостанавливает приложение для внешнего доступа, чтобы показать пользовательский интерфейс.
-
-## Устаревшие API
-
-Один из способов разработки HoloLens отличается разработкой для рабочего стола, является то, что API [OnlineIDAuthenticator](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.OnlineId.OnlineIdAuthenticator) не полностью поддерживается. Хотя API возвращает маркер, если основной учетной записи хорошо подходит, его не отображает пользовательский интерфейс пользователя и не правильно проходил проверку подлинности.
-
-## Вопросы и ответы
-
-### Поддерживается ли Windows Hello для бизнеса в HoloLens (1st Gen)?
-
-Windows Hello для бизнеса (поддерживает вход с помощью ПИН-кода для входа) поддерживается для HoloLens (1 sten). Чтобы разрешить вход в Windows Hello для устройства с помощью HoloLens, выполните перечисленные ниже действия.
-
-1. Устройство HoloLens должно управлять [MDM.](hololens-enroll-mdm.md)
-1. Для устройства необходимо включить Windows Hello. [(Инструкции для Microsoft Intune см. в инструкциях для Microsoft Intune).](https://docs.microsoft.com/intune/windows-hello)
-1. В HoloLens пользователь может **Settings**настроить  >  **ПИН-адрес**с помощью параметров входа.  >  **Add PIN**
+Devices set up with AAD accounts will not allow signing in to the device with a Microsoft Account. All subsequent accounts used must be AAD accounts from the same tenant as the device. You may still [sign in using a Microsoft Account to apps](hololens-identity.md#setting-up-multi-user-support-aad-only) that support it (such as the Microsoft Store). To change from using AAD accounts to Microsoft Accounts for signing in to the device, you must [reflash the device](hololens-recovery.md#clean-reflash-the-device).
 
 > [!NOTE]
-> Пользователи, которые входили в систему с помощью учетной записи Майкрософт, также могут настроить ПИН-адрес для входа в параметры **Settings**  >  **Sign-in Options**  >  **входа.** Этот ПИН-адрес связан [с Windows Hello,](https://support.microsoft.com/help/17215/windows-10-what-is-hello)а [не Windows Hello для бизнеса.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview)
+> **HoloLens (1st gen)** began supporting multiple AAD users in the [Windows 10 April 2018 Update](https://docs.microsoft.com/windows/mixed-reality/release-notes-april-2018) as part of [Windows Holographic for Business](hololens-upgrade-enterprise.md).
 
-### Как я внедряю ли идею биометрическую проверку подлинности, внедренную в HoloLens 2?
+## Removing users
 
-HoloLens 2 поддерживает проверку подлинности Iris. Раньше основана на технологии Windows Hello и поддерживается для учетных записей Azure Active Directory и Майкрософт. Компания Iris реализует так же, как и другие технологии Windows Hello, и договорится на безопасность биометрии, повышающей безопасность позиции биометрии 1факта.
+You can remove a user from the device by going to **Settings** > **Accounts** > **Other people**. This action also reclaims space by removing all of that user's app data from the device.  
 
-Здесь вы найдете дополнительные сведения о требованиях к биометрическом управлении [бизнес-требованиями](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-biometric-requirements)и спецификациями для Windows Hello. Подробнее о [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) и [Windows Hello для бизнеса.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) 
+## Using single sign-on within an app
 
-### Как тип учетной записи влияет на поведение при входе?
+As an app developer, you can take advantage of linked identities on HoloLens by using the [Windows Account Manager APIs](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.Web.Core), just as you would on other Windows devices. Some code samples for these APIs are available on GitHub: [Web account management sample](https://go.microsoft.com/fwlink/p/?LinkId=620621).
 
-При применении политик для входа в систему политики всегда соблюдаются. Если политики для входа не применены, по умолчанию для каждого типа учетной записи используется следующие наибольшие действия:
+Any account interrupts that might occur, such as requesting user consent for account information, two-factor authentication, and so forth, must be handled when the app requests an authentication token.
 
-- **Azure AD**— по умолчанию запрашивать проверку **Settings** подлинности и настроить с помощью параметров проверку подлинности больше не требуется.
-- **Учетная запись**Майкрософт: блокировка разблокируется по-разблокированию, но проверка подлинности по-прежнему требуется для перезапуска.
-- **Локальная**учетная запись: всегда запрошать проверку в виде пароля, а не настроек в **параметрах**
+If your app requires a specific account type that hasn't been linked previously, your app can ask the system to prompt the user to add one. This request triggers the account settings pane to launch as a modal child of your app. For 2D apps, this window renders directly over the center of your app. For Unity apps, this request briefly takes the user out of your holographic app to render the child window. For information about customizing the commands and actions on this pane, see [WebAccountCommand Class](https://docs.microsoft.com/uwp/api/Windows.UI.ApplicationSettings.WebAccountCommand).
+
+## Enterprise and other authentication
+
+If your app uses other types of authentication, such as NTLM, Basic, or Kerberos, you can use [Windows Credential UI](https://docs.microsoft.com/uwp/api/Windows.Security.Credentials.UI) to collect, process, and store the user's credentials. The user experience for collecting these credentials is very similar to other cloud-driven account interrupts, and appears as a child app on top of your 2D app or briefly suspends a Unity app to show the UI.
+
+## Deprecated APIs
+
+One way in which developing for HoloLens differs from developing for Desktop is that the [OnlineIDAuthenticator](https://docs.microsoft.com/uwp/api/Windows.Security.Authentication.OnlineId.OnlineIdAuthenticator) API is not fully supported. Although the API returns a token if the primary account is in good-standing, interrupts such as those described in this article do not display any UI for the user and fail to correctly authenticate the account.
+
+## Frequently asked questions
+
+### Is Windows Hello for Business supported on HoloLens (1st Gen)?
+
+Windows Hello for Business (which supports using a PIN to sign in) is supported for HoloLens (1st Gen). To allow Windows Hello for Business PIN sign-in on HoloLens:
+
+1. The HoloLens device must be [managed by MDM](hololens-enroll-mdm.md).
+1. You must enable Windows Hello for Business for the device. ([See instructions for Microsoft Intune.](https://docs.microsoft.com/intune/windows-hello))
+1. On HoloLens, the user can then use **Settings** > **Sign-in Options** > **Add PIN** to set up a PIN.
 
 > [!NOTE]
-> В настоящее время таймеры неактивности не поддерживаются, поэтому политика **AllowIdleReturnWithoutPassword** возвращается только при переходе к StandBy.
+> Users who sign in by using a Microsoft account can also set up a PIN in **Settings** > **Sign-in Options** > **Add PIN**. This PIN is associated with [Windows Hello](https://support.microsoft.com/help/17215/windows-10-what-is-hello), rather than [Windows Hello for Business](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-overview).
 
-## Дополнительные ресурсы
+### How is Iris biometric authentication implemented on HoloLens 2?
 
-Дополнительные сведения о защите и проверке подлинности пользователей см. в [документации безопасности и удостоверений Windows 10.](https://docs.microsoft.com/windows/security/identity-protection/)
+HoloLens 2 supports Iris authentication. Iris is based on Windows Hello technology and is supported for use by both Azure Active Directory and Microsoft Accounts. Iris is implemented the same way as other Windows Hello technologies, and achieves biometrics security FAR of 1/100K.
 
-Узнайте больше о настройке гибридных удостоверений, т. е. документы, которые предлагаются [в гибридной конструкции Azure.](https://docs.microsoft.com/azure/active-directory/hybrid/)
+You can learn more about biometric requirements and specifications for Windows Hello [here](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-biometric-requirements). Learn more about [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) and [Windows Hello for Business](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification). 
+
+### How does the type of account affect sign-in behavior?
+
+If you apply policies for sign-in, the policy is always respected. If no policy for sign-in is applied, these are the default behaviors for each account type:
+
+- **Azure AD**: asks for authentication by default, and configurable by **Settings** to no longer ask for authentication.
+- **Microsoft account**: lock behavior is different allowing automatic unlock, however sign in authentication is still required on reboot.
+- **Local account**: always asks for authentication in the form of a password, not configurable in **Settings**
+
+> [!NOTE]
+> Inactivity timers are currently not supported, which means that the **AllowIdleReturnWithoutPassword** policy is only respected when the device goes into StandBy.
+
+## Additional resources
+
+Read much more about user identity protection and authentication on [the Windows 10 security and identity documentation](https://docs.microsoft.com/windows/security/identity-protection/).
+
+Learn more about setting up hybrid identity infrastructure thorough the [Azure Hybrid identity documentation](https://docs.microsoft.com/azure/active-directory/hybrid/).
