@@ -1,5 +1,5 @@
 ---
-title: Элемент управления приложением "Защитник Windows" — WDAC
+title: Управление приложениями в Защитнике Windows — WDAC
 description: Общие сведения о том, что такое WDAC и как использовать для управления устройствами HoloLens.
 ms.prod: hololens
 ms.sitesec: library
@@ -7,19 +7,19 @@ author: evmill
 ms.author: v-evmill
 ms.topic: article
 ms.localizationpriority: medium
-ms.date: 09/16/2020
+ms.date: 10/26/2020
 ms.reviewer: ''
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d1147b202d3b575fa1f2dd20f620005c786ea9fc
-ms.sourcegitcommit: 785ac6f05aecffc0f3980960891617d161711a70
+ms.openlocfilehash: dc1deb2b159d3d41b1a1f73c33f1cd44731f8e4d
+ms.sourcegitcommit: 72ae5a270f869393872eac160e43076eaa35fe4c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11016802"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11135578"
 ---
-# Элемент управления приложением "Защитник Windows" — WDAC
+# Управление приложениями в Защитнике Windows — WDAC
 
 WDAC позволяет ИТ – администратору настроить устройства таким образом, чтобы блокировать запуск приложений на устройствах. Это отличается от методов ограничения устройств, таких как режим киоска, в котором пользователь представляется в пользовательском интерфейсе, который скрывает приложения на устройстве, но и все еще может запускаться. Несмотря на то, что она реализована, приложения по-прежнему отображаются в списке "все приложения", но WDAC останавливает эти приложения и процессы от возможности его запуска пользователем.
 
@@ -46,25 +46,30 @@ Get-AppxPackage -name *edge*
 
 В руководстве, описанном выше, вы можете вручную изменить newPolicy.xml и добавить правила для приложений, которые установлены только на HoloLens с их именами семейства пакетов. Иногда есть приложения, которые вы можете использовать, а не на настольном компьютере, который вы хотите добавить к политике. 
 
-Ниже приведен список часто используемых и поблочных приложений для устройств HoloLens 2.
+Ниже приведен список часто используемых и In-Box приложений для устройств HoloLens 2.
 
 | Имя приложения                   | Имя семейства пакетов                                |
 |----------------------------|----------------------------------------------------|
-| Средство 3D-просмотра                  | Microsoft. Microsoft3DViewer_8wekyb3d8bbwe          |
-| Календарь                   | Microsoft. windowscommunicationsapps_8wekyb3d8bbwe  |
+| Средство 3D-просмотра                  | Microsoft.Microsoft3DViewer_8wekyb3d8bbwe          |
+| Установщик приложений              | Microsoft.DesktopAppInstaller_8wekyb3d8bbwe <sup> 1</sup>         |
+| Календарь                   | microsoft.windowscommunicationsapps_8wekyb3d8bbwe  |
 | Камера                     | HoloCamera_cw5n1h2txyewy                           |
-| Кортана                    | Microsoft. 549981C3F5F10_8wekyb3d8bbwe              |
-| Руководства по Dynamics 365        | Microsoft. Dynamics365. Guides_8wekyb3d8bbwe         |
-| Dynamics 365 Remote Assist | Microsoft. MicrosoftRemoteAssist_8wekyb3d8bbwe      |
-| Центр отзывов               | Microsoft. WindowsFeedbackHub_8wekyb3d8bbwe         |
+| Кортана                    | Microsoft.549981C3F5F10_8wekyb3d8bbwe              |
+| Руководства по Dynamics 365        | Microsoft.Dynamics365.Guides_8wekyb3d8bbwe         |
+| Dynamics 365 Remote Assist | Microsoft.MicrosoftRemoteAssist_8wekyb3d8bbwe      |
+| Центр отзывов               | Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe         |
 | Проводник              | c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy |
-| Mail                       | Microsoft. windowscommunicationsapps_8wekyb3d8bbwe  |
-| Microsoft Store            | Microsoft. WindowsStore_8wekyb3d8bbwe               |
-| Кино и ТВ                | Microsoft. ZuneVideo_8wekyb3d8bbwe                  |
-| OneDrive                   | Microsoft. microsoftskydrive_8wekyb3d8bbwe          |
-| Фотографии                     | Microsoft. Windows. Photos_8wekyb3d8bbwe             |
+| Mail                       | microsoft.windowscommunicationsapps_8wekyb3d8bbwe  |
+| Microsoft Store            | Microsoft.WindowsStore_8wekyb3d8bbwe               |
+| Кино и ТВ                | Microsoft.ZuneVideo_8wekyb3d8bbwe                  |
+| OneDrive                   | microsoft.microsoftskydrive_8wekyb3d8bbwe          |
+| Фотографии                     | Microsoft.Windows.Photos_8wekyb3d8bbwe             |
 | Параметры                   | HolographicSystemSettings_cw5n1h2txyewy            |
-| Советы                       | Microsoft. HoloLensTips_8wekyb3d8bbwe               |
+| Советы                       | Microsoft.HoloLensTips_8wekyb3d8bbwe               |
+
+- 1-блокирующей установщик приложения блокирует только приложение установщика приложения, а не приложения, установленные из других источников, таких как Microsoft Store или решение MDM.
+
+### Как найти имя семейства пакетов
 
 Если приложение не включено в этот список, пользователь может использовать портал устройств, подключенный к HoloLens 2, на котором установлено приложение, которое нужно заблокировать, чтобы определить PackageRelativeID и от него получится PackageFamilyName.
 
@@ -76,3 +81,22 @@ Get-AppxPackage -name *edge*
 1. Найдите PackageRelativeID. 
 1. Скопируйте символы приложения перед знаком! это будет ваша PackageFamilyName.
 
+## Пример блокировки установщика приложения
+
+В качестве примера вы можете заблокировать приложение [установщика приложений](app-deploy-app-installer.md) . В этом примере мы включили пример кода. Пожалуйста, загрузите эти [примеры кода для этого примера](https://aka.ms/HoloLensDocs-Sample-WDAC-App-Installer). В ZIP-файле, который вы найдете:
+
+| Файл | Использование |
+|-|-|
+| compiledPolicy. bin | [Созданный на этапе 9, используется на заключительном этапе 10.](https://docs.microsoft.com/mem/intune/configuration/custom-profile-hololens) |
+| mergedPolicy.xml | [Создано на этапе 6.](https://docs.microsoft.com/mem/intune/configuration/custom-profile-hololens) |
+| WDAC_Set. SyncML | Не используется в WDAC, но его можно использовать для [поставщика служб шифрования EnterpriseModernAppManagement](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp) |
+
+Если вы хотите попытаться немедленно заблокировать приложение, в этом случае это приложение для установки приложения, а затем воспользоваться файлом compiledPolicy. bin и перейти к шагу 10 в ссылке выше. Это позволит вам протестировать пользовательские политики и убедиться в том, что назначения групп и настройки политики заданы правильно. 
+
+Если вы хотите объединить политику WDAC для блокировки установщика приложений с другими приложениями из приведенного выше списка или любого другого приложения, вы можете использовать файл mergedPolicy.xml и продолжить слияние новых политик. Как указано выше политик WDAC, являются аддитивными, так что это не является обязательным. 
+
+Так как приложение установщика приложений запускается через попытку открыть файл, будет выводиться запрос. Как указано в приведенных выше приложениях, заблокированных компанией WDAC, сообщение о том, что они заблокированы, не отображается, так как пользователь пытается открыть файл на своем устройстве, но у него появляется сообщение об ошибке при открытии файла. 
+
+![Установка приложения заблокирована от WDAC](images\wdac-app-installer-no-launch.jpg)
+
+Если вы не хотите использовать WDAC, вы можете использовать для удаления средства создания установщика приложений, который является приложением, после всего, использование [криптопровайдера EnterpriseModernAppManagement](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp) . Результат заключается в том, что приложение установщика приложений будет удалено с устройства. файлы. appx,. msix,. msixbundle и другие расширения файлов, а также протокол для запуска веб-приложения больше не будут обрабатываться приложением установщика приложений. Пользователь получит запрос на поиск обработчика для расширения файла или протокола в магазине, и они не смогут найти приложение, поскольку оно не указано в списке.
