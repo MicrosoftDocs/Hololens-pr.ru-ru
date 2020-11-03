@@ -12,6 +12,8 @@
 ### [Очистка HoloLens 2, вопросы и ответы](hololens2-maintenance.md)
 ### [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md)
 ### [Начало работы с HoloLens 2](hololens2-basic-usage.md)
+### [HoloLens Development Edition: Вопросы и ответы](hololens2-development-edition-faq.md)
+
 
 ## Начало работы с HoloLens(1-е поколение)
 ### [Оборудование HoloLens (1-е поколение)](hololens1-hardware.md)
@@ -108,6 +110,7 @@
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
 ### [URI параметров страницы для HoloLens](settings-uri-list.md)
+### [Установщик приложений](app-deploy-app-installer.md)
 
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
 # [Напишите нам свой отзыв](hololens-feedback.md)
