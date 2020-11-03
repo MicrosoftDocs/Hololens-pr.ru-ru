@@ -14,29 +14,26 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 4e2256f1086c92cdf0e788ba9dddf5b74a733116
-ms.sourcegitcommit: 72ae5a270f869393872eac160e43076eaa35fe4c
+ms.openlocfilehash: 415733bb2809b7ae2808edc097423f8928910c57
+ms.sourcegitcommit: c4fd9a87bb7c728c73418f95a1b15dd93b0af7c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11135530"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "11150920"
 ---
 # Установка приложений на HoloLens 2 с помощью установщика приложений
-
-В нашем выпуске программы предварительной оценки Windows мы **добавляем новую возможность (установщик приложений), позволяющую вам более эффективно устанавливать приложения** на устройствах HoloLens 2.  Теперь вы можете устанавливать приложения, не требуя включения режима разработчика или портала устройств.  Просто загрузите пакет appx (через USB или через EDGE) на устройство и перейдите в комплект appx в проводнике, чтобы получить запрос на отключение установки.  Кроме того, можно [начать установку с веб-страницы](https://docs.microsoft.com/windows/msix/app-installer/installing-windows10-apps-web).  Точно так же, как и приложения, устанавливаемые из Microsoft Store или неопубликованного с помощью [средства](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool) развертывания бизнес-приложений для MDM, приложения должны иметь цифровую подпись на устройстве HoloLens, и [сертификат, используемый для подписания, должен быть надежным для](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool#security-considerations) того, чтобы приложение могло быть развернуто.   
-
-Это обновление выровнено по умолчанию на рабочем столе, для которого [включена поддержка корпоративных пользователей](https://blogs.windows.com/windows-insider/2019/08/07/announcing-windows-10-insider-preview-build-18956/) .
 
 > [!IMPORTANT]
 > Эта функция в настоящее время avalible только в сборках участников программы предварительной оценки Windows (19041.1377 +). [Узнайте больше о том, как зарегистрироваться в сборках для участников программы предварительной оценки Windows](hololens-insider.md).
 
-> [!NOTE]
-> Для администраторов, которые хотят отключить эту функцию, используйте следующее имя семейства пакетов в рамках [политики WDAC](windows-defender-application-control-wdac.md). Это заблокирует приложение установщика приложений, а не приложения, установленные из других источников, таких как Microsoft Store или решение MDM.
-```
-Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
-```
-> [!NOTE]
-> Рекомендуется использовать [политику WDAC](windows-defender-application-control-wdac.md) для управления приложениями, но если вы хотите разрешить доступ к приложениям Microsoft Store, устройствам, настроенным таким образом, чтобы политика [ApplicationManagement/AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps) была явно задана как "не разрешено", будет разрешено устанавливать приложения только из Microsoft Store. 
+В нашем выпуске программы предварительной оценки Windows мы **добавляем новую возможность (установщик приложений), позволяющую вам более эффективно устанавливать приложения** на устройствах HoloLens 2. Функция будет включена по **умолчанию для неуправляемых устройств**. Чтобы предотвратить перерывы в работе предприятий, в настоящее время установщик приложений будет **недоступен для управляемых устройств** .  
+
+Устройство считается "управляемым", если выполняется **одно** из следующих условий:
+- [Регистрация](hololens-enroll-mdm.md) для MDM
+- Настройка с помощью [пакета подготовки](hololens-provisioning.md)
+- [Удостоверение](hololens-identity.md) пользователя — AAD
+
+Теперь вы можете устанавливать приложения, не требуя включения режима разработчика или портала устройств.  Просто загрузите пакет appx (через USB или через EDGE) на устройство и перейдите в комплект appx в проводнике, чтобы получить запрос на отключение установки.  Кроме того, можно [начать установку с веб-страницы](https://docs.microsoft.com/windows/msix/app-installer/installing-windows10-apps-web).  Точно так же, как и приложения, устанавливаемые из Microsoft Store или неопубликованного с помощью [средства](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool) развертывания бизнес-приложений для MDM, приложения должны иметь цифровую подпись на устройстве HoloLens, и [сертификат, используемый для подписания, должен быть надежным для](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool#security-considerations) того, чтобы приложение могло быть развернуто.   
 
 ## Требования
 
@@ -60,6 +57,7 @@ Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 
 ## Способ установки
 
+1.  Убедитесь, что ваше устройство не считается управляемым.
 1.  Убедитесь, что устройство HoloLens 2 включено и вы вошли в систему.
 1.  На своем ПК перейдите в свое собственное приложение и скопируйте yourapp. appxbundle в yourdevicename\Internal Storage\Downloads. 
     После того как вы закончите копирование файла, вы можете отключить устройство и завершить установку позже.
