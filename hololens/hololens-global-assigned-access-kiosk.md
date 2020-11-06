@@ -13,12 +13,12 @@ ms.reviewer: lavinds
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 9c411811376d34b4399db76c76364cd1254910c4
-ms.sourcegitcommit: a59ce1cf68785c8e08c5ea94046ba04291ee1a55
+ms.openlocfilehash: 8777c64b4d4ca08bf3b103d7d92bbb99d6978bdc
+ms.sourcegitcommit: 4e168380c23e8463438aa8a1388baf8d5ac1a1ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "11094977"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "11154200"
 ---
 # Глобальный ограниченный доступ — терминал
 
@@ -64,3 +64,14 @@ ms.locfileid: "11094977"
 
  :::code language="xml" source="samples/exclude-device-owners-from-global.xml" highlight="6,16-18":::
  
+## Дополнительные примеры глобального ограниченного доступа
+
+Это терминал глобального ограниченного доступа, предоставляющий пользователю при входе мультипрограммный терминал с приложением для настройки, центром отзывов и предложений, а также браузером Edge.
+
+:::code language="xml" source="samples/kiosk-sample-global-assigned-access.xml":::
+
+Это терминал глобального ограниченного доступа, в который не включен владелец устройства; при входе другого пользователя AAD в систему ему предоставляется мультипрограммный терминал с приложением для настройки, центром отзывов и предложений, а также браузером Edge. В этом терминале также есть вспомогательная конфигурация для гостевой учетной записи, в которую с экрана блокировки может войти любой пользователь. Когда пользователь входит в гостевую учетную запись, ему будет предоставлен мультипрограммный терминал, в котором есть только приложение центра отзывов и предложений.
+
+:::code language="xml" source="samples/kiosk-sample-global-assigned-access-visitor-exclude.xml":::
+
+
