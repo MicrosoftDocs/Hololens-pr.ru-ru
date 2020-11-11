@@ -10,18 +10,18 @@ ms.custom:
 - CI 115190
 - CSSTroubleshooting
 ms.localizationpriority: medium
-ms.date: 03/10/2020
+ms.date: 10/13/2020
 ms.reviewer: Teresa-Motiv
 manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: c10f07a6caeae6f2e8ace41d345c3ad11901621a
-ms.sourcegitcommit: 89ce6cdc0fc6d70a88217791c5f6d613778af614
+ms.openlocfilehash: f6b715a6a43a403ec56119188db0121e0731af37
+ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11052648"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11162990"
 ---
 # Настройка HoloLens с помощью пакета подготовки
 
@@ -88,12 +88,12 @@ ms.locfileid: "11052648"
 ### Настройка параметров
 
 <table>
-<tr><td style="width:45%" valign="top"><a id="one"></a><img src="images/one.png" alt="step one"/><img src="images/set-up-device.png" alt="set up device"/></br></br>Найдите и выберите файл корпоративной лицензии, чтобы обновить версию HoloLens.</br></br>Вы также можете включить параметр <strong> "Да" </strong> или "нет" <strong> </strong> , чтобы скрыть части первого интерфейса.</br></br>Чтобы настроить устройство, не подключаясь к сети Wi-Fi, установите переключатель <strong> пропустить настройку Wi-Fi в положение </strong> <strong> вкл </strong> .</br></br>Выберите регион и часовой пояс, в котором будет использоваться устройство. </td><td><img src="images/set-up-device-details.png" alt="Select enterprise licence file and configure OOBE"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="one"></a><img src="images/one.png" alt="step one"/><img src="images/set-up-device.png" alt="set up device"/></br></br>Найдите и выберите файл корпоративной лицензии, чтобы обновить версию HoloLens.</br></br>Вы также можете включить параметр <strong> "Да" </strong> или "нет" <strong> </strong> , чтобы скрыть части первого интерфейса.</br></br>Чтобы настроить устройство, не подключаясь к сети Wi-Fi, установите переключатель <strong> пропустить Wi-Fi установки в положение </strong> <strong> вкл </strong> .</br></br>Выберите регион и часовой пояс, в котором будет использоваться устройство. </td><td><img src="images/set-up-device-details.png" alt="Select enterprise licence file and configure OOBE"/></td></tr>
 <tr><td style="width:45%" valign="top"><a id="two"></a><img src="images/two.png" alt="step two"/>  <img src="images/set-up-network.png" alt="set up network"/></br></br>В этом разделе вы можете ввести сведения о беспроводной сети Wi-Fi, к которой устройство должно подключаться автоматически. Для этого выберите <strong> параметр Вкл. </strong> , введите SSID, тип сети ( <strong> Open </strong> или <strong> WPA2-личное </strong> ) и (если <strong> WPA2-личное </strong> ) пароль для беспроводной сети.</td><td><img src="images/set-up-network-details-desktop.png" alt="Enter network SSID and type"/></td></tr>
 <tr><td style="width:45%" valign="top"><a id="three"></a><img src="images/three.png" alt="step three"/>  <img src="images/account-management.png" alt="account management"/></br></br>Вы можете зарегистрировать устройство в Azure Active Directory или создать на нем локальную учетную запись.</br></br>Прежде чем использовать мастер конструктора конфигураций Windows для настройки массовой регистрации в Azure AD, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">настройте присоединение к Azure AD в вашей организации</a>. Параметр <strong>Максимальное количество устройств на одного пользователя</strong> в клиенте Azure AD определяет, сколько раз можно использовать массовый маркер, полученный в мастере. Для регистрации устройства в Azure AD, выберите соответствующий вариант и введите понятное имя для массового маркера, полученного с помощью мастера. Задайте дату окончания срока действия маркера (максимальное значение — 30 дней с даты получения маркера). Выберите пункт <strong> получить массовый маркер </strong> . В <strong> окне Let&#39;s Войдите в систему </strong> , введите учетную запись с разрешениями присоединиться к устройству для Azure AD, а затем пароль. Нажмите кнопку " <strong> применить </strong> ", чтобы предоставить конструктору конфигураций Windows необходимые разрешения. </br></br>Чтобы создать локальную учетную запись, выберите этот параметр и введите имя пользователя и пароль. </br></br><strong>Внимание!</strong> <br />(Только для Windows 10 версии 1607) Если вы создаете локальную учетную запись в пакете подготовки, вы должны изменить пароль, используя <strong> приложение параметров </strong> каждые 42 дней. Если пароль не меняется в течение этого периода, учетная запись может быть заблокирована и стать недоступной для входа.  </td><td><img src="images/account-management-details.png" alt="join  Azure AD or create a local  account"/></td></tr>
 <tr><td style="width:45%" valign="top"><a id="four"></a><img src="images/four.png" alt="step four"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>Для подготовки устройства с сертификатом щелкните <strong>Добавление сертификата</strong>. Введите имя сертификата, а затем найдите и выберите сертификат для использования.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
 <tr><td style="width:45%" valign="top"><a id="five"></a><img src="images/five.png" alt="step five"/> <img src="images/developer-setup.png" alt="Developer Setup"/></br></br><strong>Установите переключатель Да </strong> или <strong> нет </strong> , чтобы включить режим разработчика на HoloLens. <a href="https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development#developer-mode" data-raw-source="[Learn more about Developer Mode.](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development#developer-mode)">Подробнее о режиме разработчика.</a></td><td><img src="images/developer-setup-details.png" alt="Enable Developer Mode"/></td></tr>
-<tr><td style="width:45%" valign="top"><a id="six"></a><img src="images/six.png" alt="step six"/> <img src="images/finish.png" alt="finish"/></br></br>Не устанавливайте пароль для защиты пакета подготовки. Если пакет подготовки защищен паролем, подготовка устройства HoloLens завершается сбоем.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="six"></a><img src="images/six.png" alt="step six"/> <img src="images/finish.png" alt="finished"/></br></br>Не устанавливайте пароль для защиты пакета подготовки. Если пакет подготовки защищен паролем, подготовка устройства HoloLens завершается сбоем.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
 Завершив настройку, нажмите кнопку **создать**. Это займет несколько секунд. После построения пакета расположение, в котором хранится пакет, отображается как гиперссылка в нижней части страницы.
@@ -152,7 +152,13 @@ ms.locfileid: "11052648"
 
 ## Применение пакета подготовки к HoloLens во время настройки
 
-Устройства HoloLens 2 в сборке [19041,1103](hololens-release-notes.md#windows-holographic-version-2004) или более поздней версии могут использовать USB-накопитель для применения пакета подготовки. Просто скопируйте файл ppkg в корневой каталог USB-накопителя. Пакеты подготовки будут применены только в том случае, если они находятся в корневом каталоге USB-накопителя. Несколько пакетов подготовки будут применены последовательно.
+Устройства HoloLens 2 в Windows holographic, версия 2004 или сборка [19041,1103](hololens-release-notes.md#windows-holographic-version-2004) или более поздней версии, могут использовать USB-накопитель для применения пакета подготовки. Просто скопируйте файл ppkg в корневой каталог USB-накопителя. Пакеты подготовки будут применены только в том случае, если они находятся в корневом каталоге USB-накопителя. Несколько пакетов подготовки будут применены последовательно.
+
+Устройства HoloLens 2 в [Windows holographic 20H2](hololens-release-notes.md#windows-holographic-version-20h2) или более поздней версии обладают более новыми возможностями для упрощения и упрощения этого процесса, что делает его автоматическим. Пожалуйста, ознакомьтесь со следующими разделами:
+
+- [Подготовка автоматического запуска с USB](hololens-provisioning.md#auto-launch-provisioning-from-usb)
+- [Автоматическое подтверждение пакетов подготовки в OOBE](hololens-provisioning.md#auto-confirm-provisioning-packages-in-oobe)
+- [Автоматическая подготовка без использования пользовательского интерфейса](hololens-provisioning.md#automatic-provisioning-without-using-ui)
 
 1. С помощью USB-кабеля подключите устройство к компьютеру (или USB-диску для HoloLens 2, как описано выше) и запустите устройство. Не продолжайте пользоваться **первой просматриваемой** страницей Oobe.   
     - Для HoloLens (1-го поколения) Эта страница имеет синюю рамку. 
@@ -172,6 +178,39 @@ ms.locfileid: "11052648"
 
 > [!NOTE]
 > Если устройство было приобретено до августа 2016, вам необходимо войти в систему с помощью учетной записи Майкрософт, получить Последнее обновление операционной системы, а затем сбросить операционную систему, чтобы применить пакет подготовки.
+
+### Подготовка автоматического запуска с USB
+
+- Автоматизированные процессы, позволяющие уменьшить вмешательство пользователя, когда в OOBE используются диски USB с пакетами подготовки.
+
+Перед тем, как пользователи этого выпуска запустят экран подготовки вручную во время подготовки OOBE с помощью сочетания кнопок. Теперь пользователи могут пропустить сочетание кнопок, используя пакет подготовки на USB-накопителе. 
+
+1. Подключите USB-накопитель к пакету подготовки во время первого взаимодействия с помощью OOBE.
+1. Когда устройство будет готово к подготовке, оно автоматически откроется на странице подготовки. 
+
+Примечание. Если USB-накопитель подключен к сети при загрузке устройства, OOBE выполнит перечисление USB-устройств хранения данных, а также смотреть дополнительные устройства, которые подключены к сети.
+
+Дополнительные сведения о том, как применять пакеты подготовки к просмотру во время OOBE, можно прочитать [здесь](hololens-provisioning.md#apply-a-provisioning-package-to-hololens-during-setup).
+
+### Автоматическое подтверждение пакетов подготовки в OOBE
+- Автоматическая процедура, позволяющая уменьшить вмешательство пользователя, при отображении страницы пакета подготовки будет автоматически применены все перечисленные пакеты.
+
+При появлении основного экрана подготовки к работе OOBE будет вычислено на 10 секунд, прежде чем автоматически начать применять все пакеты подготовки. Пользователи по-прежнему могут подтвердить или отменить его в течение 10 секунд после проверки необходимых для них пакетов.
+
+### Автоматическая подготовка без использования пользовательского интерфейса
+- Объединенные автоматические процессы для взаимодействия устройств для подготовки. 
+
+Объединяя автоматическое развертывание с USB-устройств и автоматически выполняя подтверждение пакетов подготовки, пользователь может автоматически подготавливать устройства HoloLens 2, не используя пользовательский интерфейс устройства или даже надето устройство. Вы можете продолжать использовать один и тот же USB-накопитель и пакет подготовки для нескольких устройств. Это полезно при развертывании нескольких устройств одновременно в одной области. 
+
+1. [Создание пакета подготовки](hololens-provisioning.md) с помощью [конструктора конфигураций Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22). 
+1. Скопируйте пакет на USB-устройство хранения данных.
+1. Поставьте [на устройство HoloLens 2](hololens-insider.md#ffu-download-and-flash-directions) в [19041,1361 или более новую сборку](https://aka.ms/hololens2previewdownload). 
+1. После завершения работы [расширенного помощника по восстановлению](https://www.microsoft.com/store/productId/9P74Z35SFRS8) устройство не подключается к разъему USB-C. 
+1. Подключите USB-накопитель к устройству.
+1. Когда устройство HoloLens 2 загрузится в OOBE, оно автоматически обнаружит пакет подготовки на USB-накопителе и запустит страницу подготовки.
+1. После 10 секунд устройство будет автоматически применять пакет подготовки. 
+
+Ваше устройство настроено, и на нем будет отображено окно подготовки к работе.
 
 ## Применение пакета подготовки к HoloLens после настройки
 

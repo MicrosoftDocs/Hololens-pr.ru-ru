@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: e1302a3d482648b1ebbf7fee71ceec3ca4261d23
-ms.sourcegitcommit: 87d503434339fc6c9b41aa9473e35ddfde845cac
+ms.openlocfilehash: b0a068bb50d033544b4bf44100d005dfedc1d94d
+ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "11120150"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11162944"
 ---
 # Сбор и использование сведений диагностики с устройств HoloLens
 
@@ -123,9 +123,17 @@ ms.locfileid: "11120150"
 Это происходит, когда устройство появляется в проводнике после его подключения к компьютеру с помощью USB-кабеля. 
 
 > [!NOTE]
-> Автономная диагностика доступна только в том случае, если пользователь проходит через OOBE или [System\AllowTelemetry](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry) , для которого установлено значение Full (Basic — значение по умолчанию для Hololens). 
+> Создание автономной диагностики и управление ими управляются по-разному в зависимости от версии операционной системы. Ранее оно управлялось параметром телеметрии, но теперь прямо управляется с помощью политики. 
 
-Если устройство заблокировано, журналы не отображаются. Чтобы отключить диагностику в автономном режиме, перейдите в **приложение параметры > страницу конфиденциальность** и выберите **базовый** в **диагностических данных**. В сборках, в которых диагностика автономной проверки зависит от настройки телеметрии, она влияет только на сбор журналов. Это не влияет на собираемые файлы.
+Действия до [Windows holographic, Verison 20H2](hololens-release-notes.md#windows-holographic-version-20h2):
+ - Автономная диагностика доступна только в том случае, если пользователь проходит через OOBE или [System\AllowTelemetry](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry) , для которого установлено значение Full (Basic — значение по умолчанию для HoloLens). 
+- Чтобы отключить диагностику в автономном режиме, перейдите в **приложение параметры > страницу конфиденциальность** и выберите **базовый** в **диагностических данных**. В сборках, в которых диагностика автономной проверки зависит от настройки телеметрии, она влияет только на сбор журналов. Это не влияет на собираемые файлы.
+- Если устройство заблокировано, журналы не отображаются.
+
+В сборках [Windows holographic, Verison 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и далее.
+- Если резервная диагностика включена, она будет управляться определенной политикой MDM с соответствующим параметром [MixedReality/FallbackDiagnostics](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mixedreality#mixedreality-fallbackdiagnostics)
+- Если устройство заблокировано, журналы не отображаются.
+
 
 Просмотрите это видео, чтобы узнать больше. 
 
