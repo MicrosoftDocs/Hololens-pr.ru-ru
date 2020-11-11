@@ -71,7 +71,9 @@
 ### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
 ### [Общие ограничения устройств](hololens-common-device-restrictions.md)
 ### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
+### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
 ### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
+### [CSP и URI параметров страницы для HoloLens](settings-uri-list.md)
 ## Удостоверение
 ### [Управление удостоверениями пользователей и входом для HoloLens](hololens-identity.md)
 ### [Предоставление доступа к HoloLens нескольким пользователям](hololens-multiple-users.md)
@@ -81,7 +83,7 @@
 ### [Подготовка сертификатов и сетевых профилей для HoloLens 2](hololens-certificates-network.md)
 ### [Управление конечными точками подключения для HoloLens](hololens-offline.md)
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
-
+## [Диспетчер сертификатов](certificate-manager.md)
 
 # Развертывание
 ## регистрация;
@@ -107,10 +109,8 @@
 
 # Заметки о выпуске HoloLens
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
-## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
-### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
-### [URI параметров страницы для HoloLens](settings-uri-list.md)
+## [Предварительная версия для Microsoft HoloLens](hololens-insider.md)
 ### [Установщик приложений](app-deploy-app-installer.md)
-
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
+
 # [Напишите нам свой отзыв](hololens-feedback.md)

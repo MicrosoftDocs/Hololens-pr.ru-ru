@@ -8,7 +8,7 @@ ms.author: v-tea
 audience: ITPro
 ms.topic: article
 ms.localizationpriority: high
-ms.date: 07/09/2020
+ms.date: 10/13/2020
 ms.reviewer: jarrettr
 manager: jarrettr
 ms.custom:
@@ -16,12 +16,12 @@ ms.custom:
 - CI 115825
 - CI 111456
 - CSSTroubleshooting
-ms.openlocfilehash: 384d33e72effd298e1874e5723e9c418061c3287
-ms.sourcegitcommit: 0d4e67d8e21d34885e0eaee08646e28426c4f641
+ms.openlocfilehash: 3a2246296c5ab8aa86dfaa419ed02aa5a961dbfc
+ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "10861912"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11163130"
 ---
 # Управление обновлениями HoloLens
 
@@ -76,6 +76,21 @@ Windows Holographic for Business может использовать [Центр
   - Значения: 0–23 (0 = полночь, 23 = 23:00)
   - Значение по умолчанию: 15:00
 
+#### Настройка периода активности
+В [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и более поздних версий ИТ-администратор может указывать диапазон периода активности для устройств HoloLens 2.
+
+Период активности— это время предполагаемого использования устройства. Автоматический запуск после установки обновления будет производиться вне периода активности. Указанный диапазон отсчитывается от начала периода активности. Можно использовать MDM в соответствии с описанием в статье [Настройка периода активности с помощью MDM](https://docs.microsoft.com/windows/deployment/update/waas-restart#configuring-active-hours-with-mdm). MDM использует параметры Update/ActiveHoursStart, Update/ActiveHoursEnd и Update/ActiveHoursMaxRange в CSP политики для настройки периода активности.
+
+-   [Update/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend) — это значение времени окончания. Оно может отстоять от времени начала не более чем на 12 часов.
+    -   Допустимые значения: 0–23, где 0 — полночь, 1 — 01:00 и так далее.
+    -   Значение по умолчанию — 17 (17:00).
+-   [Update/ActiveHoursMaxRange](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange) — это значение максимальной длительности периода активности.
+    -   Допустимые значения: 8–18.
+    -   Значение по умолчанию: 18 (часов).
+-   [Update/ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart) — это значение времени начала. Оно может отстоять от времени окончания не более чем на 12 часов.
+    -   Допустимые значения: 0–23, где 0 — полночь, 1 — 01:00 и так далее.
+    -   Значение по умолчанию: 8 (8:00).
+
 #### Только для устройств под управлением Windows 10 версии 1607
 
 Можно использовать следующие политики обновления, чтобы получать обновления из службы Windows Server Update Service (WSUS) вместо Центра обновления Windows:
@@ -117,7 +132,16 @@ HoloLens 2 поддерживает больше возможностей авт
 |Обновления компонентов |DeferFeatureUpdatesPeriodInDays |365 дней |
 |Исправления |DeferQualityUpdatesPeriodInDays |30 дней |
 
-#### Функции управления обновлениями Intune, поддерживаемые HoloLens
+#### Приостановка обновлений с помощью устройства
+
+Если у пользователя нет доступа к MDM, то пользователь может индивидуально приостановить обновления на срок до 35 дней для устройства HoloLens 2, использующего программное обеспечение [Windows Holographic версии 2004](hololens-release-notes.md#windows-holographic-version-2004) или более поздней. Пользователи могут открыть эту настройку, выбрав **Параметры -> Обновления и безопасность -> Дополнительные параметры**, прокрутив вниз до раздела **Приостановка обновлений** и выбрав дату, до которой следует приостановить обновления. После достижения предельной длительности приостановки потребуется установить обновления на устройство, после чего можно будет снова приостановить обновления. 
+
+В [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и в более поздних версиях можно управлять этой функцией приостановки обновлений для устройств HoloLens 2. 
+- [Update/SetDisablePauseUXAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess).
+    - 0 (по умолчанию) — включено
+    - 1 — отключено
+
+#### Функции управления обновлениями Intune, поддерживаемые для HoloLens
 
 Для управления обновлениями HoloLens можно использовать следующие функции управления обновлениями Intune.
 

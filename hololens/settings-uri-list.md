@@ -3,7 +3,7 @@ title: Видимость параметров страницы
 description: Список поддерживаемых HoloLens URI для PageVisibilityList и руководство
 author: evmill
 ms.author: v-evmill
-ms.date: 09/16/2020
+ms.date: 10/13/2020
 ms.topic: article
 keywords: hololens, hololens 2, ограниченный доступ, терминал, страница параметров
 ms.prod: hololens
@@ -13,19 +13,19 @@ ms.reviewer: widuff
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7a24d64b0b60be9f922260b7145d04c2c13951ed
-ms.sourcegitcommit: 8b5e349990ba5566bcc6a2a72ff83d1a21b099b8
+ms.openlocfilehash: 8cd336ce64cf7d4549b031a7977f592ca82dd6e4
+ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11026942"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "11163144"
 ---
 # Видимость параметров страницы
 
 Одной из управляемых функций для устройств HoloLens является использование [политики Settings/PageVisibilityList](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist), чтобы ограничивать страницы, отображаемые в приложении "Параметры". PageVisibilityList — это политика, позволяющая ИТ-администраторам запрещать отображение или открытие определенных страниц в приложении "Параметры системы" или наоборот — выполнять это для всех страниц, кроме указанных. 
 
-> [!IMPORTANT]
-> Эта функция в настоящее время доступна только в [сборках участников программы предварительной оценки Windows](hololens-insider.md). Убедитесь, что на устройствах, для которых вы собираетесь ее использовать, установлена сборка 19041.1349 или более поздняя.
+> [!NOTE]
+> Эта функция доступна только в [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) для устройств HoloLens 2. Обновите устройства, для которых вы собираетесь ее использовать.
 
 В примере ниже показана политика, разрешающая доступ только к страницам сведений и Bluetooth с URI "ms-settings:network-wifi" и "ms-settings:bluetooth" соответственно:
 - showonly:network-wifi;network-proxy;bluetooth
