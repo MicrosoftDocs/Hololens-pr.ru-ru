@@ -12,7 +12,7 @@
 ### [Очистка HoloLens 2, вопросы и ответы](hololens2-maintenance.md)
 ### [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md)
 ### [Начало работы с HoloLens 2](hololens2-basic-usage.md)
-### [HoloLens Development Edition: Вопросы и ответы](hololens2-development-edition-faq.md)
+### [Вопросы и ответы о HoloLens 2 Development Edition](hololens2-development-edition-faq.md)
 
 
 ## Начало работы с HoloLens(1-е поколение)
