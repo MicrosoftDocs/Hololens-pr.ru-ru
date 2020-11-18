@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: be9da0ec2f301705a0691bcfc9dcf9d75eac8922
-ms.sourcegitcommit: cfbcdf562f949eef9cd797bbb08dfdf9f29e8fcd
+ms.openlocfilehash: 429f955777eae5cbe94c710ca4c17e03091fb99e
+ms.sourcegitcommit: 307e313f05243b6d94f9bfc0cb4e316a00a8005c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "11168550"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "11176901"
 ---
 # Windows Autopilot для HoloLens 2
 
@@ -325,8 +325,8 @@ ms.locfileid: "11168550"
 
 ## Известные проблемы
 
-- Экземпляр приложения, основанный на контексте устройства и настроенный в Intune, не работает.
-- При настройке Autopilot через Wi-Fi профиль Autopilot может не загрузиться при первом подключении к Интернету, когда отображается лицензионное соглашение и у пользователя есть возможность выполнить настройку без Autopilot. Чтобы повторно выполнить настройку с помощью Autopilot, либо переведите устройство в спящий режим и затем включите, либо перезагрузите устройство и попробуйте еще раз.
+- Экземпляр приложения, основанный на контексте устройства и настроенный в Intune, не работает. [Дополнительные сведения об установках в контексте устройства и контексте пользователя.](https://docs.microsoft.com/mem/intune/apps/apps-windows-10-app-deploy#install-apps-on-windows-10-devices)
+-   При настройке Autopilot по Wi-Fi может возникнуть ситуация, при которой профиль Autopilot не скачивается при первом подключении к Интернету. В этом случае демонстрируется лицензионное соглашение (EULA), и у пользователя есть возможность продолжить настройку без использования Autopilot. Чтобы повторно выполнить настройку с помощью Autopilot, либо переведите устройство в спящий режим и затем включите, либо перезагрузите устройство и попробуйте еще раз.
 
 ### Поиск и устранение неисправностей
 
