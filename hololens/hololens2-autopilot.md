@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: 5090a433b3d06e92cd36bdadbfbae3758432bb41
-ms.sourcegitcommit: 8656379a4871e118b9e06e72eab1dbcc8eb3cd42
+ms.openlocfilehash: f5405e0ae5096d23b791f18f04b842b2a577a9d5
+ms.sourcegitcommit: c77b2704e87f13b8513d198ce7df7dc0da6075b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "11182450"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "11192449"
 ---
 # Windows Autopilot для HoloLens 2
 
@@ -223,10 +223,7 @@ ms.locfileid: "11182450"
     
     - Чтобы воспользоваться беспроводным подключением к Интернету, подключите устройство к беспроводной сети с помощью адаптера USB-C — Wi-Fi. Дождитесь автоматической настройки Autopilot в HoloLens 2.
 
-       > [!NOTE]
-       > Использование Autopilot повлияет на [владельца устройства](security-adminless-os.md#device-owner).
-   
-       > [!IMPORTANT]  
+        > [!IMPORTANT]  
        > На устройствах, пытающихся использовать сети Wi-Fi в OOBE для Autopilot, должно быть установлено программное обеспечение [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2).
        >
        > Если устройство использует адаптер Ethernet, необходимо подключить такое устройство к сети перед первым запуском в режиме OOBE. На первом экране OOBE устройство определяет, выполняется ли подготовка в качестве устройства Autopilot. Если устройство не может подключиться к сети или вы решили не подготавливать его в качестве устройства Autopilot, вы не сможете в дальнейшем выбрать подготовку Autopilot. Вместо этого вам потребуется заново начать эту процедуру, чтобы подготовить устройство в качестве устройства Autopilot.
