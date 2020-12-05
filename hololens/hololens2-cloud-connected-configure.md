@@ -1,0 +1,62 @@
+---
+title: 'Руководство по развертыванию: Облако подключено к HoloLens 2 при масштабировании с помощью удаленной помощи-Настройка'
+description: Настройка конфигурации для регистрации устройств HoloLens в сети, подключенной к облаку
+keywords: HoloLens, управление, Облако подключено, Remote Assist, AAD, Azure AD, MDM, управление мобильными устройствами
+author: evmill
+ms.author: v-evmill
+ms.reviewer: aboeger
+ms.date: 12/04/2020
+ms.prod: hololens
+ms.topic: article
+ms.sitesec: library
+ms.localizationpriority: medium
+audience: HoloLens
+manager: yannisle
+appliesto:
+- HoloLens 2
+ms.openlocfilehash: 43b9db96a2c29d1e3a798d0c695ab6edaa8199ac
+ms.sourcegitcommit: 8e2c268733adce2662bf320cf96ccfea5919425e
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11196365"
+---
+# <span data-ttu-id="49f26-104">Настройка — руководство по облачному подключению</span><span class="sxs-lookup"><span data-stu-id="49f26-104">Configure - Cloud connected Guide</span></span>
+
+<span data-ttu-id="49f26-105">В этом разделе руководства мы&#39;все, как настроить автоматическую регистрацию для клиента, а также как применять лицензии для Intune и Remote Assist.</span><span class="sxs-lookup"><span data-stu-id="49f26-105">In this section of the guide we&#39;ll go over how to set up Auto Enrollment for your tenant, and how to apply licenses for both Intune and Remote Assist.</span></span>
+
+## <span data-ttu-id="49f26-106">Пользователи и группы Azure</span><span class="sxs-lookup"><span data-stu-id="49f26-106">Azure Users and Groups</span></span>
+
+<span data-ttu-id="49f26-107">Azure и Intune по этому расширению используют пользователей и группы для назначения конфигураций и лицензий.</span><span class="sxs-lookup"><span data-stu-id="49f26-107">Azure, and Intune by that extension, uses users and groups to help assign configurations and licenses.</span></span> <span data-ttu-id="49f26-108">Для проверки подлинности этого потока развертывания и последующего вызова удаленной помощи от одного пользователя другому вы&#39;вам понадобятся 2 учетные записи пользователей.</span><span class="sxs-lookup"><span data-stu-id="49f26-108">For the sake of validating this deployment flow and being able to make a Remote Assist call from one user to another you&#39;ll need 2 user accounts.</span></span>
+
+<span data-ttu-id="49f26-109">Вы можете создать отдельную группу пользователей для назначения лицензий.</span><span class="sxs-lookup"><span data-stu-id="49f26-109">We can make a single user group for the purpose of assigning licenses.</span></span> <span data-ttu-id="49f26-110">Мы можем присоединить пользователей к одной группе и применить лицензию для Intune и удаленного помощника для этой группы.</span><span class="sxs-lookup"><span data-stu-id="49f26-110">We can join both users to the same group and apply a license for Intune and Remote Assist to that group.</span></span>
+
+<span data-ttu-id="49f26-111">Если у вас&#39;уже есть доступ к двум учетным записям AAD в группе пользователей, вы можете использовать их. Ниже приведены краткие руководства по началу работы.</span><span class="sxs-lookup"><span data-stu-id="49f26-111">If you don&#39;t already have access to two AAD accounts in a user group you can use; here are the quick start guides for:</span></span>
+
+- [<span data-ttu-id="49f26-112">Создание пользователя</span><span class="sxs-lookup"><span data-stu-id="49f26-112">How to create a user</span></span>](https://docs.microsoft.com/mem/intune/fundamentals/quickstart-create-user)
+- [<span data-ttu-id="49f26-113">Создание группы</span><span class="sxs-lookup"><span data-stu-id="49f26-113">How to create a group</span></span>](https://docs.microsoft.com/mem/intune/fundamentals/quickstart-create-group)
+- <span data-ttu-id="49f26-114">[Добавление пользователей в группу](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal) — Добавление новых пользователей для создания группы</span><span class="sxs-lookup"><span data-stu-id="49f26-114">[Add users to a group](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal) – Add created users to create group</span></span>
+- <span data-ttu-id="49f26-115">[Настройка AAD для предоставления доступа к устройствам группе пользователей](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#configure-your-device-settings) — убедитесь, что у новой группы пользователей есть разрешение на регистрацию устройств в AAD.</span><span class="sxs-lookup"><span data-stu-id="49f26-115">[Configure AAD to allow a User Group to join devices](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#configure-your-device-settings) – Ensure new user group has permission to enroll devices to AAD</span></span>
+
+## <span data-ttu-id="49f26-116">Автоматическая подача заявки на HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="49f26-116">Auto Enrollment on HoloLens 2</span></span>
+
+<span data-ttu-id="49f26-117">Чтобы обеспечить плавный и простой интерфейс, настройте присоединение Azure Active Directory (AADJ) и автоматическую регистрацию в Intune для устройств HoloLens 2.</span><span class="sxs-lookup"><span data-stu-id="49f26-117">In order to have a smooth and seamless experience, setting up Azure Active Directory Join (AADJ) and Auto Enrollment to Intune for HoloLens 2 devices is the way to go.</span></span> <span data-ttu-id="49f26-118">Это позволит пользователям просто вводить учетные данные для входа в систему во время OOBE и автоматически зарегистрироваться в AAD и зарегистрировать устройство в MDM.</span><span class="sxs-lookup"><span data-stu-id="49f26-118">This will allow users to simply input their organization log-in credentials during OOBE and automatically register with AAD and enroll the device into MDM.</span></span>
+
+<span data-ttu-id="49f26-119">С помощью [диспетчера конечных точек Microsoft](https://endpoint.microsoft.com/#home) вы можете выбрать службы и перейти на несколько страниц, пока не сможете выбрать команду получить продленную пробную версию.</span><span class="sxs-lookup"><span data-stu-id="49f26-119">By using [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home) we can select services and navigate a few pages until we can select Get a Premium trial.</span></span> <span data-ttu-id="49f26-120">Вы много заметите, что у вас есть служба Azure Active Directory Premium 1 и 2, для автоматической регистрации P1 достаточно.</span><span class="sxs-lookup"><span data-stu-id="49f26-120">You many notice there is Azure Active Directory Premium 1 and 2, for Automatic Enrollment P1 is sufficient.</span></span> <span data-ttu-id="49f26-121">Мы можем выбрать Intune и выбрать область пользователя для автоматической регистрации и выбрать группу, которая была создана ранее.</span><span class="sxs-lookup"><span data-stu-id="49f26-121">We can select Intune and select the user scope for automatic enrollment, and select the group that was previously created.</span></span>
+
+<span data-ttu-id="49f26-122">Для получения подробных сведений о [том, как включить автоматическую регистрацию для Intune](https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment), читайте в руководстве.</span><span class="sxs-lookup"><span data-stu-id="49f26-122">For full details and steps please read the guide on [how to enable auto enrollment for Intune](https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment).</span></span>
+
+## <span data-ttu-id="49f26-123">Лицензии на приложения</span><span class="sxs-lookup"><span data-stu-id="49f26-123">Application Licenses</span></span>
+
+<span data-ttu-id="49f26-124">Лицензия на приложение позволяет пользователю либо установить приобретенные приложения компании, либо перейти с бесплатной пробной версии на полную версию приложения.</span><span class="sxs-lookup"><span data-stu-id="49f26-124">An application license allows a user to either install company purchased Apps or upgrade from a free trial to the full version of an app.</span></span> <span data-ttu-id="49f26-125">Лицензии на приложения можно применять как для пользователей, так и для групп пользователей, так и для групп устройств.</span><span class="sxs-lookup"><span data-stu-id="49f26-125">Application licenses can be applied to either users, user groups, or device groups.</span></span> <span data-ttu-id="49f26-126">Для того чтобы использовать удаленную помощь, вы&#39;, что для пользователей в вашей организации вам понадобятся лицензии удаленного помощника.</span><span class="sxs-lookup"><span data-stu-id="49f26-126">You&#39;ll need Remote Assist licenses for users in your organization to use Remote Assist.</span></span> <span data-ttu-id="49f26-127">В рамках данного руководства мы назначаем лицензии на удаленную помощь группе пользователей, созданной выше в разделе [Пользователи и группы Azure](hololens2-cloud-connected-configure.md#azure-users-and-groups).</span><span class="sxs-lookup"><span data-stu-id="49f26-127">For the purpose of this guide we'll assign Remote Assist licenses to the user group we created above in [Azure Users and Groups](hololens2-cloud-connected-configure.md#azure-users-and-groups).</span></span>
+
+<span data-ttu-id="49f26-128">Требования к лицензиям могут различаться в зависимости от того, как пользователь сделает вызов пульта дистанционного управления с устройства или будет удаленно работать в Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="49f26-128">The requirements for licenses can be different depending on if the user will be making the Remote Assist call from a device or will be a remote collaborator from Microsoft Teams.</span></span> <span data-ttu-id="49f26-129">По умолчанию флажки Remote Assist и Teams помечены.</span><span class="sxs-lookup"><span data-stu-id="49f26-129">By default the Remote Assist and Teams check boxes are both marked.</span></span> <span data-ttu-id="49f26-130">В этом руководстве мы рекомендуем оставить флажки по умолчанию установленными.</span><span class="sxs-lookup"><span data-stu-id="49f26-130">For the purposes of this guide, we suggest to leave the default boxes checked.</span></span>
+
+1. <span data-ttu-id="49f26-131">Узнайте больше о различных [требованиях лицензирования и продуктов для каждой роли](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements#licensing-and-product-requirements-per-role).</span><span class="sxs-lookup"><span data-stu-id="49f26-131">Learn more about the different [Licensing and product requirements per role](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements#licensing-and-product-requirements-per-role).</span></span> <span data-ttu-id="49f26-132">Есть несколько различных типов лицензий удаленного помощника, поэтому вы должны убедиться, что они нужны вам нужным образом.</span><span class="sxs-lookup"><span data-stu-id="49f26-132">There are a few different types of Remote Assist licenses so be sure to get the correct ones for your needs.</span></span>
+2. <span data-ttu-id="49f26-133">Вам&#39;, что вам нужно [приобрести лицензию](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/buy-remote-assist).</span><span class="sxs-lookup"><span data-stu-id="49f26-133">You&#39;ll need to [acquire the license](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/buy-remote-assist).</span></span>
+3. <span data-ttu-id="49f26-134">[Примените лицензии](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/deploy-remote-assist) к группе.</span><span class="sxs-lookup"><span data-stu-id="49f26-134">[Apply your licenses](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/deploy-remote-assist) to the group.</span></span>
+
+## <span data-ttu-id="49f26-135">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="49f26-135">Next step</span></span>
+
+> [!div class="nextstepaction"]
+> [<span data-ttu-id="49f26-136">Развертывание с подключением к облаку — развертывание</span><span class="sxs-lookup"><span data-stu-id="49f26-136">Cloud connected deployment - Deploy</span></span>](hololens2-cloud-connected-deploy.md)
