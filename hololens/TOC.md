@@ -39,11 +39,16 @@
 ## [Как обновить HoloLens](hololens-update-hololens.md)
 
 # Подготовка
-## Планирование корпоративного развертывания HoloLens 2
-### [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
-### [Распространенные сценарии развертывания инфраструктуры](common-scenarios.md)
-## Общие сценарии
-### [Безопасная автономная работа](hololens-common-scenarios-offline-secure.md)
+## [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
+## Распространенные сценарии развертывания
+### [Сценарии развертывания инфраструктуры](common-scenarios.md)
+### Развертывание HoloLens 2, подключенного к облаку, с помощью удаленной поддержки
+#### [Подключение к облаку — обзор развертывания](hololens2-cloud-connected-overview.md)
+#### [Подключение к облаку — подготовка](hololens2-cloud-connected-prepare.md)
+#### [Подключение к облаку — настройка](hololens2-cloud-connected-configure.md)
+#### [Подключение к облаку — развертывание](hololens2-cloud-connected-deploy.md)
+#### [Подключение к облаку — обслуживание](hololens2-cloud-connected-maintain.md)
+### [Безопасная работа в автономном режиме](hololens-common-scenarios-offline-secure.md)
 ## Безопасность
 ### [Обзор системы безопасности](security-overview.md)
 ### [Architecture (Архитектура)](security-architecture.md)
