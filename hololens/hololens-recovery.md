@@ -14,12 +14,12 @@ ms.custom:
 ms.topic: article
 ms.localizationpriority: high
 manager: jarrettr
-ms.openlocfilehash: 8c028ed39cf0925ebff18ca69889de2d87f1e7eb
-ms.sourcegitcommit: e3056a433aeebb8bc45dc3f6db9a75f212fdf53b
+ms.openlocfilehash: 872e9d3445df2601579ae81f4190458289fa2eea
+ms.sourcegitcommit: 8e2c268733adce2662bf320cf96ccfea5919425e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "10996417"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "11195602"
 ---
 # Перезапуск, сброс и восстановление HoloLens 2
 
@@ -57,7 +57,7 @@ ms.locfileid: "10996417"
 
 4. Подключите устройство к главному компьютеру и откройте диспетчер устройств (в Windows10 нажмите клавишу **Windows**+**Х** и выберите пункт **Диспетчер устройств**). Убедитесь, что устройство правильно указано в виде *Microsoft HoloLens*, как показано на изображении ниже.
 
-   ![HoloLens 2 MicrosoftHoloLensRecovery](images/MicrosoftHoloLens_DeviceManager.png)
+   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery](images/MicrosoftHoloLens_DeviceManager.png)
 
 ### Процедура аппаратного сброса
 
@@ -70,7 +70,7 @@ ms.locfileid: "10996417"
 4. Подключите устройство к главному компьютеру.
 5. Откройте диспетчер устройств (в Windows10 нажмите клавишу **Windows**+**X** и выберите пункт **Диспетчер устройств**). Убедитесь, что устройство правильно указано в виде *Microsoft HoloLens*, как показано на изображении ниже.
 
-   ![HoloLens 2 MicrosoftHoloLensRecovery](images/MicrosoftHoloLens_DeviceManager.png)
+   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery 2](images/MicrosoftHoloLens_DeviceManager.png)
 
 ## Установка чистого образа на устройство
 
@@ -86,7 +86,7 @@ ms.locfileid: "10996417"
 >[!WARNING]
 >При переустановке образа на устройство удаляются все личные данные, приложения и параметры, в том числе сведения о сбросе доверенного платформенного модуля (TPM).
 
-В настоящее время приложение Advanced Recovery Companion по умолчанию настроено на скачивание сборки выпуска с новыми функциями для [Windows Holographic 2004](hololens-release-notes.md#windows-holographic-version-2004). Чтобы получить новейшую версию пакета HoloLens2 Full Flash Update (FFU) для установки образа на устройство с помощью Advanced Recovery Companion, [скачайте его здесь](https://aka.ms/hololens2download). Данная версия представляет собой новейшую общедоступную сборку.
+По умолчанию приложение Advanced Recovery Companion настроено на скачивание сборки выпуска с новейшими функциями. Сведения о выпуске новейших функций см. в [заметках о выпуске](hololens-release-notes.md#). Чтобы получить новейшую версию пакета HoloLens2 Full Flash Update (FFU) для установки образа на устройство с помощью Advanced Recovery Companion, щелкните [здесь](https://aka.ms/hololens2download) для скачивания новейшего ежемесячного образа HoloLens 2. Данная версия представляет собой новейшую общедоступную сборку.
 
 Прежде чем начать переустановку образа, установите и запустите приложение на компьютере с Windows10 и подготовьте его к обнаружению устройства.
 
@@ -134,8 +134,8 @@ ms.locfileid: "10996417"
 1. Перейдите на веб-сайт [Microsoft Store для бизнеса](https://businessstore.microsoft.com) и выполните вход с помощью удостоверения Azure Active Directory.
 
 1. Перейдите в меню **Управление– Параметры**. В разделе **Покупки** включите параметр **Показать автономные приложения**. 
-1. Перейдите в раздел **Купить для моей группы** и найдите приложение [***Advanced Recovery Companion***](https://businessstore.microsoft.com/store/details/advanced-recovery-companion/9P74Z35SFRS8).
-1. Измените значение параметра **Тип лицензии** на ***автономная работа*** и нажмите **Управлять**.
+1. Перейдите в раздел **Купить для моей группы** и найдите приложение [**_Advanced Recovery Companion_*_](https://businessstore.microsoft.com/store/details/advanced-recovery-companion/9P74Z35SFRS8).
+1. Измените _*Тип лицензии** на **_автономное использование_*_ и щелкните _*Управление**.
 1. В разделе **Скачивание пакета для автономного использования** нажмите вторую синюю кнопку **Скачать**. Убедитесь, что файл имеет расширение *.appxbundle*.
 
     - Если на этом этапе у компьютера есть доступ к Интернету, дважды щелкните на пакете, чтобы установить приложение.
