@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 5963e71bd6fdd084ca442995b02d99fc40da9d43
-ms.sourcegitcommit: 5877c3e51de49f949b35ab840a3312a009a4487a
+ms.openlocfilehash: 818f6c2be594b1d709acf7daef1d124c6b410ea4
+ms.sourcegitcommit: 74e9989240dc0c324df35e8651b2f307f9d42148
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "11102338"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "11201363"
 ---
 # Управление удостоверениями пользователей и входом для HoloLens
 
@@ -36,11 +36,14 @@ HoloLens поддерживает несколько типов удостове
 
 | Тип удостоверения | Учетные записи на устройстве | Параметры проверки подлинности |
 | --- | --- | --- |
-| [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/) | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>Приложение Azure Authenticator</li><li>Биометрическая (IRI) &ndash; только для HoloLens 2</li><li>Закрепить &ndash; опционально для hololens (1-го поколения), требуется для HoloLens 2</li><li>Пароль</li></ul> |
+| [Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/) | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>Приложение Azure Authenticator</li><li>Биометрическая (IRI) &ndash; HoloLens 2 только <sup> 1</sup> </li><li>Закрепить &ndash; опционально для hololens (1-го поколения), требуется для HoloLens 2</li><li>Пароль</li></ul> |
 | [Учетная запись Майкрософт (MSA)](https://docs.microsoft.com/windows/security/identity-protection/access-control/microsoft-accounts) | 1,1 | <ul><li>Биометрическая (IRI) &ndash; только для HoloLens 2</li><li>Закрепить &ndash; опционально для hololens (1-го поколения), требуется для HoloLens 2</li><li>Пароль</li></ul> |
 | [Локальная учетная запись](https://docs.microsoft.com/windows/security/identity-protection/access-control/local-accounts) | 1,1 | Пароль |
 
 Облачные учетные записи (AAD и MSA) предлагают больше возможностей, так как они могут использовать службы Azure.  
+
+> [!NOTE]
+> 1-Несмотря на то, что устройство HoloLens 2 может поддерживать до 64 учетных записей Azure AD, для проверки подлинности IRI могут регистрироваться только 10 из этих учетных записей. Это соответствует другим параметрам биометрической проверки подлинности для Windows Hello для бизнеса. [Ознакомьтесь с дополнительными сведениями.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer)
 
 ## Настройка пользователей
 
