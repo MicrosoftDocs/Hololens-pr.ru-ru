@@ -100,6 +100,7 @@
 ### [Intune и корпоративный портал](app-deploy-intune.md)
 ### [Microsoft Store для бизнеса](app-deploy-store-business.md)
 ### [Пакет подготовки](app-deploy-provisioning-package.md)
+### [Установщик приложений](app-deploy-app-installer.md)
 
 # Обслуживание
 ## [Управление обновлениями HoloLens](hololens-updates.md)
@@ -114,8 +115,7 @@
 
 # Заметки о выпуске HoloLens
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
-## [Предварительная версия для Microsoft HoloLens](hololens-insider.md)
-### [Установщик приложений](app-deploy-app-installer.md)
+## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
 
 # [Напишите нам свой отзыв](hololens-feedback.md)
