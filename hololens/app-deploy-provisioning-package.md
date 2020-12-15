@@ -1,7 +1,7 @@
 ---
 title: Пакет подготовки
-description: приложение, развертывание приложений, корпоративное приложение demployment, подготовка
-keywords: приложение, развертывание приложений, корпоративное приложение demployment, подготовка
+description: приложение, развертывание приложений, детерстика корпоративного приложения, подготовка
+keywords: приложение, развертывание приложений, разменая подготовка корпоративных приложений, подготовка
 author: evmill
 ms.author: v-evmill
 ms.date: 6/22/2020
@@ -14,40 +14,46 @@ manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 0803b5f1b77ac7f123d534d101cd24903b87094c
-ms.sourcegitcommit: 89ce6cdc0fc6d70a88217791c5f6d613778af614
+ms.openlocfilehash: 60efc454f9e1221372279401da9f8ee918e061e7
+ms.sourcegitcommit: efa3fb7e353c5e56ee467cc7fd94ffdfaf46e2e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11052586"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "11219226"
 ---
 # Пакет подготовки
 
-Пакеты подготовки можно использовать для подготовки и настройки устройств в среде без доступа к управлению конечными точками. Кроме того, они могут быть развернуты на устройстве независимо от удостоверения пользователя, состояния регистрации, при использовании функции "Исходящие" (OOBE) или путем [применения пакета подготовки во время настройки](https://docs.microsoft.com/hololens/hololens-provisioning##apply-a-provisioning-package-to-hololens-during-setup).
+Пакеты подготовки можно использовать для подготовки и настройки устройств в среде без доступа к управлению конечными точками. Они также могут быть развернуты на устройстве независимо от удостоверения пользователя, состояния регистрации, во время работы с приостановкой (OOBE) или путем применения пакета подготовка во время [установки.](https://docs.microsoft.com/hololens/hololens-provisioning##apply-a-provisioning-package-to-hololens-during-setup)
 
-## Общие сведения о пакетах подготовки:
-* Приложения, не являющиеся общими
-* USB-Загрузка только на полях
-* Без автоматического обновления (требуется обновление вручную через PPKGs)
+## Вопросы, которые следует учитывать при упаковке пакетов.
+* Не общедоступные приложения
+* Только неогрузка USB
+* Автоматическое обновление не требуется (требуется ручное обновление с помощью PPKG)
 
-> [!NOTE] 
-> Чтобы узнать основы создания пакета подготовки для устройств HoloLens, перейдите на страницу [Подготовка HoloLens](https://docs.microsoft.com/hololens/hololens-provisioning). Чтобы развернуть приложение, необходимо запустить расширенную подготовку. 
+Приложения, установленные с помощью пакета предоставления, должны быть подписаны сертификатом в локальном хранилище компьютеров. Пакеты предоставления могут устанавливать сертификаты только в хранилище устройства (локального компьютера), поэтому приложение и сертификат могут быть установлены через тот же пакет. Если вы развертываете сертификат из MDM [](certificate-manager.md)или устанавливаете его с помощью диспетчера сертификатов, обязательно разверните сертификат в локальном хранилище компьютеров, чтобы подписать установленные таким образом приложения.
 
-> [!NOTE] 
-> HoloLens (1-ой gen) имеет ограниченную поддержку установки приложений (**UniversalAppInstall**) с помощью пакета подготовки. Устройства HoloLens (1-го поколения) поддерживают только установку приложения с помощью PPKG только во время OOBE и только при установке контекста пользователя.
+Чтобы узнать основы создания пакета подготовки для устройств HoloLens, посетите сайт [подготовки HoloLens.](https://docs.microsoft.com/hololens/hololens-provisioning) Чтобы развернуть приложение, необходимо начать с расширенных настойки.
+
+> [!NOTE]
+> HoloLens (1-е поколения) имеет ограниченную поддержку установки приложений **(UniversalAppInstall)** с помощью пакета подготовка. Устройства HoloLens (1-е поколения) поддерживают установку приложения через PPKG только во время OOBE и только при установке контекста пользователя.
 
 ## Настройка
 
-В [конструкторе конфигураций Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22) выполните действия, описанные ниже 4.
+В [конструкторе конфигураций Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22) необходимо предпринять следующие 4 действия.
 
-1. Установите для ApplicationManagement/AllowAllTrustedApps значение "Да". Смотрите: [ApplicationManagement/AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps).
-2. В разделе **UniversalAppInstall**  >  **UserContextAppLicense** введите **PackageFamilyName**. Смотрите [UniversalAppInstall](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall). Смотрите также: [UserContextAppLicense](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall#usercontextapplicense).
-    - Если вы не знаете это, вы можете использовать портал устройств на устройстве, на котором уже установлено приложение. Перейдите на страницу "приложения" и ознакомьтесь со строкой "PackageRelativeID", а также сведениями до "!". **PackageFamilyName**.
-3. Вы увидите, что у вас новый раздел, **ApplicationFile**. Используйте эту область для отправки пакета Appx. 
-4. В зависимости от того, приобрели ли вы приложение или создали собственное бизнес-приложение, вам нужно будет загрузить файл лицензии или сертификат безопасности.
-    - Для файла лицензии: в разделе **UniversalAppInstall**  >  **UserContextAppLience** и перейдите в папку, в которой находится лицензия, и отправьте ее. 
-    - В разделе "файл безопасности" перейдите в раздел " **Сертификаты** " и выберите сертификат, который нужно установить вместе с пакетом Appx. 
+1. Задайте для ApplicationManagement/AllowAllTrustedApps "Да". См. [applicationManagement/AllowAllTrustedApps.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps)
 
-Не забудьте сохранить проект в безопасном месте. Затем **экспортируйте** его как **пакет подготовки**.  
+2. В **области UniversalAppInstall**  >  **UserContextAppLicense** введите **PackageFamilyName.** См. [universalAppInstall](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall). См. также: [UserContextAppLicense](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall#usercontextapplicense).
+
+   Портал устройств можно использовать на устройстве, на которое уже установлено приложение. Посетите страницу "Приложения" и посмотрите на строку PackageRelativeID перед строкой "!" Is your **PackageFamilyName**.
     
-Дополнительные сведения: [Применение пакета provisiong к HoloLens](https://docs.microsoft.com/hololens/hololens-provisioning#apply-a-provisioning-package-to-hololens-during-setup).
+3. После этого вы увидите, что у вас есть новый раздел **ApplicationFile.** Используйте эту область для отправки пакета appx.
+
+4. В зависимости от того, приобрели ли вы приложение или создали собственное бизнес-приложение, вам потребуется отправить файл лицензии или сертификат безопасности.
+
+    - Для файла лицензии: в **папке UniversalAppInstall**  >  **UserContextAppLience** перейдите к расположению лицензии и загрузите ее. 
+    - Для файла безопасности перейдите к **файлу "Сертификаты"** и выберите сертификат для установки вместе с пакетом APPX.
+
+Обязательно сохраните проект в надежном месте. Затем **экспортировать** его в качестве **пакета предоставления.**  
+    
+См. также: [применение пакета подготовка к HoloLens](https://docs.microsoft.com/hololens/hololens-provisioning#apply-a-provisioning-package-to-hololens-during-setup).
