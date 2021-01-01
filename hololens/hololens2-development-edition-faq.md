@@ -1,7 +1,7 @@
 ---
-title: Вопросы и ответы по версии для разработчиков HoloLens 2
-description: Ответы на часто задаваемые вопросы о выпуске HoloLens 2 для разработчиков.
-keywords: Варианты приобретения 2, hololens, параметры HoloLens, выпуск для разработчиков
+title: Вопросы и ответы о HoloLens 2 Development Edition
+description: Часто задаваемы вопросы о выпуске HoloLens 2 Development Edition.
+keywords: Варианты приобретения Hololens 2, параметры HoloLens, Developer Edition
 author: evmill
 ms.author: v-evmill
 ms.reviewer: sekerawa
@@ -14,174 +14,174 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7ef5fd06f4d77f541047a934056cffd863962c73
-ms.sourcegitcommit: 307e313f05243b6d94f9bfc0cb4e316a00a8005c
+ms.openlocfilehash: d2f3a58766baf9850f5af38c8e94acc8cb4877d6
+ms.sourcegitcommit: fc268335e5df529a1cedc2c6b88fa86245fe1b9b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "11176871"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "11252790"
 ---
-# Вопросы и ответы по версии для разработчиков HoloLens 2
+# Вопросы и ответы о HoloLens 2 Development Edition
 
 ## Общие
 
-### Что получается в выпуске для разработчиков HoloLens 2?
+### Что можно получить с выпуском HoloLens 2 Development Edition?
 
-Выпуск для архитектуры HoloLens 2 включает HoloLens 2, $500 в Azure кредиты, пробную подписку на единую версию Pro для Unity, а также пробную подписку на 3 месяца Pixyzного подключаемого модуля.
+Выпуск HoloLens 2 Development Edition включает holoLens 2, 500 долларов США в кредиты Azure, трехмесячную пробную версию Unity Pro и 3-месячную пробную версию подключаемого модуль Pixyz.
 
-### В чем разница между HoloLens и HoloLens 2 Development Edition? 
+### В чем разница между HoloLens 2 и HoloLens 2 Development Edition?
 
-Вы можете использовать только ознакомительную версию HoloLens 2 для внутреннего построения и тестирования корпоративных приложений, которые будут использоваться в связи с HoloLens 2 (коммерческая версия) в параметрах производства. В рамках приобретения выпуска для разработчиков Корпорация Майкрософт может по своему усмотрению предоставлять вам определенные ограничения, которые определяются в процессе извлечения, например право на получение определенных кредитов и пробных версий для некоторых служб или средств сторонних разработчиков в течение ограниченного периода. [Подробнее](hololens2-options.md?tabs=developeredition#1-learn-about-the-development-edition)
+Выпуск HoloLens 2 Development Edition можно использовать только для внутреннего создания и тестирования корпоративных приложений, которые будут использоваться в связи с HoloLens 2 (коммерческий выпуск) в производственной среде. В рамках приобретения выпуска Development Edition корпорация Майкрософт может по своему усмотрению предоставить вам определенные права, определенные во время процесса идентифицирования, например право на выкуп определенных скидок или пробный доступ к определенным службам или средствам Майкрософт или сторонних разработчиков в течение ограниченного периода времени. [Подробнее](hololens2-options.md?tabs=developeredition#1-learn-about-the-development-edition)
 
 ### Можно ли использовать любой выпуск HoloLens 2 для разработки?
 
 Да. Для разработки приложений можно использовать любой выпуск HoloLens 2.
 
-### Как и я получаю $500 в Azure кредиты, пробная версия для Pixyz и пробное использование подключаемого модуля в течение 3 месяцев?
+### Как и как получить 500 долларов США в кредиты Azure, 3-месячную пробную пробную версия Unity Pro и 3-месячную пробную пробную возможность подключаемого модуль Pixyz?
 
-Ваши кредиты на скидки и пробный доступ будут отправляться на электронную почту, используемую в течение двух рабочих дней с момента поставки продукта.
+Ваши скидки или пробный доступ будут отправлены на электронную почту, используемую при покупке в течение 2 дней после отгрузки продукта.
 
-### Можно ли "Обновить" устройство HoloLens 2 (только для устройства) до выпуска HoloLens 2, чтобы получить пробные кредиты?
+### Можно ли "обновить" устройство HoloLens 2 (только устройство) до выпуска HoloLens 2 Development Edition, чтобы получить кредиты на пробную версию?
 
-Нет, планы передачи для устройств не предлагаются. Вы не можете передавать из любого выпуска другого выпуска. 
+Нет, мы не предлагаем планы передачи устройств. Не существует возможности переноса из любого другого выпуска в любой другой выпуск.
 
-### Что такое Pro Unity? 
+### Что такое Unity Pro?
 
-Платформа Unity Pro является трехмерной платформой в реальном времени для малых и средних студииов и компаний. Она разработана для Teams и не является техническими навыками. [Подробнее](https://store.unity.com/products/unity-pro)
+Unity Pro — это трехформавная платформа в режиме реального времени для малых и средних предприятий. Он предназначен для команд с сочетанием технических и не технических навыков. [Подробнее](https://store.unity.com/products/unity-pro)
 
-### Что такое подключаемый модуль Pixyz? 
+### Что такое подключаемый модуль Pixyz?
 
-Подключаемый модуль Pixyz считывает и преобразует практически любой формат, оптимизирует и размещает его в Unity и накладывает его на предоставление готовых к использованию ресурсов для приложений в реальном времени. [Подробнее](https://unity.com/products/pixyz)
+Подключаемый модуль Pixyz считывает и преобразует практически любой формат, оптимизирует и помещает его в Unity, а также помещает в него ресурсы, готовые к использованию для приложений в режиме реального времени. [Подробнее](https://unity.com/products/pixyz)
 
-### Когда будет доступно финансирование для версии для разработчиков HoloLens 2?
+### Когда будет доступна версия HoloLens 2 Development Edition?
 
-Финансирование для среды разработки HoloLens 2 будет доступно на ранних 2021.
+Выпуск HoloLens 2 Development Edition станет доступен в начале 2021 г.
 
-### У кого есть вопросы о моей службе поддержки для разработчиков HoloLens 2?
+### К кому я обращаюсь с вопросами о моих правах на HoloLens 2 Development Edition?
 
-С вопросами, связанными с обобщениями, свяжитесь с вашим специалистам по продажам в 866-425-4709, с Пн до 6PM, с помощью PST-6AM.
+По любым вопросам, связанным с правами, обратитесь к специалисту по продажам по телефону 866-425-4709, с 6:00 до 18:00 (PST).
 
-### Может ли моя компания купить несколько устройств для разработчиков HoloLens 2? 
+### Может ли моя компания приобрести несколько устройств HoloLens 2 Development Edition? 
 
-Это устройство предназначено для разработчиков, занимающихся созданием решений смешанной реальности. Мы предельным для одной покупки на каждую клиентскую операцию. Если вашей компании требуется приобрести несколько мобильных устройств, для них требуется отдельная транзакция для приобретения устройств выпуска HoloLens 2 от имени компании. 
+Это устройство предназначено для разработчиков, которые могут при создании решений смешанной реальности. Мы ограничим одну покупку на транзакцию клиента. Если вашей компании требуется приобрести несколько устройств Development Edition, для приобретения устройств HoloLens 2 Development Edition от имени компании потребуются отдельные транзакции. 
 
-### Можно ли показать мое устройство для разработки HoloLens 2 для пользователей? 
+### Можно ли показывать устройство HoloLens 2 Development Edition своим клиентам? 
 
-Да, это устройство предназначено для использования в качестве прототипов и тестирования решений смешанной реальности.
+Да, это устройство предназначено для использования в качестве решений смешанной реальности и тестирования решений смешанной реальности.
 
-### Где можно купить версию для разработчиков HoloLens 2? 
+### Где можно приобрести выпуск HoloLens 2 Development Edition? 
 
-Версия для разработчиков HoloLens 2 реализована исключительно в Microsoft Store.  
+Выпуск HoloLens 2 Development Edition продается исключительно в Microsoft Store.  
 
-### Могу ли я вернуть мою версию для разработчиков HoloLens 2?  
+### Можно ли вернуть holoLens 2 Development Edition?  
 
-Все продажи являются конечными, и на устройстве HoloLens 2 для выпуска нет средств возврата денег.
+Все продажи являются окончательными, а в выпуске HoloLens 2 Development Edition возврат средств не доступен.
 
-### Существуют ли в версии разработчика другие требования к оборудованию, отличающиеся от HoloLens 2?
+### Отличаются ли требования к оборудованию для Developer Edition от HoloLens 2?
 
-Нет, это устройство одинаково с точки зрения аппаратных требований. Выпуск для разработчиков разрешается развертывать в целях разработки и (или) тестирования приложений в коммерческих параметрах. 
+Нет, это устройство одинаково с точки зрения требований к оборудованию. Выпуск Development Edition может быть развернут при разработке и (или) тестировании приложений в коммерческой среде. 
 
-### Как использовать набор средств для смешанной реальности — Unity для разработки на моей версии для разработчиков HoloLens 2?
+### Как использовать mixed Reality набор средств Unity для разработки на holoLens 2 Development Edition?
 
-MRTK-Unity — это проект, ориентированный на Microsoft, который предоставляет набор компонентов и функций, используемых для ускорения разработки приложений на разных платформах в Unity. [Подробнее](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
+MRTK-Unity это проект, управляемый корпорацией Майкрософт, который предоставляет набор компонентов и функций, используемых для ускорения кроссплатформенную разработку приложений MR в Unity. [Подробнее](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
 
-### Как использовать набор средств для смешанной реальности — Нереал UXT для разработки на моей версии для разработчиков HoloLens 2?
+### Как использовать mixed Reality набор средств Unreal UXT для разработки на holoLens 2 Development Edition?
 
-MRTK-Unreal — это первый компонент средств UX, который нужно освободить и в настоящее время поддерживается только в HoloLens 2. Подключаемый модуль компонента включает в себя код, чертежи и примеры ресурсов, которые являются общими функциями UX для моделирования ввода, субъектов взаимодействия с пользователем, а также компонентов нажатия кнопки, компонентов манипуляции и отслеживания компонентов поведения. [Подробнее](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/WelcomeToUXTools.html)
+MRTK-Unreal это первый выпущенный компонент средств UX, который в настоящее время поддерживается только на HoloLens 2. Подключаемый модуль компонента включает в себя код, схемы и примеры ресурсов общих функций взаимодействия с клиентами для моделирования ввода, субъектов взаимодействия рук, компонентов кнопок с возможностью нажатия, компонентов манипуляции и следуют за компонентами поведения. [Подробнее](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/WelcomeToUXTools.html)
 
-### Являются ли выпуски ОС для выпуска HoloLens 2 таким же, как HoloLens 2?
+### Выпуски ОС для HoloLens 2 Development Edition такие же, как и выпуски HoloLens 2?
 
 Да.
 
-### Можно ли запускать запущенные приложения (неопубликованного или магазин) на устройстве с устройством разработки HoloLens 2?
+### Можно ли запускать выпущенные (загрузку или хранение) приложения на устройстве HoloLens 2 Development Edition?
 
-Если ты abiding с условиями и условиями выпуска для разработчиков HoloLens 2, да, вы можете запустить любое выпущенное приложение в выпуске разработчика. Мы не будем ограничивать использование неопубликованного или сохраненных приложений для этого SKU.
+Если вы соблюдали условия, заданные в HoloLens 2 Development Edition, да, вы можете запустить любое выпущенное приложение в выпуске Developer Edition. Мы не ограничим использование неогруженных или сохраненных приложений для этого SKU.
 
-### Где можно узнать больше о версии для разработчиков HoloLens 2?
+### Где можно узнать больше о выпуске HoloLens 2 Development Edition?
 
-Посетите страницу документации по версии для разработчиков HoloLens 2. [Подробнее](https://docs.microsoft.com/hololens/hololens2-options?tabs=device)
+Посетите страницу документации holoLens 2 Development Edition. [Подробнее](https://docs.microsoft.com/hololens/hololens2-options?tabs=device)
 
-### Где можно узнать больше о разработке решений для смешанной реальности?
+### Где можно узнать больше о разработке решений смешанной реальности?
 
-Посетите страницу Введение в документацию по разработке смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unityhttps://docs.microsoft.com/en-us/windows/mixed-reality/develop/development?tabs=unity)
+Посетите документацию по разработке для смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unityhttps://docs.microsoft.com/en-us/windows/mixed-reality/develop/development?tabs=unity)
 
-### Где можно узнать больше о создании решений для смешанной реальности?
+### Где можно узнать больше о разработке решений смешанной реальности?
 
-Ознакомьтесь с документацией по проектированию смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/design/design)
+Посетите документацию по проектированию смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/design/design)
 
-### Где можно получить поддержку для разработчиков HoloLens Edition?
+### Где можно получить поддержку для HoloLens Developer Edition?
 
-Обратитесь в службу поддержки [.](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=96bfb202-bc79-741b-bf7a-774d8b767782)
+Получите поддержку [здесь.](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=96bfb202-bc79-741b-bf7a-774d8b767782)
 
 ## Unity
 
-### Что входит в пробную версию Unity?
+### Что входит в пробную версия Unity?
 
-Пробная версия средства для просмотра Unity за три календаря позволяет получать доступ к Unity&#39;s для создания, работы и монетизацияи решения для профессионалов. У связанной пробной версии Unity Pro нет крайних сроков для активации.
+Пробная версия Unity Pro для трех календарных месяцев позволяет получить доступ к Unity&#39;для создания, эксплуатации и монетизации. Срок актива связанной пробной пробной версия Unity Pro не истекает.
 
-Это предложение предназначено для новых пользователей и не применяется к установленным подпискам Unity Pro. Пробная версия Unity Pro может быть подвергнута дополнительным условиям, которые будут доступны на момент погашения. Ознакомьтесь с [ &amp; условиями применения условий](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fterms-of-service&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=VKL3asd8TjWONsqhzj%2BzjQhkBnY81aa2P5YE8%2BJRecE%3D&amp;reserved=0) и положения [о конфиденциальности](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fprivacy-policy%3F_ga%3D2.6941362.1885447993.1600097102-915351856.1592845189%26_gac%3D1.157951432.1600400000.CjwKCAjwkoz7BRBPEiwAeKw3q-QDTrYufD7wCV6bND3hfqI2SP07k7V4VvIBjFvGsBWu4cZaibnn2hoC7oMQAvD_BwE&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=RHyvW2qY4DdFpz3QYhB6D2tx4t%2BiMnm58hIacMeFEPk%3D&amp;reserved=0).
+Это предложение применяется для новых пользователей и не применяется к установленным подпискам На Unity Pro. На пробную версия Unity Pro могут быть налагаться дополнительные условия, которые будут доступны при активации. Просмотрите [применимые условия &amp; и](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fterms-of-service&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=VKL3asd8TjWONsqhzj%2BzjQhkBnY81aa2P5YE8%2BJRecE%3D&amp;reserved=0) [политику конфиденциальности.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fprivacy-policy%3F_ga%3D2.6941362.1885447993.1600097102-915351856.1592845189%26_gac%3D1.157951432.1600400000.CjwKCAjwkoz7BRBPEiwAeKw3q-QDTrYufD7wCV6bND3hfqI2SP07k7V4VvIBjFvGsBWu4cZaibnn2hoC7oMQAvD_BwE&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=RHyvW2qY4DdFpz3QYhB6D2tx4t%2BiMnm58hIacMeFEPk%3D&amp;reserved=0)
 
-### Как активировать пробную версию Unity Pro для меня?
+### Как активировать пробную версия Unity Pro?
 
-Направления для активации
+Маршруты для выкупа
 
-1. Посетить id.unity.com
-2. Войдите в систему с помощью идентификатора Unity или создайте учетную запись
-3. Щелкните &#39;активировать код продукта&#39;
-4. Введите код продукта и нажмите &#39;активировать код продукта&#39;
+1. Посетите id.unity.com
+2. Во sign in with your Unity ID or create an account
+3. Выберите &#39;активировать код продукта&#39;
+4. Введите код продукта и выберите &#39;активировать код&#39;
 
-Дополнительные [сведения](https://docs.microsoft.com/hololens/hololens2-options?tabs=device) можно найти в документации по версии для разработчиков HoloLens 2
+Подробнее: документация по выпуску [](https://docs.microsoft.com/hololens/hololens2-options?tabs=device) HoloLens 2 Development Edition
 
-### Можно ли создавать приложения с версиями Unity, отличными от лицензии PRO?
+### Можно ли создавать приложения с помощью версий Unity, кроме лицензии PRO?
 
 Да, вы можете создавать приложения со всеми совместимыми версиями Unity.
 
-### Как связаться со службой поддержки Unity?
+### Как обратиться в службу поддержки Unity?
 
-Чтобы получить помощь по вопросам, касающихся идентификатора Unity, учетной записи, организации (ов) и подписок (-ов), посетите support.unity3d.com.
+Чтобы получить помощь по любым вопросам об ИД Unity, учетной записи, организациях и подписках, посетите support.unity3d.com.
 
 ## Pixyz
 
-### Что входит в пробную версию подключаемого модуля Pixyz?
+### Что входит в пробный модуль Pixyz?
 
-Пробная версия Pixyz подключаемого модуля из 3 календарного месяца, позволяющая получить доступ к Pixyz для создания готовых к использованию ресурсов с помощью идеально разделенных сеток, количества многоугольников и автоматического UV. Срок действия соответствующей пробной версии подключаемого модуля Pixyz не истек.
+Пробная версия подключаемого модульа Pixyz для трех календарных месяцев, которая позволяет получать доступ к Pixyz для создания готовых к использованию ресурсов с идеальными тессельными сетками, ограниченным количеством многоугольников и автоматическим UV-подключением. Для связанной пробной пробной Pixyz подключаемой модуль не установлен крайний срок для выкупа.
 
-Это предложение предназначено для новых пользователей и не входит в комплект для установленной подписки на Pixyz. Подключаемый модуль Pixyz может подвергаться дополнительным условиям, которые будут сделаны на момент погашения. Ознакомьтесь с [ &amp; условиями применения условий](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fterms-of-service&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=VKL3asd8TjWONsqhzj%2BzjQhkBnY81aa2P5YE8%2BJRecE%3D&amp;reserved=0) и положения [о конфиденциальности](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fprivacy-policy%3F_ga%3D2.6941362.1885447993.1600097102-915351856.1592845189%26_gac%3D1.157951432.1600400000.CjwKCAjwkoz7BRBPEiwAeKw3q-QDTrYufD7wCV6bND3hfqI2SP07k7V4VvIBjFvGsBWu4cZaibnn2hoC7oMQAvD_BwE&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=RHyvW2qY4DdFpz3QYhB6D2tx4t%2BiMnm58hIacMeFEPk%3D&amp;reserved=0).
+Это предложение предоставляется для новых пользователей и не перетекает в установленные подписки Pixyz. Подключаемый модуль Pixyz может быть подвержен дополнительным терминам, которые будут сделаны при активации. Просмотрите [применимые условия &amp; и](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fterms-of-service&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=VKL3asd8TjWONsqhzj%2BzjQhkBnY81aa2P5YE8%2BJRecE%3D&amp;reserved=0) [политику конфиденциальности.](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity3d.com%2Flegal%2Fprivacy-policy%3F_ga%3D2.6941362.1885447993.1600097102-915351856.1592845189%26_gac%3D1.157951432.1600400000.CjwKCAjwkoz7BRBPEiwAeKw3q-QDTrYufD7wCV6bND3hfqI2SP07k7V4VvIBjFvGsBWu4cZaibnn2hoC7oMQAvD_BwE&amp;data=04%7C01%7CRonan.Jenkins%40microsoft.com%7C65a23c756bcb49a003ef08d86bb16132%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637377756872930038%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=RHyvW2qY4DdFpz3QYhB6D2tx4t%2BiMnm58hIacMeFEPk%3D&amp;reserved=0)
 
-### Как активировать пробную версию подключаемого модуля Pixyz?
+### Как активировать пробную версия подключаемой модуль Pixyz?
 
-Направления для активации
+Маршруты для выкупа
 
-1. Посетить id.unity.com
+1. Посетите id.unity.com
 2. Вход с помощью Pixyz или создание учетной записи
-3. Щелкните &#39;активировать код продукта&#39;
-4. Введите код продукта и нажмите &#39;активировать код продукта&#39;
+3. Нажмите &#39;активировать код&#39;
+4. Введите код продукта и нажмите кнопку &#39;активировать код&#39;
 
-Дополнительные [сведения](https://docs.microsoft.com/hololens/hololens2-options?tabs=device) можно найти в документации по версии для разработчиков HoloLens 2
+Подробнее: документация по выпуску [](https://docs.microsoft.com/hololens/hololens2-options?tabs=device) HoloLens 2 Development Edition
 
-### Как связаться со службой поддержки Pixyz?
+### Как обратиться в службу поддержки Pixyz?
 
-Чтобы получить помощь по вопросам, касающихся идентификатора Unity, учетной записи, организации (ов) и подписок (-ов), посетите веб-сайт support.unity3d.com.
+Чтобы получить помощь по любым вопросам о вашем ИД Unity, учетной записи, организациях и подписках, посетите support.unity3d.com
 
-Для поддержки Pixyz (после активации пробной версии) посетите [Pixyz-Software.com/support](http://pixyz-software.com/support) .
+Для поддержки Pixyz (после выкупа пробной [](http://pixyz-software.com/support) Pixyz-software.com/support
 
 
 ## Azure
 
-### Как получить кредитный счет в $500 Azure?
+### Как получить кредит Azure в размере 500 долларов США?
 
-Чтобы воспользоваться вашими кредитами в $500 Azure, рекламный свой код подписку на Azure, а затем активируйте ее. [Подробнее](https://www.microsoftazurepass.com/Home/HowTo?Length=5)
+Чтобы получить кредиты Azure в размере 500 долларов США, активируйте промокод Azure Pass и активируйте подписку. [Подробнее](https://www.microsoftazurepass.com/Home/HowTo?Length=5)
 
-Ознакомьтесь с [условиями лицензионного соглашения](https://azure.microsoft.com/support/legal/subscription-agreement/?country=US) Azure и [сведения о предложении](https://azure.microsoft.com/en-us/offers/azure-pass/).
+Просмотрите соглашение о подписке на Azure Pass [и](https://azure.microsoft.com/support/legal/subscription-agreement/?country=US) [сведения о предложении.](https://azure.microsoft.com/en-us/offers/azure-pass/)
 
-### Когда истекает срок действия моего счета в $500 Azure?
+### Когда истекает срок действия моего кредита Azure в размере 500 долларов США?
 
-Срок действия вашего счета в $500 Azure заканчивается 90 дней после активации кода ключа Azure.
+Срок действия вашего кредита Azure в размере 500 долларов США истекает через 90 дней после активации кода ключа Azure.
 
-### Что можно делать с учетом кредитов в Azure?
+### Что можно сделать с кредитами Azure?
 
-С учетом ваших кредитов в Azure вы можете приступить к работе с Microsoft&#39;s и более развернутым набором облачных служб. Кредитные кредиты Azure, входящие в состав выпуска службы HoloLens 2, предназначены для того, чтобы позволить пользователям быстро освоить создание и тестирование приложений смешанной реальности в Azure. Полную информацию о создании в Azure можно найти в статьях [ресурсы Azure](https://azure.microsoft.com/en-us/resources/)
+Благодаря своим кредитам Azure вы можете приступить к построению с&#39;microsoft&#39;постоянно расширяемого набора облачных служб. Кредиты Azure, включенные в выпуск HoloLens 2 Development Edition, позволяют клиентам быстро приступить к построению и тестированию приложений смешанной реальности в Azure. Подробные сведения о построении в Azure: ресурсы [Azure](https://azure.microsoft.com/en-us/resources/)
 
-### Где можно узнать больше о службах Azure Mixed Reality?
+### Где можно узнать больше о службах смешанной реальности Azure?
 
-Корпорация Майкрософт предложит вам набор служб смешанной реальности, позволяющий разработчикам создавать и тестировать решения смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/develop/mixed-reality-cloud-services)
+Корпорация Майкрософт предлагает набор служб смешанной реальности, позволяющих разработчикам создавать и тестировать решения смешанной реальности. [Подробнее](https://docs.microsoft.com/windows/mixed-reality/develop/mixed-reality-cloud-services)
