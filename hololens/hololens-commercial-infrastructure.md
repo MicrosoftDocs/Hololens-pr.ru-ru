@@ -1,6 +1,6 @@
 ---
 title: Рекомендации по инфраструктуре для HoloLens
-description: ''
+description: Рекомендации по инфраструктуре для устройств HoloLens
 ms.prod: hololens
 ms.sitesec: library
 author: pawinfie
@@ -14,12 +14,12 @@ manager: bradke
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 1031eaeaf2767f8aa982d74bb282bc1fb086051b
-ms.sourcegitcommit: 77eb85608066d9a4ed01b3862afe356f7e54d583
+ms.openlocfilehash: a67aaa5df4c74531b5bed88abaa266b00de5c406
+ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "10940219"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "11253166"
 ---
 # Настройка сети для HoloLens
 
@@ -35,7 +35,7 @@ HoloLens — это, по сути, устройство с Windows Mobile, ин
 
 В числе критических облачных служб:
 
-- Azure active directory (AAD)
+- Azure Active Directory (Azure AD)
 - Центр обновления Windows (WU)
 
 Коммерческим клиентам потребуется инфраструктура управления мобильностью предприятия (EMM) или управления мобильными устройствами (MDM) для управления устройствами HoloLens в масштабе.  Это руководство использует в качестве примера [Microsoft Intune](https://www.microsoft.com/enterprise-mobility-security/microsoft-intune), хотя поставщик с полной поддержкой Microsoft Policy поддерживает HoloLens.  Спросите своего поставщика управления мобильными устройствами, поддерживают ли они HoloLens 2.

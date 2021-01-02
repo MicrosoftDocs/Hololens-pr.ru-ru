@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 254c1048d2a1c7b63dfe87ead4585c21153fa8bb
-ms.sourcegitcommit: fc2ce4d843229bcc9ae6c7a42da559c0f6f558b7
+ms.openlocfilehash: 51d50f863e379baffee4e44c44e3ab467b517359
+ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "10882989"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "11253176"
 ---
 # Коммерческие функции
 
@@ -64,7 +64,7 @@ HoloLens включает в себя функции, упрощающие уп�
 |Microsoft Store (потребители) |Потребитель |Фильтрация с использованием MDM |Фильтрация с использованием MDM |
 |[Портал Store для бизнеса](https://docs.microsoft.com/microsoft-store/working-with-line-of-business-apps) | |✔️ |✔️ |
 |**Безопасность и удостоверения** | | | |
-|Вход с использованием учетной записи Azure Active Directory (AAD) |✔️ |✔️ |✔️ |
+|Вход с помощью учетной записи Azure Active Directory (Azure AD) |✔️ |✔️ |✔️ |
 |Вход с использованием учетной записи Майкрософт (MSA) |✔️ |✔️ |✔️ |
 |Учетные данные следующего поколения с разблокировкой с помощью PIN-кода |✔️ |✔️ |✔️ |
 |[Безопасная загрузка](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot) |✔️ |✔️ |✔️ |

@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: 95f187b2a4b6a86b59e05f3b12414c84ca0f6460
-ms.sourcegitcommit: fac3e62c1fd4dd531c2c8620870213cd570980dc
+ms.openlocfilehash: 23a850022a686389669e96e987274cc6481b936e
+ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "11205771"
+ms.lasthandoff: 01/01/2021
+ms.locfileid: "11253246"
 ---
 # Windows Autopilot для HoloLens 2
 
@@ -255,7 +255,7 @@ ms.locfileid: "11205771"
 
 Если установить для узла RequireNetworkInOOBE поставщика служб шифрования TenantLockdown значение "true" для HoloLens 2, следующие операции в OOBE будут запрещены: 
 - Создание локального пользователя с помощью подготовки среды выполнения 
-- Выполнение операции присоединения к AAD с помощью подготовки среды выполнения 
+- Выполнение операции присоединения к Azure AD с помощью подготовки среды выполнения 
 - Выбор владельца устройства в интерфейсе OOBE 
 
 #### Как выполнить настройку с помощью Intune? 
