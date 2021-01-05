@@ -118,4 +118,6 @@
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
 
-# [Напишите нам свой отзыв](hololens-feedback.md)
+# [Обратная связь]
+## [Обратная связь через Центр отзывов](hololens-feedback.md)
+## [Руководство по дополнению документации HoloLens](contributing.md)
