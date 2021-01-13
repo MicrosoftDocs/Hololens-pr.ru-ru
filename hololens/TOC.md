@@ -48,6 +48,7 @@
 #### [Подключение к облаку — настройка](hololens2-cloud-connected-configure.md)
 #### [Подключение к облаку — развертывание](hololens2-cloud-connected-deploy.md)
 #### [Подключение к облаку — обслуживание](hololens2-cloud-connected-maintain.md)
+### [Развертывание HoloLens 2 на внешних клиентах с помощью удаленной поддержки](hololens2-deployment-guide.md)
 ### [Безопасная работа в автономном режиме](hololens-common-scenarios-offline-secure.md)
 ## Безопасность
 ### [Обзор системы безопасности](security-overview.md)
