@@ -12,16 +12,16 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8678e238ca17ad66873d4e4ea72ebef161ee6315
-ms.sourcegitcommit: d261604bf9e7ef04c2a947611715d0bec78b4f92
+ms.openlocfilehash: 41508b8cdc2e8e34545c1e07136b69eea2e3aa48
+ms.sourcegitcommit: e97b2b8f47ac5ec2e3be3e5d69d8e026b6f21111
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/15/2021
-ms.locfileid: "11270731"
+ms.locfileid: "11271182"
 ---
 # <span data-ttu-id="5f5f9-104">Оборудование HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="5f5f9-104">HoloLens 2 hardware</span></span>
 
-![HoloLens 2, вид сбоку](images/hololens2-exploded-medium.png)
+![HoloLens 2, вид сбоку](images/hololens2-breakdown.png)
 
 <span data-ttu-id="5f5f9-106">Microsoft HoloLens 2 — это голографический автономный компьютер</span><span class="sxs-lookup"><span data-stu-id="5f5f9-106">Microsoft HoloLens 2 is an untethered holographic computer.</span></span>  <span data-ttu-id="5f5f9-107">Он является развитием первого голографического компьютера HoloLens 1-го поколения, обеспечивающим более комфортное и иммерсивное взаимодействие в сочетании с дополнительными возможностями для совместной работы в смешанной реальности.</span><span class="sxs-lookup"><span data-stu-id="5f5f9-107">It refines the holographic computing journey started by HoloLens (1st gen) to provide a more comfortable and immersive experience paired with more options for collaborating in mixed reality.</span></span>
 
@@ -69,7 +69,7 @@ ms.locfileid: "11270731"
 | <span data-ttu-id="5f5f9-154">Гиростабилизатор</span><span class="sxs-lookup"><span data-stu-id="5f5f9-154">Inertial measurement unit (IMU)</span></span> | <span data-ttu-id="5f5f9-155">Акселерометр, гироскоп, магнитометр</span><span class="sxs-lookup"><span data-stu-id="5f5f9-155">Accelerometer, gyroscope, magnetometer</span></span> |
 | <span data-ttu-id="5f5f9-156">Камера</span><span class="sxs-lookup"><span data-stu-id="5f5f9-156">Camera</span></span> | <span data-ttu-id="5f5f9-157">Фотографии 8 Мп, видео 1080p, 30 кадр/с</span><span class="sxs-lookup"><span data-stu-id="5f5f9-157">8-MP stills, 1080p30 video</span></span> |
 
-![Датчики HoloLens 2](images/hl2-sensors.png)
+![Датчики HoloLens 2](images/hololens2-front-view.png)
 
 > [!NOTE]
 > <span data-ttu-id="5f5f9-159">Не закрывайте датчики, которые показаны на рисунке.</span><span class="sxs-lookup"><span data-stu-id="5f5f9-159">Do no cover any of the sensors that are called out in the picture.</span></span> <span data-ttu-id="5f5f9-160">Камеры отслеживания головы имеют очень широкий FOV, вокруг них не должно быть ничего и их не нужно закрывать.</span><span class="sxs-lookup"><span data-stu-id="5f5f9-160">The head tracking cameras have a very wide FOV, nothing should be around them in addition to not covering them.</span></span>

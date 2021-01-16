@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7d954347c7c274b844d436c0d6fc96e8bbc59f10
-ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
+ms.openlocfilehash: fe83333c99f8dbf23b211c9b5155db256dcd20b3
+ms.sourcegitcommit: 50e4d61a31b94d5007776064b4012e26cf9ecbbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "11253186"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271681"
 ---
 # <span data-ttu-id="b7d2c-104">Руководство по развертыванию — HoloLens 2, подключенный к облаку, с удаленной помощью — обзор</span><span class="sxs-lookup"><span data-stu-id="b7d2c-104">Deployment Guide – Cloud connected HoloLens 2 with Remote Assist – Overview</span></span>
 
@@ -39,7 +39,7 @@ ms.locfileid: "11253186"
   - <span data-ttu-id="b7d2c-118">Поддерживается один или несколько пользователей на устройство</span><span class="sxs-lookup"><span data-stu-id="b7d2c-118">Single or multiple users per device supported</span></span>
 - <span data-ttu-id="b7d2c-119">Различные уровни конфигураций блокировки устройств применяются в зависимости от конкретных случаев использования: от "Полностью открыто" до "Терминал с одним приложением"</span><span class="sxs-lookup"><span data-stu-id="b7d2c-119">Varying levels of device lockdown configurations are applied based on specific use cases, from Fully Open to Single App Kiosk</span></span>
 
-![Сценарий с подключением к облаку](./images/cloud-connected-deployment-chart.png)
+![Сценарий с подключением к облаку](./images/cloud-connected-guide-diagram.png)
 
 <span data-ttu-id="b7d2c-121">В этом руководстве не применяются никакие другие ограничения или конфигурации устройств, однако мы рекомендуем изучить эти параметры после завершения работы.</span><span class="sxs-lookup"><span data-stu-id="b7d2c-121">No other device restrictions or configurations will be applied in this guide, however we encourage you to explore those options after finishing.</span></span>
 
