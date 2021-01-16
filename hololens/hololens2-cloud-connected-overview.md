@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7d954347c7c274b844d436c0d6fc96e8bbc59f10
-ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
+ms.openlocfilehash: fe83333c99f8dbf23b211c9b5155db256dcd20b3
+ms.sourcegitcommit: 50e4d61a31b94d5007776064b4012e26cf9ecbbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "11253186"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271681"
 ---
 # Руководство по развертыванию — HoloLens 2, подключенный к облаку, с удаленной помощью — обзор
 
@@ -39,7 +39,7 @@ ms.locfileid: "11253186"
   - Поддерживается один или несколько пользователей на устройство
 - Различные уровни конфигураций блокировки устройств применяются в зависимости от конкретных случаев использования: от "Полностью открыто" до "Терминал с одним приложением"
 
-![Сценарий с подключением к облаку](./images/cloud-connected-deployment-chart.png)
+![Сценарий с подключением к облаку](./images/cloud-connected-guide-diagram.png)
 
 В этом руководстве не применяются никакие другие ограничения или конфигурации устройств, однако мы рекомендуем изучить эти параметры после завершения работы.
 

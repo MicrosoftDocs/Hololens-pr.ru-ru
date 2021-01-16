@@ -13,20 +13,28 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: c0ea468df2188700af408803ae1c55b9d0e4c763
-ms.sourcegitcommit: ea5fa6c970756025b77c00b4ea600d60ce033106
+ms.openlocfilehash: 7658ace4879fef401accabb95ca22e307e5f80a8
+ms.sourcegitcommit: 50e4d61a31b94d5007776064b4012e26cf9ecbbb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "11268005"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271663"
 ---
 # Развертывание HoloLens 2 на внешних клиентах с помощью удаленной поддержки
 
-Этот документ помогает ИТ-юристам планировать и развертывать устройства HoloLens 2, уделяя особое внимание удаленной помощи. [Узнайте больше об удаленной помощи.](https://docs.microsoft.com/hololens/hololens2-cloud-connected-overview#learn-about-remote-assist)
+Это руководство поможет ИТ-специалистам развернуть устройства Microsoft HoloLens 2 в своей организации с помощью следующих целей:
+
+1. Облачное подключение устройств HoloLens 2
+1. Кредиту устройств HoloLens 2 внешним клиентам для использования
+1. Безопасные устройства с заемом
+
+В этом руководстве вы будете предоставлять общие рекомендации по развертыванию [HoloLens 2,](#general-deployment-recommendations-and-instructions) применимые к большинству сценариев развертывания HoloLens 2, и общие проблемы, которые клиенты имеют при развертывании удаленной помощи для внешнего использования. [](#common-concerns)
 
 ## Описание сценария
 
 В этом документе компания Contoso хочет погружать устройство HoloLens 2 на завод внешнего клиента для краткосрочного или долгосрочного использования. Когда клиенту требуется помощь в обслуживании, он будет входить на устройство HoloLens 2 с помощью учетных данных компании Contoso и использовать удаленную поддержку для связи со специалистами компании Contoso.
+
+Узнайте больше об удаленной помощи [здесь.](https://docs.microsoft.com/hololens/hololens2-cloud-connected-overview#learn-about-remote-assist)
 
 ### Требования для этого сценария
 
@@ -112,7 +120,7 @@ ms.locfileid: "11268005"
 1. Используйте [WDAC,](https://docs.microsoft.com/hololens/windows-defender-application-control-wdac) чтобы разрешить или использовать черные приложения на устройстве HoloLens 2.
 1. Обновим удаленную помощь до последней версии в рамках установки. Это можно сделать двумя вариантами:
     1. Для этого можно ходить в Windows **Microsoft Store --> remote Assist --> and Update App**.
-    1. Другой способ — оставить HoloLens 2 подключенным в ночное время для автоматического обновления.
+    1. Включать автоматические обновления с помощью CSP [ApplicationManagement/AllowAppStoreAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowappstoreautoupdate) и поддерживать подключение устройства для получения обновлений.
 1. [Отключать все страницы параметров,](https://docs.microsoft.com/hololens/settings-uri-list) кроме сетевых параметров, чтобы разрешить пользователям подключаться к гостевых сетях на клиентских сайтах.
 1. [Управление обновлениями HoloLens](https://docs.microsoft.com/hololens/hololens-updates)
     1. Возможность управления [обновлениями ОС или](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure#create-and-assign-update-rings) возможность свободного потока.
