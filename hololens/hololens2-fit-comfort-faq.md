@@ -1,6 +1,6 @@
 ---
 title: 'Регулировка размера и удобство использования HoloLens 2: вопросы и ответы'
-description: Ответы на часто задаваемые вопросы о том, как отрегулировать размер HoloLens 2.
+description: Отслеживайте ответы на часто задаваемые вопросы о размещении HoloLens 2 и с удобством используйте интерфейсы смешанной реальности.
 ms.prod: hololens
 ms.sitesec: library
 author: Teresa-Motiv
@@ -13,12 +13,12 @@ ms.reviewer: jarrettr
 manager: jarrettr
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 17b55ef165cbb9df47f822f742141f4460cd9c6b
-ms.sourcegitcommit: bdbaed42dd9ecbd0ed9517de2e98a0465f584c1d
+ms.openlocfilehash: 158354c23e93abe770875491af1ab559e47557a7
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "10929845"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283840"
 ---
 # Регулировка размера и удобство использования HoloLens 2: вопросы и ответы
 

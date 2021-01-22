@@ -1,6 +1,6 @@
 ---
-title: Руководство по развертыванию — HoloLens 2 с подключением к облаку с помощью удаленной помощи — обзор
-description: Регистрация устройств HoloLens через сеть Cloud Connected
+title: Обзор cloud connected HoloLens 2 with Remote Assist
+description: Узнайте, как зарегистрировать устройства HoloLens 2 в сети Cloud Connected с помощью удаленной помощи Dynamics 365.
 keywords: HoloLens, управление, подключение к облаку, удаленная помощь, AAD, Azure AD, MDM, управление мобильными устройствами
 author: evmill
 ms.author: v-evmill
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: fe83333c99f8dbf23b211c9b5155db256dcd20b3
-ms.sourcegitcommit: 50e4d61a31b94d5007776064b4012e26cf9ecbbb
+ms.openlocfilehash: 835b4be101b665d2b86c2170a65c04697686e403
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271681"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283080"
 ---
 # Руководство по развертыванию — HoloLens 2, подключенный к облаку, с удаленной помощью — обзор
 

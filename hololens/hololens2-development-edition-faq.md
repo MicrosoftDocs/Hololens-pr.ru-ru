@@ -1,6 +1,6 @@
 ---
 title: Вопросы и ответы о HoloLens 2 Development Edition
-description: Часто задаваемы вопросы о выпуске HoloLens 2 Development Edition.
+description: Будьте в курсе самых распространенных вопросов об устройстве смешанной реальности HoloLens 2 Development Edition.
 keywords: Варианты приобретения Hololens 2, параметры HoloLens, Developer Edition
 author: evmill
 ms.author: v-evmill
@@ -14,16 +14,16 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d2f3a58766baf9850f5af38c8e94acc8cb4877d6
-ms.sourcegitcommit: fc268335e5df529a1cedc2c6b88fa86245fe1b9b
+ms.openlocfilehash: 8d17276adff49fcc7b6d2947539d17392a76eee5
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "11252790"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283860"
 ---
 # Вопросы и ответы о HoloLens 2 Development Edition
 
-## Общие
+## Общие вопросы
 
 ### Что можно получить с выпуском HoloLens 2 Development Edition?
 
@@ -136,7 +136,7 @@ MRTK-Unreal это первый выпущенный компонент сред
 
 Да, вы можете создавать приложения со всеми совместимыми версиями Unity.
 
-### Как обратиться в службу поддержки Unity?
+### Как связаться с поддержкой Unity?
 
 Чтобы получить помощь по любым вопросам об ИД Unity, учетной записи, организациях и подписках, посетите support.unity3d.com.
 

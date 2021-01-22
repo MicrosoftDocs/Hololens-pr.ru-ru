@@ -1,6 +1,6 @@
 ---
 title: Руководство по развертыванию — масштабное развертывание HoloLens 2 с подключением к облаку с помощью удаленной помощи — настройка
-description: Настройка конфигураций для регистрации устройств HoloLens в сети Cloud Connected
+description: Узнайте, как настроить конфигурации для регистрации устройств HoloLens по сети, подключенной к облаку, в масштабе с помощью удаленной помощи.
 keywords: HoloLens, управление, подключение к облаку, удаленная помощь, AAD, Azure AD, MDM, управление мобильными устройствами
 author: evmill
 ms.author: v-evmill
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 042a29fe436b21ca37a2fcd7921fc53d6a9686d5
-ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
+ms.openlocfilehash: 00cc3f9df1fefafc9c4c084ff642364ae3ccb85c
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "11253046"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283890"
 ---
 # Configure — руководство по подключению к облаку
 

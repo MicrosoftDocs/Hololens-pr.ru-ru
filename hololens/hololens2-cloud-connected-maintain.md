@@ -1,6 +1,6 @@
 ---
 title: Руководство по развертыванию — масштабное развертывание HoloLens 2 с подключением к облаку с помощью удаленной помощи — обслуживание
-description: Советы по обслуживанию устройств HoloLens по сети, подключенной к облаку
+description: Оставайтесь в курсе наших советов по обслуживанию и поддержке устройств HoloLens по сети Cloud Connected.
 keywords: HoloLens, управление, подключение к облаку, удаленная помощь, AAD, Azure AD, MDM, управление мобильными устройствами
 author: evmill
 ms.author: v-evmill
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8117c73516d2775ec67f37bad524bcf377ece2e5
-ms.sourcegitcommit: fc268335e5df529a1cedc2c6b88fa86245fe1b9b
+ms.openlocfilehash: bc34c4e41c5a6cee8f3f9a0a97407ee38d419bbc
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "11252700"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283900"
 ---
 # Обслуживание — руководство по подключению к облаку
 
