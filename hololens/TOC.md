@@ -13,6 +13,7 @@
 ### [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md)
 ### [Начало работы с HoloLens 2](hololens2-basic-usage.md)
 ### [Вопросы и ответы о HoloLens 2 Development Edition](hololens2-development-edition-faq.md)
+### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)
 
 
 ## Начало работы с HoloLens(1-е поколение)
@@ -24,6 +25,8 @@
 ### [Начало работы с HoloLens (1-е поколение)](hololens1-basic-usage.md)
 ### [Использование пульта HoloLens (1-е поколение)](hololens1-clicker.md)
 ### [Использование средства 3D-просмотра в HoloLens (1-е поколение)](holographic-3d-viewer-beta.md)
+### [Управление пользовательскими приложениями для HoloLens](holographic-custom-apps.md)
+
 
 ## Навигация в интерфейсе Windows Holographic
 ### [Использование меню "Пуск" и дома в смешанной реальности](holographic-home.md)
@@ -32,7 +35,6 @@
 ### [Создание фотографий и видео смешанной реальности](holographic-photos-and-videos.md)
 ## Голографические приложения
 ### [Поиск, установка и удаление приложений](holographic-store-apps.md)
-### [Управление пользовательскими приложениями для HoloLens](holographic-custom-apps.md)
 ## Голографическая оптика и размещение в пространстве
 ### [Повышение качества изображения и комфорта](hololens-calibration.md)
 ### [Сопоставление физических пространств с HoloLens](hololens-spaces.md) 

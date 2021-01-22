@@ -1,6 +1,6 @@
 ---
 title: Начало работы с HoloLens 2
-description: Руководство по использованию HoloLens 2 с вашими руками
+description: Узнайте о смешанной реальности и приступите к работе с помощью этого руководства по использованию устройств HoloLens 2.
 ms.assetid: 5f791a5c-bdb2-4c5d-bf46-4a198de68f21
 ms.date: 9/17/2019
 keywords: hololens
@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8c905b53e878b9445ebccd4c4873d91a1d57f5e0
-ms.sourcegitcommit: 7c057aeeaeebb4daffa2120491d4e897a31e8d0f
+ms.openlocfilehash: 8aa4a7a4ca1982ee1877ecad9820a27a4ff9a218
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "10828857"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11282950"
 ---
 # Начало работы с HoloLens 2
 

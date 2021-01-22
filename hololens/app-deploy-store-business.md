@@ -1,6 +1,6 @@
 ---
 title: Microsoft Store для бизнеса
-description: Microsoft Store для бизнеса, msfb,
+description: Узнайте, как работать с Microsoft Store для бизнеса для публикации приложений смешанной реальности в вашей компании.
 keywords: Microsoft Store для бизнеса, msfb, развертывание приложений, магазин
 author: evmill
 ms.author: v-evmill
@@ -11,30 +11,30 @@ ms.sitesec: library
 ms.localizationpriority: medium
 audience: HoloLens
 manager: yannisle
-ms.openlocfilehash: 82748301ccb6306c61e8a6f32ee126629221646a
-ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
+ms.openlocfilehash: 52036b9e17fe6685bd05693b06e3120b4655c863
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009497"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283680"
 ---
 # Microsoft Store для бизнеса
 
-Приложение Microsoft Store для бизнеса в основном предназначено для ИТ-ответственных и администраторов в компаниях и организациях с гибким способом поиска, получения, управления и распространения бесплатных и платных приложений в разделе выбор рынков на устройствах с Windows 10 на томе. 
+Microsoft Store для бизнеса предназначен главным образом для ИТ-лиц, принимающих решения, и администраторов в компаниях или организациях с гибким способом поиска, приобретения, распространения и распространения бесплатных и платных приложений на отдельных рынках на устройствах с Windows 10 в том же объеме. 
 
-Вы можете управлять приложениями Microsoft Store и частными бизнес-приложениями в одном запасе, а также назначать и повторно использовать лицензии по мере необходимости. Вы также можете выбрать наилучший способ распространения для своей организации: назначать приложения отдельным пользователям и группам, публиковать приложения на частных страницах в Microsoft Store или подключаться к решениям управления для получения дополнительных параметров.
+Вы можете управлять приложениями Microsoft Store и частными бизнес-приложениями в одном перечне, а также назначать и повторно использовать лицензии по мере необходимости. Вы также можете выбрать лучший способ распространения для своей организации: напрямую назначать приложения отдельным лицам и группам, публиковать приложения на частных страницах в Microsoft Store или подключаться к решениям управления для получения дополнительных параметров.
 
-Если приложение Microsoft Store для бизнеса используется конечным пользователем, оно запустит приложение Microsoft Store. После запуска пользователь сможет выбрать вкладку с именем своей организации, после чего они будут представлены приложениям, доступным для них или устройству.
+Когда пользователь использует Microsoft Store для бизнеса, он запустит приложение Microsoft Store. После запуска пользователь сможет выбрать вкладку с названием своей организации, а затем он получит доступ к приложениям, доступным для пользователя или этого устройства.
 
 > [!Note] 
-> Microsoft Store для бизнеса не загружает приложения автоматически (Push) на устройства. Однако приложения из Microsoft Store для бизнеса могут быть связаны с сервером управления устройствами (MDM) и предназначены для синхронизации приложений с устройствами.
+> Microsoft Store для бизнеса не загружает приложения на устройства автоматически (push-приложения). Однако приложения из Microsoft Store для бизнеса можно связывать с вашим сервером управления устройствами (MDM), чтобы они были нацелены на устройства и синхронизированы с ними.
 
-Чтобы узнать больше о том, как использовать Microsoft Store для бизнеса, посетите указанные ниже страницы.
-* [Уровни разрешений, используемых для установки приложений](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-holographic#app-store)
-* [Как добавить приложение в магазин для бизнеса](https://docs.microsoft.com/mem/intune/apps/store-apps-windows)
+На следующих страницах вы узнаете, как использовать Microsoft Store для бизнеса:
+* [Уровни разрешений, используемые для установки приложений](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-holographic#app-store)
+* [Добавление приложения в Магазин для бизнеса](https://docs.microsoft.com/mem/intune/apps/store-apps-windows)
 * [Назначение приложений группам сотрудников](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business)
 
-Чтобы связать приложение Microsoft Store для бизнеса, посетите веб [-сайт Microsoft Store для бизнеса с помощью Intune](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business#associate-your-microsoft-store-for-business-account-with-intune).
+Чтобы связать Microsoft Store для бизнеса, посетите сайт [Associate your Microsoft Store for Business with Intune.](https://docs.microsoft.com/mem/intune/apps/windows-store-for-business#associate-your-microsoft-store-for-business-account-with-intune)
 
 > [!Tip] 
-> Узнайте больше о том, как [распространять автономные приложения](https://docs.microsoft.com/microsoft-store/distribute-offline-apps) , используя такие приложения, как расширенный помощник по восстановлению (ARC) и конструктор конфигураций Windows (WCD).
+> Узнайте больше о [распространении автономных приложений](https://docs.microsoft.com/microsoft-store/distribute-offline-apps) при использовании таких приложений, как Advanced Recovery Companion (ARC) и конструктор конфигураций Windows (WCD).
