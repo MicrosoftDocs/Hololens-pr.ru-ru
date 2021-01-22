@@ -1,6 +1,6 @@
 ---
 title: Управление приложениями в Защитнике Windows — WDAC
-description: Общие сведения о WDAC и использовании для управления устройствами HoloLens.
+description: Обзор Защитник Windows управления приложениями и его использования для управления устройствами смешанной реальности HoloLens.
 ms.prod: hololens
 ms.sitesec: library
 author: evmill
@@ -12,12 +12,12 @@ ms.reviewer: ''
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d337f9856eaeac433524d7bb8b60e9a24e264b80
-ms.sourcegitcommit: fc268335e5df529a1cedc2c6b88fa86245fe1b9b
+ms.openlocfilehash: 23c9a274387424e8f084a4729ee621e130820716
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "11252650"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11284140"
 ---
 # Управление приложениями в Защитнике Windows — WDAC
 

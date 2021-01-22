@@ -1,6 +1,6 @@
 ---
 title: Регистрация HoloLens в MDM
-description: Регистрация HoloLens в системе управления мобильными устройствами (MDM) для упрощения управления несколькими устройствами.
+description: Узнайте, как зарегистрировать HoloLens в управлении мобильными устройствами (MDM) для упростить управление несколькими устройствами.
 ms.prod: hololens
 ms.sitesec: library
 ms.assetid: 2a9b3fca-8370-44ec-8b57-fb98b8d317b0
@@ -14,12 +14,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 7c17cbf88fc2e7a6dcd9aa600ad6e6910edb29a8
-ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
+ms.openlocfilehash: b9473f4e80f6438ef4c438711ac0de342c5327e1
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "11253236"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283190"
 ---
 # Регистрация HoloLens в MDM
 
