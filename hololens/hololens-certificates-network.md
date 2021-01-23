@@ -1,6 +1,6 @@
 ---
 title: Подготовка сертификатов и сетевых профилей для HoloLens 2
-description: Как настроить и использовать сертификаты для сети на устройствах HoloLens 2
+description: Узнайте, как настроить, использовать, развернуть и устранить неполадки сертификатов для сети на устройствах смешанной реальности HoloLens 2.
 ms.prod: hololens
 ms.sitesec: library
 author: evmill
@@ -13,12 +13,12 @@ audience: ITPro
 manager: ''
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b5fe64a1843db5ba8dc31f3c17776f0717264fe1
-ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
+ms.openlocfilehash: 1bfac948b493c2e55207e45042d6b022c1818969
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "11162984"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283440"
 ---
 # Подготовка сертификатов и сетевых профилей для HoloLens 2
 

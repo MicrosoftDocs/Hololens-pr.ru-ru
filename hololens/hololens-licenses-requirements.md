@@ -1,6 +1,6 @@
 ---
 title: Требования к лицензиям
-description: ''
+description: Оставайтесь в курсе всех требований и рекомендаций по лицензированию для управления мобильными устройствами, HoloLens и Удаленной поддержки.
 ms.prod: hololens
 ms.sitesec: library
 author: pawinfie
@@ -14,20 +14,20 @@ manager: bradke
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 3ac86512755620ebb6159dd4d845b488e203dbad
-ms.sourcegitcommit: 238d41844116ab94d347a2ffd0fbfa18b8a81947
+ms.openlocfilehash: 2f7af532d2172dcaa6514ee11dbb0d6ab5631929
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "10956765"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283970"
 ---
 # Требования к лицензиям
 
 ## Руководство по лицензированию управления мобильными устройствами (MDM)
 
 Если вы планируете управлять устройствами HoloLens, вам потребуется Azure AD и MDM. Служба Active Directory (AD) не используется для управления устройствами HoloLens.
-Если вы планируете использовать систему MDM, отличную от Intune, потребуются [лицензии Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis).
-Если вы планируете использовать Intune в качестве MDM, [здесь](https://docs.microsoft.com/intune/fundamentals/licenses) представлен список наборов, включающих лицензии Intune. **Обратите внимание, что Azure AD входит в большинство этих наборов.**
+Если вы планируете использовать систему MDM, отличную от Intune, то потребуются [лицензии Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis).
+Если вы планируете использовать Intune в качестве MDM, ознакомьтесь со [списком наборов,](https://docs.microsoft.com/intune/fundamentals/licenses) которые включают лицензии Intune. **Обратите внимание, что Azure AD входит в большинство этих наборов.**
 
 ## Определение лицензий, необходимых для вашего сценария и продуктов
 
@@ -42,7 +42,7 @@ ms.locfileid: "10956765"
 
 ### Требования к лицензии для Удаленной поддержки
 
-Убедитесь, что у вас есть требуемые лицензии и устройство. Обновленные требования к лицензиям и продукту см. [здесь](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements).
+Убедитесь, что у вас есть необходимые лицензии и устройство, которые можно проверить в [документации по требованиям.](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements)
 
 1. [Лицензия для Удаленной поддержки](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/buy-and-deploy-remote-assist)
     1. Или воспользуйтесь [пробной версией удаленной поддержки](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/try-remote-assist)
@@ -53,7 +53,7 @@ ms.locfileid: "10956765"
 
 ### Требования к лицензии для руководств
 
-Обновленные требования к лицензиям и устройству см. [здесь](https://docs.microsoft.com/dynamics365/mixed-reality/guides/requirements).
+Проверьте [обновленные требования к лицензированию и устройству.](https://docs.microsoft.com/dynamics365/mixed-reality/guides/requirements)
 
 1. [Лицензия для Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 1. [Power BI](https://powerbi.microsoft.com/desktop/)

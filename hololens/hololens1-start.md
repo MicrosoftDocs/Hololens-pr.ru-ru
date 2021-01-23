@@ -1,6 +1,6 @@
 ---
 title: Настройка HoloLens (1-е поколение)
-description: В этом руководстве описывается первая настройка устройства.  Вам потребуется сеть Wi-Fi, а также учетная запись Майкрософт (MSA) или Azure Active Directory (Azure AD).
+description: Узнайте, как настроить HoloLens (1-е поколение) в первый раз по сети Wi-Fi с помощью учетной записи Майкрософт (MSA) или Azure Active Directory (AAD).
 ms.assetid: 0136188e-1305-43be-906e-151d70292e87
 ms.prod: hololens
 author: Teresa-Motiv
@@ -11,12 +11,12 @@ manager: jarrettr
 ms.localizationpriority: high
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 9a20a2ddd52c08a2b44dad452aac07ad9e69de85
-ms.sourcegitcommit: 7edbb99e0972d3d857e5e87c062c3c64cacc1f41
+ms.openlocfilehash: aca7b287b3d26ab37ddb90e4245a1e0b3adc17e2
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2020
-ms.locfileid: "10903235"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283930"
 ---
 # Настройка HoloLens (1-е поколение)
 
