@@ -1,6 +1,6 @@
 ---
 title: Функция шифрования и защиты данных
-description: Функция шифрования и защиты данных
+description: Ознакомьтесь с шифрованием и защитой данных на устройствах HoloLens 2, включая интеграцию BitLocker и Azure.
 author: evmill
 ms.author: v-evmill
 ms.reviewer: tagran
@@ -13,12 +13,12 @@ ms.localizationpriority: high
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 6f67e43eaf3a20a7f6948a448af2e5efdaa83821
-ms.sourcegitcommit: 72ff3174b34d2acaf72547b7d981c66aef8fa82f
+ms.openlocfilehash: e005f04088127a0e38a4dd978cd63e5d4e5c0ab9
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009547"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11284110"
 ---
 # Шифрование и защита данных
 

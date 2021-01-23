@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 89f48fab236fdaf58fb0bf8b29e5a3aacb3bdee3
-ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
+ms.openlocfilehash: 9e413963dbf34dd071fc9603487590065b967ee7
+ms.sourcegitcommit: af4e222a4f83ab82466a383099897986ddf6b8c4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "11283740"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "11297294"
 ---
 # Установка приложений на HoloLens 2 с помощью установщика приложений
 
@@ -40,9 +40,10 @@ ms.locfileid: "11283740"
 
 ### Для устройств:
 
- в настоящее время эта функция доступна в сборках Windows Holographic 20H2 для устройств HoloLens 2. Убедитесь, что все устройства, использующие [этот метод, обновлены.](hololens-update-hololens.md)
+В настоящее время эта функция доступна в сборках Windows Holographic 20H2 для устройств HoloLens 2. Убедитесь, что все устройства, использующие [этот метод, обновлены.](hololens-update-hololens.md)
 
-### Для ваших приложений: 
+### Для ваших приложений:
+
 Конфигурация решения вашего приложения должна быть либо **Master,** либо **Release,** так как установщик приложений будет использовать зависимости из Магазина. Узнайте больше о [создании пакетов приложений.](https://docs.microsoft.com/windows/msix/app-installer/create-appinstallerfile-vs)
 
 Приложения, установленные с помощью этого метода, должны иметь цифровую подпись. Для подписывания приложения необходимо использовать сертификат. Вы можете получить сертификат из списка доверенных ЦС [MS,](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)в этом случае вам не потребуется никаких дополнительных действий. Кроме того, вы можете подписать собственный сертификат, но этот сертификат необходимо будет на устройстве.
