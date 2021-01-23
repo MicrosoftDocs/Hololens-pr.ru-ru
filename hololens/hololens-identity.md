@@ -1,6 +1,6 @@
 ---
 title: Управление удостоверениями пользователей и входом для HoloLens
-description: Управление удостоверениями пользователей, безопасностью и входом в HoloLens.
+description: Узнайте, как управлять удостоверениями пользователей, поддержкой нескольких пользователей, безопасностью, корпоративной проверкой подлинности и входом для устройств HoloLens.
 keywords: HoloLens, пользователь, учетная запись, AAD, Azure AD, adfs, учетная запись Майкрософт, msa, учетные данные, справка
 ms.assetid: 728cfff2-81ce-4eb8-9aaa-0a3c3304660e
 author: scooley
@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 96e3b90a24d297631d39a1eb62888e4f4aa1098e
-ms.sourcegitcommit: 96dcd015ad24169295690a8ed13ea1bf480e4b9e
+ms.openlocfilehash: d9b7bebd9fd326def4ddfc2982bfecb09cb14186
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/01/2021
-ms.locfileid: "11253226"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11283280"
 ---
 # Управление удостоверениями пользователей и входом для HoloLens
 
@@ -43,7 +43,7 @@ HoloLens поддерживает несколько типов удостове
 Облачные учетные записи (Azure AD и MSA) предоставляют больше возможностей, так как они могут использовать службы Azure.  
 
 > [!NOTE]
-> 1 — хотя устройство HoloLens 2 может поддерживать до 64 учетных записей Azure AD, только 10 из них могут зарегистрироваться в проверке подлинности Iris. Это согласуется с другими вариантами биометрической проверки подлинности для Windows Hello для бизнеса. [Дополнительные ознакомьтесь с этой темой.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer)
+> 1 — хотя устройство HoloLens 2 может поддерживать до 64 учетных записей Azure AD, только 10 из них могут зарегистрироваться в проверке подлинности Iris. Это согласуется с другими [вариантами биометрической](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer)проверки подлинности для Windows Hello для бизнеса.
 
 ## Настройка пользователей
 
@@ -109,7 +109,7 @@ You can remove a user from **** the device by going to  >  **Settings Accounts**
 
 HoloLens 2 поддерживает проверку подлинности радужной оболочки радужной оболочки. Iris основан на технологии Windows Hello и поддерживается как в Azure Active Directory, так и в учетных записях Майкрософт. Iris реализован так же, как другие технологии Windows Hello, и достигает биометрической безопасности FAR 1/100K.
 
-Подробнее о биометрических требованиях и спецификациях для Windows Hello можно узнать [здесь.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-biometric-requirements) Узнайте больше о [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) и Windows Hello [для бизнеса.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) 
+Дополнительные сведения см. в биометрических требованиях и [спецификациях windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello-biometric-requirements) Узнайте больше о [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) и Windows Hello [для бизнеса.](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) 
 
 ### Как тип учетной записи влияет на поведение при входе?
 
