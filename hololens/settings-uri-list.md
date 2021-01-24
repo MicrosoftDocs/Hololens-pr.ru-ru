@@ -1,6 +1,6 @@
 ---
 title: Видимость параметров страницы
-description: Список поддерживаемых HoloLens URI для PageVisibilityList и руководство
+description: Ознакомьтесь с нашим списком поддерживаемых URI для PageVisibilityList и руководством по устройствам смешанной реальности HoloLens.
 author: evmill
 ms.author: v-evmill
 ms.date: 10/13/2020
@@ -13,12 +13,12 @@ ms.reviewer: widuff
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8cd336ce64cf7d4549b031a7977f592ca82dd6e4
-ms.sourcegitcommit: 108b818130e2627bf08107f4e47ae159dd6ab1d2
+ms.openlocfilehash: e4d4936595144f82a468883f26dae6e19eef4f84
+ms.sourcegitcommit: d20057957aa05c025c9838119cc29264bc57b4bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "11163144"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "11284120"
 ---
 # Видимость параметров страницы
 
@@ -42,7 +42,8 @@ ms.locfileid: "11163144"
 1. При выборе комплекта данных укажите: **Строка**
 1. При вводе значения используйте: **showonly:network-wifi;network-proxy;bluetooth**
 1. Назначьте настраиваемую конфигурацию устройства группе, в которой должно располагаться устройство.
-Дополнительные сведения о группах Intune и конфигурациях устройств [см. здесь](hololens-mdm-configure.md).
+
+Дополнительные сведения о группах Intune и конфигурации устройств см. в статье [Конфигурация HoloLens в MDM.](hololens-mdm-configure.md)
 
 Независимо от выбранного метода ваше устройство должно теперь получать изменения, а пользователи получат следующее приложение "Параметры". 
 
@@ -126,4 +127,4 @@ ms.locfileid: "11163144"
 > - ms-settings:windowsupdate-options
 > - ms-settings:windowsupdate-restartoptions 
 
-Полный список URI параметров Windows 10 см. [здесь](https://docs.microsoft.com/windows/uwp/launch-resume/launch-settings-app#ms-settings-uri-scheme-reference). 
+Полный список URI параметров Windows 10 см. в документации по [параметрам запуска](https://docs.microsoft.com/windows/uwp/launch-resume/launch-settings-app#ms-settings-uri-scheme-reference). 
