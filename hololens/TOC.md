@@ -114,7 +114,7 @@
 ### [Вопросы и ответы](hololens-faq.md)
 ### [Известные проблемы HoloLens](hololens-known-issues.md)
 ### [Сбор и использование сведений диагностики с устройств HoloLens](hololens-diagnostic-logs.md)
-### [Получить поддержку](https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f)
+### [Получение технической поддержки](https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f)
 
 # Заметки о выпуске HoloLens
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
