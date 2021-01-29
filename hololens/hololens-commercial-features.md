@@ -1,6 +1,6 @@
 ---
 title: Коммерческие функции
-description: Узнайте о функциях Microsoft HoloLens Commercial Suite, которые упрощают для предприятий управление устройствами HoloLens.
+description: Узнайте о функциях Microsoft HoloLens Commercial Suite, которые упрощают управление устройствами HoloLens для предприятий.
 author: scooley
 ms.author: scooley
 ms.date: 08/26/2019
