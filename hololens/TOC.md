@@ -12,8 +12,9 @@
 ### [Очистка HoloLens 2, вопросы и ответы](hololens2-maintenance.md)
 ### [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md)
 ### [Начало работы с HoloLens 2](hololens2-basic-usage.md)
-### [Вопросы и ответы о HoloLens 2 Development Edition](hololens2-development-edition-faq.md)
-### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)
+### [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.md)
+### [HoloLens 2 Industrial Edition: вопросы и ответы](hololens2-industrial-edition-faq.md)
+
 
 
 ## Начало работы с HoloLens(1-е поколение)
@@ -35,6 +36,7 @@
 ### [Создание фотографий и видео смешанной реальности](holographic-photos-and-videos.md)
 ## Голографические приложения
 ### [Поиск, установка и удаление приложений](holographic-store-apps.md)
+### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)
 ## Голографическая оптика и размещение в пространстве
 ### [Повышение качества изображения и комфорта](hololens-calibration.md)
 ### [Сопоставление физических пространств с HoloLens](hololens-spaces.md) 
