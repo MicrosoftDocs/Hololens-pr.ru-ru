@@ -4,7 +4,7 @@ description: Узнайте, в чем выпуски устройств HoloLen
 keywords: Варианты приобретения HoloLens 2, параметры HoloLens, Developer Edition
 author: evmill
 ms.author: v-evmill
-ms.reviewer: sekerawa
+ms.reviewer: evmill
 ms.date: 1/01/2021
 ms.prod: hololens
 ms.topic: article
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 9de0bbe4cc8d3056a1f34647c0779ebdff1476aa
-ms.sourcegitcommit: f122e2c0c7c0366d88fa3efa3590e9e237eaf925
+ms.openlocfilehash: df3fa8ba3fbf65fa0b59f2ba9a6ace2ea489308b
+ms.sourcegitcommit: c58747f312cf1fea2de146501ea2473e93bd8300
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "11313556"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314288"
 ---
 # Обзор HoloLens 2
 
@@ -106,6 +106,8 @@ HoloLens — это устройство смешанной реальности
 
 Помимо обновленного устройства, HoloLens 2 Industrial Edition включает двухлетнюю гарантию и поддержку программы быстрой замены.
 
+![Использование Industrial Edition в чистом помещении](./images/ie-small-pic.png)
+
 См. раздел [Вопросы и ответы о HoloLens 2 Industrial Edition](hololens2-industrial-edition-faq.md).
 
 #### Очистка и обслуживание HoloLens 2
@@ -115,6 +117,8 @@ HoloLens 2 Industrial Edition можно очищать с помощью 70%-н
 
 #### Сведения о Trimble XR10
 Trimble XR10 с HoloLens 2 — это первое устройство, созданное с помощью программы настройки Microsoft HoloLens. Оно содержит новейшие технологии пространственных вычислений в сертифицированном решении для использования с защитными касками с целью обеспечения безопасности сотрудников.
+
+![Номер SKU Trimble](./images/trimble-ed.png)
 
 См. дополнительные сведения о [Trimble XR10](https://fieldtech.trimble.com/en/product/trimble-xr10-with-hololens-2).
 
@@ -132,6 +136,8 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 |  [Unity](https://unity.com/) | Платформа для трехмерной разработки в режиме реального времени.   |
 |  [Подключаемый модуль Pixyz для Unity](https://www.pixyz-software.com/plugin/) | Мост для подключения сред проектирования и САПР к среде разработки.   |
 | [500 долл. США в виде кредитов Azure для служб Azure](https://azure.microsoft.com/resources/) | Кредиты Azure, включенные в HoloLens 2 Development Edition, предназначены для быстрого создания и тестирования приложений смешанной реальности в Azure. |
+
+![HoloLens 2 Development Edition](./images/hololens-2-dev-ed.png)
 
 #### Активация кредитов
 
