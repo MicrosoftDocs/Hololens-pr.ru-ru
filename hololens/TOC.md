@@ -64,9 +64,10 @@
 ### [Шифрование и защита данных](security-encryption-data-protection.md)
 ### [Сетевая безопасность](security-network-security.md)
 ### [Разработка средств безопасности ](security-engineering.md)
-### Безопасность HoloLens 1-го поколения
+### Безопасность HoloLens 1-го поколения 
 #### [Часто задаваемые вопросы о безопасности HoloLens 1-го поколения](hololens1-faq-security.md)
 #### [Шифрование BitLocker для HoloLens 1-го поколения](hololens1-encryption.md)
+### [Заявление о конфиденциальности HoloLens 2](hololens2-compliance.md)
 ## [Требования к лицензиям](hololens-licenses-requirements.md)
 ## Среда
 ### [Требования к окружающей обстановке при использовании HoloLens](hololens-environment-considerations.md)
