@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: df3fa8ba3fbf65fa0b59f2ba9a6ace2ea489308b
-ms.sourcegitcommit: c58747f312cf1fea2de146501ea2473e93bd8300
+ms.openlocfilehash: 2c1cc7fb2ec362fde96df5f0cea23aab132b62ef
+ms.sourcegitcommit: 76a99370ab841c06e533cc2f4a0c78c1fb7eac70
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314288"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11324772"
 ---
 # Обзор HoloLens 2
 
@@ -73,7 +73,8 @@ HoloLens — это устройство смешанной реальности
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XwOnHqiNAeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Ниже перечислены дальнейшие действия с устройством HoloLens 2
-1. [Подготовьте устройство к использованию](https://docs.microsoft.com/hololens/hololens2-setup) и [настройте его](https://docs.microsoft.com/hololens/hololens2-start).
+1. Посмотрите видео [Использование и уход за HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance##HoloLens-2-Use-and-Care).
+1. [Подготовьте устройство к использованию](https://docs.microsoft.com/hololens/hololens2-setup) и [настройте его](https://docs.microsoft.com/hololens/hololens2-start)
 1. [Узнайте, как обращаться с HoloLens 2](https://docs.microsoft.com/hololens/holographic-home).
 1. Освоившись, [сделайте несколько фотографий смешанной реальности или запишите видео](https://docs.microsoft.com/hololens/holographic-photos-and-videos).
 1. Просмотрите все доступные [приложения для HoloLens 2 в магазине приложений Майкрософт](https://docs.microsoft.com/hololens/holographic-store-apps).
@@ -111,7 +112,7 @@ HoloLens — это устройство смешанной реальности
 См. раздел [Вопросы и ответы о HoloLens 2 Industrial Edition](hololens2-industrial-edition-faq.md).
 
 #### Очистка и обслуживание HoloLens 2
-HoloLens 2 Industrial Edition можно очищать с помощью 70%-ного раствора изопропилового спирта и воды, чтобы протирать твердые поверхности устройства, включая визор, надбровную накладку и ремешок. Дополнительные сведения см. в разделе [Вопросы и ответы по очистке HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance). 
+HoloLens 2 Industrial Edition можно очищать с помощью 70%-ного раствора изопропилового спирта и воды, чтобы протирать твердые поверхности устройства, включая визор, надбровную накладку и ремешок. Дополнительные сведения см. в разделе [Вопросы и ответы по очистке HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance).
 
 ### **Trimble XR10 с HoloLens 2**
 
