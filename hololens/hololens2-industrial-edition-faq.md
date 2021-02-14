@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: ece60949c998f0388bbd6bbcb235ae9f02340247
-ms.sourcegitcommit: 9a5e101fad8627042b552872d5de7320c09552ac
+ms.openlocfilehash: 11ce1af46189605cbac898f69647bdca28c573dc
+ms.sourcegitcommit: 0d16c7dc4d18d550023da9f6b3cc942eb915a2c3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "11311755"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "11328103"
 ---
 # HoloLens 2 Industrial Edition: вопросы и ответы
 
@@ -44,6 +44,10 @@ HoloLens 2 Industrial Edition поддерживает регулируемые 
 Устройство HoloLens 2 Industrial Edition сертифицировано компанией UL для использования в опасных средах Класса 1, Раздела 2, Групп A, B, C и D, в которых могут существовать легковоспламеняющиеся газы, пары или жидкости.
 
 Подробнее о [сертификации UL](https://www.ul.com/services/ul-and-c-ul-hazardous-areas-certification-north-america?csrf-token=CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz&amp;Search=UL+Class+I%2C+Dev+2+&amp;search-submit=Search).
+
+### Есть ли у HoloLens 2 Industrial Edition сертификат ATEX?
+
+Нет. У HoloLens 2 Industrial Edition нет сертификата ATEX. У HoloLens 2 Industrial Edition есть сертификаты US/CAN класса 1, раздел 2 — группы A, B, C и D.
 
 ### Можно ли использовать устройство в полупроводниковых и фармацевтических средах?
 
