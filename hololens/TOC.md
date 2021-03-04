@@ -41,6 +41,7 @@
 ### [Повышение качества изображения и комфорта](hololens-calibration.md)
 ### [Сопоставление физических пространств с HoloLens](hololens-spaces.md) 
 ## [Как обновить HoloLens](hololens-update-hololens.md)
+## [Сетка Майкрософт (предварительная версия)](/mesh/overview)
 
 # Подготовка
 ## [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
@@ -94,6 +95,7 @@
 ### [Подготовка сертификатов и сетевых профилей для HoloLens 2](hololens-certificates-network.md)
 ### [Управление конечными точками подключения для HoloLens](hololens-offline.md)
 ### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
+### [Подключение к мобильной сети и 5G](hololens-cellular.md)
 ## [Диспетчер сертификатов](certificate-manager.md)
 
 # Развертывание
