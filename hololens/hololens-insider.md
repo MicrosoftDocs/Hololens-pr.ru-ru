@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 327701c2f618fc8958704cef5f174efed08fff3a
-ms.sourcegitcommit: f3e35e278f7841176982b411881f2791e9600e6a
+ms.openlocfilehash: 7c11dfbdb78e59493d648fb3a172d3e1f73048c8
+ms.sourcegitcommit: 07ffe1bf2f45dcb2ba9d7fbe54b4773a0fb9d525
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/05/2021
-ms.locfileid: "11388785"
+ms.locfileid: "11393883"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -283,8 +283,8 @@ ms.locfileid: "11388785"
 
 **Известные проблемы**
 - Ранее размещенные окна Параметры будут удалены (см. примечание выше).
-- На странице Ethernet всегда отображается виртуальное устройство Ethernet ("UsbNcm") (исследование). Это виртуальное устройство Ethernet также будет показываться на сетевой странице установки устройства, но может быть проигнорировано (исследование).
-- Переименовать устройство в приложение "Параметры" больше нельзя (ИТ-администраторы могут использовать пакеты подготовка или MDM для переименования устройств).
+- Переименовать устройство с помощью приложения Параметры больше нельзя. ИТ-администраторы могут переименовывать устройства с помощью шаблона имен устройств [Windows Autopilot для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot) или узла MDM [DevDetail CSP](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp) Ext/Microsoft/DNSComputerName.
+- На странице Ethernet всегда отображается виртуальное устройство Ethernet ("UsbNcm").
 - Использование батареи для нового Microsoft Edge может быть не точным из-за его характера как настольного приложения Win32, поддерживаемого переходным слоем UWP (исправление не ожидается в ближайшее время).
 
 ### <a name="display-color-calibration"></a>Отображение калибровки цветов
