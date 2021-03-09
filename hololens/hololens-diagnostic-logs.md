@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: c8d9aa9fecff74a04e3f7cb395bffe5d239e18cf
-ms.sourcegitcommit: 7791e470fc2e03bdf51b19a816d7215018772860
+ms.openlocfilehash: 4a360e99a45b855957e36dd6ba31ede3da9631ba
+ms.sourcegitcommit: b5f1b7c197cb58b746efc3809c61cf7a2e8c08ef
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387521"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11399811"
 ---
 # <a name="collect-and-use-diagnostic-information-from-hololens-devices"></a>Сбор и использование сведений диагностики с устройств HoloLens
 
@@ -102,6 +102,10 @@ ms.locfileid: "11387521"
 
 В среде управления мобильными устройствами (MDM) ИТ-администратор может использовать поставщика служб конфигурации [DiagnosticLog (CSP)](https://docs.microsoft.com/windows/client-management/mdm/diagnosticlog-csp) для настройки параметров диагностики на зарегистрированных устройствах HoloLens. ИТ-администратор может настроить эти параметры для сбора журналов с зарегистрированных устройств.
 
+Дополнительные.
+- [Сбор диагностики с устройства Windows](https://docs.microsoft.com/mem/intune/remote-actions/collect-diagnostics)
+- [Intune Public Preview — диагностика устройств с Windows 10](https://techcommunity.microsoft.com/t5/intune-customer-success/intune-public-preview-windows-10-device-diagnostics/ba-p/2179712#:~:text=This%20first%20release%20of%20device%20diagnostics%20utilizes%20the,taking%20about%205%20minutes%20from%20start%20to%20finish.)
+
 ### <a name="prerequisites"></a>Предварительные условия
 
 - Устройство подключено к сети.
@@ -125,12 +129,12 @@ ms.locfileid: "11387521"
 > [!NOTE]
 > Автономное генерация и управление диагностикой контролируется по-разному в зависимости от версии ОС. Раньше он контролировался параметром телеметрии, но теперь непосредственно контролируется с помощью политики MDM. Если параметр или политика MDM отключены, то журналы диагностики не могут быть собраны с помощью этого механизма.
 
-Поведение до [Windows Holographic, verison 20H2](hololens-release-notes.md#windows-holographic-version-20h2):
+Поведение до [Windows Holographic, версия 20H2](hololens-release-notes.md#windows-holographic-version-20h2):
  - Диагностика в автономном режиме включена только в том случае, если пользователь проходит через OOBE или [System\AllowTelemetry](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry) значение Full (Basic — это значение по умолчанию для HoloLens). 
 - Чтобы отключить диагностику в автономном режиме, перейдите на страницу **Параметры приложения > конфиденциальности** и выберите **Basic** в **диагностических данных.** При сборках, где диагностика в автономном режиме зависит от параметра телеметрии, это влияет только на то, собираются журналы или нет. Это не влияет на то, какие файлы собираются.
 - Если устройство заблокировано, журналы не отображаются.
 
-При сборке [Windows Holographic verison 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и далее:
+При сборке [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и далее:
 - При включенной диагностике fallback будет управляться определенной политикой MDM с соответствующими настройками [MixedReality/FallbackDiagnostics](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-mixedreality#mixedreality-fallbackdiagnostics)
 - Если устройство заблокировано, журналы не отображаются.
 
