@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7c11dfbdb78e59493d648fb3a172d3e1f73048c8
-ms.sourcegitcommit: 07ffe1bf2f45dcb2ba9d7fbe54b4773a0fb9d525
+ms.openlocfilehash: 33e16d75a95d62e2c8b881f298acdf692874ef94
+ms.sourcegitcommit: 1f3ad5b099e72491f436d851738d2b6f3d4dff31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "11393883"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400709"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -90,6 +90,10 @@ ms.locfileid: "11393883"
 #### <a name="updates-for-your-wdac-policy"></a>Обновления для политики WDAC
 
 Если вы ранее блокировали Microsoft Edge через WDAC, необходимо обновить политику WDAC. Просмотрите [ниже и](#using-wdac-to-block-new-microsoft-edge) используйте предоставленный пример кода.
+
+#### <a name="enable-new-endpoints-for-edge"></a>Включить новые конечные точки для Edge
+
+Если у вас есть инфраструктура, которая включает настройку конечных точек сети, таких как прокси-сервер или брандмауэр, ввести эти новые конечные точки для нового [приложения Microsoft Ege.](#managing-endpoints-for-the-new-microsoft-edge)
 
 #### <a name="newly-configurable-items"></a>Новые настраиваемые элементы
 
@@ -202,6 +206,12 @@ ms.locfileid: "11393883"
 Чтобы ИТ-администраторы обновили политику [WDAC,](windows-defender-application-control-wdac.md) чтобы заблокировать новое приложение Microsoft Edge, необходимо добавить в политику следующее.
 
 ``` <Deny ID="ID_DENY_D_3_0" FriendlyName="C:\Data\Programs FileRule" PackageVersion="65535.65535.65535.65535" FileName="msedge.exe" /> ```
+
+#### <a name="managing-endpoints-for-the-new-microsoft-edge"></a>Управление конечными точками для нового Microsoft Edge
+
+В некоторых средах могут учитываться сетевые ограничения. Чтобы обеспечить бесперебойную работы с новым edge, [ввести эти конечные точки Майкрософт.](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints)
+
+Дополнительные данные о доступных [конечных точках Для HoloLens](hololens-offline.md).
 
 ### <a name="webxr-and-360-viewer"></a>WebXR и 360 Viewer
 

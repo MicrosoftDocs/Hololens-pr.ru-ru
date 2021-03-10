@@ -14,12 +14,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 5613c69bda8bbf70722a050ac5ce4ebeab95d332
-ms.sourcegitcommit: 771e53feefbcc6bce18577515ad7d3f6a7f33840
+ms.openlocfilehash: 4042cce40bea2c3d52d6ffc5d2908f6fde7cf222
+ms.sourcegitcommit: 1f3ad5b099e72491f436d851738d2b6f3d4dff31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "11399387"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400679"
 ---
 # <a name="enroll-hololens-in-mdm"></a>Регистрация HoloLens в MDM
 
@@ -34,12 +34,15 @@ ms.locfileid: "11399387"
  
 ## <a name="different-ways-to-enroll"></a>Различные способы регистрации
 
-В зависимости от типа удостоверения, выбранного во время OOBE или после регистрации, существуют различные методы регистрации. Дополнительные данные о каждом типе identity на HoloLens можно найти на [этой странице.](hololens-identity.md)
+В зависимости от типа [удостоверения,](hololens-identity.md) выбранного во время OOBE или после регистрации, существуют различные методы регистрации.
 
 - Если Identity — Azure AD, то либо во время работы OOBE или **Параметры работы**доступа к приложениям,  ->  **либо кнопки Подключения**  ->  **к** школе.
-    - Для Azure AD автоматическая регистрация MDM происходит только в том случае, если Azure AD настроен с URL-адресами регистрации.
-- Если Identity — Это Azure AD и устройство было предварительно зарегистрировано на сервере Intune MDM с определенным профилем конфигурации, назначенного ему, AD-Join и регистрация будет автоматически происходить во время OOBE.
+    - Для Azure AD автоматическая регистрация [MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) происходит только в том случае, если Azure AD настроен с URL-адресами регистрации. 
+     
+- Если Identity — Это Azure AD и устройство предварительно зарегистрировано на сервере Intune MDM с определенным профилем конфигурации, назначенного ему, то AD-Join и автоматическая регистрация [MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) будут происходить во время OOBE.
     - Также называется [поток автопилота,](hololens2-autopilot.md) доступный в [сборках 19041.1103+](hololens-release-notes.md#windows-holographic-version-2004).
+    
+
 - Если identity — это MSA, то с помощью кнопки **Параметры Работы доступа**к приложениям  ->  **или кнопки Подключения**  ->  **к школе.**
     - Также называется поток Add Work Account (AWA).
 - Если identity — локальный пользователь, то с помощью **Параметры Работы по**доступу к приложениям или регистрации в школе  ->  ****  ->  **только в ссылке управления устройствами.**
@@ -49,7 +52,7 @@ ms.locfileid: "11399387"
 
 ## <a name="auto-enrollment-in-mdm"></a>Автоматическая регистрация в MDM
 
-Если ваша организация использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure AD для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ИТ-администратор может настроить Azure AD, чтобы автоматически разрешить регистрацию MDM после того, как пользователь включит свою учетную запись Azure AD. [Сведения о настройке регистрации в Azure AD.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+Если ваша организация имеет подписку [Azure Premium,](https://azure.microsoft.com/overview/)использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure AD для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ИТ-администратор может настроить Azure AD, чтобы автоматически разрешить регистрацию MDM после того, как пользователь включит свою учетную запись Azure AD. [Сведения о настройке регистрации в Azure AD.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
 Если автоматическая регистрация включена, дополнительные действия по регистрации вручную не требуются. Когда пользователь входит в систему с использованием учетной записи Azure AD, устройство регистрируется в MDM после завершения процесса первого запуска.
 
