@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 33e16d75a95d62e2c8b881f298acdf692874ef94
-ms.sourcegitcommit: 1f3ad5b099e72491f436d851738d2b6f3d4dff31
+ms.openlocfilehash: 26fa6bfbbb1d9ec0408208513a4cd54b8ba93117
+ms.sourcegitcommit: b1362ab822d1cba97fe0b3fb4e666d9b68b6adbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "11400709"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "11406775"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -93,7 +93,7 @@ ms.locfileid: "11400709"
 
 #### <a name="enable-new-endpoints-for-edge"></a>Включить новые конечные точки для Edge
 
-Если у вас есть инфраструктура, которая включает настройку конечных точек сети, таких как прокси-сервер или брандмауэр, ввести эти новые конечные точки для нового [приложения Microsoft Ege.](#managing-endpoints-for-the-new-microsoft-edge)
+Если у вас есть инфраструктура, которая включает настройку конечных точек сети, таких как прокси или брандмауэр, встройте эти новые конечные точки для нового [приложения Microsoft Edge.](#managing-endpoints-for-the-new-microsoft-edge)
 
 #### <a name="newly-configurable-items"></a>Новые настраиваемые элементы
 
