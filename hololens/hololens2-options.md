@@ -14,14 +14,14 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 2c1cc7fb2ec362fde96df5f0cea23aab132b62ef
-ms.sourcegitcommit: 76a99370ab841c06e533cc2f4a0c78c1fb7eac70
+ms.openlocfilehash: 7e8e333471df139ced3613801d07a5bfaafd8d30
+ms.sourcegitcommit: fdae5b561d56d3d4e62da4db15f07bc10249398a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "11324772"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "11408409"
 ---
-# Обзор HoloLens 2
+# <a name="hololens-2-overview"></a>Обзор HoloLens 2
 
 HoloLens — это устройство смешанной реальности, *использующее голограммы* и предоставляющее приложения и решения, расширяющие возможности совместной работы. Благодаря HoloLens 2 вы достигнете новых высот производительности и инноваций, а также повысите эффективность своей работы.
 
@@ -41,14 +41,14 @@ HoloLens — это устройство смешанной реальности
 | Права разработчика <sup>1</sup>                             |            |                               |                               |                                                  |                              |                ✔️               |
 | Программа быстрой замены <sup>2</sup>                          |            |                               |               ✔️               |                         ✔️                        |                              |                                |
 | Права на коммерческое использование                                |      ✔️     |               ✔️               |               ✔️               |                         ✔️                        |               ✔️              |                                |
-| Гарантия                                             |   1 год   |             1 год            |             2 года            |                      2 года                      |            1 год <sup>3</sup>            |             1 год             |
+| [Гарантия](hololens2-hardware.md#warranty-information)                                             |   1 год   |             1 год            |             2 года            |                      2 года                      |            1 год <sup>3</sup>            |             1 год             |
 | Ограничение на приобретение устройств                                |    Нет    |              Нет             |              Нет             |                       Нет                       |             Нет             |       Одно за раз      |
 
 - <sup>1</sup> — включает кредит Azure на 500 долл. США и трехмесячные пробные выпуски Unity Pro и подключаемого модуля Pixyz.
 - <sup>2</sup> — получение устройства на замену на следующий день или ускоренная доставка (быстрее доступных вариантов) до получения неисправного устройства корпорацией Майкрософт.
 - <sup>3</sup> — с вопросами о гарантии, поддержке и сертификации для выпуска Trimble XR10 с HoloLens 2 [обращайтесь в Trimble](https://fieldtech.trimble.com/en/contact-support).
 
-## Обзор вариантов
+## <a name="options-overview"></a>Обзор вариантов
 
 **[HoloLens 2 (только устройство)](hololens2-options.md#hololens-2-device-only)**. HoloLens 2 предлагает самый удобный и иммерсивный интерфейс смешанной реальности, дополненный функциями обеспечения надежности, безопасности и масштабируемости облака и служб ИИ от корпорации Майкрософт.
 
@@ -62,32 +62,32 @@ HoloLens — это устройство смешанной реальности
 
 Узнайте о нашем расширяющемся [портфеле HoloLens 2](https://www.microsoft.com/hololens/buy).
 
-## Начало работы с вариантами HoloLens 2
+## <a name="get-started-with-hololens-2-options"></a>Начало работы с вариантами HoloLens 2
 
-### **HoloLens 2 (только устройство)**
-#### Сведения о HoloLens 2
+### **<a name="hololens-2-device-only"></a>HoloLens 2 (только устройство)**
+#### <a name="learn-about-hololens-2"></a>Сведения о HoloLens 2
 Устройство HoloLens 2 в коммерческой среде может быть эффективным инструментом для вашей компании или организации. Любое устройство HoloLens 2 также может применяться разработчиком для создания приложений смешанной реальности. 
 
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XwOnHqiNAeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Ниже перечислены дальнейшие действия с устройством HoloLens 2
+#### <a name="heres-what-to-do-next-with-the-hololens-2"></a>Ниже перечислены дальнейшие действия с устройством HoloLens 2
 1. Посмотрите видео [Использование и уход за HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance##HoloLens-2-Use-and-Care).
 1. [Подготовьте устройство к использованию](https://docs.microsoft.com/hololens/hololens2-setup) и [настройте его](https://docs.microsoft.com/hololens/hololens2-start)
 1. [Узнайте, как обращаться с HoloLens 2](https://docs.microsoft.com/hololens/holographic-home).
 1. Освоившись, [сделайте несколько фотографий смешанной реальности или запишите видео](https://docs.microsoft.com/hololens/holographic-photos-and-videos).
 1. Просмотрите все доступные [приложения для HoloLens 2 в магазине приложений Майкрософт](https://docs.microsoft.com/hololens/holographic-store-apps).
 
-### **HoloLens 2 с удаленной поддержкой**
+### **<a name="hololens-2-with-remote-assist"></a>HoloLens 2 с удаленной поддержкой**
 
-#### Сведения о HoloLens 2 с удаленной поддержкой
+#### <a name="learn-about-hololens-2-with-remote-assist"></a>Сведения о HoloLens 2 с удаленной поддержкой
 - Вы можете использовать эти устройства в коммерческой среде для своей компании. Заказывайте любое количество устройств!
 - Одно из наиболее популярных применений корпоративных сред HoloLens — **удаленная поддержка**, предоставляющая одну лицензию на одно место (на устройство).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d3YT8j0yYl0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Ниже перечислены дальнейшие действия с выпуском HoloLens 2 с Dynamics 365 Remote Assist
+#### <a name="heres-what-to-do-next-with-the-hololens-2-with-dynamics-365-remote-assist-edition"></a>Ниже перечислены дальнейшие действия с выпуском HoloLens 2 с Dynamics 365 Remote Assist
 Мы создали подробное руководство для масштабного развертывания устройств HoloLens. В этом руководстве описана комплексная настройка Azure Active Directory для проверки вызова удаленной поддержки. Дополнительные сведения см. в [руководстве по развертыванию — подключенные к облаку устройства HoloLens 2 с удаленной поддержкой](hololens2-cloud-connected-overview.md).
 
 | Контрольная точка  | Результат                                |
@@ -97,9 +97,9 @@ HoloLens — это устройство смешанной реальности
 | [Подключение](https://docs.microsoft.com/hololens/hololens-network)     | Подключение устройств к Wi-Fi.       |
 | [Регистрация](https://docs.microsoft.com/hololens/hololens-enroll-mdm)      | Регистрация устройств в организации. |
 
-### **HoloLens 2 Industrial Edition**
+### **<a name="hololens-2-industrial-edition"></a>HoloLens 2 Industrial Edition**
 
-#### Сведения о HoloLens 2 Industrial Edition
+#### <a name="learn-about-hololens-2-industrial-edition"></a>Сведения о HoloLens 2 Industrial Edition
 Выпуск HoloLens 2 Industrial Edition усовершенствован и изменен с помощью новых материалов и сертификатов для поддержки более широкого набора производственных сред, в том числе:
 
 - **Среды чистых помещений.** Выпуск HoloLens 2 Industrial Edition поддерживает стандарты чистых помещений от ISO 14644-1 класса 5, где количество посторонних частиц ограничено, а к объектам в этих пространствах применяются ограничения на выпадение, выделение газов и удержание загрязняющих веществ.
@@ -111,21 +111,21 @@ HoloLens — это устройство смешанной реальности
 
 См. раздел [Вопросы и ответы о HoloLens 2 Industrial Edition](hololens2-industrial-edition-faq.md).
 
-#### Очистка и обслуживание HoloLens 2
+#### <a name="cleaning-and-handling-hololens-2"></a>Очистка и обслуживание HoloLens 2
 HoloLens 2 Industrial Edition можно очищать с помощью 70%-ного раствора изопропилового спирта и воды, чтобы протирать твердые поверхности устройства, включая визор, надбровную накладку и ремешок. Дополнительные сведения см. в разделе [Вопросы и ответы по очистке HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance).
 
-### **Trimble XR10 с HoloLens 2**
+### **<a name="trimble-xr10-with-hololens-2"></a>Trimble XR10 с HoloLens 2**
 
-#### Сведения о Trimble XR10
+#### <a name="learn-about-trimble-xr10"></a>Сведения о Trimble XR10
 Trimble XR10 с HoloLens 2 — это первое устройство, созданное с помощью программы настройки Microsoft HoloLens. Оно содержит новейшие технологии пространственных вычислений в сертифицированном решении для использования с защитными касками с целью обеспечения безопасности сотрудников.
 
 ![Номер SKU Trimble](./images/trimble-ed.png)
 
 См. дополнительные сведения о [Trimble XR10](https://fieldtech.trimble.com/en/product/trimble-xr10-with-hololens-2).
 
-### **HoloLens 2 Development Edition**
+### **<a name="hololens-2-development-edition"></a>HoloLens 2 Development Edition**
 
-#### Сведения о выпуске Development Edition
+#### <a name="learn-about-the-development-edition"></a>Сведения о выпуске Development Edition
 
 > [!NOTE]
 > Выпуск Development Edition не разрешается разворачивать в решениях, распространяемых для коммерческого использования. Выпуск Development Edition можно развернуть с целью разработки и/или тестирования приложений в коммерческой среде.  
@@ -140,9 +140,9 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 
 ![HoloLens 2 Development Edition](./images/hololens-2-dev-ed.png)
 
-#### Активация кредитов
+#### <a name="redeem-your-credits"></a>Активация кредитов
 
-##### Unity
+##### <a name="unity"></a>Unity
 Вы получите уникальный код. Инструкции по активации пробной версии Unity Pro:
 1. Посетите страницу [id.unity.com](http://id.unity.com/)
 1. Войдите с помощью идентификатора Unity ID или создайте его
@@ -151,7 +151,7 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 
 Дополнительные сведения см. в разделе [Как активировать лицензию Unity](https://support.unity3d.com/hc/articles/211438683-How-do-I-activate-my-license-). При необходимости обратитесь за помощью [в службу поддержки Unity](https://support.unity3d.com/hc).  
 
-##### Pixyz
+##### <a name="pixyz"></a>Pixyz
 Вы получите уникальный код. Инструкции по активации пробной версии подключаемого модуля Pixyz:
 1. Посетите страницу [id.unity.com](http://id.unity.com/)
 1. Щелкните **Активировать код продукта**
@@ -159,14 +159,14 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 
 См. дополнительные сведения о том, как [активировать лицензию Pixyz](https://www.pixyz-software.com/documentations/html/2020.1/review/TrialLicense.html). При необходимости обратитесь за помощью [в службу поддержки Pixyz](https://www.pixyz-software.com/support/).
 
-#### Azure
+#### <a name="azure"></a>Azure
 Вот некоторые распространенные [продукты Azure для смешанной реальности](https://azure.microsoft.com/topic/mixed-reality/), которые можно активировать с помощью кредитов Azure.
 Как активировать кредиты Azure: чтобы активировать кредиты Azure на сумму 500 долл. США, погасите свой промокод Azure Pass и активируйте подписку. [Подробнее.](hololens2-development-edition-faq.md#how-can-i-redeem-my-500-azure-credit)
 
 - [Узнайте, как пространственные привязки Azure помогают создавать приложения, сопоставляющие, распространяющие и сохраняющие трехмерное содержимое](https://azure.microsoft.com/services/spatial-anchors/)
 - [Узнайте, как удаленная отрисовка Azure может отображать высококачественное интерактивное трехмерное содержимое и транслировать его в виде потока на устройства в режиме реального времени](https://azure.microsoft.com/services/remote-rendering/)
 
-#### Начало разработки
+#### <a name="get-started-developing"></a>Начало разработки
 
 Выберите модуль, скачайте инструменты и смахните пыль со своей клавиатуры. Добро пожаловать в экосистему смешанной реальности. Пришло время создавать.
 
@@ -176,7 +176,7 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 |     [Начало разработки для смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unity)    |     Выберите свой модуль, скачайте инструменты, добавьте основные стандартные блоки и начните разработку уже сегодня.                                  |
 |     [Изучение облачных служб Azure](https://docs.microsoft.com/windows/mixed-reality/develop/mixed-reality-cloud-services)            |     Создавайте привлекательные иммерсивные интерфейсы с помощью удаленной отрисовки Azure и пространственных привязок Azure.                                 |
 
-#### Дополнительные ресурсы для Developer Edition
+#### <a name="developer-edition-additional-resources"></a>Дополнительные ресурсы для Developer Edition
 
 - [Установите инструменты для разработки HoloLens.](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools?tabs=unity)
 - [Сведения о разработке для HoloLens 2 с Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/unity-development-overview?tabs=mrtk%2Carr%2Chl2).
@@ -186,7 +186,7 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 - [Сведения о разработке для HoloLens 2 с Unreal.](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-development-overview?tabs=mrtk%2Casa)
 - [Свяжитесь с коллегами по разработке в нашем канале HoloDevelopers Slack](https://holodevelopersslack.azurewebsites.net/).
 
-## Развертывание устройств HoloLens для организации
+## <a name="deploy-hololens-devices-for-your-organization"></a>Развертывание устройств HoloLens для организации
 
 Устройства HoloLens 2 — это мощные устройства смешанной реальности, позволяющие разворачивать решения в организации. Чтобы эффективно разворачивать устройства в организации для использования всех преимуществ облака Azure, мы рекомендуем проанализировать инфраструктуру своей организации.
 
@@ -197,7 +197,7 @@ HoloLens 2 Development Edition включает HoloLens 2, 500 долл. США
 - [Руководстве по развертыванию. Подключенные к облаку устройства HoloLens 2 с удаленной поддержкой — обзор](hololens2-cloud-connected-overview.md)
 - [Распространенные сценарии — автономные безопасные устройства HoloLens 2](hololens-common-scenarios-offline-secure.md)
 
-## Обзор решений
+## <a name="explore-solutions"></a>Обзор решений
 
 Изучите эти дополнительные решения, созданные для устройств смешанной реальности HoloLens.
 
