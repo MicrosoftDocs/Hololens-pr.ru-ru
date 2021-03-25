@@ -54,6 +54,12 @@
 #### [Подключение к облаку — развертывание](hololens2-cloud-connected-deploy.md)
 #### [Подключение к облаку — обслуживание](hololens2-cloud-connected-maintain.md)
 ### [Развертывание HoloLens 2 на внешних клиентах с помощью удаленной поддержки](hololens2-deployment-guide.md)
+### Развертывание корпоративных устройств HoloLens 2 с руководствами Dynamic 365
+#### [Корпоративное подключение — обзор развертывания](hololens2-corp-connected-overview.md)
+#### [Корпоративное подключение — подготовка](hololens2-corp-connected-prepare.md)
+#### [Корпоративное подключение — настройка](hololens2-corp-connected-configure.md)
+#### [Корпоративное подключение — развертывание](hololens2-corp-connected-deploy.md)
+#### [Корпоративное подключение — обслуживание](hololens2-corp-connected-maintain.md)
 ### [Безопасная работа в автономном режиме](hololens-common-scenarios-offline-secure.md)
 ## Безопасность
 ### [Обзор системы безопасности](security-overview.md)
