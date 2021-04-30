@@ -1,6 +1,6 @@
 ---
-title: Очистка HoloLens 2, вопросы и ответы
-description: Получите ответы на все часто задамые вопросы по очистке и обслуживанию устройства HoloLens 2.
+title: Вопросы и ответы по очистке HoloLens 2
+description: Получайте актуальные ответы на все часто задаваемые вопросы об очистке и обслуживании устройства HoloLens 2.
 author: Teresa-Motiv
 ms.author: v-tea
 ms.date: 4/14/2020
@@ -16,79 +16,79 @@ manager: jarrettr
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: a110f711d402432e727be6f342156e7dee733157
-ms.sourcegitcommit: 23ee06b659d7a51f3000d386c8f67cbf212d5aa4
+ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "11327383"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "108309327"
 ---
-# <span data-ttu-id="9fdd5-103">Очистка HoloLens 2, вопросы и ответы</span><span class="sxs-lookup"><span data-stu-id="9fdd5-103">HoloLens 2 cleaning FAQ</span></span>
+# <a name="hololens-2-cleaning-faq"></a><span data-ttu-id="421b0-103">Вопросы и ответы по очистке HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="421b0-103">HoloLens 2 cleaning FAQ</span></span>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="9fdd5-104">Корпорация Майкрософт не может определить эффективность какого-либо продукта, не влияемого на средства борьбы с вирусами, такими как COVID-19.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-104">Microsoft cannot make a determination of the effectiveness of any given disinfectant product in fighting pathogens such as COVID-19.</span></span> <span data-ttu-id="9fdd5-105">Обратитесь к руководству местного органа здравоохранения по безопасности от потенциального заражения.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-105">Please refer to your local public health authority's guidance about how to stay safe from potential infection.</span></span>  
+> <span data-ttu-id="421b0-104">Корпорация Майкрософт не может определить эффективность любого продукта дисинфектант в борьбе с пасоженс, например КОВИД-19.</span><span class="sxs-lookup"><span data-stu-id="421b0-104">Microsoft cannot make a determination of the effectiveness of any given disinfectant product in fighting pathogens such as COVID-19.</span></span> <span data-ttu-id="421b0-105">Сведения о том, как обеспечить безопасность от потенциального заражения, см. в руководстве локального центра работоспособности.</span><span class="sxs-lookup"><span data-stu-id="421b0-105">Please refer to your local public health authority's guidance about how to stay safe from potential infection.</span></span>  
 
-## <span data-ttu-id="9fdd5-106">Использование и обслуживание HoloLens 2</span><span class="sxs-lookup"><span data-stu-id="9fdd5-106">HoloLens 2 Use and Care</span></span>
+## <a name="hololens-2-use-and-care"></a><span data-ttu-id="421b0-106">Использование HoloLens 2 и осторожность</span><span class="sxs-lookup"><span data-stu-id="421b0-106">HoloLens 2 Use and Care</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWwEFP]
 
 <!-- <iframe src="https://channel9.msdn.com/Shows/Docs-Mixed-Reality/HoloLens-2-Use-and-Care/player" width="960" height="540" allowFullScreen frameBorder="0" title="HoloLens 2 Use and Care - Microsoft Channel 9 Video"></iframe> -->
 
-**<span data-ttu-id="9fdd5-107">Очистка устройства</span><span class="sxs-lookup"><span data-stu-id="9fdd5-107">To clean the device</span></span>**
+<span data-ttu-id="421b0-107">**Очистка устройства**</span><span class="sxs-lookup"><span data-stu-id="421b0-107">**To clean the device**</span></span>
 
-1. <span data-ttu-id="9fdd5-108">Удалите любые тире, используя сухую безмятежную микрофибру, чтобы аккуратно стереть поверхность устройства.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-108">Remove any dust by using a dry, lint-free microfiber cloth to gently wipe the surface of the device.</span></span>
+1. <span data-ttu-id="421b0-108">Удалите любую пыль с помощью Lint микрофиберной ткань, чтобы аккуратно очистить поверхность устройства.</span><span class="sxs-lookup"><span data-stu-id="421b0-108">Remove any dust by using a dry, lint-free microfiber cloth to gently wipe the surface of the device.</span></span>
 
-   ![Очистка при удержании с накладной накладки](images/hl2-cleaning.png)
+   ![Очистить при удержании с панели браузер](images/hl2-cleaning.png)
 
-2. <span data-ttu-id="9fdd5-110">Слегка заглушайте все, используя медицинские "70%" изоптрофилы, а затем используйте подложку для аккуратной стирки поверхности устройства.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-110">Lightly moisten the cloth by using medical "70%" isopropyl alcohol, and then use the moistened cloth to gently wipe the surface of the device.</span></span>
+2. <span data-ttu-id="421b0-110">Моистен ткань с помощью медицинских "70%" исопропил спиртного, а затем используйте ткань моистенед для аккуратной очистки поверхности устройства.</span><span class="sxs-lookup"><span data-stu-id="421b0-110">Lightly moisten the cloth by using medical "70%" isopropyl alcohol, and then use the moistened cloth to gently wipe the surface of the device.</span></span>
 
-3. <span data-ttu-id="9fdd5-111">Дайте устройству полностью высушиться.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-111">Let the device dry completely.</span></span>
+3. <span data-ttu-id="421b0-111">Дайте устройству полное сухой.</span><span class="sxs-lookup"><span data-stu-id="421b0-111">Let the device dry completely.</span></span>
 
-**<span data-ttu-id="9fdd5-112">Очистка накладной панели</span><span class="sxs-lookup"><span data-stu-id="9fdd5-112">To clean the brow pad</span></span>**
+<span data-ttu-id="421b0-112">**Очистка панели браузер**</span><span class="sxs-lookup"><span data-stu-id="421b0-112">**To clean the brow pad**</span></span>
 
-1. <span data-ttu-id="9fdd5-113">Используйте водяное и умеренное мыло, чтобы подкрепить кепку, а затем с помощью захолуванной кепки стирать накладку.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-113">Use water and a mild, antibiotic soap to moisten a cloth, and then use the moistened cloth to wipe the brow pad.</span></span>
-1. <span data-ttu-id="9fdd5-114">Дайте накладной полностью просушить.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-114">Let the brow pad dry completely.</span></span>
+1. <span data-ttu-id="421b0-113">Используйте вода и умеренный антибиотик SOAP, чтобы моистен ткань, а затем используйте моистенедную ткань для очистки браузерной панели.</span><span class="sxs-lookup"><span data-stu-id="421b0-113">Use water and a mild, antibiotic soap to moisten a cloth, and then use the moistened cloth to wipe the brow pad.</span></span>
+1. <span data-ttu-id="421b0-114">Разрешите, что Браузерная панель полностью засухой.</span><span class="sxs-lookup"><span data-stu-id="421b0-114">Let the brow pad dry completely.</span></span>
 
-## <span data-ttu-id="9fdd5-115">Можно ли использовать любую более чистую линзу для очистки визора HoloLens?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-115">Can I use any lens cleaner for cleaning the HoloLens visor?</span></span>
+## <a name="can-i-use-any-lens-cleaner-for-cleaning-the-hololens-visor"></a><span data-ttu-id="421b0-115">Можно ли использовать любую чистку для очистки гипервизора HoloLens?</span><span class="sxs-lookup"><span data-stu-id="421b0-115">Can I use any lens cleaner for cleaning the HoloLens visor?</span></span>
 
-<span data-ttu-id="9fdd5-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-116">No.</span></span> <span data-ttu-id="9fdd5-117">Очистители линзы могут быть аббревиативными по скайму в визоре.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-117">Lens cleaners can be abrasive to the coatings on the visor.</span></span> <span data-ttu-id="9fdd5-118">Чтобы очистить визор, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-118">To clean the visor, follow these steps:</span></span>  
+<span data-ttu-id="421b0-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="421b0-116">No.</span></span> <span data-ttu-id="421b0-117">Чистка линзы может быть абрасиве на покрытие на делителе.</span><span class="sxs-lookup"><span data-stu-id="421b0-117">Lens cleaners can be abrasive to the coatings on the visor.</span></span> <span data-ttu-id="421b0-118">Чтобы очистить низкоуровневые оболочки, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="421b0-118">To clean the visor, follow these steps:</span></span>  
 
-1. <span data-ttu-id="9fdd5-119">Удалите любые вязки, используя сухую микрофайл без микрофаймера, чтобы аккуратно стереть визор.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-119">Remove any dust by using a dry lint-free microfiber cloth to gently wipe the visor.</span></span>
-1. <span data-ttu-id="9fdd5-120">Слегка заглушайте визор с помощью медицинских "70%" изоптрофилов, а затем аккуратно стирайте визор.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-120">Lightly moisten a cloth by using medical "70%" isopropyl alcohol, and then gently wipe the visor.</span></span>
-1. <span data-ttu-id="9fdd5-121">Опустойте визор полностью.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-121">Let the visor dry completely.</span></span>
+1. <span data-ttu-id="421b0-119">Удалите любую пыль с помощью Lint микрофиберной ткань, чтобы аккуратно очистить низкоуровневые оболочки.</span><span class="sxs-lookup"><span data-stu-id="421b0-119">Remove any dust by using a dry lint-free microfiber cloth to gently wipe the visor.</span></span>
+1. <span data-ttu-id="421b0-120">Моистен ткань с помощью медицинских "70%" исопропил спиртного, а затем аккуратно удалите гипервизор.</span><span class="sxs-lookup"><span data-stu-id="421b0-120">Lightly moisten a cloth by using medical "70%" isopropyl alcohol, and then gently wipe the visor.</span></span>
+1. <span data-ttu-id="421b0-121">Разрешите, что гипервизор будет полностью сухой.</span><span class="sxs-lookup"><span data-stu-id="421b0-121">Let the visor dry completely.</span></span>
 
-## <span data-ttu-id="9fdd5-122">Можно ли использовать очистку для очистки устройства?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-122">Can I use disinfecting wipes to clean the device?</span></span>
+## <a name="can-i-use-disinfecting-wipes-to-clean-the-device"></a><span data-ttu-id="421b0-122">Можно ли использовать очистку дисинфектинг для очистки устройства?</span><span class="sxs-lookup"><span data-stu-id="421b0-122">Can I use disinfecting wipes to clean the device?</span></span>
 
-<span data-ttu-id="9fdd5-123">Да, если в стираемом не содержатся подстиатели.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-123">Yes, if the wipes do not contain bleach.</span></span> <span data-ttu-id="9fdd5-124">Вы можете использовать несъемные очищающие тире, чтобы аккуратно стереть поверхности [HoloLens.](#hololens-2-use-and-care)</span><span class="sxs-lookup"><span data-stu-id="9fdd5-124">You can use non-bleach disinfecting wipes to [gently wipe the HoloLens surfaces](#hololens-2-use-and-care).</span></span>  
-
-> [!CAUTION]  
-> <span data-ttu-id="9fdd5-125">Избегайте использования очистки с очисткой с очисткой поверхностей HoloLens.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-125">Avoid using disinfecting wipes that contains bleach to clean the HoloLens surfaces.</span></span> <span data-ttu-id="9fdd5-126">В критических ситуациях, когда больше ничего не доступно, можно использовать стираемые тире.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-126">It is acceptable to use bleach wipes in critical situations, when nothing else is available.</span></span> <span data-ttu-id="9fdd5-127">Однако визор HoloLens или другие поверхности могут быть повреждены.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-127">However, bleach may damage the HoloLens visor or other surfaces.</span></span>
-
-## <span data-ttu-id="9fdd5-128">Можно ли очистить устройство с помощью хлама?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-128">Can I use alcohol to clean the device?</span></span>
-
-<span data-ttu-id="9fdd5-129">Да.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-129">Yes.</span></span> <span data-ttu-id="9fdd5-130">Для очистки жестких поверхностей устройства, включая визор, можно использовать решение "70%" isopropyl и water.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-130">You can use a solution of "70%" isopropyl alcohol and water to clean the hard surfaces of the device, including the visor.</span></span> <span data-ttu-id="9fdd5-131">Слегка подкрепите все тире, используя сочетание изоппропила и подложки, а затем аккуратно стирайте поверхность устройства.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-131">Lightly moisten the cloth by using a mix of isopropyl alcohol and water, and then gently wipe the surface of the device</span></span>
-
-## <span data-ttu-id="9fdd5-132">Можно ли заменить накладку?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-132">Is the brow pad replaceable?</span></span>
-
-<span data-ttu-id="9fdd5-133">Да.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-133">Yes.</span></span> <span data-ttu-id="9fdd5-134">Набровная накладка крепится к устройству с помощью магнита.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-134">The brow pad is magnetically attached to the device.</span></span> <span data-ttu-id="9fdd5-135">Чтобы отсоединять его, аккуратно оттяните его от головье.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-135">To detach it, pull it gently away from the headband.</span></span> <span data-ttu-id="9fdd5-136">Чтобы заменить накладку, прикрепите ее на место.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-136">To replace it, snap it back into place.</span></span>
-
-![Удаление или замена набровной накладки](images/hololens2-remove-browpad.png)
-
-## <span data-ttu-id="9fdd5-138">Как очистить накладку?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-138">How can I clean the brow pad?</span></span>
-
-<span data-ttu-id="9fdd5-139">Чтобы очистить набережную, очистите ее с помощью замещаемой с использованием водяного и умеренного мыла.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-139">To clean the brow pad, wipe it by using a cloth that's moistened by using water and a mild antibiotic soap.</span></span> <span data-ttu-id="9fdd5-140">Дайте накладной полностью просушить, прежде чем снова использовать ее.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-140">Let the brow pad dry completely before you use it again.</span></span>
-
-## <span data-ttu-id="9fdd5-141">Можно ли использовать UV-свет для очистки устройства?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-141">Can I use ultraviolet (UV) light to sanitize the device?</span></span>
-
-<span data-ttu-id="9fdd5-142">UVC irrance using UVC LED, that operates at 265nm at intensity level of 0.5-0.6mW/cm <sup> 2 </sup> , and does not emit emit uvc LED, can be used to sanitize HoloLens2.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-142">UVC irradiance using UVC LED, that operates at 265nm at intensity level of 0.5-0.6mW/cm<sup>2</sup>, and does not emit ozone, can be used to sanitize HoloLens2.</span></span> <span data-ttu-id="9fdd5-143">Следуйте спецификациям производителя по обработке и времени экспозиции.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-143">Please follow manufacturer’s specifications on handling and exposure time.</span></span>
+<span data-ttu-id="421b0-123">Да, если очистка не содержит блеач.</span><span class="sxs-lookup"><span data-stu-id="421b0-123">Yes, if the wipes do not contain bleach.</span></span> <span data-ttu-id="421b0-124">Для [аккуратной очистки поверхностей HoloLens](#hololens-2-use-and-care)можно использовать блеач дисинфектинг.</span><span class="sxs-lookup"><span data-stu-id="421b0-124">You can use non-bleach disinfecting wipes to [gently wipe the HoloLens surfaces](#hololens-2-use-and-care).</span></span>  
 
 > [!CAUTION]  
-> <span data-ttu-id="9fdd5-144">Высокий уровень экспозиции UV-A и UV-B может ухудшить качество отображения устройства и повредить визор.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-144">High levels of UV-A and UV-B exposure can degrade the display quality of the device and damage the visor coating.</span></span> <span data-ttu-id="9fdd5-145">Чрезмерное воздействие UV-A и UV-B имеет следующие эффекты в порядке длительности и интенсивности экспозиции:</span><span class="sxs-lookup"><span data-stu-id="9fdd5-145">Over-exposure to UV-A and UV-B radiation has the following effects, in order of the duration and intensity of exposure:</span></span>
+> <span data-ttu-id="421b0-125">Избегайте использования очистки дисинфектинг, содержащей блеач, для очистки поверхностей HoloLens.</span><span class="sxs-lookup"><span data-stu-id="421b0-125">Avoid using disinfecting wipes that contains bleach to clean the HoloLens surfaces.</span></span> <span data-ttu-id="421b0-126">Можно использовать блеач очистки в критических ситуациях, когда нет других доступных.</span><span class="sxs-lookup"><span data-stu-id="421b0-126">It is acceptable to use bleach wipes in critical situations, when nothing else is available.</span></span> <span data-ttu-id="421b0-127">Однако блеач может повредить гипервизор HoloLens или другие поверхности.</span><span class="sxs-lookup"><span data-stu-id="421b0-127">However, bleach may damage the HoloLens visor or other surfaces.</span></span>
+
+## <a name="can-i-use-alcohol-to-clean-the-device"></a><span data-ttu-id="421b0-128">Можно ли очистить устройство с помощью спиртного?</span><span class="sxs-lookup"><span data-stu-id="421b0-128">Can I use alcohol to clean the device?</span></span>
+
+<span data-ttu-id="421b0-129">Да.</span><span class="sxs-lookup"><span data-stu-id="421b0-129">Yes.</span></span> <span data-ttu-id="421b0-130">Вы можете использовать решение "70%" исопропил алкоголя и воды, чтобы очистить жесткие поверхности устройства, включая низкоуровневые оболочки.</span><span class="sxs-lookup"><span data-stu-id="421b0-130">You can use a solution of "70%" isopropyl alcohol and water to clean the hard surfaces of the device, including the visor.</span></span> <span data-ttu-id="421b0-131">Моистен ткань, используя сочетание спиртного и вода исопропил, а затем аккуратно удалите поверхность устройства.</span><span class="sxs-lookup"><span data-stu-id="421b0-131">Lightly moisten the cloth by using a mix of isopropyl alcohol and water, and then gently wipe the surface of the device</span></span>
+
+## <a name="is-the-brow-pad-replaceable"></a><span data-ttu-id="421b0-132">Перемещается ли панель браузер?</span><span class="sxs-lookup"><span data-stu-id="421b0-132">Is the brow pad replaceable?</span></span>
+
+<span data-ttu-id="421b0-133">Да.</span><span class="sxs-lookup"><span data-stu-id="421b0-133">Yes.</span></span> <span data-ttu-id="421b0-134">Панель браузер с магнитной присоединением к устройству.</span><span class="sxs-lookup"><span data-stu-id="421b0-134">The brow pad is magnetically attached to the device.</span></span> <span data-ttu-id="421b0-135">Чтобы отсоединить его, потяните из хеадбанд.</span><span class="sxs-lookup"><span data-stu-id="421b0-135">To detach it, pull it gently away from the headband.</span></span> <span data-ttu-id="421b0-136">Чтобы заменить его, приведите его обратно.</span><span class="sxs-lookup"><span data-stu-id="421b0-136">To replace it, snap it back into place.</span></span>
+
+![Удаление или замена панели браузер](images/hololens2-remove-browpad.png)
+
+## <a name="how-can-i-clean-the-brow-pad"></a><span data-ttu-id="421b0-138">Как очистить панель браузер?</span><span class="sxs-lookup"><span data-stu-id="421b0-138">How can I clean the brow pad?</span></span>
+
+<span data-ttu-id="421b0-139">Чтобы очистить панель браузер, удалите ее с помощью ткани, моистенед с помощью воды и умеренной антибиотик SOAP.</span><span class="sxs-lookup"><span data-stu-id="421b0-139">To clean the brow pad, wipe it by using a cloth that's moistened by using water and a mild antibiotic soap.</span></span> <span data-ttu-id="421b0-140">Разрешите браузерную панель полностью, прежде чем использовать ее снова.</span><span class="sxs-lookup"><span data-stu-id="421b0-140">Let the brow pad dry completely before you use it again.</span></span>
+
+## <a name="can-i-use-ultraviolet-uv-light-to-sanitize-the-device"></a><span data-ttu-id="421b0-141">Можно ли использовать ултравиолет (UV) Light для очистки устройства?</span><span class="sxs-lookup"><span data-stu-id="421b0-141">Can I use ultraviolet (UV) light to sanitize the device?</span></span>
+
+<span data-ttu-id="421b0-142">УВК иррадианце с использованием УВК LED, который работает на 265nm с уровнем интенсивности 0,5-0,6 mW/cm<sup>2</sup>и не создает озоне, можно использовать для очистки HoloLens2.</span><span class="sxs-lookup"><span data-stu-id="421b0-142">UVC irradiance using UVC LED, that operates at 265nm at intensity level of 0.5-0.6mW/cm<sup>2</sup>, and does not emit ozone, can be used to sanitize HoloLens2.</span></span> <span data-ttu-id="421b0-143">Следуйте спецификациям изготовителя по обработке и раскрытию времени.</span><span class="sxs-lookup"><span data-stu-id="421b0-143">Please follow manufacturer’s specifications on handling and exposure time.</span></span>
+
+> [!CAUTION]  
+> <span data-ttu-id="421b0-144">Высокий уровень выдержки UV-A и UV-B может привести к снижению качества отображения устройства и повреждению коатингных делителей.</span><span class="sxs-lookup"><span data-stu-id="421b0-144">High levels of UV-A and UV-B exposure can degrade the display quality of the device and damage the visor coating.</span></span> <span data-ttu-id="421b0-145">Чрезмерная экспозиция для излучения UV-A и UV-B приводит к следующим последствиям в порядке длительности и интенсивности раскрытия:</span><span class="sxs-lookup"><span data-stu-id="421b0-145">Over-exposure to UV-A and UV-B radiation has the following effects, in order of the duration and intensity of exposure:</span></span>
 >  
-> 1. <span data-ttu-id="9fdd5-146">Накладка и закрытие устройства становятся неокрашенными.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-146">The brow pad and device closures become discolored.</span></span>
-> 1. <span data-ttu-id="9fdd5-147">Дефекты появляются в антиотражающих системах (AR) в визоре и в окнах датчиков.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-147">Defects appear in the anti-reflective (AR) coating on the visor and on the sensor windows.</span></span>
-> 1. <span data-ttu-id="9fdd5-148">Дефекты отображаются в базовых материалах визора и в окнах датчиков.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-148">Defects appear in the base materials of the visor and on the sensor windows.</span></span>
-> 1. <span data-ttu-id="9fdd5-149">Производительность дисплея снижается.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-149">Display performance degrades.</span></span>
+> 1. <span data-ttu-id="421b0-146">Браузер панель и замыкания устройств становятся нецветными.</span><span class="sxs-lookup"><span data-stu-id="421b0-146">The brow pad and device closures become discolored.</span></span>
+> 1. <span data-ttu-id="421b0-147">Дефекты появляются в неотраженном (AR) Коатинг на делителе и в окнах датчиков.</span><span class="sxs-lookup"><span data-stu-id="421b0-147">Defects appear in the anti-reflective (AR) coating on the visor and on the sensor windows.</span></span>
+> 1. <span data-ttu-id="421b0-148">Дефекты отображаются в базовых материалах гипервизоров и в окнах датчиков.</span><span class="sxs-lookup"><span data-stu-id="421b0-148">Defects appear in the base materials of the visor and on the sensor windows.</span></span>
+> 1. <span data-ttu-id="421b0-149">Отображение снижения производительности.</span><span class="sxs-lookup"><span data-stu-id="421b0-149">Display performance degrades.</span></span>
 
-## <span data-ttu-id="9fdd5-150">Можно ли заменить заднюю панель?</span><span class="sxs-lookup"><span data-stu-id="9fdd5-150">Is the rear pad replaceable?</span></span>
+## <a name="is-the-rear-pad-replaceable"></a><span data-ttu-id="421b0-150">Поддерживается ли замена задней панели?</span><span class="sxs-lookup"><span data-stu-id="421b0-150">Is the rear pad replaceable?</span></span>
 
-<span data-ttu-id="9fdd5-151">Нет.</span><span class="sxs-lookup"><span data-stu-id="9fdd5-151">No.</span></span>
+<span data-ttu-id="421b0-151">Нет.</span><span class="sxs-lookup"><span data-stu-id="421b0-151">No.</span></span>
