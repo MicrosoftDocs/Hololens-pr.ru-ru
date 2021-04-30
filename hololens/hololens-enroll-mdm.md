@@ -1,6 +1,6 @@
 ---
 title: Регистрация HoloLens в MDM
-description: Узнайте, как зарегистрировать HoloLens в управлении мобильными устройствами (MDM) для более простого управления несколькими устройствами.
+description: Узнайте, как зарегистрировать HoloLens в управлении мобильными устройствами (MDM) для упрощения управления несколькими устройствами.
 ms.prod: hololens
 ms.sitesec: library
 ms.assetid: 2a9b3fca-8370-44ec-8b57-fb98b8d317b0
@@ -14,50 +14,54 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 4042cce40bea2c3d52d6ffc5d2908f6fde7cf222
-ms.sourcegitcommit: 1f3ad5b099e72491f436d851738d2b6f3d4dff31
+ms.openlocfilehash: 624ebd17335820b1d2858f9d39cabb7032a83bfe
+ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "11400679"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "108309716"
 ---
 # <a name="enroll-hololens-in-mdm"></a>Регистрация HoloLens в MDM
 
-Вы можете управлять несколькими устройствами Microsoft HoloLens одновременно с помощью решений, таких как [Microsoft Intune.](https://docs.microsoft.com/intune/windows-holographic-for-business) Вы сможете изменять параметры, выбирать приложения для установки и задавать настройки безопасности в соответствии с потребностями вашей организации. См. разделы [Управление устройствами с Windows Holographic с помощью Microsoft Intune](https://docs.microsoft.com/intune/windows-holographic-for-business), [Поставщики служб конфигурации (CSP), которые поддерживаются в среде Windows Holographic](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/configuration-service-provider-reference#hololens) и [Политики, поддерживаемые Windows Holographic for Business](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#hololenspolicies).
+Вы можете управлять несколькими устройствами Microsoft HoloLens одновременно с помощью таких решений, как [Microsoft Intune](https://docs.microsoft.com/intune/windows-holographic-for-business). Вы сможете изменять параметры, выбирать приложения для установки и задавать настройки безопасности в соответствии с потребностями вашей организации. См. разделы [Управление устройствами с Windows Holographic с помощью Microsoft Intune](https://docs.microsoft.com/intune/windows-holographic-for-business), [Поставщики служб конфигурации (CSP), которые поддерживаются в среде Windows Holographic](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/configuration-service-provider-reference#hololens) и [Политики, поддерживаемые Windows Holographic for Business](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/policy-configuration-service-provider#hololenspolicies).
 
 > [!NOTE]
 > Управление мобильными устройствами (MDM), включая VPN, Bitlocker и возможности режима полного экрана, доступны только после [обновления до Windows Holographic for Business](hololens1-upgrade-enterprise.md).
 
 ## <a name="requirements"></a>Требования
 
- Для управления устройствами HoloLens организации необходимо настроить управление мобильными устройствами (MDM). Поставщиком MDM может быть Microsoft Intune или сторонний поставщик, использующий интерфейсы API Microsoft MDM.
+ Для управления устройствами HoloLens в Организации должно быть настроено управление мобильными устройствами (MDM). Поставщиком MDM может быть Microsoft Intune или сторонний поставщик, использующий интерфейсы API Microsoft MDM.
  
 ## <a name="different-ways-to-enroll"></a>Различные способы регистрации
 
-В зависимости от типа [удостоверения,](hololens-identity.md) выбранного во время OOBE или после регистрации, существуют различные методы регистрации.
+В зависимости от типа [удостоверения](hololens-identity.md) , выбранного во время OOBE или после входа, существуют различные методы регистрации.
 
-- Если Identity — Azure AD, то либо во время работы OOBE или **Параметры работы**доступа к приложениям,  ->  **либо кнопки Подключения**  ->  **к** школе.
-    - Для Azure AD автоматическая регистрация [MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) происходит только в том случае, если Azure AD настроен с URL-адресами регистрации. 
+- Если удостоверение — Azure AD, то во время OOBE или **настройки приложения**  ->  **доступа к приложению или учебного**  ->  **подключения** .
+    - Для Azure AD [Автоматическая регистрация MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) выполняется, только если в Azure AD настроены URL-адреса регистрации.
      
-- Если Identity — Это Azure AD и устройство предварительно зарегистрировано на сервере Intune MDM с определенным профилем конфигурации, назначенного ему, то AD-Join и автоматическая регистрация [MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) будут происходить во время OOBE.
-    - Также называется [поток автопилота,](hololens2-autopilot.md) доступный в [сборках 19041.1103+](hololens-release-notes.md#windows-holographic-version-2004).
+- Если удостоверение — Azure AD, а устройство предварительно зарегистрировано в Intune MDM Server с назначенным им особым профилем конфигурации, то Azure AD-Join и [Автоматическая регистрация MDM](hololens-enroll-mdm.md#auto-enrollment-in-mdm) будут выполняться во время Oobe.
+    - Также называется [потоком с автопилотом](hololens2-autopilot.md) , доступным в [сборках 19041.1103 и](hololens-release-notes.md#windows-holographic-version-2004).
     
 
-- Если identity — это MSA, то с помощью кнопки **Параметры Работы доступа**к приложениям  ->  **или кнопки Подключения**  ->  **к школе.**
-    - Также называется поток Add Work Account (AWA).
-- Если identity — локальный пользователь, то с помощью **Параметры Работы по**доступу к приложениям или регистрации в школе  ->  ****  ->  **только в ссылке управления устройствами.**
-    - Также называется чистый поток регистрации MDM.
+- Если удостоверение — MSA, используйте **Параметры "Настройка**  ->  **доступа к приложениям" или "школьное**  ->  **Подключение** ".
+    - Также называется потоком добавления рабочей учетной записи (AWS).
+- Если удостоверение является локальным пользователем, используйте параметры "доступ к **приложению**"  ->  **или "Учебная**  ->  **Регистрация" только в окне "Управление устройствами** ".
+    - Также называется чистым потоком регистрации MDM.
 
-После регистрации устройства на сервере MDM приложение Settings теперь будет отражать, что устройство зачислилось в управление устройствами.
+После регистрации устройства на сервере MDM приложение "Параметры" теперь будет отражать, что устройство зарегистрировано в системе управления устройствами.
 
 ## <a name="auto-enrollment-in-mdm"></a>Автоматическая регистрация в MDM
 
-Если ваша организация имеет подписку [Azure Premium,](https://azure.microsoft.com/overview/)использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure AD для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ИТ-администратор может настроить Azure AD, чтобы автоматически разрешить регистрацию MDM после того, как пользователь включит свою учетную запись Azure AD. [Сведения о настройке регистрации в Azure AD.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+Если ваша организация имеет [подписку Azure](https://azure.microsoft.com/overview/)уровня "Премиум", использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure AD для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ИТ-администратор может настроить автоматическое разрешение регистрации MDM после входа пользователя с помощью учетной записи Azure AD. [Сведения о настройке регистрации в Azure AD.](https://docs.microsoft.com/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
-Если автоматическая регистрация включена, дополнительные действия по регистрации вручную не требуются. Когда пользователь входит в систему с использованием учетной записи Azure AD, устройство регистрируется в MDM после завершения процесса первого запуска.
+Если включена автоматическая регистрация, Дополнительная регистрация вручную не требуется. Когда пользователь входит в систему с использованием учетной записи Azure AD, устройство регистрируется в MDM после завершения процесса первого запуска.
 
-Если устройство является Azure AD Joined, это может повлиять на то, кто [считался владельцем устройства.](security-adminless-os.md#device-owner)
+Если устройство подключено к Azure AD, оно может повлиять на [владельца устройства](security-adminless-os.md#device-owner).
 
-## <a name="unenroll-hololens-from-intune"></a>Unenroll HoloLens из Intune
+## <a name="unenroll-hololens-from-intune"></a>Отмена регистрации HoloLens в Intune
 
-Хотя HoloLens 2 — это устройство с Windows 10, его нельзя просто отсоединить от Intune. Если вы хотите отсоединить HoloLens из Azure AD или присоединить его к другому клиенту Azure AD, необходимо сбросить [или](https://docs.microsoft.com/hololens/hololens-recovery#reset-the-device) перезагрузить устройство.
+Отмена регистрации устройства может быть недоступна в зависимости от метода регистрации.
+
+Если ваше устройство было зарегистрировано в учетной записи Azure AD или на автопилоте, зарегистрировать его в Intune невозможно. Если вы хотите отменить присоединение HoloLens из Azure AD или повторно присоединить его к другому клиенту Azure AD, необходимо [сбросить или восстановить](https://docs.microsoft.com/hololens/hololens-recovery#reset-the-device) устройство.
+
+Если устройство было зарегистрировано в учетной записи MSA, которая добавила рабочую учетную запись или из локальной учетной записи, зарегистрированной только в управлении устройствами, вы можете отменять регистрацию устройства. Откройте меню Пуск и выберите **Параметры**  ->  **доступ к приложению Рабочая или школьный**  ->  *йоураккаунт*  ->  **Отключить** кнопку.
