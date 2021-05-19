@@ -79,7 +79,7 @@ Windows Holographic for Business может использовать [Центр
 #### Настройка периода активности
 В [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) и более поздних версий ИТ-администратор может указывать диапазон периода активности для устройств HoloLens 2.
 
-Период активности— это время предполагаемого использования устройства. Автоматический запуск после установки обновления будет производиться вне периода активности. Указанный диапазон отсчитывается от начала периода активности. Можно использовать MDM в соответствии с описанием в статье [Настройка периода активности с помощью MDM](https://docs.microsoft.com/windows/deployment/update/waas-restart#configuring-active-hours-with-mdm). MDM использует параметры Update/ActiveHoursStart, Update/ActiveHoursEnd и Update/ActiveHoursMaxRange в CSP политики для настройки периода активности.
+Период активности — это время предполагаемого использования устройства. Автоматический запуск после установки обновления будет производиться вне периода активности. Указанный диапазон отсчитывается от начала периода активности. Можно использовать MDM в соответствии с описанием в статье [Настройка периода активности с помощью MDM](https://docs.microsoft.com/windows/deployment/update/waas-restart#configuring-active-hours-with-mdm). MDM использует параметры Update/ActiveHoursStart, Update/ActiveHoursEnd и Update/ActiveHoursMaxRange в CSP политики для настройки периода активности.
 
 -   [Update/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend) — это значение времени окончания. Оно может отстоять от времени начала не более чем на 12 часов.
     -   Допустимые значения: 0–23, где 0 — полночь, 1 — 01:00 и так далее.

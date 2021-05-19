@@ -2,7 +2,7 @@
 
 # Обзор
 
-## Начало работы с HoloLens2
+## Начало работы с HoloLens 2
 ### [Обзор HoloLens 2](hololens2-options.md)
 ### [Оборудование HoloLens 2](hololens2-hardware.md)
 ### [Подготовка HoloLens 2 к использованию](hololens2-setup.md)
@@ -17,7 +17,7 @@
 
 
 
-## Начало работы с HoloLens(1-е поколение)
+## Начало работы с HoloLens (1-е поколение)
 ### [Оборудование HoloLens (1-е поколение)](hololens1-hardware.md)
 ### [Подготовка HoloLens (1-е поколение) к использованию](hololens1-setup.md)
 ### [Настройка HoloLens (1-е поколение)](hololens1-start.md)

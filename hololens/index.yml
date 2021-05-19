@@ -126,7 +126,7 @@ landingContent:
   linkLists:
   - linkListType: reference
     links:
-    - text: Документация для Dynamics365 Remote Assist
+    - text: Документация для Dynamics 365 Remote Assist
       url: https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/ra-overview
     - text: Информация о Dynamics 365 Remote Assist
       url: https://docs.microsoft.com/learn/browse/?products=dynamics-remote-assist
@@ -154,7 +154,7 @@ landingContent:
       url: https://holodevelopersslack.azurewebsites.net/
     - text: Техническая поддержка
       url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=e9391227-fa6d-927b-0fff-f96288631b8f
-    - text: Microsoft Store— поддержка Office
+    - text: Microsoft Store — поддержка Office
       url: https://support.microsoft.com/office/microsoft-store-109d8aed-d32f-4d6f-9c54-ff80871e8637
     - text: Store и поддержка запросов на покупку
       url: https://www.microsoft.com/store/b/business
