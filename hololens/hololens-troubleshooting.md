@@ -13,14 +13,14 @@ ms.custom:
 - CI 111456
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, Справка, поддержка, HoloLens
-ms.openlocfilehash: f57aea52337f7ca7e15bda1363f73a3a7265a025
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: 1039af533b5039eb4eef6599c7cbb480955b0661
+ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309518"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110397265"
 ---
-# <a name="troubleshooting"></a>Диагностика
+# <a name="troubleshoot-common-issues"></a>Устранение распространенных неполадок
 
 В этой статье описывается, как устранить несколько распространенных проблем HoloLens.
 

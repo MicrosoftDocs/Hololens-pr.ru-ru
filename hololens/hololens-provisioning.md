@@ -16,12 +16,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: b22baa62488bbdf6d2a8a43b6487bbe5ec3277cb
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: cf2abe249e40e522b4d8993449b9f19033a64744
+ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309859"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110397405"
 ---
 # <a name="configure-hololens-by-using-a-provisioning-package"></a>Настройка HoloLens с помощью пакета подготовки
 
@@ -212,10 +212,10 @@ ms.locfileid: "108309859"
 
 Теперь устройство настроено и в нем отображается экран подготовка успешно завершена.
 
-## <a name="apply-a-provisioning-package-to-hololens-after-setup"></a>Применение пакета подготовки к HoloLens после установки
+## <a name="applyremove-a-provisioning-package-to-hololens-after-setup"></a>Применение и удаление пакета подготовки в HoloLens после установки
 
 > [!NOTE]
-> Эти действия относятся только к Windows 10 версии 1809.
+> Эти действия применяются ко всем устройствам HoloLens 2 и HoloLens (1-го поколения) в Windows holographic, 1809 и более поздних версий.
 
 На компьютере выполните следующие действия.
 1. Создайте пакет подготовки, как описано в разделе [Создание пакета подготовки для HoloLens с помощью мастера HoloLens](hololens-provisioning.md).

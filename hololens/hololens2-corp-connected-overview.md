@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 3041a31e6a4f8b51385fa02dfddc21d56993721d
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: ee6c24f65e5990f1e84a71d86b24dd782cf9f4cc
+ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309776"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110397209"
 ---
 # <a name="deployment-guide---corporate-connected-hololens-2-with-dynamics-365-guides---overview"></a>Руководство по развертыванию — корпоративное подключение HoloLens 2 с помощью Dynamics 365 Guides-Overview
 
@@ -49,12 +49,14 @@ ms.locfileid: "108309776"
 - Подписка на Dynamics 365 Guides
     - Microsoft Инверсия (включена)
     - Приложения Power Apps (включенные)
-- Power BI Desktop
+- Power BI Desktop
 - Сетевое подключение
 
-![Схема сетей, подключенных к корпоративной сети](./images/corpconnected-diagHL2-guides.png)
+[![Схема сети с подключенной корпоративной сетью, этап 1 ](./images/deployment-guides-revised-scenario-b-01-1.png)](./images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
 
-## <a name="stages-of-deployment"></a>Этапы развертывания
+[![Схема сетей, подключенных к корпоративной сети, этап 2 ](./images/deployment-guides-revised-scenario-b-02-1.png)](./images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
+
+## <a name="in-this-guide-you-will"></a>В руководстве описаны следующие действия:
 ### <a name="prepare"></a>Подготовка.
 > [!div class="checklist"]
 >- [Ознакомьтесь с основными сведениями об инфраструктуре для устройств HoloLens 2.](hololens2-corp-connected-prepare.md#infrastructure-essentials)
@@ -74,7 +76,7 @@ ms.locfileid: "108309776"
 >- [Настройка руководств по Dynamics 365.](hololens2-corp-connected-configure.md#setup-guides-application-licenses-dataverse-and-authoring)
 >- [Настройка режима киоска (необязательно).](hololens2-corp-connected-configure.md#optional-kiosk-mode)
 >- [Настройка WDAC (необязательно).](hololens2-corp-connected-configure.md#optional-wdac)
-### <a name="deploy"></a>Развернуть
+### <a name="deploy"></a>Развертывание
 > [!div class="checklist"]
 >-  [Проверка регистрации через устройство и MDM.](hololens2-corp-connected-deploy.md#enrollment-validation)
 >-  [Проверка сертификатов Wi-Fi.](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation)
