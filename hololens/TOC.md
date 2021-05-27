@@ -1,101 +1,122 @@
-# [Microsoft HoloLens](index.yml)
+# [Microsoft HoloLens](index.yml);
 
 # Обзор
+## [Общие сведения о HoloLens 2](hololens2-hardware.md)
+## [Сравнение выпусков HoloLens 2](hololens2-options.md)
+## Выпуски HoloLens 2
+### [Выпуск только с устройством](hololens2-options-device-only.md)
+### [Выпуск Remote Assist Edition](hololens2-options-remote-assist.md)
+### [Выпуск Industrial Edition](hololens2-options-industrial-edition.md)
+### [Выпуск Development Edition](hololens2-options-dev-edition.md)
+### [Выпуск Trimble XR10 Edition](hololens2-options-trimble-xr10-edition.md)
+
 
 ## Начало работы с HoloLens 2
 ### [Обзор HoloLens 2](hololens2-options.md)
-### [Оборудование HoloLens 2](hololens2-hardware.md)
+### [Оборудование HoloLens 2](hololens2-hardware.md)
 ### [Подготовка HoloLens 2 к использованию](hololens2-setup.md)
 ### [Настройка HoloLens 2](hololens2-start.md)
 ### [Регулировка размера и удобство использования HoloLens 2: вопросы и ответы](hololens2-fit-comfort-faq.md)
 ### [Дисплей HoloLens 2](hololens2-display.md)
-### [Очистка HoloLens 2, вопросы и ответы](hololens2-maintenance.md)
+### [Аккумулятор и зарядка HoloLens 2](hololens2-charging.md)
+### [Очистка HoloLens 2: вопросы и ответы](hololens2-maintenance.md)
 ### [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md)
-### [Начало работы с HoloLens 2](hololens2-basic-usage.md)
+### [Знакомство с HoloLens 2](hololens2-basic-usage.md)
+### [Использование нового приложения Microsoft Edge для HoloLens 2](hololens-new-edge.md)
+### [Использование нового приложения "Параметры" для HoloLens 2](hololens-new-settings.md)
 ### [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.md)
 ### [HoloLens 2 Industrial Edition: вопросы и ответы](hololens2-industrial-edition-faq.md)
 
-
-
-## Начало работы с HoloLens (1-е поколение)
-### [Оборудование HoloLens (1-е поколение)](hololens1-hardware.md)
-### [Подготовка HoloLens (1-е поколение) к использованию](hololens1-setup.md)
-### [Настройка HoloLens (1-е поколение)](hololens1-start.md)
-### [Регулировка размера и удобство использования HoloLens (1-е поколение): вопросы и ответы](hololens1-fit-comfort-faq.md)
-### [Установка локализованной версии HoloLens (1-е поколение)](hololens1-install-localized.md)
-### [Начало работы с HoloLens (1-е поколение)](hololens1-basic-usage.md)
-### [Использование пульта HoloLens (1-е поколение)](hololens1-clicker.md)
-### [Использование средства 3D-просмотра в HoloLens (1-е поколение)](holographic-3d-viewer-beta.md)
+## Начало работы с HoloLens (1-го поколения)
+### [Оборудование HoloLens (1-го поколения)](hololens1-hardware.md)
+### [Подготовка HoloLens (1-го поколения) к использованию](hololens1-setup.md)
+### [Настройка HoloLens (1-го поколения)](hololens1-start.md)
+### [Регулировка размера и удобство использования HoloLens (1-го поколения): вопросы и ответы](hololens1-fit-comfort-faq.md)
+### [Установка локализованной версии HoloLens (1-го поколения)](hololens1-install-localized.md)
+### [Начало работы с HoloLens (1-го поколения)](hololens1-basic-usage.md)
+### [Использование пульта HoloLens (1-го поколения)](hololens1-clicker.md)
+### [Использование средства 3D-просмотра в HoloLens (1-го поколения)](holographic-3d-viewer-beta.md)
 ### [Управление пользовательскими приложениями для HoloLens](holographic-custom-apps.md)
 
+# Начало работы
+## [Общие сведения о базовом использовании](hololens2-setup.md)
+## [Настройка HoloLens 2](hololens2-start.md)
+## [Поддерживаемые языки](hololens2-language-support.md)
+
+# Основные понятия
 
 ## Навигация в интерфейсе Windows Holographic
-### [Использование меню "Пуск" и дома в смешанной реальности](holographic-home.md)
+### [Использование меню "Пуск" и главной страницы смешанной реальности](holographic-home.md)
+### [Использование нового приложения Microsoft Edge для HoloLens 2](hololens-new-edge.md)
+### [Использование нового приложения "Параметры" для HoloLens 2](hololens-new-settings.md)
 ### [Использование голосовых команд для работы с HoloLens](hololens-cortana.md)
 ### [Поиск, открытие и сохранение файлов в HoloLens](holographic-data.md)
 ### [Создание фотографий и видео смешанной реальности](holographic-photos-and-videos.md)
-## Голографические приложения
+## Управление приложениями
 ### [Поиск, установка и удаление приложений](holographic-store-apps.md)
 ### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)
+### [Управление пользовательскими приложениями для HoloLens](holographic-custom-apps.md)
 ## Голографическая оптика и размещение в пространстве
 ### [Повышение качества изображения и комфорта](hololens-calibration.md)
-### [Сопоставление физических пространств с HoloLens](hololens-spaces.md) 
-## [Как обновить HoloLens](hololens-update-hololens.md)
-## [Сетка Майкрософт (предварительная версия)](/mesh/overview)
+### [Сопоставление физических пространств с HoloLens](hololens-spaces.md)
+## [Разработка с помощью Microsoft Mesh (предварительная версия)](/mesh/overview)
 
-# Подготовка
+# Практические руководства
+## [Как обновить HoloLens](hololens-update-hololens.md)
+## [Знакомство с HoloLens 2](hololens2-basic-usage.md)
+
+# Подготовка.
 ## [Развертывание HoloLens в коммерческой среде](hololens-requirements.md)
-## Распространенные сценарии развертывания
-### [Сценарии развертывания инфраструктуры](common-scenarios.md)
-### Развертывание HoloLens 2, подключенного к облаку, с помощью удаленной поддержки
-#### [Подключение к облаку — обзор развертывания](hololens2-cloud-connected-overview.md)
-#### [Подключение к облаку — подготовка](hololens2-cloud-connected-prepare.md)
-#### [Подключение к облаку — настройка](hololens2-cloud-connected-configure.md)
-#### [Подключение к облаку — развертывание](hololens2-cloud-connected-deploy.md)
-#### [Подключение к облаку — обслуживание](hololens2-cloud-connected-maintain.md)
-### [Развертывание HoloLens 2 на внешних клиентах с помощью удаленной поддержки](hololens2-deployment-guide.md)
-### Развертывание корпоративных устройств HoloLens 2 с руководствами Dynamic 365
-#### [Корпоративное подключение — обзор развертывания](hololens2-corp-connected-overview.md)
-#### [Корпоративное подключение — подготовка](hololens2-corp-connected-prepare.md)
-#### [Корпоративное подключение — настройка](hololens2-corp-connected-configure.md)
-#### [Корпоративное подключение — развертывание](hololens2-corp-connected-deploy.md)
-#### [Корпоративное подключение — обслуживание](hololens2-corp-connected-maintain.md)
-### [Безопасная работа в автономном режиме](hololens-common-scenarios-offline-secure.md)
+## Общие сценарии развертывания
+### [Обзор](common-scenarios.md)
+### Руководство по развертыванию среды, подключенной к облаку
+#### [Обзор](hololens2-cloud-connected-overview.md)
+#### [Подготовка](hololens2-cloud-connected-prepare.md)
+#### [Настройка](hololens2-cloud-connected-configure.md)
+#### [Развертывание](hololens2-cloud-connected-deploy.md)
+#### [Техническое обслуживание](hololens2-cloud-connected-maintain.md)
+
+### [Руководство по развертыванию среды, подключенной к облаку (внешние клиенты)](hololens2-deployment-guide.md)
+### Руководство по развертыванию корпоративной сети
+#### [Обзор](hololens2-corp-connected-overview.md)
+#### [Подготовка](hololens2-corp-connected-prepare.md)
+#### [Настройка](hololens2-corp-connected-configure.md)
+#### [Развертывание](hololens2-corp-connected-deploy.md)
+#### [Техническое обслуживание](hololens2-corp-connected-maintain.md)
+
+### [Руководство по развертыванию безопасной автономной среды](hololens-common-scenarios-offline-secure.md)
 ## Безопасность
-### [Обзор системы безопасности](security-overview.md)
-### [Architecture (Архитектура)](security-architecture.md)
+### [Общие сведения о безопасности](security-overview.md)
+### [Архитектура](security-architecture.md)
 ### [Разделение состояний и изоляция](security-state-separation-isolation.md)
-### [Операционная система, не защищенная администратором ](security-adminless-os.md)
+### [Операционная система, не защищенная администратором](security-adminless-os.md)
 ### [Ограничение использования паролей](security-limiting-password-use.md)
 ### [Функция аппаратной поддержки обеспечения безопасности и аттестации процесса выполнения](security-hardware-backed-integrity.md)
 ### [Шифрование и защита данных](security-encryption-data-protection.md)
-### [Сетевая безопасность](security-network-security.md)
-### [Разработка средств безопасности ](security-engineering.md)
-### Безопасность HoloLens 1-го поколения 
-#### [Часто задаваемые вопросы о безопасности HoloLens 1-го поколения](hololens1-faq-security.md)
-#### [Шифрование BitLocker для HoloLens 1-го поколения](hololens1-encryption.md)
+### [Безопасность сети](security-network-security.md)
+### [Техника обеспечения безопасности](security-engineering.md)
 ### [Заявление о конфиденциальности HoloLens 2](hololens2-compliance.md)
-## [Требования к лицензиям](hololens-licenses-requirements.md)
+## [Требования лицензий](hololens-licenses-requirements.md)
 ## Среда
 ### [Требования к окружающей обстановке при использовании HoloLens](hololens-environment-considerations.md)
 ### [Сопоставление физических пространств с HoloLens](hololens-spaces.md)
 ## [Коммерческие функции](hololens-commercial-features.md)
 ## [Разблокировка функций Windows Holographic for Business](hololens1-upgrade-enterprise.md)
 
-# Настройка
+# Configure
 ## Управление устройствами
 ### [Обзор настройки CSP и управления устройством](hololens-csp-policy-overview.md)
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
 ### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
-### [Общие ограничения устройств](hololens-common-device-restrictions.md)
-### [Настройка HoloLens в качестве терминала](hololens-kiosk.md)
-### [Глобальный ограниченный доступ — терминал](hololens-global-assigned-access-kiosk.md)
-### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
+### [Настройка ограничений для устройства](hololens-common-device-restrictions.md)
+### [Настройка HoloLens в качестве киоска](hololens-kiosk.md)
+### [Глобальный ограниченный доступ — режим киоска](hololens-global-assigned-access-kiosk.md)
+### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
 ### [CSP и URI параметров страницы для HoloLens](settings-uri-list.md)
-## Удостоверение
+## Идентификация
 ### [Управление удостоверениями пользователей и входом для HoloLens](hololens-identity.md)
 ### [Предоставление доступа к HoloLens нескольким пользователям](hololens-multiple-users.md)
-## Сеть и подключение
+## Подключение к сети
 ### [Настройка сети для HoloLens](hololens-commercial-infrastructure.md)
 ### [Подключение HoloLens к сети](hololens-network.md)
 ### [Подготовка сертификатов и сетевых профилей для HoloLens 2](hololens-certificates-network.md)
@@ -105,32 +126,53 @@
 ## [Диспетчер сертификатов](certificate-manager.md)
 
 # Развертывание
-## регистрация;
+## Регистрация
 ### [Регистрация HoloLens в MDM](hololens-enroll-mdm.md)
-### [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) 
-### [Регистрация в среде Wi-Fi с ограниченным количеством MAC-адресов](mac-address-options.md)
+### [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) 
+### [Регистрация в среде Wi-Fi с доступом по MAC-адресам](mac-address-options.md)
 ## Приложения
-### [Обзор управления приложениями](app-deploy-overview.md)
-### [Intune и корпоративный портал](app-deploy-intune.md)
+### [Общие сведения об управлении приложением](app-deploy-overview.md)
+### [Intune и Корпоративный портал](app-deploy-intune.md)
 ### [Microsoft Store для бизнеса](app-deploy-store-business.md)
 ### [Пакет подготовки](app-deploy-provisioning-package.md)
 ### [Установщик приложений](app-deploy-app-installer.md)
 
-# Обслуживание
+# Техническое обслуживание
 ## [Управление обновлениями HoloLens](hololens-updates.md)
-## Устранение проблем с HoloLens
-### [Поиск и устранение неисправностей](hololens-troubleshooting.md)
-### [Перезапуск, сброс и восстановление HoloLens 2](hololens-recovery.md)
-### [Перезапуск, сброс и восстановление HoloLens (первого поколения) ](hololens1-recovery.md)
-### [Вопросы и ответы](hololens-faq.md)
-### [Известные проблемы HoloLens](hololens-known-issues.md)
-### [Сбор и использование сведений диагностики с устройств HoloLens](hololens-diagnostic-logs.md)
-### [Получение технической поддержки](https://support.microsoft.com/supportforbusiness/productselection?sapid=e9391227-fa6d-927b-0fff-f96288631b8f)
+## [Устранение проблем с HoloLens](/hololens/hololens-troubleshooting)
 
-# Заметки о выпуске HoloLens
-## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
-## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
-## [Заметки о выпуске HoloLens (1-е поколение)](hololens1-release-notes.md)
+# Ресурсы
+## [Возможности получения поддержки и справки](hololens2-support.md)
+## [Запросы на поддержку в Windows Autopilot](hololens2-autopilot-registration-support.md)
+## Заметки о выпуске
+### [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
+### [Предварительная версия Microsoft HoloLens](hololens-insider.md)
+### [Заметки о выпуске HoloLens (1-го поколения)](hololens1-release-notes.md)
+## Устранение неполадок
+### [Устранение распространенных неполадок](hololens-troubleshooting.md)
+### [Известные проблемы](hololens-known-issues.md)
+### [Сбор диагностических сведений](hololens-diagnostic-logs.md)
+### [Сброс HoloLens 2](hololens-recovery.md)
+### ВОПРОСЫ И ОТВЕТЫ
+#### [Общие сведения](hololens-faq.md)
+#### [Дисплей HoloLens 2](hololens2-display.md)
+#### [Регулировка размера и удобство использования HoloLens 2](hololens2-fit-comfort-faq.md)
+#### [Очистка HoloLens 2](hololens2-maintenance.md)
+#### [HoloLens 2 Development Edition](hololens2-development-edition-faq.md)
+#### [HoloLens 2 Industrial Edition](hololens2-industrial-edition-faq.md)
+## HoloLens (1-го поколения)
+### [Общие сведения о HoloLens (1-го поколения)](hololens1-hardware.md)
+### [Общие сведения о базовом использовании](hololens1-setup.md)
+### [Настройка HoloLens (1-го поколения)](hololens1-start.md)
+### [Использование пульта HoloLens (1-го поколения)](hololens1-clicker.md)
+### [Использование средства 3D-просмотра в HoloLens (1-го поколения)](holographic-3d-viewer-beta.md)
+### [Начало работы с HoloLens (1-го поколения)](hololens1-basic-usage.md)
+### [Установка локализованной версии HoloLens (1-го поколения)](hololens1-install-localized.md)
+### [Сброс HoloLens (1-го поколения)](hololens1-recovery.md)
+### [Регулировка размера и удобство использования HoloLens (1-го поколения)](hololens1-fit-comfort-faq.md)
+### Безопасность HoloLens (1-го поколения) 
+#### [Часто задаваемые вопросы о безопасности HoloLens (1-го поколения)](hololens1-faq-security.md)
+#### [Шифрование BitLocker для HoloLens (1-го поколения)](hololens1-encryption.md)
 
 # Обратная связь
 ## [Обратная связь через Центр отзывов](hololens-feedback.md)
