@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: Microsoft HoloLens
-summary: Microsoft HoloLens — это первый полностью самодостаточный голографической компьютер под управлением Windows 10. Благодаря появлению HoloLens 2 на каждом устройстве HoloLens теперь доступны возможности управления, готовые для коммерческого использования, подкрепленные надежностью, безопасностью и масштабом облачных служб и служб искусственного интеллекта от Майкрософт.
+title: Microsoft HoloLens;
+summary: Microsoft HoloLens — это первый полностью самодостаточный голографической компьютер под управлением Windows 10. Благодаря появлению HoloLens 2 на каждом устройстве HoloLens теперь доступны возможности управления, готовые для коммерческого использования, подкрепленные надежностью, безопасностью и масштабом облачных служб и служб искусственного интеллекта от Майкрософт.
 metadata:
-  title: Microsoft HoloLens
+  title: Microsoft HoloLens;
   description: Целевая страница для Microsoft HoloLens.
   ms.prod: hololens
   ms.subservice: subservice
@@ -11,24 +11,24 @@ metadata:
   ms.author: v-todmc
   ms.date: 5/22/2020
   ms.assetid: 0947f5b3-8f0f-42f0-aa27-6d2cad51d040
-  ms.openlocfilehash: 3dfac30e9ce4ecd20f4bfbee6c25b21ef009de3b
-  ms.sourcegitcommit: d7c86ccad7be32f7223d4b801083798454fda740
+  ms.openlocfilehash: 040e353d42c97aa6387e5611a3479464cf5ae2e8
+  ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 03/25/2021
-  ms.locfileid: "11448487"
+  ms.lasthandoff: 05/25/2021
+  ms.locfileid: "110397895"
 landingContent:
 - title: Общие сведения о HoloLens
   linkLists:
   - linkListType: overview
     links:
-    - text: Общие сведения о HoloLens 2
+    - text: Обзор HoloLens 2
       url: hololens2-options.md
-    - text: Оборудование HoloLens 2
+    - text: Оборудование HoloLens 2
       url: hololens2-hardware.md
     - text: Microsoft Mesh (предварительная версия)
       url: /mesh/overview
-    - text: Использование меню "Пуск" и дома в смешанной реальности
+    - text: Использование меню "Пуск" и главной страницы смешанной реальности
       url: holographic-home.md
     - text: Поиск, установка и удаление приложений
       url: holographic-store-apps.md
@@ -42,29 +42,29 @@ landingContent:
     links:
     - text: Распространенные сценарии развертывания
       url: common-scenarios.md
-    - text: Масштабное развертывание HoloLens 2, подключенного к облаку, с помощью удаленной поддержки
+    - text: Масштабное развертывание HoloLens 2, подключенного к облаку, с помощью Remote Assist
       url: hololens2-cloud-connected-overview.md
-    - text: Развертывание корпоративных устройств HoloLens 2 с руководствами Dynamics 365
+    - text: Развертывание корпоративных устройств HoloLens 2 с помощью Dynamics 365 Guides
       url: hololens2-corp-connected-overview.md
     - text: Руководство по развертыванию внешних клиентов
       url: hololens2-deployment-guide.md
     - text: Безопасное развертывание в автономном режиме
       url: hololens-common-scenarios-offline-secure.md
-- title: Подготовка
+- title: Подготовка.
   linkLists:
   - linkListType: get-started
     links:
     - text: Развертывание HoloLens в коммерческой среде
       url: hololens-requirements.md
-    - text: Обзор системы безопасности
+    - text: Общие сведения о безопасности
       url: security-overview.md
-    - text: Требования к лицензиям
+    - text: Требования лицензий
       url: hololens-licenses-requirements.md
     - text: Требования к окружающей обстановке при использовании HoloLens
       url: hololens-environment-considerations.md
     - text: Коммерческие функции
       url: hololens-commercial-features.md
-- title: Настройка
+- title: Configure
   linkLists:
   - linkListType: how-to-guide
     links:
@@ -78,7 +78,7 @@ landingContent:
       url: hololens-offline.md
     - text: Настройка HoloLens с помощью пакетов подготовки
       url: hololens-provisioning.md
-    - text: Настройка HoloLens в качестве терминала
+    - text: Настройка HoloLens в качестве киоска
       url: hololens-kiosk.md
 - title: Развертывание
   linkLists:
@@ -86,11 +86,11 @@ landingContent:
     links:
     - text: Регистрация HoloLens в MDM
       url: hololens-enroll-mdm.md
-    - text: Windows Autopilot для HoloLens 2
+    - text: Windows Autopilot для HoloLens 2
       url: hololens2-autopilot.md
-    - text: Обзор управления приложениями
+    - text: Общие сведения об управлении приложением
       url: app-deploy-overview.md
-    - text: Intune и корпоративный портал
+    - text: Intune и Корпоративный портал
       url: app-deploy-intune.md
     - text: Microsoft Store для бизнеса
       url: app-deploy-store-business.md
@@ -104,15 +104,15 @@ landingContent:
       url: hololens-troubleshooting.md
     - text: Перезапуск, сброс и восстановление HoloLens 2
       url: hololens-recovery.md
-    - text: Перезапуск, сброс и восстановление HoloLens (первого поколения)
+    - text: Перезапуск, сброс и восстановление HoloLens (1-го поколения)
       url: hololens1-recovery.md
-    - text: Известные проблемы HoloLens
+    - text: Известные проблемы для HoloLens
       url: hololens-known-issues.md
     - text: Сбор и использование сведений диагностики с устройств HoloLens
       url: hololens-diagnostic-logs.md
     - text: Управление обновлениями HoloLens
       url: hololens-updates.md
-- title: Заметки о выпуске, отзывы и предложения
+- title: Заметки о выпуске и отзывы
   linkLists:
   - linkListType: whats-new
     links:
@@ -122,15 +122,15 @@ landingContent:
       url: hololens-insider.md
     - text: Обратная связь
       url: hololens-feedback.md
-- title: Дополнительные службы
+- title: Пункт "Больше служб"
   linkLists:
   - linkListType: reference
     links:
-    - text: Документация для Dynamics 365 Remote Assist
+    - text: Документация по Dynamics 365 Remote Assist
       url: https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/ra-overview
     - text: Информация о Dynamics 365 Remote Assist
       url: https://docs.microsoft.com/learn/browse/?products=dynamics-remote-assist
-    - text: Руководства по Dynamics 365
+    - text: Dynamics 365 Guides
       url: https://docs.microsoft.com/dynamics365/mixed-reality/guides/
     - text: Смешанная реальность Microsoft Dynamics 365
       url: https://docs.microsoft.com/dynamics365/mixed-reality/
@@ -138,23 +138,15 @@ landingContent:
     links:
     - text: Что такое смешанная реальность?
       url: https://docs.microsoft.com/windows/mixed-reality/mixed-reality
-    - text: Начало разработки и создания прототипов
+    - text: Начните проектировать и создавать прототипы
       url: https://docs.microsoft.com/windows/mixed-reality/design
-    - text: Введение в разработку решений смешанной реальности
+    - text: Введение в разработку приложений смешанной реальности
       url: https://docs.microsoft.com/windows/mixed-reality/development?tabs=unity
     - text: Обзор облачных служб
       url: https://docs.microsoft.com/windows/mixed-reality/mixed-reality-cloud-services#overview
-- title: Поддержка
+- title: Практическое руководство
   linkLists:
   - linkListType: reference
     links:
-    - text: Приобретение HoloLens
-      url: https://www.microsoft.com/hololens/buy
-    - text: Поддержка сообществ
-      url: https://holodevelopersslack.azurewebsites.net/
-    - text: Техническая поддержка
-      url: https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=e9391227-fa6d-927b-0fff-f96288631b8f
-    - text: Microsoft Store — поддержка Office
-      url: https://support.microsoft.com/office/microsoft-store-109d8aed-d32f-4d6f-9c54-ff80871e8637
-    - text: Store и поддержка запросов на покупку
-      url: https://www.microsoft.com/store/b/business
+    - text: Возможности получения поддержки и справки для HoloLens2
+      url: hololens2-support.md
