@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 9e413963dbf34dd071fc9603487590065b967ee7
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: d8be5c2ed7fba38b6710aba9c122557a36073a79
+ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309271"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112924134"
 ---
 # <a name="install-apps-on-hololens-2-via-app-installer"></a>Установка приложений в HoloLens 2 с помощью установщика приложений
 
@@ -107,8 +107,6 @@ ms.locfileid: "108309271"
 
 ## <a name="sample-apps"></a>Примеры приложений
 
-Чтобы попробовать установщик приложения с некоторыми примерами приложений, ознакомьтесь с некоторыми из наших доступных примеров:
-
-- [Центр с примерами MRTK](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_ExampleHub.html)
-- [Surfaces](https://docs.microsoft.com/windows/mixed-reality/develop/unity/sampleapp-surfaces)
-- [Примеры приложений UWP, которые можно использовать для тестирования](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples)
+Ознакомьтесь с установщиком приложения, используя один из доступных примеров приложений. 
+> [!div class="nextstepaction"]
+> [Примеры приложений](https://docs.microsoft.com/windows/mixed-reality/develop/features-and-samples?tabs=unity#sample-apps)

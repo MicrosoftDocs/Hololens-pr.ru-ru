@@ -1,5 +1,5 @@
 ---
-title: Управление удостоверением пользователя и входом для HoloLens
+title: Управление удостоверениями пользователей и входом для HoloLens
 description: Узнайте, как управлять удостоверениями пользователей, поддержкой нескольких пользователей, безопасностью, проверкой подлинности предприятия и входом для устройств HoloLens.
 keywords: HoloLens, пользователь, учетная запись, AAD, Azure AD, ADFS, учетная запись Майкрософт, MSA, учетные данные, Справочник
 ms.assetid: 728cfff2-81ce-4eb8-9aaa-0a3c3304660e
@@ -18,14 +18,14 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f8dcc8619715871db0aaba306dd19d252d73ac47
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: fbef357053900f6495cb59f52cba8669f0d0a3db
+ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110397835"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112924423"
 ---
-# <a name="manage-user-identity-and-sign-in-for-hololens"></a>Управление удостоверением пользователя и входом для HoloLens
+# <a name="manage-user-identity-and-sign-in-for-hololens"></a>Управление удостоверениями пользователей и входом для HoloLens
 
 > [!NOTE]
 > Эта статья является техническим справочником для ИТ-специалистов и технических энтузиастов. Если вы ищете инструкции для HoloLens, прочитайте статью "[Настройка hololens (1 Gen)](hololens1-start.md)" или "[Настройка hololens 2](hololens2-start.md)".
@@ -36,20 +36,22 @@ HoloLens поддерживает несколько типов удостове
 
 | Тип удостоверения | Учетные записи на устройство | Параметры проверки подлинности |
 | --- | --- | --- |
-| [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (требуется Azure AD Premium) | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>Приложение Azure Authenticator</li><li>Биометрическая (IRI) &ndash; HoloLens 2 только<sup>1</sup> </li><li>Закрепить &ndash; необязательно для hololens (1-го поколения), требуется для hololens 2</li><li>Пароль</li></ul> |
+| [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/)<sup>1</sup>  | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>Приложение Azure Authenticator</li><li>Биометрическая (IRI) &ndash; HoloLens 2, только<sup>2</sup> </li><li>Закрепить &ndash; необязательно для hololens (1-го поколения), требуется для hololens 2</li><li>Пароль</li></ul> |
 | [Учетная запись Майкрософт (MSA)](https://docs.microsoft.com/windows/security/identity-protection/access-control/microsoft-accounts) | 1 | <ul><li>Только Биометрия (IRI) &ndash; HoloLens 2</li><li>Закрепить &ndash; необязательно для hololens (1-го поколения), требуется для hololens 2</li><li>Пароль</li></ul> |
 | [Локальная учетная запись](https://docs.microsoft.com/windows/security/identity-protection/access-control/local-accounts) | 1 | Пароль |
 
 Облачные учетные записи (Azure AD и MSA) предлагают больше функций, так как они могут использовать службы Azure.  
+> [!IMPORTANT]
+> 1 — Azure AD Premium не требуется для входа на устройство. Однако он необходим для других функций низкоуровневого облачного развертывания, таких как автоматическая регистрация и автопилот.
 
 > [!NOTE]
-> 1 — Хотя устройство HoloLens 2 может поддерживать до 64 учетных записей Azure AD, в проверку подлинности IRI могут регистрироваться только 10 этих учетных записей. Это согласуется с другими [параметрами биометрической проверки подлинности для Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer).
+> 2 — Хотя устройство HoloLens 2 может поддерживать до 64 учетных записей Azure AD, в проверку подлинности IRI могут регистрироваться только 10 этих учетных записей. Это согласуется с другими [параметрами биометрической проверки подлинности для Windows Hello для бизнеса](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer).
 
 ## <a name="setting-up-users"></a>Настройка пользователей
 
 Наиболее распространенный способ настройки нового пользователя — это во время использования встроенного интерфейса HoloLens (OOBE). Во время установки HoloLens запрашивает у пользователя вход с помощью учетной записи, которую он хочет использовать на устройстве. Эта учетная запись может быть потребителем учетная запись Майкрософт или учетной записью предприятия, которая была настроена в Azure. См. раздел Настройка [hololens (1-го поколения)](hololens1-start.md) или [hololens 2](hololens2-start.md).
 
-Как и Windows на других устройствах, при входе в систему во время установки на устройстве создается профиль пользователя. В профиле пользователя хранятся приложения и данные. Эта же учетная запись также обеспечивает единый вход для приложений, таких как пограничная или Skype, с помощью API диспетчера учетных записей Windows.  
+Как и Windows на других устройствах, при входе в систему во время установки на устройстве создается профиль пользователя. В профиле пользователя хранятся приложения и данные. Эта же учетная запись также предоставляет единый вход для приложений, таких как ребро или Microsoft Store, с помощью API-интерфейсов диспетчера учетных записей Windows.  
 
 Если вы используете учетную запись предприятия или организации для входа в HoloLens, HoloLens регистрируется в ИТ ИТ – инфраструктуре организации. Эта регистрация позволяет ИТ-администратору настроить управление мобильными устройствами (MDM) для отправки групповых политик в HoloLens.
 

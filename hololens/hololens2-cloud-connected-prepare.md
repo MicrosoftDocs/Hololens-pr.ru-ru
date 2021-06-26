@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 067917396631f9a89a50b13ef1b7dcca8b631f52
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: 21132ed5d1e84d92a877747ac9a4c090b177ca08
+ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309350"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "112924576"
 ---
 # <a name="prepare---cloud-connected-guide"></a>Подготовка — подключение к облаку
 
@@ -34,7 +34,7 @@ ms.locfileid: "108309350"
 Azure AD — это облачная служба каталогов, которая обеспечивает управление удостоверениями и доступом. Организации, использующие Microsoft Office 365 или Intune, уже используют Azure AD с тремя выпусками: Free, Premium P1 и Premium P2 (см. [Azure Active Directory выпуски](https://azure.microsoft.com/documentation/articles/active-directory-editions)). Все выпуски поддерживают регистрацию устройств Azure AD, но для включения автоматической регистрации MDM, которую мы будем использовать в этом пошаговом задании, требуется Premium P1.
 
 > [!IMPORTANT]
-> Важно иметь Azure Active Directory, так как устройства HoloLens не поддерживают локальное подключение AD. Если у вас&#39;t уже есть Azure Active Directory настроены, следуйте инструкциям по этой ссылке, чтобы приступить к работе и [создать новый клиент в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant).
+> Важно иметь Azure Active Directory, так как устройства HoloLens не поддерживают локальное подключение AD. Если у вас&#39;t уже настроен Azure Active Directory, перейдите к разделу [Создание нового клиента в Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant).
 
 ## <a name="identity-management"></a>Управление удостоверениями
 
