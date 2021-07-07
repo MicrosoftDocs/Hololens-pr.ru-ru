@@ -1,4 +1,4 @@
-# [Microsoft HoloLens](index.yml);
+# [Microsoft HoloLens](index.yml)
 
 # Общие сведения об устройстве
 ## [Общие сведения о HoloLens 2](hololens2-hardware.md)
