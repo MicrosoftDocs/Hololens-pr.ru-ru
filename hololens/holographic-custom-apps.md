@@ -1,6 +1,6 @@
 ---
-title: Управление пользовательскими приложениями для HoloLens (1-й общий)
-description: Узнайте, как устанавливать, удалять и загружать пользовательские приложения holographic на устройствах HoloLens с помощью портала устройств и Visual Studio.
+title: управление пользовательскими приложениями для HoloLens (1-й общий)
+description: узнайте, как устанавливать, удалять и загружать неопубликованные пользовательские приложения holographic на HoloLens устройствах с помощью портала устройств и Visual Studio.
 ms.assetid: 6bd124c4-731c-4bcc-86c7-23f9b67ff616
 ms.date: 12/10/2020
 manager: v-miegge
@@ -16,33 +16,34 @@ ms.custom:
 - CSSTroubleshooting
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 721c169c8ad34acab6914448af8ffc6ceec97a0e
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: a179032978e1fc062273a6754e3b0a1ad50a5211
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309310"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113635914"
 ---
-# <a name="manage-custom-apps-for-hololens-1st-gen"></a>Управление пользовательскими приложениями для HoloLens (1-й общий)
+# <a name="manage-custom-apps-for-hololens-1st-gen"></a>управление пользовательскими приложениями для HoloLens (1-й общий)
 
 HoloLens поддерживает множество существующих приложений из Microsoft Store, а также новые приложения, разработанные специально для HoloLens. В этой статье рассматриваются пользовательские приложения Holographic.  
 
 Дополнительные сведения о приложениях Магазина см. [в статье Управление приложениями с помощью магазина](holographic-store-apps.md).
 
 > [!IMPORTANT]
-> Следующие сведения были созданы для HoloLens (1-го поколения), также называемого выпуском "HoloLens Developer Edition". Такие приложения для загрузки неопубликованных приложений с помощью портала устройств и установки приложений с помощью Visual Studio были распространены. Для корпоративных развертываний не рекомендуется включать режим разработчика, который используется обоими методами. Если вы заинтересованы в безопасном методе развертывания приложений, ознакомьтесь с нашим [руководством по управлению приложениями: обзор](app-deploy-overview.md).
+> следующие сведения были созданы для HoloLens (1-го поколения), также называемого HoloLens Developer Edition. такие приложения для загрузки неопубликованных приложений с помощью портала устройств и установки приложений с помощью Visual Studio были распространены. Для корпоративных развертываний не рекомендуется включать режим разработчика, который используется обоими методами. Если вы заинтересованы в безопасном методе развертывания приложений, ознакомьтесь с нашим [руководством по управлению приложениями: обзор](app-deploy-overview.md).
 >
-> Если вы ищете метод установки приложения для устройств HoloLens 2, ознакомьтесь с разработкой:
-> - [Портал устройств: Установка приложения](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app)
-> - [Развертывание и отладка приложений с помощью Visual Studio](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-visual-studio)
+> если вы ищете метод установки приложения для HoloLens 2 устройств, обратитесь по следующим ссылке:
+>
+> - [Портал устройств: Установка приложения](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app)
+> - [использование Visual Studio для развертывания и отладки приложений](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-visual-studio)
 
 ## <a name="install-custom-apps"></a>Установка пользовательских приложений
 
-Вы можете установить собственные приложения на HoloLens с помощью портала устройств или путем развертывания приложений из Visual Studio.
+вы можете установить собственные приложения на HoloLens либо с помощью портала устройств, либо путем развертывания приложений из Visual Studio.
 
 ### <a name="installing-an-application-package-with-the-device-portal"></a>Установка пакета приложения с помощью портала устройств
 
-1. Установите подключение с [портала устройства](https://docs.microsoft.com/windows/mixed-reality/using-the-windows-device-portal) к целевому HoloLens.
+1. Установите подключение с [портала устройств](/windows/mixed-reality/using-the-windows-device-portal) к целевой HoloLens.
 
 1. В левой области навигации перейдите на страницу **приложения** .
 
@@ -54,11 +55,11 @@ HoloLens поддерживает множество существующих п
 1. Выберите **Перейти**.
 
    > [!div class="mx-imgBorder"]
-   > ![Установка формы приложения на портале устройств Windows в Microsoft HoloLens](images/deviceportal-appmanager.jpg)
+   > ![установите форму приложения на портале устройств Windows на Microsoft HoloLens](images/deviceportal-appmanager.jpg)
 
-### <a name="deploying-from-microsoft-visual-studio-2015"></a>Развертывание из Microsoft Visual Studio 2015
+### <a name="deploying-from-microsoft-visual-studio-2015"></a>развертывание из Microsoft Visual Studio 2015
 
-1. Откройте решение Visual Studio приложения (SLN-файл).
+1. откройте решение Visual Studio приложения (sln-файл).
 
 1. Откройте **Свойства** проекта.
 
@@ -70,9 +71,9 @@ HoloLens поддерживает множество существующих п
    
 1. Выполните построение решения.
 
-1. Чтобы развернуть приложение с компьютера разработки в HoloLens, выберите **Удаленный компьютер**. Если у вас уже есть сборка на HoloLens, выберите **Да** , чтобы установить эту новую версию.  
+1. чтобы развернуть приложение с компьютера разработки на HoloLens, выберите **удаленный компьютер**. если у вас уже есть сборка на HoloLens, выберите **да** , чтобы установить эту новую версию.  
 
-   ![Развертывание удаленного компьютера для приложений в Microsoft HoloLens в Visual Studio](images/vs2015-remotedeployment.jpg)  
+   ![развертывание удаленного компьютера для приложений для Microsoft HoloLens в Visual Studio](images/vs2015-remotedeployment.jpg)  
    
 1. Приложение будет установлено и запущено на HoloLens.
 

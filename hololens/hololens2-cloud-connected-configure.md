@@ -1,6 +1,6 @@
 ---
-title: 'Руководство по развертыванию: облачное подключение HoloLens 2 в масштабе с помощью удаленного помощника — Настройка'
-description: Узнайте, как настроить конфигурацию для регистрации устройств HoloLens через облачную подключенную сеть в масштабе с помощью удаленного помощника.
+title: 'руководство по развертыванию: облачное подключение HoloLens 2 развертывание в масштабе с помощью удаленного помощника — настройка'
+description: узнайте, как настроить конфигурацию для регистрации HoloLens устройств через облачную подключенную сеть в масштабе с помощью удаленного помощника.
 keywords: HoloLens, управление, облачное подключение, удаленное помощник, AAD, Azure AD, MDM, управление мобильными устройствами
 author: evmill
 ms.author: v-evmill
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 00cc3f9df1fefafc9c4c084ff642364ae3ccb85c
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: eb96f1cdc799551297c0373268e8cc8f35c6bd06
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309359"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113635149"
 ---
 # <a name="configure---cloud-connected-guide"></a>Настройка — Путеводитель по подключению к облаку
 
@@ -33,30 +33,30 @@ Azure и Intune с этим расширением используют поль
 
 Если у вас нет&#39;у вас уже есть доступ к двум учетным записям Azure AD в группе пользователей, которые можно использовать; Ниже приведены краткие руководства по началу работы.
 
-- [Создание пользователя](https://docs.microsoft.com/mem/intune/fundamentals/quickstart-create-user)
-- [Создание группы](https://docs.microsoft.com/mem/intune/fundamentals/quickstart-create-group)
-- [Добавление пользователей в группу](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal) — Добавление созданных пользователей для создания группы
-- [Настройка Azure AD для предоставления группе пользователей возможности присоединять устройства](https://docs.microsoft.com/azure/active-directory/devices/azureadjoin-plan#configure-your-device-settings) — убедитесь, что у новой группы пользователей есть разрешение на регистрацию устройств в Azure AD.
+- [Создание пользователя](/mem/intune/fundamentals/quickstart-create-user)
+- [Создание группы](/mem/intune/fundamentals/quickstart-create-group)
+- [Добавление пользователей в группу](/azure/active-directory/fundamentals/active-directory-groups-members-azure-portal) — Добавление созданных пользователей для создания группы
+- [Настройка Azure AD для предоставления группе пользователей возможности присоединять устройства](/azure/active-directory/devices/azureadjoin-plan#configure-your-device-settings) — убедитесь, что у новой группы пользователей есть разрешение на регистрацию устройств в Azure AD.
 
 ## <a name="auto-enrollment-on-hololens-2"></a>Автоматическая регистрация в HoloLens 2
 
-Чтобы обеспечить плавность и удобство работы, настройте Azure Active Directory присоединение (AADJ) и автоматическую регистрацию в Intune для устройств HoloLens 2 — это способ перехода. Это позволит пользователям вводить учетные данные для входа в Организации во время OOBE и автоматически регистрироваться в Azure AD и регистрировать устройство в MDM.
+чтобы обеспечить плавность и удобство работы, настройте Azure Active Directory присоединение (AADJ) и автоматическую регистрацию в Intune для HoloLens 2 устройств — это способ перехода. Это позволит пользователям вводить учетные данные для входа в Организации во время OOBE и автоматически регистрироваться в Azure AD и регистрировать устройство в MDM.
 
-С помощью [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home)можно выбрать службы и перейти на несколько страниц, пока не сможете выбрать получить пробную версию Premium. Вы можете заметить, что существует Azure Active Directory Premium 1 и 2, что для автоматической регистрации P1 достаточно. Мы можем выбрать Intune и выбрать область пользователя для автоматической регистрации и выбрать ранее созданную группу.
+используя [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home), можно выбрать службы и перейти на несколько страниц, пока не сможете выбрать получить пробную версию Premium. вы можете заметить, что существует Azure Active Directory Premium 1 и 2, что для автоматической регистрации P1 достаточно. Мы можем выбрать Intune и выбрать область пользователя для автоматической регистрации и выбрать ранее созданную группу.
 
-Полные сведения и инструкции см. в руководстве по [включению автоматической регистрации для Intune](https://docs.microsoft.com/mem/intune/enrollment/quickstart-setup-auto-enrollment).
+Полные сведения и инструкции см. в руководстве по [включению автоматической регистрации для Intune](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
 ## <a name="application-licenses"></a>Лицензии приложений
 
 Лицензия на приложение позволяет пользователю либо установить приобретенные продукты компании, либо перейти с бесплатной пробной версии на полную версию приложения. Лицензии на приложения можно применять к пользователям, группам пользователей или группам устройств. Чтобы использовать удаленную помощь пользователям в вашей организации, вам&#39;все необходимые лицензии удаленного помощника. В рамках этого руководством мы назовем лицензии удаленного помощника группе пользователей, созданной ранее в разделе [Пользователи и группы Azure](hololens2-cloud-connected-configure.md#azure-users-and-groups).
 
-Требования к лицензиям могут отличаться в зависимости от того, будет ли пользователь выполнять удаленный помощник или удаленный совместный доступ от Microsoft Teams. По умолчанию флажки удаленный помощник и команды помечены как. В рамках этого руководств мы рекомендуем отказаться от установленных флажков по умолчанию.
+Требования к лицензиям могут отличаться в зависимости от того, будет ли пользователь выполнять удаленный помощник для вызова с устройства или удаленный совместный доступ от Microsoft Teams. по умолчанию флажки Remote Assist и Teams помечены как. В рамках этого руководств мы рекомендуем отказаться от установленных флажков по умолчанию.
 
-1. Узнайте больше о различных [требованиях к лицензированию и продукту для каждой роли](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/requirements#licensing-and-product-requirements-per-role). Существует несколько различных типов лицензий удаленного помощника, поэтому обязательно получите правильные требования.
-2. Вам&#39;все необходимое для [получения лицензии](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/buy-remote-assist).
-3. [Примените лицензии](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/deploy-remote-assist) к группе.
+1. Узнайте больше о различных [требованиях к лицензированию и продукту для каждой роли](/dynamics365/mixed-reality/remote-assist/requirements#licensing-and-product-requirements-per-role). Существует несколько различных типов лицензий удаленного помощника, поэтому обязательно получите правильные требования.
+2. Вам&#39;все необходимое для [получения лицензии](/dynamics365/mixed-reality/remote-assist/buy-remote-assist).
+3. [Примените лицензии](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist) к группе.
 
-## <a name="next-step"></a>Следующий шаг
+## <a name="next-step"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Развертывание с подключением к облаку — развертывание](hololens2-cloud-connected-deploy.md)

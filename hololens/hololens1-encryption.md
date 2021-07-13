@@ -1,6 +1,6 @@
 ---
-title: Шифрование BitLocker в HoloLens
-description: Узнайте, как включить шифрование устройства BitLocker для защиты файлов, хранящихся на устройствах смешанной реальности на HoloLens.
+title: HoloLens Шифрование BitLocker
+description: узнайте, как включить шифрование устройства BitLocker для защиты файлов, хранящихся на устройствах HoloLens mixed reality.
 ms.prod: hololens
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -13,26 +13,26 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 2929cbea826e0cc92a72550c7874995506b94257
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: 37efab3ef3d68a9641320e144619008612f6efa2
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110397285"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113635251"
 ---
-# <a name="hololens-1st-gen-bitlocker-encryption"></a>Шифрование с помощью HoloLens (1-го поколения)
+# <a name="hololens-1st-gen-bitlocker-encryption"></a>Шифрование BitLocker для HoloLens (1-го поколения)
 
-HoloLens (1-й общий) и HoloLens 2 поддерживают шифрование устройств с помощью BitLocker, однако BitLocker всегда включен в HoloLens 2.
+HoloLens (1-й gen) и HoloLens 2 поддерживают шифрование устройств с помощью bitlocker, однако bitlocker всегда включен на HoloLens 2.
 
-Эта статья поможет вам включить BitLocker и управлять им в HoloLens (1-й общий).
+эта статья поможет вам включить BitLocker и управлять им на HoloLens (1 общий номер).
 
-В HoloLens (первое поколение) можно включить шифрование устройства BitLocker вручную или с помощью управления мобильными устройствами (MDM). Выполните эти инструкции, чтобы включить [Шифрование устройства BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10#bitlocker-device-encryption) для защиты файлов и данных, хранящихся в HoloLens. Шифрование устройств помогает защитить данные с помощью метода шифрования AES-CBC 128, который эквивалентен [методу енкриптионмесодбидриветипе 3](https://docs.microsoft.com/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype) в поставщике службы настройки BitLocker (CSP). Персонал, имеющий правильный ключ шифрования (например, пароль), может расшифровать его или выполнить восстановление данных.
+на HoloLens (первое поколение) можно включить шифрование устройства BitLocker вручную или с помощью управления мобильными устройствами (MDM). Выполните эти инструкции, чтобы включить [Шифрование устройства BitLocker](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10#bitlocker-device-encryption) для защиты файлов и данных, хранящихся на HoloLens. Шифрование устройств помогает защитить данные с помощью метода шифрования AES-CBC 128, который эквивалентен [методу енкриптионмесодбидриветипе 3](/windows/client-management/mdm/bitlocker-csp#encryptionmethodbydrivetype) в поставщике службы настройки BitLocker (CSP). Персонал, имеющий правильный ключ шифрования (например, пароль), может расшифровать его или выполнить восстановление данных.
 
 ## <a name="enable-device-encryption-using-mdm"></a>Включение шифрования устройств с помощью MDM
 
-Поставщик управления мобильными устройствами (MDM) можно использовать для применения политики, требующей шифрования устройства. Используемая политика — это [параметр Security/рекуиредевицеенкриптион](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-security#security-requiredeviceencryption) в CSP политики.
+Поставщик управления мобильными устройствами (MDM) можно использовать для применения политики, требующей шифрования устройства. Используемая политика — это [параметр Security/рекуиредевицеенкриптион](/windows/client-management/mdm/policy-csp-security#security-requiredeviceencryption) в CSP политики.
 
-[См. инструкции по включению шифрования устройств с помощью Microsoft Intune.](https://docs.microsoft.com/intune/compliance-policy-create-windows#windows-holographic-for-business)
+[См. инструкции по включению шифрования устройств с помощью Microsoft Intune.](/intune/compliance-policy-create-windows#windows-holographic-for-business)
 
 Инструкции по другим инструментам MDM см. в документации вашего поставщика MDM. Если поставщику MDM требуется настраиваемый URI для шифрования устройства, используйте следующую конфигурацию:
 
@@ -46,7 +46,7 @@ HoloLens (1-й общий) и HoloLens 2 поддерживают шифрова
 
 Пакеты подготовки — это файлы, создаваемые конструктором конфигураций Windows, которые применяются к заданной конфигурации на устройстве. 
 
-### <a name="create-a-provisioning-package-that-upgrades-the-windows-holographic-edition-and-enables-encryption"></a>Создание пакета подготовки, который обновляет Windows holographic Edition и включает шифрование
+### <a name="create-a-provisioning-package-that-upgrades-the-windows-holographic-edition-and-enables-encryption"></a>создание пакета подготовки, который обновляет Windows holographic edition и включает шифрование
 
 1. [Создайте пакет подготовки для HoloLens.](hololens-provisioning.md)
 1. Перейдите в раздел **Параметры среды выполнения**  >  **политики**  >  **Безопасность** и выберите **рекуиредевицеенкриптион**.
@@ -99,6 +99,6 @@ HoloLens (1-й общий) и HoloLens 2 поддерживают шифрова
 
 В HoloLens шифрование осуществляется в фоновом режиме. Процедура проверки состояния шифрования устройства:
 
-- В HoloLens выберите **Параметры**  >  **система**  >  **о**. **BitLocker** **включается** , если устройство зашифровано. 
+- на HoloLens перейдите в раздел **Параметры**  >  **система**  >  **о программе**. **BitLocker** **включается** , если устройство зашифровано. 
 
     ![О снимке экрана с включенным BitLocker](images/about-encryption.png)

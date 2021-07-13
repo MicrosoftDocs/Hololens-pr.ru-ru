@@ -1,6 +1,6 @@
 ---
-title: Подготовка пакета
-description: Дополнительные сведения о пакетировании приложений, подготовке, развертывании и развертывании корпоративных приложений для устройств HoloLens.
+title: Пакет подготовки
+description: дополнительные сведения о пакетировании приложений, подготовке, развертывании и развертывании корпоративных приложений для HoloLens устройств.
 keywords: приложение, развертывание приложений, развертывание корпоративного приложения, подготовка
 author: evmill
 ms.author: v-evmill
@@ -14,16 +14,16 @@ manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 9c73b03e6a8dca6baf6c58fed091df96994c3780
-ms.sourcegitcommit: ad53ba5edd567a18f0c172578d78db3190701650
+ms.openlocfilehash: 5aa554f9e7fdc09c3112b628e0978ac3332bc57d
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "108309407"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113635523"
 ---
-# <a name="provisioning-package"></a>Подготовка пакета
+# <a name="provisioning-package"></a>Пакет подготовки
 
-Пакеты подготовки можно использовать для подготовки и настройки устройств в среде без доступа к управлению конечными точками. Кроме того, их можно развернуть на устройстве независимо от удостоверения пользователя, состояния регистрации, во время работы при первом включении (OOBE) или путем [применения пакета подготовки во время установки](https://docs.microsoft.com/hololens/hololens-provisioning##apply-a-provisioning-package-to-hololens-during-setup).
+Пакеты подготовки можно использовать для подготовки и настройки устройств в среде без доступа к управлению конечными точками. Кроме того, их можно развернуть на устройстве независимо от удостоверения пользователя, состояния регистрации, во время работы при первом включении (OOBE) или путем [применения пакета подготовки во время установки](/hololens/hololens-provisioning##apply-a-provisioning-package-to-hololens-during-setup).
 
 ## <a name="provisioning-packages-considerations"></a>Рекомендации по подготовке пакетов:
 
@@ -33,18 +33,18 @@ ms.locfileid: "108309407"
 
 Приложения, установленные с помощью пакета подготовки, должны быть подписаны сертификатом в хранилище локального компьютера. Пакеты подготовки могут устанавливать сертификаты только в хранилище устройства (локальный компьютер), поэтому приложение и сертификат могут быть установлены с помощью одного и того же пакета подготовки. Если вы развертываете сертификат из MDM или устанавливаете с помощью [диспетчера сертификатов](certificate-manager.md), не забудьте развернуть сертификат в хранилище локального компьютера, чтобы подписывать установленные таким образом приложения.
 
-Чтобы узнать основные сведения о создании пакета подготовки для устройств HoloLens, перейдите на страницу [подготовки hololens](https://docs.microsoft.com/hololens/hololens-provisioning). Чтобы развернуть приложение, необходимо начать с расширенной подготовки.
+основные сведения о создании пакета подготовки для устройств HoloLens см. в статье [подготовка HoloLens](/hololens/hololens-provisioning). Чтобы развернуть приложение, необходимо начать с расширенной подготовки.
 
 > [!NOTE]
-> HoloLens (1 общий) имеет ограниченную поддержку установки приложений (**универсалаппинсталл**) с помощью пакета подготовки. Устройства HoloLens (1-го поколения) поддерживают установку только с помощью PPKG только во время OOBE и только при установке контекста пользователя.
+> HoloLens (1 общий) имеет ограниченную поддержку установки приложений (**универсалаппинсталл**) с помощью пакета подготовки. HoloLens (1) устройства поддерживают установку только с помощью PPKG только во время OOBE и только при установке контекста пользователя.
 
 ## <a name="setup"></a>Настройка
 
-В [конструкторе конфигурации Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22) выполните следующие четыре шага.
+в [конструкторе конфигураций Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22) выполните четыре шага.
 
-1. Задайте для Аппликатионманажемент/AllowAllTrustedApps значение "Да". См. раздел: [аппликатионманажемент/AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps).
+1. Задайте для Аппликатионманажемент/AllowAllTrustedApps значение "Да". См. раздел: [аппликатионманажемент/AllowAllTrustedApps](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-allowalltrustedapps).
 
-2. Перейдите к **универсалаппинсталл**  >  **усерконтекстапплиценсе** введите **паккажефамилинаме**. См. [универсалаппинсталл](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall). См. также: [усерконтекстапплиценсе](https://docs.microsoft.com/windows/configuration/wcd/wcd-universalappinstall#usercontextapplicense).
+2. Перейдите к **универсалаппинсталл**  >  **усерконтекстапплиценсе** введите **паккажефамилинаме**. См. [универсалаппинсталл](/windows/configuration/wcd/wcd-universalappinstall). См. также: [усерконтекстапплиценсе](/windows/configuration/wcd/wcd-universalappinstall#usercontextapplicense).
 
    Вы можете использовать портал устройств на устройстве, на котором вы уже установили приложение. Посетите страницу приложений и взгляните на строку Паккажерелативеид, всю информацию до "!" **Паккажефамилинаме**.
 
@@ -57,4 +57,4 @@ ms.locfileid: "108309407"
 
 Обязательно сохраните проект в безопасном месте. Затем **экспортируйте** его как **пакет подготовки**.  
 
-См. также: [Применение пакета подготовки к HoloLens](https://docs.microsoft.com/hololens/hololens-provisioning#apply-a-provisioning-package-to-hololens-during-setup).
+См. также: [Применение пакета подготовки к HoloLens](/hololens/hololens-provisioning#apply-a-provisioning-package-to-hololens-during-setup).

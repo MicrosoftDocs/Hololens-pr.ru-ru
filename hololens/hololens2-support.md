@@ -7,75 +7,77 @@ description: Возможности поддержки смешанной реа
 ms.prod: hololens
 ms.topic: article
 ms.date: 3/19/2021
-ms.openlocfilehash: 18178e35e93005f386c3d6f2fa6c637694bc60cc
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: ee75944575cacb75b213fcd9d732e5bd91265061
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398784"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113636220"
 ---
 # <a name="what-are-the-mixed-reality-support-and-help-options"></a>Каковы возможности поддержки смешанной реальности и справки?
 
-Вы хотите разблокировать разработку приложения или проблемы с головным телефоном HoloLens 2 или Windows Mixed Reality? Возможно, вы используете службу Azure Mixed Reality и имеете технические вопросы. 
+вы хотите разблокировать разработку приложения или проблемы с HoloLens 2 или Windows Mixed Reality гарнитуре? Возможно, вы используете службу Azure Mixed Reality и имеете технические вопросы. 
 
 Здесь вы найдете варианты поддержки для следующих параметров, обеспечивающих подключение к нужному месту. Мы также расскажем о ресурсах сообщества и вариантах самостоятельного содержимого для изучения:
 
-- [Варианты справки сообщества для разработчиков](#community-help-options)
-- [Получение справки по использованию и настройке устройства HoloLens 2](#help-with-technical-support-for-your-hololens-2)
-- [Получение справки по приобретению устройства HoloLens 2](#help-with-commercial-store-support-for-your-hololens-2)
-- [Получение справки по программированию устройства HoloLens 2 или иммерсивного головного телефона](#help-with-technical-support-for-your-hololens-2) 
+- [Community параметры справки для разработчиков](#community-help-options)
+- [получение справки по использованию и настройке устройства HoloLens 2](#help-with-technical-support-for-your-hololens-2)
+- [получение справки по приобретению HoloLens 2 устройства](#help-with-commercial-store-support-for-your-hololens-2)
+- [получите справку по программированию HoloLens 2ного устройства или иммерсивного головного телефона](#help-with-technical-support-for-your-hololens-2) 
 - [Получение справки по службам Azure Mixed Reality](#azure-mixed-reality-services-support)
 
-## <a name="community-help-options"></a>Параметры справки сообщества
+## <a name="community-help-options"></a>Community параметры справки
 
 ### <a name="post-a-question-on-microsoft-qa"></a>Публикация вопроса в разделе вопросов и ответов на сайте Майкрософт
 <div class='icon is-large'>
-    <img alt='Azure Q&A' src='https://docs.microsoft.com/media/logos/logo_azure.svg'>
+    <img alt='Azure Q&A' src='/media/logos/logo_azure.svg'>
 </div><br/>
-Для получения быстрых и надежных ответов на вопросы по программированию на основе Azure Mixed Reality и HoloLens 2 от инженеров Майкрософт, наиболее ценных специалистов (MVP) или нашего экспертного сообщества вы можете общаться с нами по адресу Microsoft Q&A — предпочитаемое назначение корпорации Майкрософт для поддержки сообщества.
+для получения быстрых и надежных ответов на вопросы по программированию в среде Azure Mixed Reality и HoloLens 2 от инженеров майкрософт, наиболее ценных специалистов (mvp) или нашего экспертного сообщества, общайтесь с нами по адресу microsoft Q&A — предпочитаемое место для поддержки сообщества майкрософт.
 
 Если вы не нашли решение своей проблемы с помощью функции поиска, опубликуйте свой вопрос в разделе вопросов и ответов на сайте Майкрософт. При формулировании вопроса используйте один из следующих тегов:
-- [Пространственные привязки Azure.](https://docs.microsoft.com/answers/topics/azure-spatial-anchors.html)
-- [Удаленная отрисовка Azure](https://docs.microsoft.com/answers/topics/azure-remote-rendering.html)
-- [Объектные привязки Azure](https://docs.microsoft.com/answers/topics/azure-object-anchors.html)
-- [Программирование HoloLens](https://docs.microsoft.com/answers/topics/hololens-development.html)
-- [Продукты Windows](https://docs.microsoft.com/answers/products/windows)
+
+- [Пространственные привязки Azure.](/answers/topics/azure-spatial-anchors.html)
+- [Удаленная отрисовка Azure](/answers/topics/azure-remote-rendering.html)
+- [Объектные привязки Azure](/answers/topics/azure-object-anchors.html)
+- [HoloLens Программирование](/answers/topics/hololens-development.html)
+- [Windows Продуктов](/answers/products/windows)
 
 
 ### <a name="post-a-question-on-stack-overflow"></a>Публикация вопроса на Stack Overflow
 <div class='icon is-large'>
-    <img alt='Stack Overflow' src='https://docs.microsoft.com/media/logos/logo_stackoverflow.svg'>
+    <img alt='Stack Overflow' src='/media/logos/logo_stackoverflow.svg'>
 </div><br/>
 
 Чтобы получить ответ на свой вопрос о разработке от участников крупнейшего сообщества разработчиков, задайте свой вопрос на сайте Stack Overflow.
 
 При публикации вопроса на Stack Overflow используйте один или несколько следующих тегов:
 
-- [Программирование HoloLens](https://stackoverflow.com/questions/tagged/hololens)
+- [HoloLens Программирование](https://stackoverflow.com/questions/tagged/hololens)
 - [Windows Mixed Reality](https://stackoverflow.com/questions/tagged/windows-mixed-reality)
 - [Пространственные привязки Azure.](https://stackoverflow.com/questions/tagged/azure-spatial-anchors)
 - [Удаленная отрисовка Azure](https://stackoverflow.com/questions/tagged/azure-remote-rendering)
 - [Объектные привязки Azure](https://stackoverflow.com/questions/tagged/azure-object-anchors)
 - [Mixed Reality Toolkit (MRTK)](https://stackoverflow.com/questions/tagged/MRTK)
 
-#### <a name="other-communities"></a>Другие сообщества: 
+#### <a name="other-communities"></a>Другие сообщества:
+
 - [HoloDevelopers в Slack](https://holodevelopersslack.azurewebsites.net/)
-- [Reddit гарнитуры Windows Mixed Reality](https://www.reddit.com/r/WindowsMR/)
-- [Reddit HoloLens](https://www.reddit.com/r/HoloLens/)
+- [Windows Mixed Reality Гарнитуры Reddit](https://www.reddit.com/r/WindowsMR/)
+- [HoloLens Reddit](https://www.reddit.com/r/HoloLens/)
 
-## <a name="hololens-2-support"></a>Поддержка HoloLens 2
+## <a name="hololens-2-support"></a>HoloLens 2 Технической
 
-### <a name="help-with-technical-support-for-your-hololens-2"></a>Справка по технической поддержке для HoloLens 2
+### <a name="help-with-technical-support-for-your-hololens-2"></a>Помощь в технической поддержке HoloLens 2
 
-- Получите справку по программированию HoloLens 2 в сообществе по адресу [Microsoft Q&A](#post-a-question-on-microsoft-qa)
+- получите справку по программированию HoloLens 2 из сообщества по адресу [Microsoft Q&](#post-a-question-on-microsoft-qa)
 - Дополнительные сведения см. в статье Справка, поддержка и работоспособность [служб Azure Mixed Reality](#azure-mixed-reality-services-support) .
-- Создание запроса в службу поддержки для HoloLens 2 или иммерсивного программирования на гарнитуру в [поддержке в Mr](https://aka.ms/mrsupport) 
-- Создайте запрос в службу поддержки для проблем устройств HoloLens 2, включая оборудование, конфигурацию & использования в [службе поддержки устройств hololens 2](https://aka.ms/hlsupport) . 
+- создание запроса в службу поддержки для HoloLens 2 или иммерсивного программной гарнитуры в [поддержке MR](https://aka.ms/mrsupport) 
+- создайте запрос в службу поддержки для HoloLens 2 проблем с устройствами, включая оборудование, конфигурацию & использования в [HoloLens 2 поддержки устройств](https://aka.ms/hlsupport) . 
 
 
-### <a name="help-with-commercial-store-support-for-your-hololens-2"></a>Помощь по поддержке коммерческого магазина для HoloLens 2
+### <a name="help-with-commercial-store-support-for-your-hololens-2"></a>Помощь по поддержке коммерческих магазинов для HoloLens 2
 
-- [Покупка hololens 2](https://www.microsoft.com/hololens/buy) . Используйте этот параметр, чтобы узнать больше о ценах и вариантах HoloLens 2.
+- [приобрести HoloLens 2](https://www.microsoft.com/hololens/buy) используйте этот параметр, чтобы узнать больше о ценах и вариантах HoloLens 2
 - Ниже приведен список номеров бизнес-услуг, которые следует проговаривать с коллегами службы поддержки коммерческих магазинов, если вам нужна помощь через службу поддержки по телефону.
 
 ### <a name="commercial-store-support-numbers"></a>Номера поддержки коммерческих магазинов
@@ -142,7 +144,7 @@ ms.locfileid: "110398784"
 
 ### <a name="provide-documentation-content-feedback"></a>Отправить отзыв о содержимом документации
 
-В нижней части каждой статьи о содержимом есть возможность открыть вопрос GitHub и отправить отзыв о содержимом в любом репозитории документации по смешанной реальности. 
+в нижней части статьи о содержимом можно открыть GitHubную ошибку и отправить отзыв о содержимом в любом репозитории документации по смешанной реальности. 
 
 ### <a name="provide-product-feedback"></a>Отзыв о продукте
 
@@ -151,15 +153,15 @@ ms.locfileid: "110398784"
 
 Чтобы отправить отзыв, поделиться идеями или предложениями для служб Microsoft Mixed Reality или проголосовать за идеи, которые были отправлены другими пользователями, посетите веб: 
 
-- [Отзыв о продукте HoloLens 2](https://docs.microsoft.com/hololens/hololens-feedback)
-- [Отзыв о продукте приложения для сетки Майкрософт](https://docs.microsoft.com/hololens/hololens-feedback)
+- [HoloLens 2 Отзыв о продукте](/hololens/hololens-feedback)
+- [Отзыв о продукте приложения для сетки Майкрософт](/hololens/hololens-feedback)
 - [Отзыв об удаленной отрисовке Azure](https://feedback.azure.com/forums/928696-azure-remote-rendering)
 - [Отзывы о пространственных привязках Azure](https://feedback.azure.com/forums/919252-azure-spatial-anchors)
 
 ### <a name="faqs--troubleshooting"></a>Вопросы и ответы по устранению неполадок &
 
-- HoloLens 2 см. на странице [устранения неполадок HoloLens](../hololens/hololens-troubleshooting.md) .
-- Windows Mixed Reality, см. страницу [часто задаваемых вопросов](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality)
-- Удаленная подготовка к просмотру Azure см. на странице [часто задаваемых вопросов](https://docs.microsoft.com/azure/remote-rendering/resources/troubleshoot)
-- Пространственные привязки Azure см. на странице [часто задаваемых вопросов](https://docs.microsoft.com/azure/spatial-anchors/spatial-anchor-faq)
-- Привязки объектов Azure см. на странице [вопросов и ответов](https://docs.microsoft.com/azure/object-anchors/faq)
+- HoloLens 2 см. на странице [устранение неполадок HoloLens](../hololens/hololens-troubleshooting.md)
+- Windows Mixed Reality см. на странице [часто задаваемых вопросов](/windows/mixed-reality/enthusiast-guide/troubleshooting-windows-mixed-reality)
+- Удаленная подготовка к просмотру Azure см. на странице [часто задаваемых вопросов](/azure/remote-rendering/resources/troubleshoot)
+- Пространственные привязки Azure см. на странице [часто задаваемых вопросов](/azure/spatial-anchors/spatial-anchor-faq)
+- Привязки объектов Azure см. на странице [вопросов и ответов](/azure/object-anchors/faq)
