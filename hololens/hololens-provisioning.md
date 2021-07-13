@@ -1,5 +1,5 @@
 ---
-title: Настройка HoloLens с помощью пакета подготовки (HoloLens)
+title: настройка HoloLens с помощью пакета подготовки (HoloLens)
 description: Подготовка Windows помогает ИТ-администраторам настраивать устройства конечных пользователей без создания образов.
 ms.prod: hololens
 ms.sitesec: library
@@ -16,38 +16,38 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: cf2abe249e40e522b4d8993449b9f19033a64744
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: 7f712c571df1170badf3bfc832e43881278eec90
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110397405"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113640140"
 ---
-# <a name="configure-hololens-by-using-a-provisioning-package"></a>Настройка HoloLens с помощью пакета подготовки
+# <a name="configure-hololens-by-using-a-provisioning-package"></a>настройка HoloLens с помощью пакета подготовки
 
-[Подготовка Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) упрощает ИТ-администраторам настройку устройств для конечных пользователей без создания образов. Конструктор конфигураций Windows — это средство для настройки образов и параметров среды выполнения, которые затем встроены в пакеты подготовки.
+[Windowsная подготовка](/windows/configuration/provisioning-packages/provisioning-packages) позволяет ит-администраторам легко настраивать устройства конечных пользователей без создания образов. Windows Конструктор конфигураций — это средство для настройки образов и параметров среды выполнения, которые затем встроены в пакеты подготовки.
 
-Ниже перечислены некоторые конфигурации HoloLens, которые можно применять в пакете подготовки.
+ниже перечислены некоторые конфигурации HoloLens, которые можно применять в пакете подготовки.
 
-- Обновление до [Windows holographic для бизнеса](hololens1-upgrade-enterprise.md)
+- обновление до [Windows Holographic for Business](hololens1-upgrade-enterprise.md)
 - Настройка локальной учетной записи
 - Настройка подключения к сети Wi-Fi
 - Применение сертификатов к устройству
 - Включение режима разработчика
 - Настройте режим киоска, следуя нашим [подробным инструкциям](hololens-kiosk.md#use-a-provisioning-package-to-set-up-a-single-app-or-multi-app-kiosk).
 
-## <a name="provisioning-package-hololens-wizard"></a>Мастер подготовки пакета HoloLens
+## <a name="provisioning-package-hololens-wizard"></a>мастер подготовки пакета HoloLens
 
-Мастер HoloLens помогает настроить следующие параметры в пакете подготовки.
+мастер HoloLens помогает настроить следующие параметры в пакете подготовки.
 
 - Обновление до выпуска Enterprise Edition
 
     > [!NOTE]
-    > Этот параметр следует использовать только для устройств с 1-го поколения в HoloLens. Параметры в пакете подготовки применяются только в том случае, если пакет подготовки включает лицензию на обновление выпуска для Windows holographic для бизнеса или если [устройство уже обновлено до Windows holographic for Business](hololens1-upgrade-enterprise.md).
+    > этот параметр следует использовать только для HoloLens 1-го поколения устройств. Параметры в пакете подготовки применяются только в том случае, если пакет подготовки включает лицензию на обновление выпуска для Windows Holographic for Business или если [устройство уже обновлено до Windows Holographic for Business](hololens1-upgrade-enterprise.md).
 
-- Настройка первого интерфейса HoloLens (OOBE)
+- настройка первого интерфейса HoloLens (OOBE)
 - Настройка сети Wi-Fi
-- Регистрация устройства в Azure Active Directory или создание локальной учетной записи
+- регистрация устройства в Azure Active Directory или создание локальной учетной записи
 - Добавление сертификатов
 - Включение режима разработчика
 - Настройте режим киоска, следуя [подробным инструкциям](hololens-kiosk.md#use-a-provisioning-package-to-set-up-a-single-app-or-multi-app-kiosk).
@@ -62,11 +62,11 @@ ms.locfileid: "110397405"
 
 ## <a name="steps-for-creating-provisioning-packages"></a>Действия по созданию пакетов подготовки
 
-1. **Вариант 1** . [из Microsoft Store](https://www.microsoft.com/store/apps/9nblggh4tx22). Сюда входят возможности HoloLens 2.
-2. **Вариант 2.** [из комплекта средств для развертывания и оценки Windows (ADK) для Windows 10](https://developer.microsoft.com/windows/hardware/windows-assessment-deployment-kit). При установке конструктора конфигураций Windows из Windows ADK выберите **конструктор конфигураций** в диалоговом окне **выберите компоненты, которые требуется установить** . Этот параметр не включает возможности HoloLens 2.
+1. **Вариант 1** . [из Microsoft Store](https://www.microsoft.com/store/apps/9nblggh4tx22). сюда входят HoloLens 2 возможности.
+2. **вариант 2.** [из комплекта средств для развертывания и оценки Windows (ADK) для Windows 10](https://developer.microsoft.com/windows/hardware/windows-assessment-deployment-kit). если вы установили Windows конструктор конфигураций из Windows ADK, выберите **конструктор конфигураций** в диалоговом окне **выберите компоненты, которые требуется установить** . этот параметр не включает HoloLens 2 возможности.
 
 > [!NOTE]
-> Если известно, что вы будете использовать автономный компьютер, которому нужен доступ к конструктору конфигураций Windows, следуйте инструкциям [автономная установка приложения ( https://docs.microsoft.com/hololens/hololens-recovery#downloading-arc-without-using-the-app-store) инструкции для расширенного помощника по восстановлению). Сделайте выбор в конструкторе конфигураций Windows. 
+> если известно, что вы используете автономный компьютер, которому требуется доступ к Windows конструктору конфигураций, следуйте инструкциям [автономная установка приложения (hololens-recovery. md # download-arc-без использования-the-app-store) для расширенного помощника по восстановлению. сделайте выбор в конструкторе конфигураций Windows. 
 
 ### <a name="2-create-the-provisioning-package"></a>2. Создание пакета подготовки
 
@@ -74,7 +74,7 @@ ms.locfileid: "110397405"
 
 1. Откройте конструктор конфигураций Windows (по умолчанию %windir%\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\ICD.exe).
 
-2. Выберите **подготавливать устройства HoloLens**.
+2. выберите **подготавливать HoloLens устройства**.
 
    ![Параметры запуска ICD](images/icd-create-options-1703.png)
 
@@ -88,34 +88,34 @@ ms.locfileid: "110397405"
 ### <a name="configure-settings"></a>Настройка параметров
 
 <table>
-<tr><td style="width:45%" valign="top"><a id="one"></a><img src="images/one.png" alt="step one"/><img src="images/set-up-device.png" alt="set up device"/></br></br>Найдите и выберите файл корпоративной лицензии для обновления выпуска HoloLens.</br></br>Можно также установить переключатель <strong>Да</strong> или <strong>нет</strong> , чтобы скрыть части первого интерфейса.</br></br>Чтобы настроить устройство без подключения к Wi-Fi сети, установите переключатель <strong>пропустить Wi-Fi установки</strong> в положение <strong>вкл</strong>.</br></br>Выберите регион и часовой пояс, в котором будет использоваться устройство. </td><td><img src="images/set-up-device-details.png" alt="Select enterprise licence file and configure OOBE"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="one"></a><img src="images/one.png" alt="step one"/><img src="images/set-up-device.png" alt="set up device"/></br></br>найдите и выберите файл корпоративной лицензии для обновления выпуска HoloLens.</br></br>Можно также установить переключатель <strong>Да</strong> или <strong>нет</strong> , чтобы скрыть части первого интерфейса.</br></br>Чтобы настроить устройство без подключения к Wi-Fi сети, установите переключатель <strong>пропустить Wi-Fi установки</strong> в положение <strong>вкл</strong>.</br></br>Выберите регион и часовой пояс, в котором будет использоваться устройство. </td><td><img src="images/set-up-device-details.png" alt="Select enterprise licence file and configure OOBE"/></td></tr>
 <tr><td style="width:45%" valign="top"><a id="two"></a><img src="images/two.png" alt="step two"/>  <img src="images/set-up-network.png" alt="set up network"/></br></br>В этом разделе можно ввести сведения о Wi-Fi беспроводной сети, к которой устройство должно автоматически подключаться. Для этого выберите значение <strong>вкл</strong>., введите SSID, тип сети (<strong>Open</strong> или <strong>WPA2-Personal</strong>) и (если <strong>WPA2-личное</strong>) пароль для беспроводной сети.</td><td><img src="images/set-up-network-details-desktop.png" alt="Enter network SSID and type"/></td></tr>
-<tr><td style="width:45%" valign="top"><a id="three"></a><img src="images/three.png" alt="step three"/>  <img src="images/account-management.png" alt="account management"/></br></br>Вы можете зарегистрировать устройство в Azure Active Directory или создать локальную учетную запись на устройстве.</br></br>Прежде чем использовать мастер конструктора конфигураций Windows для настройки массовой регистрации в Azure AD, <a href="https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](https://docs.microsoft.com/azure/active-directory/active-directory-azureadjoin-setup)">настройте присоединение к Azure AD в вашей организации</a>. Параметр <strong>Максимальное количество устройств на одного пользователя</strong> в клиенте Azure AD определяет, сколько раз можно использовать массовый маркер, полученный в мастере. Для регистрации устройства в Azure AD, выберите соответствующий вариант и введите понятное имя для массового маркера, полученного с помощью мастера. Задайте дату окончания срока действия маркера (максимальное значение — 30 дней с даты получения маркера). Выберите <strong>получить групповой маркер</strong>. В окне <strong>разрешить&#39;войти в</strong> Windows введите учетную запись, имеющую разрешения на присоединение устройства к Azure AD, а затем пароль. Выберите <strong>принять</strong> , чтобы предоставить конструктору конфигурации Windows необходимые разрешения. </br></br>Чтобы создать локальную учетную запись, выберите этот параметр и введите имя пользователя и пароль. </br></br><strong>Существенно</strong> <br />(Только для Windows 10, версия 1607) При создании локальной учетной записи в пакете подготовки необходимо изменить пароль с помощью приложения " <strong>Параметры</strong> " каждые 42 дней. Если пароль не меняется в течение этого периода, учетная запись может быть заблокирована и стать недоступной для входа.  </td><td><img src="images/account-management-details.png" alt="join  Azure AD or create a local  account"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="three"></a><img src="images/three.png" alt="step three"/>  <img src="images/account-management.png" alt="account management"/></br></br>вы можете зарегистрировать устройство в Azure Active Directory или создать локальную учетную запись на устройстве.</br></br>Прежде чем использовать мастер конструктора конфигураций Windows для настройки массовой регистрации в Azure AD, <a href="/azure/active-directory/active-directory-azureadjoin-setup" data-raw-source="[set up Azure AD join in your organization](/azure/active-directory/active-directory-azureadjoin-setup)">настройте присоединение к Azure AD в вашей организации</a>. Параметр <strong>Максимальное количество устройств на одного пользователя</strong> в клиенте Azure AD определяет, сколько раз можно использовать массовый маркер, полученный в мастере. Для регистрации устройства в Azure AD, выберите соответствующий вариант и введите понятное имя для массового маркера, полученного с помощью мастера. Задайте дату окончания срока действия маркера (максимальное значение — 30 дней с даты получения маркера). Выберите <strong>получить групповой маркер</strong>. В окне <strong>разрешить&#39;войти в</strong> Windows введите учетную запись, имеющую разрешения на присоединение устройства к Azure AD, а затем пароль. выберите <strong>принять</strong> , чтобы предоставить конструктору конфигураций Windows необходимые разрешения. </br></br>Чтобы создать локальную учетную запись, выберите этот параметр и введите имя пользователя и пароль. </br></br><strong>Существенно</strong> <br />(только для Windows 10 версии 1607) при создании локальной учетной записи в пакете подготовки необходимо изменить пароль с помощью приложения <strong>Параметры</strong> каждые 42 дней. Если пароль не меняется в течение этого периода, учетная запись может быть заблокирована и стать недоступной для входа.  </td><td><img src="images/account-management-details.png" alt="join  Azure AD or create a local  account"/></td></tr>
 <tr><td style="width:45%" valign="top"><a id="four"></a><img src="images/four.png" alt="step four"/> <img src="images/add-certificates.png" alt="add certificates"/></br></br>Для подготовки устройства с сертификатом щелкните <strong>Добавление сертификата</strong>. Введите имя сертификата, а затем найдите и выберите сертификат для использования.</td><td><img src="images/add-certificates-details.png" alt="add a certificate"/></td></tr> 
-<tr><td style="width:45%" valign="top"><a id="five"></a><img src="images/five.png" alt="step five"/> <img src="images/developer-setup.png" alt="Developer Setup"/></br></br>Установите переключатель <strong>Да</strong> или <strong>нет</strong> , чтобы включить режим разработчика в HoloLens. <a href="https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development#developer-mode" data-raw-source="[Learn more about Developer Mode.](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development#developer-mode)">Подробнее о режиме разработчика.</a></td><td><img src="images/developer-setup-details.png" alt="Enable Developer Mode"/></td></tr>
-<tr><td style="width:45%" valign="top"><a id="six"></a><img src="images/six.png" alt="step six"/> <img src="images/finish.png" alt="finished"/></br></br>Не устанавливайте пароль для защиты пакета подготовки. Если пакет подготовки защищен паролем, подготовка устройства HoloLens завершится ошибкой.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="five"></a><img src="images/five.png" alt="step five"/> <img src="images/developer-setup.png" alt="Developer Setup"/></br></br>Установите переключатель <strong>Да</strong> или <strong>нет</strong> , чтобы включить режим разработчика на HoloLens. <a href="/windows/uwp/get-started/enable-your-device-for-development#developer-mode" data-raw-source="[Learn more about Developer Mode.](/windows/uwp/get-started/enable-your-device-for-development#developer-mode)">Подробнее о режиме разработчика.</a></td><td><img src="images/developer-setup-details.png" alt="Enable Developer Mode"/></td></tr>
+<tr><td style="width:45%" valign="top"><a id="six"></a><img src="images/six.png" alt="step six"/> <img src="images/finish.png" alt="finished"/></br></br>Не устанавливайте пароль для защиты пакета подготовки. если пакет подготовки защищен паролем, подготовка устройства HoloLens завершится ошибкой.</td><td><img src="images/finish-details.png" alt="Protect your package"/></td></tr>
 </table>
 
 Когда все будет готово, выберите **Создать**. Это займет несколько секунд. После построения пакета расположение, в котором хранится пакет, отображается как гиперссылка в нижней части страницы.
 
-### <a name="3-create-a-provisioning-package-for-hololens-by-using-advanced-provisioning"></a>3. Создание пакета подготовки для HoloLens с помощью расширенной подготовки
+### <a name="3-create-a-provisioning-package-for-hololens-by-using-advanced-provisioning"></a>3. создание пакета подготовки для HoloLens с помощью расширенной подготовки
 
 > [!NOTE]
-> Пакет подготовки, созданный в ходе **расширенной подготовки** , не должен включать лицензию на обновление выпуска в Windows holographic для бизнеса, чтобы успешно применить ее к HoloLens (1-го поколения). [См. Дополнительные сведения о Windows holographic для бизнеса для HoloLens (1-го поколения)](hololens1-upgrade-enterprise.md).
+> пакет подготовки, созданный в ходе **расширенной подготовки** , не должен включать лицензию на обновление выпуска, чтобы Windows Holographic for Business успешно применить к HoloLens (1-й выпуск). [дополнительные сведения см. на Windows Holographic for Business HoloLens (1-й общий)](hololens1-upgrade-enterprise.md).
 
 1. На начальной странице конструктора конфигураций Windows нажмите **Расширенная подготовка**.
 2. В окне **Введите сведения о проекте** укажите имя и расположение своего проекта. При желании вы также можете ввести краткое описание своего проекта.
 
 3. Выберите **Далее**.
 
-4. В окне **выберите параметры для просмотра и настройки** выберите **Windows 10 holographic**, а затем нажмите кнопку **Далее**.
+4. в окне **выберите параметры для просмотра и настройки** выберите **Windows 10 Holographic**, а затем нажмите кнопку **далее**.
 
 5. Нажмите кнопку **Готово**.
 
 6. Разверните **Параметры среды выполнения** и настройте пакет с помощью любого из параметров, [описанных далее в этой статье](#what-you-can-configure).
 
     > [!IMPORTANT]
-    > (Только для Windows 10, версия 1607) При создании локальной учетной записи в пакете подготовки необходимо изменить пароль с помощью приложения " **Параметры** " каждые 42 дней. Если пароль не меняется в течение этого периода, учетная запись может быть заблокирована и стать недоступной для входа. Если учетная запись пользователя заблокирована, необходимо [выполнить полное восстановление устройства](https://developer.microsoft.com/windows/mixed-reality/reset_or_recover_your_hololens#perform_a_full_device_recovery).
+    > (только для Windows 10 версии 1607) при создании локальной учетной записи в пакете подготовки необходимо изменить пароль с помощью приложения **Параметры** каждые 42 дней. Если пароль не меняется в течение этого периода, учетная запись может быть заблокирована и стать недоступной для входа. Если учетная запись пользователя заблокирована, необходимо [выполнить полное восстановление устройства](https://developer.microsoft.com/windows/mixed-reality/reset_or_recover_your_hololens#perform_a_full_device_recovery).
 
 7. Выберите **Файл** > **Сохранить**.
 
@@ -150,19 +150,19 @@ ms.locfileid: "110397405"
 
 <span id="apply" />
 
-## <a name="apply-a-provisioning-package-to-hololens-during-setup"></a>Применение пакета подготовки к HoloLens во время установки
+## <a name="apply-a-provisioning-package-to-hololens-during-setup"></a>применение пакета подготовки к HoloLens во время установки
 
-Устройства HoloLens 2 в Windows holographic, Version 2004 или [19041,1103](hololens-release-notes.md#windows-holographic-version-2004) или более поздней версии могут использовать USB-накопитель для применения пакета подготовки. Просто скопируйте файл ppkg в корневую папку USB-накопителя. Подготовка пакетов будет применена только в том случае, если они находятся в корне USB-накопителя. Имеется несколько пакетов подготовки, которые будут применены последовательно.
+HoloLens 2 устройства Windows holographic, версия 2004 или сборка [19041,1103](hololens-release-notes.md#windows-holographic-version-2004) или более поздней версии могут использовать USB-накопитель для применения пакета подготовки. Просто скопируйте файл ppkg в корневую папку USB-накопителя. Подготовка пакетов будет применена только в том случае, если они находятся в корне USB-накопителя. Имеется несколько пакетов подготовки, которые будут применены последовательно.
 
-Устройства HoloLens 2 в [Windows holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) или более поздней имеют новые функции, позволяющие упростить и упростить этот процесс, сделав его автоматическим. Ознакомьтесь со следующими разделами:
+HoloLens 2 устройства [Windows holographic 20H2](hololens-release-notes.md#windows-holographic-version-20h2) или более поздней версии имеют новые функции, позволяющие упростить и упростить этот процесс, сделав его автоматическим. Ознакомьтесь со следующими разделами:
 
 - [Автоматическое запуск подготовки с USB](hololens-provisioning.md#auto-launch-provisioning-from-usb)
 - [Автоматическая подтверждение пакетов подготовки в OOBE](hololens-provisioning.md#auto-confirm-provisioning-packages-in-oobe)
 - [Автоматическая подготовка без использования пользовательского интерфейса](hololens-provisioning.md#automatic-provisioning-without-using-ui)
 
-1. Используйте USB-кабель для подключения устройства к компьютеру (или USB-устройству для HoloLens 2, как упоминалось выше), а затем запустите устройство. Не продолжайте работу после **первой интерактивной** страницы Oobe.   
-    - В HoloLens (1-й общий) Эта страница содержит синий прямоугольник. 
-    - В HoloLens 2 Эта страница содержит хуммингбирд.
+1. используйте usb-кабель для подключения устройства к компьютеру (или USB-диску для HoloLens 2, как упоминалось выше), а затем запустите устройство. Не продолжайте работу после **первой интерактивной** страницы Oobe.   
+    - на HoloLens (1-й общий) эта страница содержит синий прямоугольник. 
+    - на HoloLens 2 эта страница содержит хуммингбирд.
 
 2. Одновременно и кратковременно нажмите и отпустите кнопки **уменьшения громкости** и **питания**. 
 
@@ -200,40 +200,40 @@ ms.locfileid: "110397405"
 ### <a name="automatic-provisioning-without-using-ui"></a>Автоматическая подготовка без использования пользовательского интерфейса
 - Объединенные автоматические процессы для сокращения взаимодействия устройств при подготовке. 
 
-Путем объединения автоматического запуска подготовки с устройств USB и автоматического подтверждения пакетов подготовки пользователь может автоматически подготавливать устройства HoloLens 2 без использования пользовательского интерфейса устройства или даже людьми устройства. Вы можете продолжать использовать один и тот же USB-накопитель и пакет подготовки для нескольких устройств. Это полезно для одновременного развертывания нескольких устройств в одной области. 
+путем объединения автоматического запуска подготовки с устройств USB и автоматического подтверждения пакетов подготовки пользователь может автоматически подготавливать HoloLens 2 устройства без использования пользовательского интерфейса устройства или даже людьми устройства. Вы можете продолжать использовать один и тот же USB-накопитель и пакет подготовки для нескольких устройств. Это полезно для одновременного развертывания нескольких устройств в одной области. 
 
-1. [Создайте пакет подготовки](hololens-provisioning.md) с помощью [конструктора конфигураций Windows](https://www.microsoft.com/store/productId/9NBLGGH4TX22). 
+1. [создайте пакет подготовки](hololens-provisioning.md) с помощью [Windows конструктора конфигураций](https://www.microsoft.com/store/productId/9NBLGGH4TX22). 
 1. Скопируйте пакет на USB-накопитель.
-1. Выпускайте [HoloLens 2](hololens-insider.md#ffu-download-and-flash-directions) до [19041,1361 или более новой сборки](https://aka.ms/hololens2previewdownload). 
+1. [обновите HoloLens 2](hololens-insider.md#ffu-download-and-flash-directions) до [19041,1361 или более новой сборки](https://aka.ms/hololens2previewdownload). 
 1. После завершения [расширенного помощника по восстановлению](https://www.microsoft.com/store/productId/9P74Z35SFRS8) устройство отключается от кабеля USB-C. 
 1. Подключите USB-накопитель к устройству.
-1. Когда устройство HoloLens 2 загружается в OOBE, оно автоматически обнаружит пакет подготовки на USB-накопителе и запустит страницу подготовки.
+1. когда HoloLens 2 устройство загружается в OOBE, оно автоматически обнаружит пакет подготовки на USB-накопителе и запустит страницу подготовки.
 1. Через 10 секунд устройство будет автоматически применять пакет подготовки. 
 
 Теперь устройство настроено и в нем отображается экран подготовка успешно завершена.
 
-## <a name="applyremove-a-provisioning-package-to-hololens-after-setup"></a>Применение и удаление пакета подготовки в HoloLens после установки
+## <a name="applyremove-a-provisioning-package-to-hololens-after-setup"></a>применить или удалить пакет подготовки для HoloLens после установки
 
 > [!NOTE]
-> Эти действия применяются ко всем устройствам HoloLens 2 и HoloLens (1-го поколения) в Windows holographic, 1809 и более поздних версий.
+> эти действия применимы ко всем HoloLens 2 устройствам и HoloLens (1-го поколения) на Windows holographic, 1809 и более поздних версий.
 
 На компьютере выполните следующие действия.
-1. Создайте пакет подготовки, как описано в разделе [Создание пакета подготовки для HoloLens с помощью мастера HoloLens](hololens-provisioning.md).
-2. Подключите устройство HoloLens к компьютеру с помощью USB-кабеля. HoloLens отображается как устройство в проводнике на компьютере.
+1. создайте пакет подготовки, как описано в разделе [создание пакета подготовки для HoloLens с помощью мастера HoloLens](hololens-provisioning.md).
+2. Подключение устройство HoloLens на компьютер с помощью USB-кабеля. HoloLens отображается как устройство в проводнике на компьютере.
 3. Перетащите пакет подготовки в папку документы на HoloLens.
 
-На HoloLens выполните следующие действия.
+на HoloLens выполните следующие действия.
 1. Откройте **Учетные записи** > **Учетные записи** > **Доступ к рабочей или учебной учетной записи**. 
-2. В окне **связанные параметры** выберите **Добавить или удалить пакет подготовки**.
+2. в окне **связанные Параметры** выберите **добавить или удалить пакет подготовки**.
 3. На следующей странице выберите **Добавить пакет** , чтобы запустить средство выбора файлов и выбрать пакет подготовки. Если папка пуста, убедитесь, что выбрано **это устройство** , и выберите пункт **документы**.
 
 После применения пакета он отображается в списке **установленных пакетов**. Чтобы просмотреть сведения о пакете или удалить пакет с устройства, выберите указанный пакет.
 
 ## <a name="what-you-can-configure"></a>Что можно настроить
 
-Пакеты подготовки используют поставщики услуг конфигурации (CSP). Если вы не знакомы с понятием «поставщик службы конфигурации» (CSP), сначала ознакомьтесь с разделом [Вводные сведения о поставщиках службы конфигурации (CSP) для ИТ-профессионалов](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers).
+Пакеты подготовки используют поставщики услуг конфигурации (CSP). Если вы не знакомы с понятием «поставщик службы конфигурации» (CSP), сначала ознакомьтесь с разделом [Вводные сведения о поставщиках службы конфигурации (CSP) для ИТ-профессионалов](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers).
 
-В конструкторе конфигураций Windows при создании пакета подготовки для Windows Holographic параметры в разделе **Доступные настройки** основаны на [поставщиках CSP, которые поддерживаются в среде Windows Holographic](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#csps-supported-in-hololens-devices). В следующей таблице рассматриваются параметры, которые можно настроить для HoloLens.
+В конструкторе конфигураций Windows при создании пакета подготовки для Windows Holographic параметры в разделе **Доступные настройки** основаны на [поставщиках CSP, которые поддерживаются в среде Windows Holographic](/windows/client-management/mdm/configuration-service-provider-reference#csps-supported-in-hololens-devices). В следующей таблице рассматриваются параметры, которые можно настроить для HoloLens.
 
 ![Общие параметры среды выполнения для HoloLens](images/icd-settings.png)
 
@@ -241,12 +241,12 @@ ms.locfileid: "110397405"
 | --- | --- |
 | **Сертификаты** | Развертывание сертификата на HoloLens.  |
 | **ConnectivityProfiles** | Развертывание профиля Wi-Fi на HoloLens.   |
-| **EditionUpgrade** | [Обновление до Windows holographic для бизнеса.](hololens1-upgrade-enterprise.md)  |
-| **Политики** | Разрешение или запрет режима разработчика на устройстве HoloLens. [Политики, поддерживаемые Windows Holographic for Business](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#hololenspolicies) |
+| **EditionUpgrade** | [Обновите до Windows Holographic for Business.](hololens1-upgrade-enterprise.md)  |
+| **Политики** | Разрешение или запрет режима разработчика на устройстве HoloLens. [Политики, поддерживаемые Windows Holographic for Business](/windows/client-management/mdm/policy-configuration-service-provider#hololenspolicies) |
 
 ## <a name="app-install-via-provisioning-package"></a>Установка приложения с помощью пакета подготовки
 
-Приложения можно устанавливать с помощью пакетов подготовки на устройствах HoloLens 2. Это позволяет легко перезапустить пакет, который можно использовать для распространения приложений. Ознакомьтесь с полными инструкциями по [развертыванию приложений с помощью пакетов подготовки](app-deploy-provisioning-package.md).  
+приложения можно устанавливать с помощью пакетов подготовки на HoloLens 2 устройствах. Это позволяет легко перезапустить пакет, который можно использовать для распространения приложений. Ознакомьтесь с полными инструкциями по [развертыванию приложений с помощью пакетов подготовки](app-deploy-provisioning-package.md).  
 
 > [!NOTE]
-> HoloLens (1 общий) имеет ограниченную поддержку установки приложений (**универсалаппинсталл**) с помощью пакета подготовки. Устройства HoloLens (1-го поколения) поддерживают установку только с помощью PPKG только во время OOBE и только при установке контекста пользователя.
+> HoloLens (1 общий) имеет ограниченную поддержку установки приложений (**универсалаппинсталл**) с помощью пакета подготовки. HoloLens (1) устройства поддерживают установку только с помощью PPKG только во время OOBE и только при установке контекста пользователя.

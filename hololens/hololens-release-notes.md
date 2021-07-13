@@ -15,12 +15,12 @@ ms.custom:
 audience: ITPro
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: e0dd7d02ad923438134f2a45812db67f73fdcd8d
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 73d89619498c61f2809702d788ffafc532afa67e
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/12/2021
-ms.locfileid: "113637189"
+ms.locfileid: "113640055"
 ---
 # <a name="hololens-2-release-notes"></a>Заметки о выпуске HoloLens 2
 
@@ -136,9 +136,9 @@ ms.locfileid: "113637189"
 
 Ознакомьтесь с заметками о выпуске:
 
-- [посетите HoloLens Emulator архив](https://docs.microsoft.com/windows/mixed-reality/hololens-emulator-archive)
-- [Dynamics 365 Remote Assist;](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/version-history-remote-assist-hololens)
-- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/version-history-remote-assist-hololens)
+- [посетите HoloLens Emulator архив](/windows/mixed-reality/hololens-emulator-archive)
+- [Dynamics 365 Remote Assist;](/dynamics365/mixed-reality/remote-assist/version-history-remote-assist-hololens)
+- [Dynamics 365 Guides](/dynamics365/mixed-reality/remote-assist/version-history-remote-assist-hololens)
 
 ### <a name="introducing-the-new-microsoft-edge"></a>Знакомство с новой Microsoft Edge
 
@@ -164,13 +164,13 @@ ms.locfileid: "113637189"
 
 Ниже приведены некоторые полезные ресурсы для изучения управления параметрами политики для нового Microsoft Edge.
 
-- [настройка параметров политики Microsoft Edge с помощью Microsoft Intune](https://docs.microsoft.com/deployedge/configure-edge-with-intune)
-- [устаревшая версия Microsoft Edge сопоставление политики Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-legacy-to-newedge)
-- [сопоставление Google Chrome с Microsoft Edge политикой](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-chrome-to-newedge)
-- [документация по полной Microsoft Edge Enterprise](https://docs.microsoft.com/deployedge/)
+- [настройка параметров политики Microsoft Edge с помощью Microsoft Intune](/deployedge/configure-edge-with-intune)
+- [устаревшая версия Microsoft Edge сопоставление политики Microsoft Edge](/deployedge/microsoft-edge-policy-map-legacy-to-newedge)
+- [сопоставление Google Chrome с Microsoft Edge политикой](/deployedge/microsoft-edge-policy-map-chrome-to-newedge)
+- [документация по полной Microsoft Edge Enterprise](/deployedge/)
 
 > [!IMPORTANT]
-> из-за объема политик браузера, поддерживаемых новым Microsoft Edge, наша группа не может гарантировать, что каждая новая политика работает на HoloLens 2. тем не менее мы тестировали и подтвердили новые Microsoft Edge, которые ранее поддерживались для всех устаревших политик Microsoft Edge HoloLens 2 работать правильно. см. раздел [устаревшая версия Microsoft Edge to Microsoft Edge mapping (сопоставление политик](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-legacy-to-newedge) ), чтобы найти новый Microsoft Edge эквивалент каждой устаревшей политики браузера Microsoft Edge, используемой с HoloLens 2.
+> из-за объема политик браузера, поддерживаемых новым Microsoft Edge, наша группа не может гарантировать, что каждая новая политика работает на HoloLens 2. тем не менее мы тестировали и подтвердили новые Microsoft Edge, которые ранее поддерживались для всех устаревших политик Microsoft Edge HoloLens 2 работать правильно. см. раздел [устаревшая версия Microsoft Edge to Microsoft Edge mapping (сопоставление политик](/deployedge/microsoft-edge-policy-map-legacy-to-newedge) ), чтобы найти новый Microsoft Edge эквивалент каждой устаревшей политики браузера Microsoft Edge, используемой с HoloLens 2.
 >
 > существует по крайней мере две новые политики Microsoft Edge, которые *не будут* работать с HoloLens 2:
 > - EnterpriseModeSiteList
@@ -222,12 +222,12 @@ ms.locfileid: "113637189"
   1. Нажмите кнопку **Установить**.
   1. после успешной установки вы найдете Microsoft Edge Beta, Dev или ранний в виде отдельной записи в списке **все приложения** меню.
 
-**установка с помощью пк с помощью Windows портала устройств (требуется включить [режим разработчика](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal) на HoloLens 2)**
+**установка с помощью пк с помощью Windows портала устройств (требуется включить [режим разработчика](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal) на HoloLens 2)**
   1. На своем ПК посетите [страницу загрузки для предварительной оценки](https://www.microsoftedgeinsider.com/download).
   1. нажмите **кнопку со стрелкой** раскрывающегося списка рядом с кнопкой "скачать для Windows 10" для канала Insider preview, который вы хотите установить.
   1. выберите **HoloLens 2** в раскрывающемся меню.
   1. Сохраните файл. msix в папке "Downloads" на компьютере (или в другой папке, которую можно легко найти).
-  1. используйте [Windows портал устройств](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app) на компьютере, чтобы установить скачанный файл. msix на HoloLens 2.
+  1. используйте [Windows портал устройств](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app) на компьютере, чтобы установить скачанный файл. msix на HoloLens 2.
   1. после успешной установки вы найдете Microsoft Edge Beta, Dev или ранний в виде отдельной записи в списке **все приложения** меню.
 
 #### <a name="using-wdac-to-block-new-microsoft-edge"></a>Использование WDAC для блокировки новых Microsoft Edge
@@ -238,7 +238,7 @@ ms.locfileid: "113637189"
 
 #### <a name="managing-endpoints-for-the-new-microsoft-edge"></a>Управление конечными точками для нового Microsoft Edge
 
-Некоторые среды могут иметь ограничения сети, чтобы учитывать их. Чтобы обеспечить бесперебойную работу с новым ребром, [включите эти конечные точки Майкрософт.](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints)
+Некоторые среды могут иметь ограничения сети, чтобы учитывать их. Чтобы обеспечить бесперебойную работу с новым ребром, [включите эти конечные точки Майкрософт.](/deployedge/microsoft-edge-security-endpoints)
 
 Дополнительные сведения о доступных в настоящее время [конечных точках для HoloLens](hololens-offline.md).
 
@@ -322,7 +322,7 @@ ms.locfileid: "113637189"
 
 **Известные проблемы**
 - ранее помещенные Параметры windows будут удалены (см. примечание выше).
-- вы больше не можете переименовать устройство с помощью Параметры приложения. ит-администраторы могут переименовывать устройства, используя шаблон [Windows автопилот для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot) имени устройства или узел [DevDetail CSP](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp) Ext/Microsoft/днскомпутернаме.
+- вы больше не можете переименовать устройство с помощью Параметры приложения. ит-администраторы могут переименовывать устройства, используя шаблон [Windows автопилот для HoloLens 2](hololens2-autopilot.md) имени устройства или узел [DevDetail CSP](/windows/client-management/mdm/devdetail-csp) Ext/Microsoft/днскомпутернаме.
 - На странице Ethernet в любое время отображается виртуальное устройство Ethernet ("Усбнкм").
 - использование аккумулятора для нового Microsoft Edge может быть неточным, так как классическое приложение Win32 поддерживается на уровне адаптера UWP (в ближайшее время исправление не ожидается).
 
@@ -481,7 +481,7 @@ ms.locfileid: "113637189"
 
 Для конфигурации AAD пользователи могут в настоящее время достигать примерно такого рода без этого изменения. Устройства, присоединенные к AAD, настроенные для полноэкранного режима, могут войти в учетную запись посетителя с помощью одной кнопки на экране входа. После входа в учетную запись посетителя устройство не будет запрашивать вход снова, пока посетитель не выйдет из меню "Пуск" или не перезапускает устройство.
 
-Для управления автовходом посетителя можно использовать [настраиваемую политику OMA-URI](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10) :
+Для управления автовходом посетителя можно использовать [настраиваемую политику OMA-URI](/mem/intune/configuration/custom-settings-windows-10) :
 
 - Значение URI:./девице/вендор/мсфт/микседреалити/виситораутологон
 
@@ -504,13 +504,13 @@ ms.locfileid: "113637189"
 
 ### <a name="kiosk-mode-behavior-changes-for-handling-of-failures"></a>Изменения режима киоска для обработки сбоев
 
-В более старых сборках, если устройство имело конфигурацию киоска, которая является сочетанием глобальных назначенных прав доступа и назначенного члена группы AAD, при неудачном определении членства в группе AAD пользователь увидит меню "[ничего не отображается в начале](https://docs.microsoft.com/hololens/hololens-kiosk#kiosk-mode-behavior-changes-for-handling-of-failures)".
+В более старых сборках, если устройство имело конфигурацию киоска, которая является сочетанием глобальных назначенных прав доступа и назначенного члена группы AAD, при неудачном определении членства в группе AAD пользователь увидит меню "[ничего не отображается в начале](hololens-kiosk.md#kiosk-mode-behavior-changes-for-handling-of-failures)".
 
 начиная с этого Windows, в режиме киоска будет восстановлена глобальная конфигурация киоска (если она есть) в случае сбоев во время полноэкранного режима группы AAD.
 
 ### <a name="new-settings-uris-for-page-settings-visibility"></a>новые Параметры uri для видимости Параметры страниц
 
-в [Windows, версия 20H2](hololens-release-notes.md#windows-holographic-version-20h2) добавлена [политика Параметры/пажевисибилитилист](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist) для ограничения страниц, видимых в Параметры приложении. пажевисибилитилист — это политика, которая позволяет ит-администраторам либо запретить доступ к определенным страницам в системном Параметры приложении, либо сделать это для всех страниц, кроме указанных.
+в [Windows, версия 20H2](hololens-release-notes.md#windows-holographic-version-20h2) добавлена [политика Параметры/пажевисибилитилист](/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist) для ограничения страниц, видимых в Параметры приложении. пажевисибилитилист — это политика, которая позволяет ит-администраторам либо запретить доступ к определенным страницам в системном Параметры приложении, либо сделать это для всех страниц, кроме указанных.
 
 при посещении [страницы Параметры видимость](settings-uri-list.md)можно найти инструкции по использованию этого CSP и список uri, доступных в предыдущих выпусках.
 
@@ -567,7 +567,7 @@ ms.locfileid: "113637189"
 
 обменивайтесь с Windows 10 устройствами вблизи, включая компьютеры и другие HoloLens 2 устройства. вы можете испытать его в **Параметры**  ->    ->  **общих сетевых интерфейсах** для предоставления общего доступа к файлам или url-адресам из HoloLens на компьютер. Дополнительные сведения см. в статье о [совместном использовании устройств с ближайшими устройствами в Windows 10](https://support.microsoft.com/windows/share-things-with-nearby-devices-in-windows-10-0efbfe40-e3e2-581b-13f4-1a0e9936c2d9).
 
-Эта функция может управляться через [подключение или алловконнектеддевицес](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowconnecteddevices).
+Эта функция может управляться через [подключение или алловконнектеддевицес](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowconnecteddevices).
 
 ### <a name="new-os-diagnostic-traces"></a>Новые трассировки диагностики ОС
 
@@ -575,26 +575,26 @@ ms.locfileid: "113637189"
 
 ### <a name="delivery-optimization-preview"></a>Предварительная версия оптимизации доставки
 
-в этом HoloLens Windows Holographic for Business включает параметры оптимизации доставки для уменьшения потребления пропускной способности для загрузки с нескольких HoloLens устройств. более полное описание этой функции вместе с рекомендуемой конфигурацией сети доступно здесь: [оптимизация доставки для Windows 10 обновлений](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization).
+в этом HoloLens Windows Holographic for Business включает параметры оптимизации доставки для уменьшения потребления пропускной способности для загрузки с нескольких HoloLens устройств. более полное описание этой функции вместе с рекомендуемой конфигурацией сети доступно здесь: [оптимизация доставки для Windows 10 обновлений](/windows/deployment/update/waas-delivery-optimization).
 
-Следующие параметры включены как часть области управления и [могут быть настроены в Intune](https://docs.microsoft.com/mem/intune/configuration/delivery-optimization-settings):
+Следующие параметры включены как часть области управления и [могут быть настроены в Intune](/mem/intune/configuration/delivery-optimization-settings):
 
-- [докачехост](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
-- [докачехостсаурце](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehostsource)
-- [доделайкачесерверфаллбаккбаккграунд](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackbackground)
-- [доделайкачесерверфаллбаккфореграунд](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackforeground)
-- [DODownloadMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
-- [домаксбаккграунддовнлоадбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxbackgrounddownloadbandwidth)
-- [домаксфореграунддовнлоадбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxforegrounddownloadbandwidth)
-- [доперцентажемаксбаккграундбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxbackgroundbandwidth)
-- [доперцентажемаксфореграундбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxforegroundbandwidth)
-- [досесаурстолимитфореграунддовнлоадбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitforegrounddownloadbandwidth)
-- [досесаурстолимитбаккграунддовнлоадбандвидс](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitbackgrounddownloadbandwidth)
+- [докачехост](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
+- [докачехостсаурце](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehostsource)
+- [доделайкачесерверфаллбаккбаккграунд](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackbackground)
+- [доделайкачесерверфаллбаккфореграунд](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackforeground)
+- [DODownloadMode](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
+- [домаксбаккграунддовнлоадбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxbackgrounddownloadbandwidth)
+- [домаксфореграунддовнлоадбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxforegrounddownloadbandwidth)
+- [доперцентажемаксбаккграундбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxbackgroundbandwidth)
+- [доперцентажемаксфореграундбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxforegroundbandwidth)
+- [досесаурстолимитфореграунддовнлоадбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitforegrounddownloadbandwidth)
+- [досесаурстолимитбаккграунддовнлоадбандвидс](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitbackgrounddownloadbandwidth)
 
 Вот несколько предостережений относительно этого предложения по предварительной версии:
 
 - поддержка HoloLens в этой предварительной версии ограничена только обновлениями ос.
-- Windows Holographic for Business поддерживает только режимы загрузки HTTP и загрузки из [конечной точки кэша, подключенной к Microsoft](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache). одноранговые режимы загрузки и назначения групп не поддерживаются для устройств HoloLens в настоящее время.
+- Windows Holographic for Business поддерживает только режимы загрузки HTTP и загрузки из [конечной точки кэша, подключенной к Microsoft](/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache). одноранговые режимы загрузки и назначения групп не поддерживаются для устройств HoloLens в настоящее время.
 - HoloLens не поддерживает оптимизацию развертывания или доставки для конечных точек Windows Server Update Services.
 - для устранения неполадок потребуется либо диагностика на сервере подключенного кэша, либо сбор данных трассировки на HoloLens HoloLens с помощью **Параметры**  >  **обновления & безопасности**  >     >   **Центр обновления Windows**.
 
@@ -715,7 +715,7 @@ ms.locfileid: "113637189"
 Улучшения и исправления в обновлении:
 
 - Повышение производительности во время запуска, возобновления работы и переключения пользователей при наличии на устройстве нескольких пользователей.
-- Добавлена поддержка ARM32 для [режима исследования](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/research-mode).
+- Добавлена поддержка ARM32 для [режима исследования](/windows/mixed-reality/develop/platform-capabilities-and-apis/research-mode).
 
 ## <a name="windows-holographic-version-1903---january-2021-update"></a>Windows Holographic, версия 1903 — обновление 2021 за Январь
 - Сборка 18362,1091
@@ -734,7 +734,7 @@ ms.locfileid: "113637189"
 - Настроено с помощью [пакета подготовки](hololens-provisioning.md)
 - [Удостоверение](hololens-identity.md) пользователя — Azure AD.
 
-Теперь вы можете устанавливать приложения без необходимости включать режим разработчика или использовать портал устройств.  Просто скачайте пакет appx (через USB или через границу) на устройство и перейдите к пакету appx в проводнике, чтобы получить запрос на запуск установки.  Кроме того, можно [запустить установку с веб-страницы](https://docs.microsoft.com/windows/msix/app-installer/installing-windows10-apps-web).  так же как и приложения, устанавливаемые из Microsoft Store или загружать неопубликованные с помощью возможности развертывания бизнес-приложений MDM, приложения должны быть снабжены цифровой подписью с помощью [средства sign Tool](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool) , а [сертификат, используемый для подписи, должен быть доверенным для](https://docs.microsoft.com/windows/win32/appxpkg/how-to-sign-a-package-using-signtool#security-considerations) устройства HoloLens, прежде чем можно будет развернуть приложение.
+Теперь вы можете устанавливать приложения без необходимости включать режим разработчика или использовать портал устройств.  Просто скачайте пакет appx (через USB или через границу) на устройство и перейдите к пакету appx в проводнике, чтобы получить запрос на запуск установки.  Кроме того, можно [запустить установку с веб-страницы](/windows/msix/app-installer/installing-windows10-apps-web).  так же как и приложения, устанавливаемые из Microsoft Store или загружать неопубликованные с помощью возможности развертывания бизнес-приложений MDM, приложения должны быть снабжены цифровой подписью с помощью [средства sign Tool](/windows/win32/appxpkg/how-to-sign-a-package-using-signtool) , а [сертификат, используемый для подписи, должен быть доверенным для](/windows/win32/appxpkg/how-to-sign-a-package-using-signtool#security-considerations) устройства HoloLens, прежде чем можно будет развернуть приложение.
 
 **Инструкции по установке приложения.**
 
@@ -756,7 +756,7 @@ ms.locfileid: "113637189"
 
 ### <a name="improvements-and-fixes-in-the-update"></a>Улучшения и исправления в обновлении:
 
-- Отслеживание руки теперь поддерживает отслеживание во многих новых случаях, в которых ранее она была бы потеряна.  В некоторых из этих новых случаев обновление только наведения карманного компьютера по-прежнему выполняется на основе реальной руки пользователя, а другие соединения выводятся на основе предыдущей версии.  Это изменение помогает улучшить согласованность отслеживания в передвижениях, таких как слаппинг, генерация, скупинг и аплодисменты.  Это также помогает в случаях, когда рука находится близко к поверхности или удерживает объект.  При выводимых соединениях типа «на одно соединение» для параметра « [точность совместного](https://docs.microsoft.com/uwp/api/windows.perception.people.jointposeaccuracy?view=winrt-19041&preserve-view=true) использования» будет установлено «приблизительное», а не «высокое».
+- Отслеживание руки теперь поддерживает отслеживание во многих новых случаях, в которых ранее она была бы потеряна.  В некоторых из этих новых случаев обновление только наведения карманного компьютера по-прежнему выполняется на основе реальной руки пользователя, а другие соединения выводятся на основе предыдущей версии.  Это изменение помогает улучшить согласованность отслеживания в передвижениях, таких как слаппинг, генерация, скупинг и аплодисменты.  Это также помогает в случаях, когда рука находится близко к поверхности или удерживает объект.  При выводимых соединениях типа «на одно соединение» для параметра « [точность совместного](/uwp/api/windows.perception.people.jointposeaccuracy?view=winrt-19041&preserve-view=true) использования» будет установлено «приблизительное», а не «высокое».
 - Исправлена проблема, при которой сброс ПИН-кода для учетных записей Azure AD покажет ошибку "что-то пошло не так.
 - При запуске ET, IRI из приложения "Параметры", "новый пользователь" или "уведомление об уведомлении" пользователи должны видеть гораздо меньшее количество сбоев, выполняемых после начальной загрузки.
 - У пользователей должен быть правильный часовой пояс, исходящий из OOBE.
@@ -772,7 +772,7 @@ ms.locfileid: "113637189"
 
 Windows holographic, версия 20H2 теперь доступна и предоставляет отличный набор новых функций для HoloLens 2 пользователей и ит-специалистов. от автоматического позиционирования, до диспетчера сертификатов в Параметры, для улучшения функциональных возможностей режима киоска и новых возможностей настройки автопилота. это новое обновление позволяет ит – специалистам получить более детализированный контроль над настройкой устройств HoloLens и управлением ими, а также предоставляет пользователям более плавный опыт работы. 
 
-Этот последний выпуск является ежемесячным обновлением до версии 2004, но на этот раз мы будем включать новые функции. основной номер сборки останется прежним, а Центр обновления Windows будет указывать на ежемесячный выпуск версии 2004 (сборка 19041). вы можете просмотреть номер сборки в Параметры > о экране, чтобы убедиться, что вы используете последнюю доступную сборку 19041.1128 +. чтобы выполнить обновление до последнего выпуска, откройте приложение Параметры, перейдите в раздел обновление & безопасность и нажмите кнопку проверить наличие обновлений. дополнительные сведения об управлении обновлениями HoloLens см. на [этой странице](https://docs.microsoft.com/hololens/hololens-updates).
+Этот последний выпуск является ежемесячным обновлением до версии 2004, но на этот раз мы будем включать новые функции. основной номер сборки останется прежним, а Центр обновления Windows будет указывать на ежемесячный выпуск версии 2004 (сборка 19041). вы можете просмотреть номер сборки в Параметры > о экране, чтобы убедиться, что вы используете последнюю доступную сборку 19041.1128 +. чтобы выполнить обновление до последнего выпуска, откройте приложение Параметры, перейдите в раздел обновление & безопасность и нажмите кнопку проверить наличие обновлений. дополнительные сведения об управлении обновлениями HoloLens см. в центре [управления обновлениями HoloLens](hololens-updates.md).
 
 ### <a name="whats-new-in-windows-holographic-version-20h2"></a>новые возможности Windows holographic, версия 20H2  
 
@@ -903,7 +903,7 @@ Windows holographic, версия 20H2 теперь доступна и пред
 
 устройства HoloLens 2 теперь поддерживают CSP тенантлоккдовн [Windows holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2). 
 
-[Тенантлоккдовн](https://docs.microsoft.com/windows/client-management/mdm/tenantlockdown-csp) CSP позволяет привязывать HoloLens 2 к регистрации MDM только с помощью автопилота. после того как узел рекуиренетворкинубе поставщика тенантлоккдовн CSP имеет значение true или false (изначально задано) на HoloLens 2, это значение остается на устройстве, несмотря на повторную мигание, обновления ос и т. д. 
+[Тенантлоккдовн](/windows/client-management/mdm/tenantlockdown-csp) CSP позволяет привязывать HoloLens 2 к регистрации MDM только с помощью автопилота. после того как узел рекуиренетворкинубе поставщика тенантлоккдовн CSP имеет значение true или false (изначально задано) на HoloLens 2, это значение остается на устройстве, несмотря на повторную мигание, обновления ос и т. д. 
 
 после того как узел рекуиренетворкинубе тенантлоккдовн csp имеет значение true в HoloLens 2, OOBE ожидает, что профиль автопилота будет успешно скачан и применен, после подключения к сети. 
 
@@ -1011,15 +1011,15 @@ Min – 0 дней
 - Позволяет пользователям управлять конкретными политиками управления устройствами, такими как блокировка добавления или удаления пакетов подготовки.
 
 вновь включенные политики, которые позволяют использовать дополнительные возможности управления HoloLens 2 устройствами. 
-- [AllowAddProvisioningPackage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-security#security-allowaddprovisioningpackage)
-- [AllowRemoveProvisioningPackage](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-security#security-allowremoveprovisioningpackage) 
-- [конфигуретимезоне](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-timelanguagesettings#timelanguagesettings-configuretimezone)
-- [ремотелокк](https://docs.microsoft.com/windows/client-management/mdm/remotelock-csp)
+- [AllowAddProvisioningPackage](/windows/client-management/mdm/policy-csp-security#security-allowaddprovisioningpackage)
+- [AllowRemoveProvisioningPackage](/windows/client-management/mdm/policy-csp-security#security-allowremoveprovisioningpackage) 
+- [конфигуретимезоне](/windows/client-management/mdm/policy-csp-timelanguagesettings#timelanguagesettings-configuretimezone)
+- [ремотелокк](/windows/client-management/mdm/remotelock-csp)
 
 Эти две новые политики для Алловаддпровисионингпаккаже и Алловремовепровисионингпаккаже добавляются к [общим ограничениям на устройства](hololens-common-device-restrictions.md).
 
 > [!NOTE]
-> в отношении [ремотелокк](https://docs.microsoft.com/windows/client-management/mdm/remotelock-csp), HoloLens будет поддерживать только конфигурацию/вендор/мсфт/ремотелокк/локк. Конфигурации, относящиеся к ПИН-коду, например Reset и Recover, не поддерживаются.
+> в отношении [ремотелокк](/windows/client-management/mdm/remotelock-csp), HoloLens будет поддерживать только конфигурацию/вендор/мсфт/ремотелокк/локк. Конфигурации, относящиеся к ПИН-коду, например Reset и Recover, не поддерживаются.
 
 ### <a name="new-power-policies-for-hololens-2"></a>Новые политики управления питанием для HoloLens 2
 - дополнительные параметры для HoloLens спящего или блокировки через политики управления питанием. 
@@ -1028,26 +1028,26 @@ Min – 0 дней
 
 |     Ссылка на документацию по политике                |     Примечания                                                                                                                                       |
 |----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-|     [дисплайоффтимеаутонбаттери](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutonbattery)               |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterVideoDCPowerDownTimeOut" value="100"/>`     |
-|     [дисплайоффтимеаутплугжедин](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutpluggedin)               |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterVideoACPowerDownTimeOut" value="100"/>`     |
-|     [енергисавербаттерисрешолдонбаттери](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-energysaverbatterythresholdonbattery)     |  пример значения для использования в конструкторе конфигураций Windows, т. е. 100                                                                             |
-|     [енергисавербаттерисрешолдплугжедин](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-energysaverbatterythresholdpluggedin)     |     пример значения для использования в конструкторе конфигураций Windows, т. е. 100                                                                          |
-|     [стандбитимеаутонбаттери](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutonbattery)                  |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterDCStandbyTimeOut" value="100"/>`          |
-|     [стандбитимеаутплугжедин](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-power#power-standbytimeoutpluggedin)                  |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterACStandbyTimeOut" value="100"/>`           |
+|     [дисплайоффтимеаутонбаттери](/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutonbattery)               |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterVideoDCPowerDownTimeOut" value="100"/>`     |
+|     [дисплайоффтимеаутплугжедин](/windows/client-management/mdm/policy-csp-power#power-displayofftimeoutpluggedin)               |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterVideoACPowerDownTimeOut" value="100"/>`     |
+|     [енергисавербаттерисрешолдонбаттери](/windows/client-management/mdm/policy-csp-power#power-energysaverbatterythresholdonbattery)     |  пример значения для использования в конструкторе конфигураций Windows, т. е. 100                                                                             |
+|     [енергисавербаттерисрешолдплугжедин](/windows/client-management/mdm/policy-csp-power#power-energysaverbatterythresholdpluggedin)     |     пример значения для использования в конструкторе конфигураций Windows, т. е. 100                                                                          |
+|     [стандбитимеаутонбаттери](/windows/client-management/mdm/policy-csp-power#power-standbytimeoutonbattery)                  |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterDCStandbyTimeOut" value="100"/>`          |
+|     [стандбитимеаутплугжедин](/windows/client-management/mdm/policy-csp-power#power-standbytimeoutpluggedin)                  |     пример значения для использования в конструкторе конфигураций Windows, т. е.`<enabled/><data   id="EnterACStandbyTimeOut" value="100"/>`           |
 
 Эти две новые политики для Дисплайоффтимеаутонбаттери и Дисплайоффтимеаутплугжедин добавляются к [общим ограничениям на устройства](hololens-common-device-restrictions.md).
 
 > [!NOTE]
-> для обеспечения единообразного взаимодействия с HoloLens 2 убедитесь, что значения для дисплайоффтимеаутонбаттери и стандбитимеаутонбаттери заданы как одинаковые значения. То же применимо к Дисплайоффтимеаутплугжедин и Стандбитимеаутплугжедин. Дополнительные сведения о современных ждущих режимах см. в разделе режимы ожидания [экрана, спящего режима и спящего](https://docs.microsoft.com/windows-hardware/design/device-experiences/display--sleep--and-hibernate-idle-timers) режима.
+> для обеспечения единообразного взаимодействия с HoloLens 2 убедитесь, что значения для дисплайоффтимеаутонбаттери и стандбитимеаутонбаттери заданы как одинаковые значения. То же применимо к Дисплайоффтимеаутплугжедин и Стандбитимеаутплугжедин. Дополнительные сведения о современных ждущих режимах см. в разделе режимы ожидания [экрана, спящего режима и спящего](/windows-hardware/design/device-experiences/display--sleep--and-hibernate-idle-timers) режима.
 
 ### <a name="newly-enabled-update-policies-for-hololens"></a>Вновь включенные политики обновления для HoloLens
 - Дополнительные параметры для установки обновлений или отключения кнопки приостановить обновления для обеспечения обновления.
 
 теперь эти политики обновления включены на HoloLens 2 устройствах:
--   [Update/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend)
--   [Обновление/Активехаурсмаксранже](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange)
--   [Update/ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart)
--   [Update/SetDisablePauseUXAccess](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)
+-   [Update/ActiveHoursEnd](/windows/client-management/mdm/policy-csp-update#update-activehoursend)
+-   [Обновление/Активехаурсмаксранже](/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange)
+-   [Update/ActiveHoursStart](/windows/client-management/mdm/policy-csp-update#update-activehoursstart)
+-   [Update/SetDisablePauseUXAccess](/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)
 
 подробные сведения об этих политиках обновления и их использовании для устройств HoloLens можно прочитать здесь в разделе [управление обновлениями HoloLens](hololens-updates.md).
 
@@ -1056,7 +1056,7 @@ Min – 0 дней
 
 теперь мы включили политику, которая позволяет ит-администраторам либо запретить доступ к определенным страницам в системном Параметры приложении, либо сделать это для всех страниц, кроме указанных. Чтобы узнать, как полностью настроить этот компонент, щелкните ссылку ниже.
 
-- [пажевисибилитилист](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist)
+- [пажевисибилитилист](/windows/client-management/mdm/policy-csp-settings#settings-pagevisibilitylist)
 
 чтобы узнать, какие параметры страницы можно настроить на HoloLens 2, перейдите на [страницу Параметры uri](settings-uri-list.md). 
  
@@ -1069,7 +1069,7 @@ Min – 0 дней
 
 исследователи теперь имеют возможность включения режима исследований на своих HoloLens устройствах для доступа ко всем внешним потокам датчиков необработанных изображений. режим исследования для HoloLens 2 также предоставляет доступ к акселерометр, гироскопом и магнитометр. Чтобы защитить конфиденциальность пользователей, изображения камеры с отслеживанием необработанных данных недоступны в режиме исследования, но направление взгляда на глаза доступно через существующие API-интерфейсы.
 
-Дополнительные технические сведения см. в [документации по режиму исследования](https://docs.microsoft.com/windows/mixed-reality/research-mode) .
+Дополнительные технические сведения см. в [документации по режиму исследования](/windows/mixed-reality/research-mode) .
 
 ### <a name="recording-length-increased"></a>Увеличение длины записи
 Из-за отзывов клиентов мы увеличили продолжительность записи [смешанных записей реальность](holographic-photos-and-videos.md). Записи смешанной реальности по умолчанию не будут ограничены 5 минутами, а вместо этого будут рассчитывать максимальную длину записи в зависимости от доступного места на диске. Устройство будет оценивать максимальную продолжительность записи видео в зависимости от свободного места на диске (до 80% от общего места на диске).
@@ -1087,7 +1087,7 @@ Min – 0 дней
 - Устранена ошибка, из-за которой пользователи не смогли подготовить профили VPN с помощью пакетов подготовки.
 - Исправлена ошибка конфигурации прокси-сервера для подключения VPN.
 - Обновлена политика для отключения перечисления функций USB с помощью MDM для НКМ для Алловусбконнектион.
-- устранена ошибка, из-за которой HoloLens устройство не отображается в проводнике по протоколу передачи мультимедиа (MTP), если устройство настроено как [киоск с одним приложением](hololens-kiosk.md). Обратите внимание, что MTP (и USB-подключение в целом) можно по-прежнему отключить с помощью политики [алловусбконнектион](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowusbconnection) .
+- устранена ошибка, из-за которой HoloLens устройство не отображается в проводнике по протоколу передачи мультимедиа (MTP), если устройство настроено как [киоск с одним приложением](hololens-kiosk.md). Обратите внимание, что MTP (и USB-подключение в целом) можно по-прежнему отключить с помощью политики [алловусбконнектион](/windows/client-management/mdm/policy-csp-connectivity#connectivity-allowusbconnection) .
 - исправлена проблема, при которой значки в меню были правильно масштабированы в полноэкранном режиме.
 - Исправлена проблема, обусловленная тем, что кэширование HTTP мешает работе в режиме киоска, предназначенном для групп Azure AD.
 - Исправлена проблема, из-за которой пользователи не смогли использовать кнопку "пара" после включения режима разработчика с пакетами подготовки, если они не отключены и не включены в режим разработчика повторно.
@@ -1233,7 +1233,7 @@ Windows автопилот для HoloLens 2 позволяет предвари
 1. Подготавливает устройство.
 1. Предоставление пользователю экрана входа.
 
-дополнительные сведения см. в разделе [Windows "автопилот" руководства по ознакомлению с HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot).
+дополнительные сведения см. в разделе [Windows "автопилот" руководства по ознакомлению с HoloLens 2](hololens2-autopilot.md).
 
 *Обратитесь к менеджеру по учетным записям, чтобы присоединиться к предварительной версии для Pilot. Готовые устройства, подготовленные для автопилота, скоро начнут доставляться.*
 
@@ -1243,7 +1243,7 @@ Windows автопилот для HoloLens 2 позволяет предвари
 
 Ключи безопасности FIDO2 — это стандартный метод проверки подлинности без фишинга, который может приходиться на любой форм-фактор. FIDO — это открытый стандарт для проверки подлинности с паролем. Это позволяет пользователям и организациям входить в свои ресурсы без имени пользователя или пароля. Вместо этого они используют внешний ключ безопасности или ключ платформы, встроенный в устройство.
 
-Чтобы приступить к работе, см. [раздел Включение входа с помощью ключа безопасности без пароля](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key).
+Чтобы приступить к работе, см. [раздел Включение входа с помощью ключа безопасности без пароля](/azure/active-directory/authentication/howto-authentication-passwordless-security-key).
 
 ### <a name="improved-mdm-enrollment-via-provisioning-package"></a>Улучшенная регистрация в MDM с помощью пакета подготовки
 
@@ -1262,13 +1262,13 @@ Windows автопилот для HoloLens 2 позволяет предвари
 
 ### <a name="additional-csps-and-policies"></a>Дополнительные CSP и политики
 
-[Поставщик службы конфигурации (CSP)](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference?redirectedfrom=MSDN) — это интерфейс для чтения, установки, изменения или удаления параметров конфигурации на устройстве. в этом выпуске мы добавим поддержку дополнительных политик, чтобы увеличить число администраторов элемента управления, развернутых HoloLens устройств. список csp, поддерживаемых HoloLens, см. в разделе [нетворккосполици CSP](https://docs.microsoft.com/windows/client-management/mdm/networkqospolicy-csp).
+[Поставщик службы конфигурации (CSP)](/windows/client-management/mdm/configuration-service-provider-reference?redirectedfrom=MSDN) — это интерфейс для чтения, установки, изменения или удаления параметров конфигурации на устройстве. в этом выпуске мы добавим поддержку дополнительных политик, чтобы увеличить число администраторов элемента управления, развернутых HoloLens устройств. список csp, поддерживаемых HoloLens, см. в разделе [нетворккосполици CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
 Новое в этом выпуске.
 
 **Поставщик служб конфигурации Policy** 
 
-поставщик службы настройки политики позволяет настроить политики на Windows устройствах в организации. в этом выпуске мы добавили новые политики для HoloLens, которые перечислены здесь. Дополнительные сведения см. в разделе [политики CSP, поддерживаемые HoloLens 2](https://docs.microsoft.com/windows/client-management/mdm/policies-supported-by-hololens2).  
+поставщик службы настройки политики позволяет настроить политики на Windows устройствах в организации. в этом выпуске мы добавили новые политики для HoloLens, которые перечислены здесь. Дополнительные сведения см. в разделе [политики CSP, поддерживаемые HoloLens 2](/windows/client-management/mdm/policies-supported-by-hololens2).  
 
 - LetAppsAccessCamera_ForceAllowTheseApps  
 - LetAppsAccessCamera_ForceDenyTheseApps  
@@ -1284,11 +1284,11 @@ Windows автопилот для HoloLens 2 позволяет предвари
 
 **Поставщик служб конфигурации NetworkQoSPolicy**
 
-Поставщик службы настройки Нетворккосполици создает политики качества обслуживания сети (QoS). Политика QoS выполняет ряд действий над сетевым трафиком, основываясь на наборе выполняемых условий. Дополнительные сведения см. в разделе [НЕТВОРККОСПОЛИЦИ CSP](https://docs.microsoft.com/windows/client-management/mdm/networkqospolicy-csp).
+Поставщик службы настройки Нетворккосполици создает политики качества обслуживания сети (QoS). Политика QoS выполняет ряд действий над сетевым трафиком, основываясь на наборе выполняемых условий. Дополнительные сведения см. в разделе [НЕТВОРККОСПОЛИЦИ CSP](/windows/client-management/mdm/networkqospolicy-csp).
 
 ### <a name="expanded-usb-ethernet-support-for-5glte-tethered-devices"></a>Расширенная поддержка USB Ethernet для устройств с модемами 5G/LTE
 
-добавлена поддержка для определенных устройств мобильной широкополосной связи, таких как телефоны 5G/LTE и Wi-Fi хот-споты, когда они подключаются к HoloLens 2 через USB. Теперь эти устройства отображаются в **параметрах сети** как другое подключение Ethernet. (Мобильные широкополосные устройства, для которых требуется внешний драйвер, не поддерживаются.) Эта функция обеспечивает подключения с высокой пропускной способностью, когда Wi-Fi недоступна, и Wi-Fi модем не работает достаточно производительно. дополнительные сведения о поддерживаемых usb-устройствах см. в статье [Подключение to Bluetooth and USB C devices](https://docs.microsoft.com/hololens/hololens-connect-devices).  
+добавлена поддержка для определенных устройств мобильной широкополосной связи, таких как телефоны 5G/LTE и Wi-Fi хот-споты, когда они подключаются к HoloLens 2 через USB. Теперь эти устройства отображаются в **параметрах сети** как другое подключение Ethernet. (Мобильные широкополосные устройства, для которых требуется внешний драйвер, не поддерживаются.) Эта функция обеспечивает подключения с высокой пропускной способностью, когда Wi-Fi недоступна, и Wi-Fi модем не работает достаточно производительно. дополнительные сведения о поддерживаемых usb-устройствах см. в статье [Подключение to Bluetooth and USB C devices](hololens-connect-devices.md).  
 
 ### <a name="hand-tracking-improvements"></a>Усовершенствования отслеживания руки
 
@@ -1321,7 +1321,7 @@ Windows автопилот для HoloLens 2 позволяет предвари
 
 ### <a name="system-voice-commands"></a>Системные командные голоса
 
-Теперь вы можете использовать Voice Commands в любом приложении на устройстве. Дополнительные сведения см. [в статье Использование голоса для работы HoloLens](https://docs.microsoft.com/hololens/hololens-cortana). См. также [Поддерживаемые языки для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-language-support).  
+Теперь вы можете использовать Voice Commands в любом приложении на устройстве. Дополнительные сведения см. [в статье Использование голоса для работы HoloLens](hololens-cortana.md). См. также [Поддерживаемые языки для HoloLens 2](hololens2-language-support.md).  
 
 ### <a name="cortana-updates"></a>Кортана обновления
 
@@ -1331,7 +1331,7 @@ Windows автопилот для HoloLens 2 позволяет предвари
 
 Улучшения и исправления также в обновлении:  
 - Появилась активная система калибровки экрана. Эта функция повышает стабильность и выравнивание голограмм. Теперь они остаются на месте, когда вы перемещаете заголовок с боковой стороны на сторону.
-- исправлена ошибка, из-за которой Wi-Fi потоковая передача HoloLens была прервана периодически. Если приложение указывает на необходимость потоковой передачи с низкой задержкой, реализуйте исправление, вызвав [функцию сетсоккетмедиастреамингмоде](https://docs.microsoft.com/windows/win32/api/socketapi/nf-socketapi-setsocketmediastreamingmode).
+- исправлена ошибка, из-за которой Wi-Fi потоковая передача HoloLens была прервана периодически. Если приложение указывает на необходимость потоковой передачи с низкой задержкой, реализуйте исправление, вызвав [функцию сетсоккетмедиастреамингмоде](/windows/win32/api/socketapi/nf-socketapi-setsocketmediastreamingmode).
 - Исправлена ошибка зависания устройства, возникшая во время потоковой передачи в режиме исследования.
 - Исправлена ошибка, в которой в некоторых случаях правильный пользователь не отображался на экране входа при возобновлении сеанса.
 - исправлена проблема, из-за которой пользователи не смогли экспортировать журналы MDM с помощью **Параметры**.

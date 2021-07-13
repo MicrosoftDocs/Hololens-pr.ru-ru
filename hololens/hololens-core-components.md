@@ -12,16 +12,17 @@ ms.localizationpriority: medium
 ms.date: 05/21/2021
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 2fb58345f623a0b70c1fda10b9fb550de70f4c6d
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 43162389eae82bc09135c62acd40d71048d14db1
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/12/2021
-ms.locfileid: "113635795"
+ms.locfileid: "113639086"
 ---
 # <a name="planning-hololens-2-deployment-in-a-commercial-environment"></a>Планирование развертывания HoloLens 2 в коммерческой среде
 
 ## <a name="overview"></a>Обзор
+
 > [!NOTE]
 > этот обзор предназначен для того, чтобы помочь ит-специалистам в понимании вопросов развертывания и управления устройствами Microsoft HoloLens 2 в организации. сведения для конечных пользователей устройств см. в статье [подготовка HoloLens 2 к использованию](hololens2-setup.md) для начала работы.
 
@@ -29,7 +30,7 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 
 следующие шаги и видео помогут вам в процессе HoloLens 2 внедрения в организации.
 
-| | |
+| &nbsp; | &nbsp; |
 |--|--|
 | ![Шаг 1](images/1green.png)| <br/> **[распространенные сценарии развертывания](hololens-requirements.md)**. ознакомьтесь со сценариями развертывания и изучите основные компоненты, необходимые для развертывания HoloLens 2 устройств. |
 | ![Шаг 2](images/2green.png)| <br/> **[Подготовка](#prepare)**. Ознакомьтесь с основными требованиями к инфраструктуре, необходимыми для HoloLens 2. |
@@ -37,11 +38,13 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | ![Шаг 4](images/4green.png) | <br/> **[Развертывание](#deploy)**: Узнайте, как развертывать устройства и распространять приложения в безопасном и эффективном режиме. |
 | ![Шаг 5](images/5green.png) | <br/> **[обслуживание](#maintain)**. узнайте, что необходимо для правильного поддержания состояния устройств HoloLens 2 и обеспечения соответствия требованиям корпоративной политики. |
 
+<br/>
+
 > [!VIDEO https://channel9.msdn.com/Shows/IT-Ops-Talk/HoloLens-2-Deployment-Overview/player]
 
 ## <a name="prepare"></a>Подготовка.
 
-узнайте о необходимых службах инфраструктуры, необходимых для поддержки полного набора возможностей HoloLens 2. 
+узнайте о необходимых службах инфраструктуры, необходимых для поддержки полного набора возможностей HoloLens 2.
 
 | Компонент | Описание |
 |-----------|------------|
