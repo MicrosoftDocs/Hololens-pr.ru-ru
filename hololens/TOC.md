@@ -1,7 +1,8 @@
-# [Microsoft HoloLens](index.yml)
+# [Microsoft HoloLens](index.yml);
 
 # Общие сведения об устройстве
 ## [Общие сведения о HoloLens 2](hololens2-hardware.md)
+## [Что HoloLens 2 может делать за вас?](hololens-commercial-features.md)
 ## Выпуски HoloLens 2
 ### [Сравнение выпусков HoloLens 2](hololens2-options.md)
 ### [Выпуск только с устройством](hololens2-options-device-only.md)
@@ -9,7 +10,7 @@
 ### [Выпуск Industrial Edition](hololens2-options-industrial-edition.md)
 #### [HoloLens 2 Industrial Edition: вопросы и ответы](hololens2-industrial-edition-faq.md)
 ### [Выпуск Development Edition](hololens2-options-dev-edition.md)
-#### [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.md)
+#### [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.yml)
 ### [Выпуск Trimble XR10 Edition](hololens2-options-trimble-xr10-edition.md)
 ### [Коммерческие функции](hololens-commercial-features.md)
 
@@ -114,7 +115,7 @@
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ## [Поддерживаемые языки](hololens2-language-support.md)
-## [Разработка с помощью Microsoft Mesh (предварительная версия)](https://docs.microsoft.com/mesh/overview)
+## [Разработка с помощью Microsoft Mesh (предварительная версия)](/mesh/overview)
 ## HoloLens (1-го поколения)
 ### Первое использование
 #### [Общие сведения о HoloLens (1-го поколения)](hololens1-hardware.md)
@@ -130,7 +131,7 @@
 #### [Разблокировка функций Windows Holographic for Business](hololens1-upgrade-enterprise.md)
 #### [Сброс HoloLens (1-го поколения)](hololens1-recovery.md)
 ### Безопасность HoloLens (1-го поколения)
-#### [Часто задаваемые вопросы о безопасности HoloLens (1-го поколения)](hololens1-faq-security.md)
+#### [Часто задаваемые вопросы о безопасности HoloLens (1-го поколения)](hololens1-faq-security.yml)
 #### [Шифрование BitLocker для HoloLens (1-го поколения)](hololens1-encryption.md)
 ### [Известные проблемы и способы их решения для HoloLens (1-го поколения)](hololens-known-issues.md)
 ### [Заметки о выпуске HoloLens (1-го поколения)](hololens1-release-notes.md)
