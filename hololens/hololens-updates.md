@@ -19,12 +19,12 @@ ms.custom:
 - CI 115825
 - CI 111456
 - CSSTroubleshooting
-ms.openlocfilehash: faa6bb2b095d69c3538063b1c042c5ce5e215d33
-ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
+ms.openlocfilehash: 5ec26c64a971b8bfc9f8d1f9044e2e651a218816
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112924083"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113640004"
 ---
 # <a name="manage-hololens-updates"></a>Управление обновлениями HoloLens
 
@@ -34,18 +34,18 @@ HoloLens использует Центр обновления Windows таким
 
 ### <a name="managing-updates-by-using-windows-update-for-business"></a>Управление обновлениями с помощью Центра обновления Windows для бизнеса
 
-В Windows Holographic для бизнеса можно использовать [Центр обновления Windows для бизнеса](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb), чтобы управлять обновлениями. Все устройства HoloLens 2 могут использовать Windows Holographic для бизнеса. Убедитесь, что используется Windows Holographic для бизнеса сборки 10.0.18362.1042 или более поздней. Если у вас есть устройства HoloLens (1-го поколения), вам нужно [обновить их до Windows Holographic для бизнеса](hololens1-upgrade-enterprise.md), чтобы получить возможность управления их обновлениями.
+В Windows Holographic для бизнеса можно использовать [Центр обновления Windows для бизнеса](/windows/deployment/update/waas-manage-updates-wufb), чтобы управлять обновлениями. Все устройства HoloLens 2 могут использовать Windows Holographic для бизнеса. Убедитесь, что используется Windows Holographic для бизнеса сборки 10.0.18362.1042 или более поздней. Если у вас есть устройства HoloLens (1-го поколения), вам нужно [обновить их до Windows Holographic для бизнеса](hololens1-upgrade-enterprise.md), чтобы получить возможность управления их обновлениями.
 
 Центр обновления Windows для бизнеса подключает устройства HoloLens непосредственно к службе Центра обновления Windows. Центр обновления Windows для бизнеса позволяет управлять различными аспектами процесса обновления &mdash; вы можете выбирать, какие устройства получают обновления и в какое время. Например, можно развернуть обновления на нескольких устройствах для тестирования, а позднее — на остальных устройствах. Также можно выбрать разные расписания обновления для разных типов обновлений.
 
 > [!NOTE]  
-> Для устройств HoloLens можно автоматически управлять обновлениями компонентов (выпускаются дважды в год) и исправлениями (выпускаются ежемесячно или по мере необходимости, включая критические обновления безопасности). Дополнительные сведения о типах обновлений см. в [этой статье](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb#types-of-updates-managed-by-windows-update-for-business).
+> Для устройств HoloLens можно автоматически управлять обновлениями компонентов (выпускаются дважды в год) и исправлениями (выпускаются ежемесячно или по мере необходимости, включая критические обновления безопасности). Дополнительные сведения о типах обновлений см. в [этой статье](/windows/deployment/update/waas-manage-updates-wufb#types-of-updates-managed-by-windows-update-for-business).
 
 Можно настроить параметры Центра обновления Windows для бизнеса для HoloLens с помощью политик решения для управления мобильными устройствами (MDM), такого как Microsoft Intune.
 
 ### <a name="managing-windows-update-for-business-by-using-microsoft-intune"></a>Управление параметрами Центра обновления Windows для бизнеса с помощью Microsoft Intune
 
-Подробные сведения о том, как использовать Intune для настройки Центра обновления Windows для бизнеса, см. в статье [Управление обновлениями ПО Windows 10 в Intune](https://docs.microsoft.com/intune/protect/windows-update-for-business-configure). Дополнительные сведения о конкретных функциях Intune, поддерживаемых HoloLens, см. в разделе [Функции управления обновлениями Intune, поддерживаемые для HoloLens](#intune-update-management-functions-that-hololens-supports).
+Подробные сведения о том, как использовать Intune для настройки Центра обновления Windows для бизнеса, см. в статье [Управление обновлениями ПО Windows 10 в Intune](/intune/protect/windows-update-for-business-configure). Дополнительные сведения о конкретных функциях Intune, поддерживаемых HoloLens, см. в разделе [Функции управления обновлениями Intune, поддерживаемые для HoloLens](#intune-update-management-functions-that-hololens-supports).
 
 > [!IMPORTANT]  
 > Intune предоставляет политики двух типов для управления обновлениями: *круг обновлений Windows 10* и *обновление функций Windows 10*. Сейчас тип политики обновления компонентов Windows 10 находится в общедоступной предварительной версии и не поддерживается для HoloLens.
@@ -56,41 +56,41 @@ HoloLens использует Центр обновления Windows таким
 
 В этом разделе описываются политики, с помощью которых можно управлять обновлениями для HoloLens 2 и HoloLens (1-го поколения). Дополнительные сведения о функциональных возможностях, доступных для HoloLens 2, см. в разделе [Планирование и настройка развертывания обновлений для HoloLens 2](#plan-and-configure-update-rollouts-for-hololens-2).
 
-[Поставщик службы конфигурации политик — Update](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) определяет политики настройки Центра обновления Windows для бизнеса.
+[Поставщик службы конфигурации политик — Update](/windows/client-management/mdm/policy-csp-update) определяет политики настройки Центра обновления Windows для бизнеса.
 
 > [!NOTE]  
-> Список определенных поставщиков службы конфигурации (CSP), которые поддерживаются конкретными выпусками HoloLens, см. в статье [Поставщики службы конфигурации политик](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#policy-csps-supported-by-hololens-devices).
+> Список определенных поставщиков службы конфигурации (CSP), которые поддерживаются конкретными выпусками HoloLens, см. в статье [Поставщики службы конфигурации политик](/windows/client-management/mdm/policy-configuration-service-provider#policy-csps-supported-by-hololens-devices).
 
 #### <a name="configure-automatic-checks-for-updates"></a>Настройка автоматической проверки обновлений
 
-Вы можете использовать политику **Update/AllowAutoUpdate** для управления автоматическим обновлением, включая проверку наличия обновлений, их скачивание и установку. Дополнительные сведения о доступных параметрах для этой политики см. в разделе [Update/AllowAutoUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowautoupdate).
+Вы можете использовать политику **Update/AllowAutoUpdate** для управления автоматическим обновлением, включая проверку наличия обновлений, их скачивание и установку. Дополнительные сведения о доступных параметрах для этой политики см. в разделе [Update/AllowAutoUpdate](/windows/client-management/mdm/policy-csp-update#update-allowautoupdate).
 
 > [!NOTE]  
-> В Microsoft Intune вы можете использовать параметр **Поведение автоматического обновления** для изменения этой политики. Дополнительные сведения см. в статье [Управление обновлениями программного обеспечения Windows 10 в Intune](https://docs.microsoft.com/intune/windows-update-for-business-configure).
+> В Microsoft Intune вы можете использовать параметр **Поведение автоматического обновления** для изменения этой политики. Дополнительные сведения см. в статье [Управление обновлениями программного обеспечения Windows 10 в Intune](/intune/windows-update-for-business-configure).
 
 #### <a name="configure-an-update-schedule"></a>Настройка расписания обновления
 
 Вы можете настроить порядок и время применения обновлений с помощью следующих политик:
 
-- [Update/ScheduledInstallDay](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstallday)  
+- [Update/ScheduledInstallDay](/windows/client-management/mdm/policy-csp-update#update-scheduledinstallday)  
   - Значения: **0**–**7** (0 = ежедневно, 1 = воскресенье, 7 = суббота.)
   - Значение по умолчанию: **0** (ежедневно).
-- [Update/ScheduledInstallTime](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-scheduledinstalltime)
+- [Update/ScheduledInstallTime](/windows/client-management/mdm/policy-csp-update#update-scheduledinstalltime)
   - Значения: 0–23 (0 = полночь, 23 = 23:00).
   - Значение по умолчанию: 15:00.
 
 #### <a name="configure-active-hours"></a>Настройка периода активности
 Начиная с [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) ИТ-администраторы могут указывать период активности для устройств HoloLens 2.
 
-Период активности — это период, когда устройство предположительно будет использоваться. Автоматический перезапуск после обновления будет происходить вне часов активности. Указанный диапазон отсчитывается от начала периода активности. Можно использовать MDM, как описано в разделе [Настройка периода активности с помощью MDM](https://docs.microsoft.com/windows/deployment/update/waas-restart#configuring-active-hours-with-mdm). Для настройки периода активности MDM использует параметры Update/ActiveHoursStart и Update/ActiveHoursEnd, а также Update/ActiveHoursMaxRange в поставщике службы конфигурации политики.
+Период активности — это период, когда устройство предположительно будет использоваться. Автоматический перезапуск после обновления будет происходить вне часов активности. Указанный диапазон отсчитывается от начала периода активности. Можно использовать MDM, как описано в разделе [Настройка периода активности с помощью MDM](/windows/deployment/update/waas-restart#configuring-active-hours-with-mdm). Для настройки периода активности MDM использует параметры Update/ActiveHoursStart и Update/ActiveHoursEnd, а также Update/ActiveHoursMaxRange в поставщике службы конфигурации политики.
 
--   [Update/ActiveHoursEnd](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursend) — это значение задает время окончания. Оно может отстоять от времени начала не более чем на 12 часов.
+-   [Update/ActiveHoursEnd](/windows/client-management/mdm/policy-csp-update#update-activehoursend) — это значение задает время окончания. Оно может отстоять от времени начала не более чем на 12 часов.
     -   Допустимые значения: 0–23, где 0 — полночь, 1 — 01:00 и т. д.
     -   Значение по умолчанию — 17 (17:00).
--   [Update/ActiveHoursMaxRange](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange) — это значение задает максимальное число часов активности со времени начала.
+-   [Update/ActiveHoursMaxRange](/windows/client-management/mdm/policy-csp-update#update-activehoursmaxrange) — это значение задает максимальное число часов активности со времени начала.
     -   Поддерживаемые значения — от 8 до 18.
     -   Значение по умолчанию: 18 (часов).
--   [Update/ActiveHoursStart](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-activehoursstart) — это значение задает время начала. Оно может отстоять от времени окончания не более чем на 12 часов.
+-   [Update/ActiveHoursStart](/windows/client-management/mdm/policy-csp-update#update-activehoursstart) — это значение задает время начала. Оно может отстоять от времени окончания не более чем на 12 часов.
     -   Допустимые значения: 0–23, где 0 — полночь, 1 — 01:00 и т. д.
     -   Значение по умолчанию: 8 (08:00).
 
@@ -98,9 +98,9 @@ HoloLens использует Центр обновления Windows таким
 
 Чтобы получать обновления из службы Windows Server Update Service (WSUS) вместо Центра обновления Windows, можно использовать следующие политики обновления:
 
-- [Update/AllowUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)
-- [Update/RequireUpdateApproval](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
-- [Update/UpdateServiceUrl](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)
+- [Update/AllowUpdateService](/windows/client-management/mdm/policy-csp-update#update-allowupdateservice)
+- [Update/RequireUpdateApproval](/windows/client-management/mdm/policy-csp-update#update-requireupdateapproval)
+- [Update/UpdateServiceUrl](/windows/client-management/mdm/policy-csp-update#update-updateserviceurl)
 
 ### <a name="plan-and-configure-update-rollouts-for-hololens-2"></a>Планирование и настройка развертывания обновлений для HoloLens 2
 
@@ -140,7 +140,7 @@ HoloLens 2 поддерживает больше возможностей ав�
 Если у пользователя нет доступа к MDM, пользователь может приостановить отдельные обновления на срок до 35 дней для устройства HoloLens 2, использующего [Windows Holographic версии 2004](hololens-release-notes.md#windows-holographic-version-2004) или более поздней. Пользователи могут найти этот параметр, выбрав **Параметры > Обновление и безопасность > Расширенные параметры**, прокрутив до раздела **Приостановка обновлений** и выбрав дату, до которой нужно приостановить обновления. После достижения предельной длительности приостановки потребуется установить обновления на устройство, после чего можно будет снова приостановить обновления. 
 
 Начиная с [Windows Holographic версии 20H2](hololens-release-notes.md#windows-holographic-version-20h2) такую функцию приостановки обновлений можно использовать для устройств HoloLens 2. 
-- [Update/SetDisablePauseUXAccess.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)
+- [Update/SetDisablePauseUXAccess.](/windows/client-management/mdm/policy-csp-update#update-setdisablepauseuxaccess)
     - 0 (по умолчанию) — включено.
     - 1 — отключено.
 
@@ -148,7 +148,7 @@ HoloLens 2 поддерживает больше возможностей ав�
 
 Для управления обновлениями HoloLens можно использовать следующие функции управления обновлениями Intune.
 
-- **Создать** и **Назначить**. Эти функции добавляют круг обновления Windows 10 в список кругов обновления. Дополнительные сведения см. в разделе [Создание и назначение кругов обновления](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure#create-and-assign-update-rings).
+- **Создать** и **Назначить**. Эти функции добавляют круг обновления Windows 10 в список кругов обновления. Дополнительные сведения см. в разделе [Создание и назначение кругов обновления](/mem/intune/protect/windows-update-for-business-configure#create-and-assign-update-rings).
 
 - **Приостановить.** Если при развертывании обновления компонента или исправления возникает проблема, можно приостановить обновление на срок до 35 дней (начиная с указанной даты). При этом обновление не будет устанавливаться на другие устройства, пока вы не решите или не устраните проблему. Если приостановить обновление компонента, исправления будут по-прежнему предлагаться для устройств, чтобы обеспечить их безопасность. Когда тип обновления приостановлен, в области "Обзор" для этого круга отображается количество оставшихся дней до возобновления типа обновления. По окончании указанного времени срок действия приостановки автоматически истекает, и процесс обновления возобновляется.
 
@@ -162,26 +162,26 @@ HoloLens 2 поддерживает больше возможностей ав�
 
 ### <a name="delivery-optimization-preview"></a>Оптимизация поставки (предварительная версия)
 
-[Windows Holographic версии 21H1](hololens-release-notes.md#windows-holographic-version-21h1) предоставляет доступ к ранней предварительной версии для параметров оптимизации доставки, что позволяет уменьшить нагрузку на полосу пропускания при скачивании на нескольких устройствах HoloLens. Полное описание этой функции, а также рекомендуемую конфигурацию сети можно найти в статье [Оптимизация доставки для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization).
+[Windows Holographic версии 21H1](hololens-release-notes.md#windows-holographic-version-21h1) предоставляет доступ к ранней предварительной версии для параметров оптимизации доставки, что позволяет уменьшить нагрузку на полосу пропускания при скачивании на нескольких устройствах HoloLens. Полное описание этой функции, а также рекомендуемую конфигурацию сети можно найти в статье [Оптимизация доставки для обновлений Windows 10](/windows/deployment/update/waas-delivery-optimization).
 
-Следующие параметры включены в рамках области управления и [могут быть настроены из Intune](https://docs.microsoft.com/mem/intune/configuration/delivery-optimization-settings):
+Следующие параметры включены в рамках области управления и [могут быть настроены из Intune](/mem/intune/configuration/delivery-optimization-settings):
 
-- [DOCacheHost](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
-- [DOCacheHostSource](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehostsource)
-- [DODelayCacheServerFallbackBackground](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackbackground)
-- [DODelayCacheServerFallbackForeground](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackforeground)
-- [DODownloadMode](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
-- [DOMaxBackgroundDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxbackgrounddownloadbandwidth)
-- [DOMaxForegroundDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxforegrounddownloadbandwidth)
-- [DOPercentageMaxBackgroundBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxbackgroundbandwidth)
-- [DOPercentageMaxForegroundBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxforegroundbandwidth)
-- [DOSetHoursToLimitForegroundDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitforegrounddownloadbandwidth)
-- [DOSetHoursToLimitBackgroundDownloadBandwidth](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitbackgrounddownloadbandwidth)
+- [DOCacheHost](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
+- [DOCacheHostSource](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehostsource)
+- [DODelayCacheServerFallbackBackground](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackbackground)
+- [DODelayCacheServerFallbackForeground](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodelaycacheserverfallbackforeground)
+- [DODownloadMode](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dodownloadmode)
+- [DOMaxBackgroundDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxbackgrounddownloadbandwidth)
+- [DOMaxForegroundDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-domaxforegrounddownloadbandwidth)
+- [DOPercentageMaxBackgroundBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxbackgroundbandwidth)
+- [DOPercentageMaxForegroundBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dopercentagemaxforegroundbandwidth)
+- [DOSetHoursToLimitForegroundDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitforegrounddownloadbandwidth)
+- [DOSetHoursToLimitBackgroundDownloadBandwidth](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-dosethourstolimitbackgrounddownloadbandwidth)
 
 Несколько оговорок, касающихся этой предварительной версии:
 
 - Поддержка HoloLens в этой предварительной версии предоставляется только для обновлений ОС.
-- Windows Holographic для бизнеса поддерживает только режимы скачивания по HTTP и скачивания из [конечной точки подключенного кэша Майкрософт](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache). Режимы пирингового скачивания и назначения групп для устройств HoloLens сейчас не поддерживаются.
+- Windows Holographic для бизнеса поддерживает только режимы скачивания по HTTP и скачивания из [конечной точки подключенного кэша Майкрософт](/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache). Режимы пирингового скачивания и назначения групп для устройств HoloLens сейчас не поддерживаются.
 - HoloLens не поддерживает оптимизацию развертывания или доставки для конечных точек Windows Server Update Services.
 - Для устранения неполадок потребуется выполнить диагностику на сервере подключенного кэша или трассировку на HoloLens, выбрав **Параметры** > **Обновление и безопасность** >  **Устранение неполадок** >  **Центр обновления Windows**.
 
@@ -239,7 +239,7 @@ HoloLens 2 поддерживает больше возможностей ав�
 
 ## <a name="related-articles"></a>Связанные статьи
 
-- [Заметки о выпуске HoloLens 2](https://docs.microsoft.com/hololens/hololens-release-notes)
-- [Что такое Центр обновления Windows для бизнеса?](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)
-- [Назначение устройств каналам обслуживания для обновлений Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-servicing-channels-windows-10-updates)
-- [Управление обновлениями программного обеспечения Windows 10 в Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure)
+- [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
+- [Что такое Центр обновления Windows для бизнеса?](/windows/deployment/update/waas-manage-updates-wufb)
+- [Назначение устройств каналам обслуживания для обновлений Windows 10](/windows/deployment/update/waas-servicing-channels-windows-10-updates)
+- [Управление обновлениями программного обеспечения Windows 10 в Intune](/mem/intune/protect/windows-update-for-business-configure)

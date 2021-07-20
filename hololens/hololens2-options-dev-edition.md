@@ -2,7 +2,7 @@
 title: HoloLens 2 Development Edition
 description: Сведения о выпуске HoloLens 2 Development Edition и о том, что делать после получения устройства.
 keywords: Варианты приобретения HoloLens 2, версии HoloLens, Developer Edition
-author: bogenera
+author: bgener
 ms.author: bogenera
 ms.reviewer: bogenera
 ms.date: 4/12/2021
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 6ecb881f694ca919f9c37a9d6094a708eafcb414
-ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
+ms.openlocfilehash: 613f0a24d1d0d0740ebc448b2c92238a76350958
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112924474"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113639681"
 ---
 # <a name="hololens-2-development-edition"></a>HoloLens 2 Development Edition
 
@@ -61,7 +61,7 @@ HoloLens 2 Development Edition включает HoloLens 2, кредиты Azu
 
 ### <a name="azure"></a>Azure
 Ниже приведены некоторые распространенные [продукты Azure для смешанной реальности](https://azure.microsoft.com/topic/mixed-reality/), на которые вы можете потратить кредиты Azure.
-Как активировать кредиты Azure: чтобы активировать кредиты Azure на сумму 500 долл. США, воспользуйтесь своим промокодом Azure Pass и активируйте подписку. [Подробнее.](hololens2-development-edition-faq.md#how-can-i-redeem-my-500-azure-credit)
+Как активировать кредиты Azure: чтобы активировать кредиты Azure на сумму 500 долл. США, воспользуйтесь своим промокодом Azure Pass и активируйте подписку. [Подробнее.](hololens2-development-edition-faq.yml#how-can-i-redeem-my--500-azure-credit-)
 
 - [Узнайте, как служба "Пространственные привязки Azure" помогают создавать приложения, сопоставляющие, распространяющие и сохраняющие трехмерное содержимое](https://azure.microsoft.com/services/spatial-anchors/)
 - [Узнайте, как служба "Удаленная отрисовка Azure" может отображать высококачественное интерактивное трехмерное содержимое и передавать его в виде потока на устройства в режиме реального времени](https://azure.microsoft.com/services/remote-rendering/)
@@ -72,19 +72,19 @@ HoloLens 2 Development Edition включает HoloLens 2, кредиты Azu
 
 |     Контрольная точка                              |     Результат                                                                                                                    |
 |---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-|     [Начало проектирования и создания прототипов](https://docs.microsoft.com/windows/mixed-reality/design/design)         |     Начните разработку приложений смешанной реальности с изучения основных понятий, моделей взаимодействия и элементов пользовательского интерфейса.     |
-|     [Начало разработки для смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/develop/development?tabs=unity)    |     Выберите платформу, скачайте инструменты, добавьте основные стандартные блоки и начните разработку уже сегодня.                                  |
-|     [Обзор облачных служб Azure](https://docs.microsoft.com/windows/mixed-reality/develop/mixed-reality-cloud-services)            |     Создайте привлекательные иммерсивные интерфейсы с помощью служб "Удаленная отрисовка Azure" и "Пространственные привязки Azure".                                 |
+|     [Начало проектирования и создания прототипов](/windows/mixed-reality/design/design)         |     Начните разработку приложений смешанной реальности с изучения основных понятий, моделей взаимодействия и элементов пользовательского интерфейса.     |
+|     [Начало разработки для смешанной реальности](/windows/mixed-reality/develop/development?tabs=unity)    |     Выберите платформу, скачайте инструменты, добавьте основные стандартные блоки и начните разработку уже сегодня.                                  |
+|     [Обзор облачных служб Azure](/windows/mixed-reality/develop/mixed-reality-cloud-services)            |     Создайте привлекательные иммерсивные интерфейсы с помощью служб "Удаленная отрисовка Azure" и "Пространственные привязки Azure".                                 |
 
 ## <a name="developer-edition-additional-resources"></a>Дополнительные ресурсы для Developer Edition
 
-- [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.md)
-- [Установка инструментов разработки для HoloLens](https://docs.microsoft.com/windows/mixed-reality/develop/install-the-tools?tabs=unity)
-- [Сведения о разработке для HoloLens 2 с помощью Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/unity-development-overview?tabs=mrtk%2Carr%2Chl2)
-- [Сведения о том, как объединить MRTK с Unity](https://docs.microsoft.com/windows/mixed-reality/develop/unity/mrtk-getting-started)
+- [HoloLens 2 Development Edition: вопросы и ответы](hololens2-development-edition-faq.yml)
+- [Установка инструментов разработки для HoloLens](/windows/mixed-reality/develop/install-the-tools?tabs=unity)
+- [Сведения о разработке для HoloLens 2 с помощью Unity](/windows/mixed-reality/develop/unity/unity-development-overview?tabs=mrtk%2Carr%2Chl2)
+- [Сведения о том, как объединить MRTK с Unity](/windows/mixed-reality/develop/unity/mrtk-getting-started)
 - [Сведения о развертывании созданных приложений](app-deploy-overview.md)
-- [Изучение полных возможностей смешанной реальности](https://docs.microsoft.com/windows/mixed-reality/)
-- [Сведения о разработке для HoloLens 2 с помощью Unreal](https://docs.microsoft.com/windows/mixed-reality/develop/unreal/unreal-development-overview?tabs=mrtk%2Casa)
+- [Изучение полных возможностей смешанной реальности](/windows/mixed-reality/)
+- [Сведения о разработке для HoloLens 2 с помощью Unreal](/windows/mixed-reality/develop/unreal/unreal-development-overview?tabs=mrtk%2Casa)
 - [Обратитесь к своим коллегам в канале HoloDevelopers на платформе Slack](https://holodevelopersslack.azurewebsites.net/)
 
 ## <a name="next-steps"></a>Дальнейшие действия

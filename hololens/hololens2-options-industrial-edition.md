@@ -2,7 +2,7 @@
 title: HoloLens 2 Industrial Edition
 description: Сведения о выпуске HoloLens 2 Industrial Edition и о том, что делать после получения устройства.
 keywords: Варианты приобретения HoloLens 2, версии HoloLens, Industrial Edition
-author: bogenera
+author: bgener
 ms.author: bogenera
 ms.reviewer: bogenera
 ms.date: 4/12/2021
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: df18c64487645ebe5381d853de7e32780c4fccad
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: 686510fdda8bb09182d7e32188bb9eef9022828c
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398864"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113639579"
 ---
 # <a name="hololens-2-industrial-edition"></a>HoloLens 2 Industrial Edition
 
@@ -40,7 +40,7 @@ ms.locfileid: "110398864"
 
 ## <a name="cleaning-and-handling-hololens-2"></a>Очистка и обслуживание HoloLens 2
 
-HoloLens 2 Industrial Edition можно очищать, протирая 70-процентным водным раствором изопропилового спирта все твердые поверхности устройства, включая визор, надбровную накладку и ремешок. Дополнительные сведения см. в статье [Часто задаваемые вопросы об очистке HoloLens 2](https://docs.microsoft.com/hololens/hololens2-maintenance).
+HoloLens 2 Industrial Edition можно очищать, протирая 70-процентным водным раствором изопропилового спирта все твердые поверхности устройства, включая визор, надбровную накладку и ремешок. Дополнительные сведения см. в статье [Часто задаваемые вопросы об очистке HoloLens 2](/hololens/hololens2-maintenance).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

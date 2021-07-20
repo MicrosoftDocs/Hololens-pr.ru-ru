@@ -13,12 +13,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: e02950bf6cb70e381e3bc5850509bc65267759c1
-ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
+ms.openlocfilehash: 5fed56d7a0beeda0a0d96eddc63aaee872f3e52d
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112924185"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113639103"
 ---
 # <a name="connect-to-bluetooth-and-usb-c-devices"></a>Подключение к устройствам с Bluetooth и USB-C
 
@@ -26,14 +26,14 @@ ms.locfileid: "112924185"
 
 HoloLens 2 поддерживает следующие классы устройств Bluetooth:
 
-- [HID](https://docs.microsoft.com/windows-hardware/drivers/hid/):
+- [HID](/windows-hardware/drivers/hid/):
     - Мышь
     - Клавиатура
 - Устройства для вывода аудио (A2DP).
 
 HoloLens 2 поддерживает следующие API Bluetooth:
-- [Сервер](https://docs.microsoft.com/windows/uwp/devices-sensors/gatt-server) и [клиент](https://docs.microsoft.com/windows/uwp/devices-sensors/gatt-client) GATT.
-- [RFCOMM](https://docs.microsoft.com/windows/uwp/devices-sensors/send-or-receive-files-with-rfcomm)
+- [Сервер](/windows/uwp/devices-sensors/gatt-server) и [клиент](/windows/uwp/devices-sensors/gatt-client) GATT.
+- [RFCOMM](/windows/uwp/devices-sensors/send-or-receive-files-with-rfcomm)
 >[!IMPORTANT]
 > Возможно, вам придется установить соответствующие дополнительные приложения из Microsoft Store, чтобы получить возможность работать с устройствами HID и GATT.
 
@@ -41,7 +41,7 @@ HoloLens (1-го поколения) поддерживает следующие
 
 - Мышь
 - Клавиатура
-- [Пульт HoloLens (1-го поколения).](https://docs.microsoft.com/hololens/hololens1-clicker)
+- [Пульт HoloLens (1-го поколения).](hololens1-clicker.md)
 
 > [!NOTE]
 > Другие устройства Bluetooth, такие как динамики, гарнитуры, смартфоны и игровые планшеты, могут быть указаны в параметрах HoloLens как доступные. Однако в HoloLens (1-го поколения ) такие устройства не поддерживаются. Дополнительные сведения см. в разделе [Устройства, указанные как доступные в параметрах, не работают](hololens-troubleshooting.md#devices-listed-as-available-in-settings-dont-work).

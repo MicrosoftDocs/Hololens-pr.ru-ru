@@ -2,7 +2,7 @@
 title: HoloLens 2 Remote Assist
 description: Сведения о HoloLens 2 Remote Assist и о том, что делать после получения устройства.
 keywords: Варианты приобретения HoloLens 2, версии HoloLens, Remote Assist
-author: bogenera
+author: bgener
 ms.author: bogenera
 ms.reviewer: bogenera
 ms.date: 4/12/2021
@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b10bdb55a5d9cb3c059cb85c29a0ed4f4cf7c7d7
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: 540bdcaefafcc50cc38d5e9a67dea3b9cb596f05
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398863"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113639477"
 ---
 # <a name="hololens-2-with-remote-assist"></a>HoloLens 2 с Remote Assist
 
@@ -37,10 +37,10 @@ ms.locfileid: "110398863"
 
 | Контрольная точка  | Результат                                |
 |-------------|----------------------------------------|
-| [Начало работы](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/overview-hololens) | Начало работы с Remote Assist.        |
-| [Лицензия](https://docs.microsoft.com/dynamics365/mixed-reality/remote-assist/deploy-remote-assist#add-and-assign-licenses)     | Активация лицензии для Remote Assist.      |
-| [Подключить](https://docs.microsoft.com/hololens/hololens-network)     | Подключение устройств к Wi-Fi.       |
-| [Регистрация](https://docs.microsoft.com/hololens/hololens-enroll-mdm)      | Регистрация устройств в организации. |
+| [Начало работы](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Начало работы с Remote Assist.        |
+| [Лицензия](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist#add-and-assign-licenses)     | Активация лицензии для Remote Assist.      |
+| [Подключить](/hololens/hololens-network)     | Подключение устройств к Wi-Fi.       |
+| [Регистрация](/hololens/hololens-enroll-mdm)      | Регистрация устройств в организации. |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

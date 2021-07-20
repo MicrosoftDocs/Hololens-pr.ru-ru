@@ -9,12 +9,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: yannisle
-ms.openlocfilehash: aefb414deb68376ea45e792f21a929fac7cf3969
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: 41978c626328903cf480a3315d56841f187bc123
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398887"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113640191"
 ---
 # <a name="introducing-the-new-microsoft-edge"></a>Представляем новое приложение Microsoft Edge
 
@@ -42,13 +42,13 @@ ms.locfileid: "110398887"
 
 Ниже приведены некоторые полезные ресурсы, которые позволят вам узнать, как управлять параметрами политик для нового приложения Microsoft Edge.
 
-- [Настройка параметров политик Microsoft Edge с помощью Microsoft Intune.](https://docs.microsoft.com/deployedge/configure-edge-with-intune)
-- [Сопоставление политик устаревшего приложения Microsoft Edge и нового приложения Microsoft Edge.](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-legacy-to-newedge)
-- [Сопоставление политик Google Chrome и Microsoft Edge.](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-chrome-to-newedge)
-- [Полная документация по корпоративной версии Microsoft Edge](https://docs.microsoft.com/deployedge/)
+- [Настройка параметров политик Microsoft Edge с помощью Microsoft Intune.](/deployedge/configure-edge-with-intune)
+- [Сопоставление политик устаревшего приложения Microsoft Edge и нового приложения Microsoft Edge.](/deployedge/microsoft-edge-policy-map-legacy-to-newedge)
+- [Сопоставление политик Google Chrome и Microsoft Edge.](/deployedge/microsoft-edge-policy-map-chrome-to-newedge)
+- [Полная документация по корпоративной версии Microsoft Edge](/deployedge/)
 
 > [!IMPORTANT]
-> Так как новое приложение Microsoft Edge поддерживает большое число политик, наша команда не может гарантировать, что каждая новая политика будет работать с HoloLens 2. Но мы провели тестирование и убедились, что все политики нового приложения Microsoft Edge, эквивалентные политикам устаревшего приложения Microsoft Edge и ранее поддерживаемые для HoloLens 2, работают ожидаемым образом. В статье [Сопоставление политик устаревшего приложения Microsoft Edge и нового приложения Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policy-map-legacy-to-newedge) вы найдете эквивалентные политики нового приложения Microsoft Edge для каждой политики устаревшего приложения Microsoft Edge, которые вы использовали с HoloLens 2.
+> Так как новое приложение Microsoft Edge поддерживает большое число политик, наша команда не может гарантировать, что каждая новая политика будет работать с HoloLens 2. Но мы провели тестирование и убедились, что все политики нового приложения Microsoft Edge, эквивалентные политикам устаревшего приложения Microsoft Edge и ранее поддерживаемые для HoloLens 2, работают ожидаемым образом. В статье [Сопоставление политик устаревшего приложения Microsoft Edge и нового приложения Microsoft Edge](/deployedge/microsoft-edge-policy-map-legacy-to-newedge) вы найдете эквивалентные политики нового приложения Microsoft Edge для каждой политики устаревшего приложения Microsoft Edge, которые вы использовали с HoloLens 2.
 >
 > Есть по меньшей мере две политики нового приложения Microsoft Edge, которые *не будут* работать с HoloLens 2:
 > - EnterpriseModeSiteList
@@ -99,12 +99,12 @@ ms.locfileid: "110398887"
   1. Нажмите кнопку **Установить**.
   1. После успешной установки вы найдете версию Microsoft Edge Beta, Dev или Canary в виде отдельной записи в списке **Все программы** в меню "Пуск".
 
-**Установка с помощью ПК на портале устройств Windows (требует включение [режима разработчика](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal) на устройстве HoloLens 2)**
+**Установка с помощью ПК на портале устройств Windows (требует включение [режима разработчика](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#setting-up-hololens-to-use-windows-device-portal) на устройстве HoloLens 2)**
   1. На своем ПК откройте [страницу скачивания Edge для предварительной оценки](https://www.microsoftedgeinsider.com/download).
   1. Нажмите **кнопку со стрелкой вниз** рядом с кнопкой "Download for Windows 10" (Скачать для Windows 10) для нужной вам версии Edge для предварительной оценки.
   1. Выберите **HoloLens 2** в раскрывающемся меню.
   1. Сохраните файл MSIX в папке "Загрузки" на компьютере (или в другой папке, которую легко найти).
-  1. С помощью [портала устройств Windows](https://docs.microsoft.com/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app) на ПК установите скачанный файл MSIX на устройстве HoloLens 2.
+  1. С помощью [портала устройств Windows](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal#installing-an-app) на ПК установите скачанный файл MSIX на устройстве HoloLens 2.
   1. После успешной установки вы найдете версию Microsoft Edge Beta, Dev или Canary в виде отдельной записи в списке **Все программы** в меню "Пуск".
 
 ## <a name="using-wdac-to-block-new-microsoft-edge"></a>Использование WDAC для блокировки нового приложения Microsoft Edge
@@ -115,7 +115,7 @@ ms.locfileid: "110398887"
 
 ## <a name="managing-endpoints-for-the-new-microsoft-edge"></a>Управление конечными точками для нового приложения Microsoft Edge
 
-В некоторых средах требуется учитывать ограничения сети. Чтобы обеспечить бесперебойную работу с новым приложением Edge, [включите такие конечные точки Майкрософт](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints).
+В некоторых средах требуется учитывать ограничения сети. Чтобы обеспечить бесперебойную работу с новым приложением Edge, [включите такие конечные точки Майкрософт](/deployedge/microsoft-edge-security-endpoints).
 
 См. дополнительные сведения о [доступных конечных точках для HoloLens](hololens-offline.md).
 

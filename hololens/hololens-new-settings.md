@@ -9,12 +9,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: yannisle
-ms.openlocfilehash: bf1a2080c15346843b9ea9b2d0dc93154e185107
-ms.sourcegitcommit: 29573e577381a23891e9557884a6dfdaac0c1c48
+ms.openlocfilehash: e6da84c180ef596b63b6d41229bd094354ab1221
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110398911"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113640174"
 ---
 # <a name="new-settings-app"></a>Новое приложение "Параметры"
 
@@ -47,7 +47,7 @@ ms.locfileid: "110398911"
 
 **Известные проблемы**
 - Все ранее размещенные окна "Параметры" будут удалены (см. примечание выше).
-- Теперь вы не сможете изменять имя устройства в приложении "Параметры". Имя устройства могут изменять ИТ-администраторы, используя шаблон имени устройства [Windows Autopilot для HoloLens 2](https://docs.microsoft.com/hololens/hololens2-autopilot) или узел Ext/Microsoft/DNSComputerName [поставщика службы конфигурации DevDetail](https://docs.microsoft.com/windows/client-management/mdm/devdetail-csp) в MDM.
+- Теперь вы не сможете изменять имя устройства в приложении "Параметры". Имя устройства могут изменять ИТ-администраторы, используя шаблон имени устройства [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) или узел Ext/Microsoft/DNSComputerName [поставщика службы конфигурации DevDetail](/windows/client-management/mdm/devdetail-csp) в MDM.
 - На странице Ethernet постоянно отображается виртуальное устройство Ethernet ("UsbNcm").
 - Потребление заряда аккумулятора для нового Microsoft Edge может отображаться неверно, так как это приложение для среды Win32, поддерживаемое на уровне адаптера UWP (решение этой проблемы в обозримом будущем не ожидается).
 

@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8acf5659739d58d24add3f299daeacab7132a086
-ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
+ms.openlocfilehash: d2804742fdcf9d6562fce0c693552d4a9241398f
+ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112924593"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113635217"
 ---
 # <a name="getting-around-hololens-2"></a>Знакомство с HoloLens 2
 
@@ -111,7 +111,7 @@ ms.locfileid: "112924593"
 > Для срабатывания жеста "Пуск", выполненного одной рукой:
 >
 > 1. Необходимо установить обновление за ноябрь 2019 г. (сборка 18363.1039) или более поздней версии.
-> 1. Необходимо выполнить калибровку взгляда на устройстве, чтобы наладить работу функций отслеживания взгляда. Если при взгляде на значок "Пуск" вы не видите вокруг него вращающиеся точки, [калибровка](https://docs.microsoft.com/hololens/hololens-calibration#calibrating-your-hololens-2) вашего взгляда на устройстве не выполнена.
+> 1. Необходимо выполнить калибровку взгляда на устройстве, чтобы наладить работу функций отслеживания взгляда. Если при взгляде на значок "Пуск" вы не видите вокруг него вращающиеся точки, [калибровка](/hololens/hololens-calibration#calibrating-your-hololens-2) вашего взгляда на устройстве не выполнена.
 
 Жест "Пуск" также можно выполнить одной рукой. Для этого удерживайте руку ладонью к себе и посмотрите на **значок "Пуск"** на внутренней стороне запястья. **Глядя на значок**, сведите указательный и большой пальцы.
 

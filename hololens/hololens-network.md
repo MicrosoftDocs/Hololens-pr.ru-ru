@@ -10,12 +10,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: jarrettr
-ms.openlocfilehash: 8564fb0483226a16722ada345de325577cda77d6
-ms.sourcegitcommit: d5b2080868d6b74169a1bab2c7bad37dfa5a8b5a
+ms.openlocfilehash: c2a2fe1a20a4e9baa194b1037ccb6649d324b990
+ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "112923607"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "113640225"
 ---
 # <a name="connect-hololens-to-a-network"></a>Подключение HoloLens к сети
 
@@ -54,9 +54,9 @@ ms.locfileid: "112923607"
 
 ## <a name="connect-hololens-to-enterprise-wi-fi-network"></a>Подключение HoloLens к корпоративной сети Wi-Fi
 
-В корпоративных профилях Wi-Fi для аутентификации подключений по Wi-Fi используется протокол расширенной аутентификации (EAP). Корпоративный профиль HoloLens для Wi-Fi можно настроить с помощью MDM или пакета подготовки, созданного с помощью [конструктора конфигураций Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
+В корпоративных профилях Wi-Fi для аутентификации подключений по Wi-Fi используется протокол расширенной аутентификации (EAP). Корпоративный профиль HoloLens для Wi-Fi можно настроить с помощью MDM или пакета подготовки, созданного с помощью [конструктора конфигураций Windows](/windows/configuration/provisioning-packages/provisioning-packages).
 
-Инструкции по настройке устройства, управляемого с помощью службы Microsoft Intune, см. [здесь](https://docs.microsoft.com/mem/intune/configuration/wi-fi-settings-windows#enterprise-profile).
+Инструкции по настройке устройства, управляемого с помощью службы Microsoft Intune, см. [здесь](/mem/intune/configuration/wi-fi-settings-windows#enterprise-profile).
 
 Чтобы создать пакет подготовки Wi-Fi в конструкторе конфигураций Windows, требуется файл предварительно настроенного профиля Wi-Fi в формате XML. Ниже приведен пример профиля Wi-Fi для WPA2-Enterprise с аутентификацией EAP-TLS.
 
@@ -124,8 +124,8 @@ ms.locfileid: "112923607"
 
 Дополнительные ресурсы:
 
-- Схема WLANv1Profile: [[MS-GPWL]: Схема LAN Profile v1 | Документация Майкрософт](https://docs.microsoft.com/openspecs/windows_protocols/ms-gpwl/34054c93-cfcd-44df-89d8-5f2ba7532b67)
-- Схема EAP-TLS: [[MS-GPWL]: Схема Microsoft EAP TLS | Документация Майкрософт](https://docs.microsoft.com/openspecs/windows_protocols/ms-gpwl/9590925c-cba2-4ac5-b9a1-1e5292bb72cb)
+- Схема WLANv1Profile: [[MS-GPWL]: Схема LAN Profile v1 | Документация Майкрософт](/openspecs/windows_protocols/ms-gpwl/34054c93-cfcd-44df-89d8-5f2ba7532b67)
+- Схема EAP-TLS: [[MS-GPWL]: Схема Microsoft EAP TLS | Документация Майкрософт](/openspecs/windows_protocols/ms-gpwl/9590925c-cba2-4ac5-b9a1-1e5292bb72cb)
 
 Если при подключении к Wi-Fi возникают проблемы, см. рекомендации по [устранению неполадок](hololens2-enterprise-troubleshooting.md#).
 
@@ -161,8 +161,8 @@ ms.locfileid: "112923607"
           1. Нажмите кнопку "Применить".
         
  2. **MDM** 
-     1. Intune — выполните эти [шаги](https://docs.microsoft.com/mem/intune/configuration/wi-fi-settings-windows#enterprise-profile), чтобы настроить прокси-сервер в Intune. Вам нужно прокрутить в самый низ раздела.
-     1. Другие решения MDM сторонних поставщиков — используйте [поставщик службы конфигурации Wi-Fi](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp).
+     1. Intune — выполните эти [шаги](/mem/intune/configuration/wi-fi-settings-windows#enterprise-profile), чтобы настроить прокси-сервер в Intune. Вам нужно прокрутить в самый низ раздела.
+     1. Другие решения MDM сторонних поставщиков — используйте [поставщик службы конфигурации Wi-Fi](/windows/client-management/mdm/wifi-csp).
 
 3. **PPKG** 
     1. Откройте конструктор конфигураций Windows.
@@ -175,12 +175,12 @@ ms.locfileid: "112923607"
     1. Щелкните "Сохранить и выйти".
     1. [Примените](hololens-provisioning.md#applyremove-a-provisioning-package-to-hololens-after-setup) пакет подготовки к HoloLens.
 
-[Поставщики службы конфигурации](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) стоят за многими задачами и политиками управления для Windows 10 в Microsoft Intune и сторонних поставщиках служб MDM. Вы также можете использовать [конструктор конфигураций Windows](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-install-icd) для создания [пакета подготовки](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages) и его применения для HoloLens 2.
+[Поставщики службы конфигурации](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) стоят за многими задачами и политиками управления для Windows 10 в Microsoft Intune и сторонних поставщиках служб MDM. Вы также можете использовать [конструктор конфигураций Windows](/windows/configuration/provisioning-packages/provisioning-install-icd) для создания [пакета подготовки](/windows/configuration/provisioning-packages/provisioning-packages) и его применения для HoloLens 2.
 Наиболее вероятные поставщики службы конфигурации, которые будут применены к вашему устройству HoloLens 2:
 
-- [поставщик службы конфигурации WiFi](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp) — прокси-сервер Wi-Fi на каждый профиль. 
+- [поставщик службы конфигурации WiFi](/windows/client-management/mdm/wifi-csp) — прокси-сервер Wi-Fi на каждый профиль. 
 
-[Другие поставщики службы конфигурации, поддерживаемые устройствами HoloLens.](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#hololens)
+[Другие поставщики службы конфигурации, поддерживаемые устройствами HoloLens.](/windows/client-management/mdm/configuration-service-provider-reference#hololens)
 
 
 
@@ -196,9 +196,9 @@ ms.locfileid: "112923607"
 
 Если для аутентификации для встроенного VPN-клиента используется сертификат, требуемый сертификат клиента следует добавить в хранилище сертификатов пользователя. Если подключаемый модуль VPN стороннего производителя поддерживает HoloLens 2, перейдите в Store, чтобы найти приложение VPN, и проверьте, содержится ли HoloLens в списке поддерживаемых устройств, а на странице требований к системе убедитесь, что приложение поддерживает архитектуру ARM или ARM64. HoloLens поддерживает только приложения универсальной платформы Windows для сторонних сетей VPN.
 
- VPN можно управлять с помощью MDM, выбрав политику [Settings/AllowVPN](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-settings#settings-allowvpn) и настроив с помощью [политики Vpnv2-csp](https://docs.microsoft.com/windows/client-management/mdm/vpnv2-csp).
+ VPN можно управлять с помощью MDM, выбрав политику [Settings/AllowVPN](/windows/client-management/mdm/policy-csp-settings#settings-allowvpn) и настроив с помощью [политики Vpnv2-csp](/windows/client-management/mdm/vpnv2-csp).
 
-Дополнительные сведения о [настройке VPN](https://support.microsoft.com/help/20510/windows-10-connect-to-vpn) см. в [этих руководствах](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-guide).  
+Дополнительные сведения о [настройке VPN](https://support.microsoft.com/help/20510/windows-10-connect-to-vpn) см. в [этих руководствах](/windows/security/identity-protection/vpn/vpn-guide).  
 
 ### <a name="vpn-via-ui"></a>Настройка VPN с помощью пользовательского интерфейса
 
@@ -235,11 +235,11 @@ ms.locfileid: "112923607"
 ### <a name="setting-up-vpn-via-intune"></a>Настройка VPN с помощью Intune
 Чтобы приступить к работе, просто следуйте документации Intune. При выполнении этих действий следует учитывать встроенные протоколы VPN, поддерживаемые устройствами HoloLens. 
 
-[Создание профилей VPN для подключения к VPN-серверам в Intune.](https://docs.microsoft.com/mem/intune/configuration/vpn-settings-configure)
+[Создание профилей VPN для подключения к VPN-серверам в Intune.](/mem/intune/configuration/vpn-settings-configure)
 
-[Параметры устройств Windows 10 и Windows Holographic для добавления VPN-подключений с помощью Intune.](https://docs.microsoft.com/mem/intune/configuration/vpn-settings-windows-10)
+[Параметры устройств Windows 10 и Windows Holographic для добавления VPN-подключений с помощью Intune.](/mem/intune/configuration/vpn-settings-windows-10)
 
-По завершении не забудьте [назначить профиль](https://docs.microsoft.com/mem/intune/configuration/device-profile-assign).
+По завершении не забудьте [назначить профиль](/mem/intune/configuration/device-profile-assign).
 
 ### <a name="vpn-via-3rd-party-mdm-solutions"></a>Настройка VPN с помощью сторонних решений MDM.
 Пример стороннего подключения VPN:
