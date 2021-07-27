@@ -7,12 +7,12 @@ description: Возможности поддержки смешанной реа
 ms.prod: hololens
 ms.topic: article
 ms.date: 3/19/2021
-ms.openlocfilehash: ee75944575cacb75b213fcd9d732e5bd91265061
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 0ddc4eb15036a4f5aa2ecf86893d5f671584f9bf
+ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113636220"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114659103"
 ---
 # <a name="what-are-the-mixed-reality-support-and-help-options"></a>Каковы возможности поддержки смешанной реальности и справки?
 
@@ -79,6 +79,7 @@ ms.locfileid: "113636220"
 
 - [приобрести HoloLens 2](https://www.microsoft.com/hololens/buy) используйте этот параметр, чтобы узнать больше о ценах и вариантах HoloLens 2
 - Ниже приведен список номеров бизнес-услуг, которые следует проговаривать с коллегами службы поддержки коммерческих магазинов, если вам нужна помощь через службу поддержки по телефону.
+- для покупок за пределами Microsoft Store сослаться на этот [список разрешенных HoloLens 2ных посредников](hololens2-purchase.md) и стран, где доступны HoloLens 2.
 
 ### <a name="commercial-store-support-numbers"></a>Номера поддержки коммерческих магазинов
 >[!Note]

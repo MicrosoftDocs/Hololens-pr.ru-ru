@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 9d9e521f3e337b3a48a60c19e52bfeb3186507af
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: 25227184ec33b134215dbd1f42f7b920b26dc29c
+ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113640361"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114659596"
 ---
 # <a name="set-up-hololens-as-a-kiosk"></a>Настройка HoloLens в качестве киоска
 
@@ -72,7 +72,7 @@ ms.locfileid: "113640361"
 | &nbsp; |Меню «Пуск» |Меню быстрых действий |Камера и видео |Miracast |Кортана |Встроенные Voice-команды |
 | --- | --- | --- | --- | --- | --- | --- | 
 |Киоск с одним приложением |Выключено |Выключено |Выключено |Выключено   |Выключено |Включено<sup>1</sup> |
-|Киоск с несколькими приложениями |Включен |Включено<sup>2</sup> |Доступно<sup>2</sup> |Доступно<sup>2</sup> |Доступно<sup>2, 3</sup>  |Включено<sup>1</sup> |
+|Киоск с несколькими приложениями |Включено |Включено<sup>2</sup> |Доступно<sup>2</sup> |Доступно<sup>2</sup> |Доступно<sup>2, 3</sup>  |Включено<sup>1</sup> |
 
 > <sup>1</sup> голосовые команды, относящиеся к отключенным функциям, не работают.  
 > <sup>2</sup> дополнительные сведения о настройке этих функций см. в разделе [Выбор приложений киоска](#plan-kiosk-apps).  
@@ -82,7 +82,7 @@ ms.locfileid: "113640361"
 
 | &nbsp; |Поддерживаемые типы пользователей | Автоматический вход | Несколько уровней доступа |
 | --- | --- | --- | --- |
-|Киоск с одним приложением |управляемая учетная запись службы (MSA) в Azure Active Directory (Azure AD) или локальной учетной записи |Да |Нет |
+|Киоск с одним приложением | учетная запись майкрософт (MSA) в Azure Active Directory (Azure AD) или локальной учетной записи |Да |Нет |
 |Киоск с несколькими приложениями |Учетная запись Azure AD |Нет |Да |
 
 Примеры использования этих возможностей см. в следующей таблице.
@@ -109,8 +109,8 @@ ms.locfileid: "113640361"
 
 |имя приложения; |AUMID |
 | --- | --- |
-|Средство просмотра 3D-объектов |Microsoft. Microsoft3DViewer \_ 8wekyb3d8bbwe \! Microsoft. Microsoft3DViewer |
-|Calendar |Microsoft. виндовскоммуникатионсаппс \_ 8wekyb3d8bbwe \! Microsoft. виндовсливе. Calendar |
+|Средство 3D-просмотра |Microsoft. Microsoft3DViewer \_ 8wekyb3d8bbwe \! Microsoft. Microsoft3DViewer |
+|Календарь |Microsoft. виндовскоммуникатионсаппс \_ 8wekyb3d8bbwe \! Microsoft. виндовсливе. Calendar |
 |Камера<sup>1, 2</sup> |Холокамера \_ cw5n1h2txyewy \! холокамера |
 |Кортана<sup>3</sup> |Приложение Microsoft. 549981C3F5F10 \_ 8wekyb3d8bbwe \! |
 |средство выбора устройств на HoloLens (1-й общий) |Холодевицесфлов \_ cw5n1h2txyewy \! холодевицесфлов |

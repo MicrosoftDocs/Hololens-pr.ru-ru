@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 4d959d99b65085aea2a776725abdb36e27b43b81
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: 1081ed512183592e66e65f2e69323752b822f1c1
+ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113640395"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114659188"
 ---
 # <a name="manage-user-identity-and-sign-in-for-hololens"></a>Управление удостоверениями пользователей и входом для HoloLens
 
@@ -45,7 +45,7 @@ HoloLens поддерживает несколько типов удостове
 > 1 — Azure AD Premium не требуется для входа на устройство. Однако он необходим для других функций низкоуровневого облачного развертывания, таких как автоматическая регистрация и автопилот.
 
 > [!NOTE]
-> 2 — хотя HoloLens 2 устройство может поддерживать до 64 учетных записей Azure AD, в проверку подлинности iri могут регистрироваться только 10 этих учетных записей. это согласуется с другими [параметрами биометрической проверки подлинности для Windows Hello для бизнеса](/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer).
+> 2 — хотя HoloLens 2 устройство может поддерживать до 64 учетных записей Azure AD, в ходе проверки подлинности iri может регистрироваться только 31 из этих учетных записей. это согласуется с другими [параметрами биометрической проверки подлинности для Windows Hello для бизнеса](/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer).
 
 ## <a name="setting-up-users"></a>Настройка пользователей
 
