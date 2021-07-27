@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 12c5586f931487d871d4b6e98992ca0047b2adbf
-ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
+ms.openlocfilehash: b7e5a7cbaa746f58fe0344dd8bf5b027e2e8cea7
+ms.sourcegitcommit: dc5d6f3802c997749775be04de522af8cb6d0850
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "114659205"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114693710"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -39,6 +39,7 @@ ms.locfileid: "114659205"
 | [просмотр расширенного диагностического отчета в Параметры на HoloLens](#view-advanced-diagnostic-report-in-settings-on-hololens) | Просмотр журналов диагностики MDM на устройстве | Устранение неполадок | 20348,1405 |
 | [Автономные уведомления диагностики](#offline-diagnostics-notifications) | Аудиовизуального отзыв о сборе журналов | Устранение неполадок | 20348,1405 |
 | [Используйте только приложения частного магазина только для Microsoft Store](#use-only-private-store-apps-for-microsoft-store) | Настройка приложения магазина для отображения только приложений из Организации | ИТ-администратор | 20348,1408 |
+| [Исправления и улучшения](hololens-insider.md#fixes-and-improvements) | Исправления и улучшения для HoloLens. | Все | 20348,1408 |
 
 ### <a name="csp-changes-for-reporting-hololens-details"></a>изменения CSP для сведений о HoloLens отчетов
 
