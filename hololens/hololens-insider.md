@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b7e5a7cbaa746f58fe0344dd8bf5b027e2e8cea7
-ms.sourcegitcommit: dc5d6f3802c997749775be04de522af8cb6d0850
+ms.openlocfilehash: 52503c0e1ff8c937211500203b91a30806cd317d
+ms.sourcegitcommit: 74f5b64c67026881c8ae46410f272b22862ff582
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 07/26/2021
-ms.locfileid: "114693710"
+ms.locfileid: "114696316"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -130,7 +130,7 @@ OMA-URI нового `./Device/Vendor/MSFT/Policy/Config/MixedReality/AutoLogonU
 
 Дополнительные сведения о [аппликатионманажемент и рекуиреприватестореонли](http://windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-requireprivatestoreonly)
 
-### <a name="fixes-and-improvements"></a>Исправления и улучшения:
+### <a name="fixes-and-improvements"></a>Исправления и улучшения
 
 - Исправлена [известная проблема на портале устройств, при которой не было выводится запрос на загрузку заблокированных файлов.](hololens-troubleshooting.md#downloading-locked-files-doesnt-error)
 - Исправлена [известная проблема с порталом устройств с истечением времени ожидания при отправке и скачивании файлов.](hololens-troubleshooting.md#device-portal-file-uploaddownload-times-out)
