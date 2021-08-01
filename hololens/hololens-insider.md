@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 52503c0e1ff8c937211500203b91a30806cd317d
-ms.sourcegitcommit: 74f5b64c67026881c8ae46410f272b22862ff582
+ms.openlocfilehash: e8adb2f796299c99a9152a5b245e8bdd0b768f05
+ms.sourcegitcommit: 78e5f26014e55c13fee9c2b75a80810fd2e77877
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "114696316"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "115009346"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -31,7 +31,7 @@ ms.locfileid: "114696316"
 
 мы рады приступить к полетом новых функций, чтобы снова Windowsся для участников предварительной оценки. Новые сборки будут передаваться на каналы разработки и бета-версии для последних обновлений. мы будем обновлять эту страницу по мере добавления новых функций и обновлений в сборки Insider Windows. Приготовьтесь к работе над этими обновлениями в реальности.
 
-| Компонент                 | Описание                | Пользователь или сценарий | Сборка введена |
+| Функция                 | Описание                | Пользователь или сценарий | Сборка введена |
 |-------------------------|----------------------------|--------------|------------------|
 | [изменения CSP для сведений о HoloLens отчетов](#csp-changes-for-reporting-hololens-details) | Новые CSP для запроса данных | ИТ – администраторы    | 20348,1403                 |
 | [Политика автоматического входа, управляемая CSP](#auto-login-policy-controlled-by-csp) | Используется для автоматического входа в учетную запись | ИТ – администраторы | 20348,1405 |
@@ -39,7 +39,8 @@ ms.locfileid: "114696316"
 | [просмотр расширенного диагностического отчета в Параметры на HoloLens](#view-advanced-diagnostic-report-in-settings-on-hololens) | Просмотр журналов диагностики MDM на устройстве | Устранение неполадок | 20348,1405 |
 | [Автономные уведомления диагностики](#offline-diagnostics-notifications) | Аудиовизуального отзыв о сборе журналов | Устранение неполадок | 20348,1405 |
 | [Используйте только приложения частного магазина только для Microsoft Store](#use-only-private-store-apps-for-microsoft-store) | Настройка приложения магазина для отображения только приложений из Организации | ИТ-администратор | 20348,1408 |
-| [Исправления и улучшения](hololens-insider.md#fixes-and-improvements) | Исправления и улучшения для HoloLens. | Все | 20348,1408 |
+| [Усовершенствования сбора журналов нехватки памяти](#low-storage-log-collection-improvements) | Усовершенствования в сценариях сбора журналов в ситуациях с низким уровнем хранения. | ИТ-администратор | 20348,1412 |
+| [Исправления и улучшения](hololens-insider.md#fixes-and-improvements) | Исправления и улучшения для HoloLens. | Все | 20348,1411 |
 
 ### <a name="csp-changes-for-reporting-hololens-details"></a>изменения CSP для сведений о HoloLens отчетов
 
@@ -130,13 +131,16 @@ OMA-URI нового `./Device/Vendor/MSFT/Policy/Config/MixedReality/AutoLogonU
 
 Дополнительные сведения о [аппликатионманажемент и рекуиреприватестореонли](http://windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-requireprivatestoreonly)
 
+### <a name="low-storage-log-collection-improvements"></a>Усовершенствования сбора журналов нехватки памяти
+
+В сценариях, в которых при сборе журналов диагностики на устройстве не хватает места, будет создан дополнительный отчет с именем **StorageDiagnostics.zip** . пороговое значение низкого уровня хранилища определяется автоматически Windowsным [датчиком хранилища](https://support.microsoft.com/office/use-onedrive-and-storage-sense-in-windows-10-to-manage-disk-space-de5faa9a-6108-4be1-87a6-d90688d08a48).
+
 ### <a name="fixes-and-improvements"></a>Исправления и улучшения
 
 - Исправлена [известная проблема на портале устройств, при которой не было выводится запрос на загрузку заблокированных файлов.](hololens-troubleshooting.md#downloading-locked-files-doesnt-error)
 - Исправлена [известная проблема с порталом устройств с истечением времени ожидания при отправке и скачивании файлов.](hololens-troubleshooting.md#device-portal-file-uploaddownload-times-out)
 - устраняет проблемы, связанные с отчетами о свойствах соответствия от HoloLens устройств; для правильного создания отчетов в сборках предварительной оценки может потребоваться перезагрузка.  
 - Обновлена Встроенная версия Remote Assist, установленная на новых Flash.
-
 
 ## <a name="start-receiving-insider-builds"></a>Начало получения сборок для предварительной оценки
 
