@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: a5c0e28eff9bb71135309ec5e484fc5b88f02d08
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: ef2f8723868e14beaf19cb057fffbcbd9e9f51f9
+ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113636681"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114659354"
 ---
 # <a name="set-up-your-hololens-2"></a>Настройка HoloLens 2
 
@@ -39,41 +39,44 @@ ms.locfileid: "113636681"
 
 ## <a name="set-up-windows"></a>Настройка Windows
 
-При первом включении HoloLens 2 самая первая задача — настроить Windows Holographic.  При включении HoloLens вы услышите музыку и увидите логотип Windows.
+При первом включении HoloLens 2 самая первая задача — настроить Windows Holographic.  При запуске HoloLens вы услышите музыку и увидите логотип Майкрософт.
 
-![Первый экран при первой загрузке](images/01-magic-moment.png)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWGGGk]
+
+<br/>
+<img src="images/01-magic-moment.png" width="500px" alt="First screen during first boot">
 
 Вы увидите колибри, летающую рядом с вами.
 
-![Летающая колибри](images/hummingbird-1.png)
+<img src="images/hummingbird-1.png" width="500px" alt="Hummingbird flying">
 
-Следуйте за ней рукой.
+Она будет следовать за вашей рукой.
 
-![Летающая колибри крупным планом](images/hummingbird-2.png)
+<img src="images/hummingbird-2.png" width="500px" alt="Hummingbird flying close up">
 
-HoloLens 2 предоставит пошаговые инструкции по дальнейшим действиям:
+Отобразится кнопка с логотипом Майкрософт. Нажмите на кнопку, и HoloLens 2 попросит вас последовательно выполнить следующие действия:
 
 1. Выберите нужный язык.
 
-    ![Выберите язык.](images/04-language.png)
+    <img src="images/04-language.png" width="500px" alt="Select language">
 
 1. Выберите нужный регион.
 
-    ![Выбор региона](images/05-region.png)
+    <img src="images/05-region.png" width="500px" alt="Select region">
 
 1. Выполните калибровку HoloLens для отслеживания глаз.  Если вы пропустите калибровку, запрос калибровки появится при следующем входе в систему. 
 
     1. Сначала отрегулируйте визор.
     
-        ![Экран выбора калибровки](images/06-et-corners.png)
-
+    <img src="images/06-et-corners.png" width="500px" alt="Calibration selection screen">
+    
     2. Для калибровки вам нужно посмотреть на несколько целей (которые называются драгоценными камнями). Во время калибровки можно моргать и закрывать глаза, но старайтесь не фокусироваться на других объектах в комнате или пространстве. Во время этого процесса HoloLens изучает положение ваших глаз для оптимального отображения голографического мира. 
 
-        ![Корректировка для ваших глаз](images/07-adjust-eyes.png)
+        <img src="images/07-adjust-eyes.png" width="500px" alt="Adjust for your eyes">
 
         После калибровки голограммы будут отображаться правильно даже в случае смещения визора на голове. Сведения о калибровке хранятся локально на устройстве и не связываются с какими-либо сведениями учетной записи. Дополнительные сведения см. в разделе [Данные калибровки и безопасность](hololens-calibration.md#calibration-data-and-security).
 
-        ![Калибровка завершена](images/calibration-complete.png)
+        <img src="images/calibration-complete.png" width="500px" alt="Calibration is complete">
 
 1. Подключитесь к Интернету (выберите подключение Wi-Fi или Ethernet).
 
@@ -112,7 +115,10 @@ HoloLens 2 предоставит пошаговые инструкции по 
         
 1. Настройте вход Iris, щелкнув **Далее**. Следующий процесс будет очень похож на калибровку отслеживания глаз. Когда сканирование завершится, щелкните **Готово**. Вы также можете пропустить этот шаг, щелкнув **Пропустить**.
     
-    ![Настройка Iris](images/setup-iris.png) ![Настройка Iris завершена](images/iris-setup-complete.png) 
+    <img src="images/setup-iris.png" width="500px" alt="Iris setup">
+
+    <img src="images/iris-setup-complete.png" width="500px" alt="Iris setup completion">
+
      
   
 1. Теперь вы настроите PIN-код для входа на устройство. Этот PIN-код относится только к конкретному устройству. 
@@ -122,28 +128,32 @@ HoloLens 2 предоставит пошаговые инструкции по 
     ![Настройка PIN-кода Windows Hello](images/windows-hello-pin.png)
 
     ![Настройка Windows Hello завершена успешно](images/windows-hello-successful.png) 
+
     
 1. Выберите, нужно ли включить на HoloLens 2 поддержку речи.
 
-    ![Включение Кортаны](images/22-do-more-with-voice.png)
+    <img src="images/22-do-more-with-voice.png&quot; width=&quot;500px&quot; alt=&quot;Enable Cortana&quot;>
 
 1. Выберите, нужно ли включить на HoloLens 2 отслеживание местоположения.
     
-    ![Включение служб определения местоположения](images/setup-location-services.png)
+    <img src=&quot;images/setup-location-services.png&quot; width=&quot;500px&quot; alt=&quot;Enable location services&quot;>
 
 1. Выберите нужный уровень телеметрии. Если возможно, включите необязательную телеметрию. Эта информация очень помогает команде разработчиков HoloLens.
 
-     ![Уровень телеметрии](images/24-telemetry.png)
+    <img src=&quot;images/24-telemetry.png&quot; width=&quot;500px&quot; alt=&quot;Telemetry level&quot;>
 
-1. Узнайте, как использовать жест "Пуск" на HoloLens 2.
 
-     ![Использование жеста "Пуск", изображение 1](images/26-01-startmenu-learning.png)
+1. Узнайте, как использовать жест &quot;Пуск&quot; на HoloLens 2.
 
-     ![Использование жеста "Пуск", изображение 2](images/26-02-startmenu-learning.png)
+    <img src=&quot;images/26-01-startmenu-learning.png&quot; width=&quot;500px&quot; alt=&quot;Learn how to use the start gesture, image 1&quot;>
 
-Поздравляем!  Настройка завершена, и вы готовы к использованию HoloLens.
+    <img src=&quot;images/26-02-startmenu-learning.png&quot; width=&quot;500px&quot; alt=&quot;Learn how to use the start gesture, image 2&quot;>
+    
+    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Wxng]
+    
+    Поздравляем!  Настройка завершена, и вы готовы к использованию HoloLens.
 
-## <a name="next-steps&quot;></a>Дальнейшие действия
+## <a name=&quot;next-steps&quot;></a>Дальнейшие действия
 
 1. Начните взаимодействовать со смешанной реальностью и осуществлять навигацию по Windows 10 на вашем устройстве HoloLens. В приложении **Советы** вы найдете пошаговые инструкции по взаимодействию с помощью рук. Используйте жест &quot;Пуск&quot; для перехода в одноименное меню или произнесите &quot;Go to Start&quot; (Перейти в меню &quot;Пуск") и выберите "Советы".
 

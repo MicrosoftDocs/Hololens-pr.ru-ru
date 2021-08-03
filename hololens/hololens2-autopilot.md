@@ -13,21 +13,23 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: cc73f5cbb438119f4c626ae76db9c91373e19aff
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 273dcd2180225cf953686ed1c2e5b6524996dba3
+ms.sourcegitcommit: 78e5f26014e55c13fee9c2b75a80810fd2e77877
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113635370"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "115009363"
 ---
 # <a name="windows-autopilot-for-hololens-2"></a>Windows Autopilot для HoloLens 2
+
+> [!NOTE]
+> Возможность настройки Autopilot для HoloLens в Microsoft Endpoint Manager переходит из **общедоступной предварительной версии** в **общедоступную версию**. Все арендаторы смогут настроить Autopilot в Центре администрирования MEM.
 
 Начиная с Windows Holographic версии 2004, HoloLens 2 поддерживает [режим саморазвертывания](/mem/autopilot/self-deploying) Windows Autopilot с помощью Microsoft Intune (сторонние MDM не поддерживаются). Администраторы могут настроить интерфейс запуска при первом включении (OOBE) в Microsoft Endpoint Manager и разрешить пользователям подготавливать устройства для коммерческого использования с минимальным взаимодействием или без взаимодействия. Это сокращает расходы на управление ресурсами, стоимость подготовки применяемых устройств и количество звонков в службу поддержки от сотрудников во время настройки. Дополнительные сведения см. в документации по [Windows Autopilot](/mem/autopilot/windows-autopilot).
 
 Как и для устройств Surface, пользователям рекомендуется обратиться к [поставщику облачных решений](https://partner.microsoft.com/cloud-solution-provider) Майкрософт (торговому посреднику или распространителю), чтобы получить устройства, зарегистрированные в службе Autopilot через Центр партнеров. Хотя другие методы регистрации устройств описаны в документации по [добавлению устройства](/mem/autopilot/add-devices), привлечение партнеров по сбыту Майкрософт позволяет наиболее эффективно осуществить весь процесс регистрации.
 
-> [!NOTE]
-> С 20.11.2020 конфигурация Autopilot для HoloLens в Microsoft Endpoint Manager переходит в **общедоступную предварительную версию**. Пользователям больше не нужно регистрироваться в закрытой предварительной версии, и все арендаторы смогут настроить Autopilot в Центре администрирования MEM.
+
 
 Когда пользователь запускает саморазвертывание службы Autopilot, она выполняет следующие действия:
 
@@ -329,3 +331,7 @@ ms.locfileid: "113635370"
 - Если ваше устройство зарегистрировано в службе Autopilot, а профиль назначен на портале MEM, обращайтесь в [службу поддержки](/hololens/) HoloLens (см. карточку "Поддержка"). Создайте запрос в службу поддержки и, если применимо, добавьте снимки экрана и журналы, получив [журналы автономной диагностики](hololens-diagnostic-logs.md#offline-diagnostics) при первом запуске (OOBE).
 - Чтобы сообщить о проблеме с устройства, используйте приложение "Центр отзывов" на HoloLens. В Центре отзывов выберите категорию **Корпоративное управление**  > **Устройство**.
 - Чтобы предоставить общий отзыв о Autopilot для HoloLens, вы можете пройти этот [опрос](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7vUmjNI0XhCp1T72ODD84xUMEM3TVJPOURBRkNVWkYwM0RWWEhJNVdJSi4u&wdLOR=cEF1F57F6-AD9B-4CCE-B919-AB5AE320A993).
+
+## <a name="delete-autopilot-devices"></a>Удаление устройств Autopilot
+
+Возможно, вы не захотите дальше использовать устройство для Autopilot или вам потребуется зарегистрировать устройства в другом арендаторе. Сведения об этом см. в разделе [Удаление устройств Autopilot](/mem/autopilot/add-devices#delete-autopilot-devices).

@@ -13,54 +13,48 @@ ms.reviewer: ''
 manager: bradke
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: bd7a7d03c81dced4fb66d8ebb176887811e823c9
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: 6224cd5e07794d9fca3c0a406e787d1a3fd88b43
+ms.sourcegitcommit: bd55edcc855e20d6709c7e535573f43785155d41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113640290"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114661718"
 ---
 # <a name="license-requirements"></a>Требования лицензий
 
-## <a name="hololens-2-device-managed"></a>Устройство HoloLens 2 (управляемое)
+## <a name="overview"></a>Обзор
+На этой странице приведен общий обзор лицензий и учетных записей, необходимых для развертывания управляемых и неуправляемых устройств HoloLens 2 в вашей организации. Она также содержит сведения о лицензировании Dynamics 365 [Remote Assist](#dynamics-365-remote-assist) и [Guides](#dynamics-365-guides).
 
-[Учетная запись Azure AD](/azure/active-directory/)
+## <a name="hololens-2-license-and-account-requirements"></a>Требуемые лицензии и учетные записи для HoloLens 2
+
+ 
+|       &nbsp;      | Управляемое устройство HoloLens | Неуправляемое устройство HoloLens |
+|-------------------|-----------------|---------------------|
+| **Использование для бизнеса** | | |
+| [Развертывание на подключенных к облаку устройствах — подтверждение концепции/пилотное развертывание](hololens-requirements.md#scenario-a-deploy-to-cloud-connected-devices)  | ✔️| |
+| [Развертывание в сети организации — развертывание в большом масштабе](hololens-requirements.md#scenario-b-deploy-inside-your-organizations-network) | ✔️| |
+| [Развертывание в безопасной автономной среде](hololens-requirements.md#scenario-c-deploy-in-secure-offline-environment) | | ✔️ |
+| **Лицензии** | | |
+| Azure Active Directory | ✔️ | |
+| MDM (Intune<sup>1</sup> или <sup>2</sup>) | ✔️  | |
+| **Измерение счетов** |  | |
+| Учетная запись администратора Azure AD | ✔️ |  |
+| Учетная запись пользователя Azure AD | ✔️ | |
+| [Учетная запись Майкрософт (MSA)](/windows/security/identity-protection/access-control/microsoft-accounts)| | ✔️ |
+| [Локальная учетная запись](/windows/security/identity-protection/access-control/local-accounts)<sup>3</sup> | | ✔️ |
+- <sup>1</sup> [Автоматическая регистрация](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) при начальной настройке устройства, которая регистрирует устройство, присоединяет его к Azure Active Directory и позволяет управлять им в Intune.
+- <sup>2</sup> [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) упрощает процесс подготовки для ИТ-администраторов и конечных пользователей. ИТ-администраторы могут предварительно настроить политики HoloLens 2, и при первой загрузке устройства будут развернуты в состояние готовности к работе без взаимодействия с конечным пользователем.
+- <sup>3</sup> Необходимо [подготовить](hololens-provisioning.md#provisioning-package-hololens-wizard) эту учетную запись заранее с помощью Конструктора конфигураций Windows (Windows Configuration Designer, WCD).
 
 > [!IMPORTANT]
 > Служба Active Directory (AD) не может использоваться для управления устройствами HoloLens.
-
-[Microsoft Intune](/mem/intune/fundamentals/what-is-intune) или другая система управления мобильными устройствами.
-- [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) — упрощает процесс подготовки как для ИТ-администраторов, так и для конечных пользователей. ИТ-администраторы могут предварительно настроить политики HoloLens 2, и при первой загрузке устройства будут развернуты в состояние готовности к работе без взаимодействия с конечным пользователем. 
-
-  > [!NOTE]
-  > Для использования Windows Autopilot и развертывания устройства с минимальным вмешательством пользователя необходимо иметь выпуск [Azure P1](/azure/active-directory/fundamentals/active-directory-whatis) и включить [Автоматическую регистрацию](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment). 
-
-### <a name="business-use-case"></a>Вариант использования для бизнеса: 
-
-- [Сценарий развертывания A](hololens-requirements.md#scenario-a-deploy-to-cloud-connected-devices) — развертывание для проверки концепции или пилотное развертывание.
-
-- [Сценарий развертывания B](hololens-requirements.md#scenario-b-deploy-inside-your-organizations-network) — развертывание в масштабе.
-
-## <a name="hololens-2-device-only-non-managed"></a>Только устройство HoloLens 2 (неуправляемое)
-
-При использовании учетной записи Майкрософт (MSA) или локальной учетной записи для этих учетных записей не требуются дополнительные лицензии.
-
-[Локальная учетная запись](/windows/security/identity-protection/access-control/local-accounts)
-
-- Эта учетная запись должна быть [подготовлена](hololens-provisioning.md#provisioning-package-hololens-wizard) заранее с помощью Конструктора конфигураций Windows (WCD).
-
-[Учетная запись Майкрософт (MSA)](/windows/security/identity-protection/access-control/microsoft-accounts)
-
-> [!WARNING]
-> Для устройств, использующих любую из этих учетных записей, не поддерживается работа нескольких пользователей.
-
-### <a name="business-use-case"></a>Вариант использования для бизнеса: 
-
-- [Сценарий развертывания C](hololens-requirements.md#scenario-c-deploy-in-secure-offline-environment) — автономное или безопасное развертывание.
  
+> [!WARNING]
+> Если устройство использует локальную учетную запись или учетную запись Майкрософт, работа на нем нескольких пользователей не поддерживается.
+
 ## <a name="dynamics-365-licensing-and-requirements"></a>Лицензирование и требования для Dynamics 365
 
-### <a name="dynamics-365-remote-assist"></a>Dynamics 365 Remote Assist 
+### <a name="dynamics-365-remote-assist"></a>Dynamics 365 Remote Assist; 
 
 #### <a name="admin"></a>Административный
 
@@ -82,7 +76,7 @@ ms.locfileid: "113640290"
 
 - Учетная запись Azure AD
 
-- Microsoft Teams или [Teams Freemium](https://products.office.com/microsoft-teams/free).
+- Microsoft Teams или [бесплатная версия Teams](https://products.office.com/microsoft-teams/free)
 
 - Возможность подключения к сети
 
@@ -92,8 +86,8 @@ ms.locfileid: "113640290"
 
 #### <a name="admin"></a>Административный
 
-- Учетная запись Azure AD (требуется для приобретения подписки и назначения лицензий)
-- [Подписка или пробная версия Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup-step-one)
+1. Учетная запись Azure AD (требуется для приобретения подписки и назначения лицензий)
+2. [Подписка или пробная версия Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup-step-one)
 
 #### <a name="guides-author"></a>Автор Guides
 
