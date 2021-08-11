@@ -15,12 +15,12 @@ metadata:
   manager: yannisle
   appliesto:
   - HoloLens 2
-  ms.openlocfilehash: be152373fadb6f2b5778616bae0f9bff9356af3d
-  ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+  ms.openlocfilehash: 92a7afe20808afa57282a1f073c326bbf9550d6b345cd27a236c59300f7dcbf9
+  ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/12/2021
-  ms.locfileid: "113639698"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "115659768"
 title: 'HoloLens 2 Development Edition: вопросы и ответы'
 summary: ''
 sections:
@@ -73,7 +73,7 @@ sections:
       все продажи являются окончательными, и в HoloLens 2 Development Edition нет доступных фондов.
   - question: >
       Отличается ли версия разработчика от требований к оборудованию, отличающимся от HoloLens 2?
-    answer: "Нет, это устройство совпадает с перспективой \"требования к оборудованию\". Выпуск Development Edition разрешается развертывать в среде разработки и (или) тестирования приложений в коммерческих параметрах. \n"
+    answer: "Нет, это устройство совпадает с перспективой \"требования к оборудованию\". Выпуск Development Edition можно развернуть в коммерческой среде с целью разработки и (или) тестирования приложений. \n"
   - question: >
       как использовать смешанную реальность набор средств – Unity для разработки в моем выпуске HoloLens 2 Development?
     answer: >
@@ -121,7 +121,7 @@ sections:
       Направления для активации
 
 
-      1. Посетите id.unity.com
+      1. Откройте сайт id.unity.com.
 
       2. Выполните вход с помощью идентификатора Unity или создайте учетную запись.
 
@@ -139,7 +139,7 @@ sections:
       Разделы справки связаться со службой поддержки Unity?
     answer: >
       Чтобы получить справку по любым вопросам, касающиеся идентификатора Unity, учетной записи, Организации и подписок, посетите support.unity3d.com.
-- name: пиксиз
+- name: Pixyz
   questions:
   - question: >
       Что входит в пробную версию подключаемого модуля Пиксиз?
@@ -154,7 +154,7 @@ sections:
       Направления для активации
 
 
-      1. Посетите id.unity.com
+      1. Откройте сайт id.unity.com.
 
       2. Выполните вход с помощью Пиксиз или создайте учетную запись
 
