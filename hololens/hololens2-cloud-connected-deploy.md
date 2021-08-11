@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b0597806d58d7bf16fe6f6c766af3f9662fca7e6
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 593dc65ab97eaae65591a5239cd0a978750eac9fa538364ba6bbc7ef0a2a08a4
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113635183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660505"
 ---
 # <a name="deploy---cloud-connected-guide"></a>Развертывание — подключение к облаку
 
@@ -73,7 +73,7 @@ ms.locfileid: "113635183"
 - [Совместное использование файла и представления в смешанной реальности](/dynamics365/mixed-reality/remote-assist/display-save-files)
 - [получение справки в другом HoloLens приложении](/dynamics365/mixed-reality/remote-assist/get-help-hololens-app-hololens)
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 > [!div class="nextstepaction"]
 > [Развертывание с подключением к облаку — обслуживание](hololens2-cloud-connected-maintain.md)

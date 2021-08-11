@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 21fffdc24f8682bc44779e1cebe8cd6eacb59619
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: f6c2e514024a171661b182a310145e26280e114a1cff65ef5b03b16feae8371a
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113639664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660175"
 ---
 # <a name="prepare---cloud-connected-guide"></a>Подготовка — подключение к облаку
 
@@ -75,7 +75,7 @@ Microsoft [Intune](/mem/intune/fundamentals/what-is-intune), часть Enterpri
 
 Устройства, подключенные к этому руководству, будут подключаться к сети через и внешнюю облачную сеть. Это может быть то, что для доступа к ресурсам компании&#39;потребоваться подключение устройств через VPN. Существует несколько разных способов подключения устройств к VPN, в которых конечный пользователь может подключаться через пользовательский интерфейс устройства, а также управлять устройствами и получать профиль VPN из PPKG или MDM. сведения о том, как настроить vpn, выиграли&#39;t будут рассмотрены в этой статье, поэтому если вы&#39;d like для получения дополнительных сведений о различных протоколах vpn или способах управления vpn, посетите [эти руководства, чтобы получить информацию о HoloLens и vpn.](/hololens/hololens-network#vpn)
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 > [!div class="nextstepaction"]
 > [Развертывание с подключением к облаку — Настройка](hololens2-cloud-connected-configure.md)

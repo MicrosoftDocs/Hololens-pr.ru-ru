@@ -12,16 +12,16 @@ ms.localizationpriority: medium
 ms.date: 05/21/2021
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 43162389eae82bc09135c62acd40d71048d14db1
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: 8273813d85c3b2df2c1a551fb0322a867a5a9c64fdd05e9a85a2097b1590fb62
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113639086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115664326"
 ---
 # <a name="planning-hololens-2-deployment-in-a-commercial-environment"></a>Планирование развертывания HoloLens 2 в коммерческой среде
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 > [!NOTE]
 > этот обзор предназначен для того, чтобы помочь ит-специалистам в понимании вопросов развертывания и управления устройствами Microsoft HoloLens 2 в организации. сведения для конечных пользователей устройств см. в статье [подготовка HoloLens 2 к использованию](hololens2-setup.md) для начала работы.
@@ -62,7 +62,7 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | [Лицензии приложений](hololens2-cloud-connected-configure.md#application-licenses)| Может применяться к пользователям, группам пользователей или группам устройств  |
 | [Пользователи и группы Azure](hololens2-cloud-connected-configure.md#azure-users-and-groups) | Помогает назначать конфигурации и лицензии для HoloLens 2  |
 
-## <a name="deploy"></a>Развертывание
+## <a name="deploy"></a>Развернуть
 
 распространение устройств HoloLens 2 и проверка их конфигурации. 
 
@@ -79,4 +79,4 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | Компонент | Описание |
 |-----------|------------|
 | [Обновление HoloLens 2](hololens-updates.md) | настройка обновлений по мере необходимости с помощью Windows обновлений для бизнеса |
-| [Обновление приложений](app-deploy-overview.md) | Настройка с помощью системы MDM или Microsoft Store
+| [Обновить приложения](app-deploy-overview.md) | Настройка с помощью системы MDM или Microsoft Store

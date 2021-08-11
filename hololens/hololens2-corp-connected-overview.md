@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: f2f7e1425a208e1f466d995f66118b7e68984242
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 67e34ea275ef73adda840ee4f44d9c0c3c9440ef0bd2aef48cb7aaa971219220
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113637019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660112"
 ---
 # <a name="deployment-guide---corporate-connected-hololens-2-with-dynamics-365-guides---overview"></a>руководство по развертыванию: корпоративные подключенные HoloLens 2 с руководствами по Dynamics 365 — обзор
 
@@ -27,7 +27,7 @@ ms.locfileid: "113637019"
 
 В этом руководство мы рассмотрим, как зарегистрировать устройства в существующем управлении устройствами, применить лицензии по мере необходимости и проверить, что конечные пользователи могут работать с руководством по Dynamics 365, а также использовать настраиваемые бизнес-приложения после настройки устройства. 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Уже должна быть выполнена следующая инфраструктура:
 - Wi-Fi
@@ -38,7 +38,7 @@ ms.locfileid: "113637019"
     - Одно или несколько приложений развертываются с помощью MDM.
 - Сеть 
     - Сертификаты (SCEP или PKCS)
-    - настройки прокси-сервера;
+    - Конфигурация прокси-сервера
 - Пользователи входят с помощью собственной корпоративной учетной записи (Azure AD)
     - Поддерживается одно или несколько пользователей на каждом устройстве.
 - Различные уровни конфигурации блокировки устройств, применяемые на основе конкретных вариантов использования, от полного открытия до одного киоска приложения.
@@ -50,7 +50,7 @@ ms.locfileid: "113637019"
 - Подписка на Dynamics 365 Guides
     - Microsoft Инверсия (включена)
     - Power Apps (включена)
-- Power BI Desktop
+- Power BI Desktop
 - Сетевое подключение
 
 [![Схема сети с подключенной корпоративной сетью, этап 1 ](./images/deployment-guides-revised-scenario-b-01-1.png)](./images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
@@ -77,7 +77,7 @@ ms.locfileid: "113637019"
 >- [Настройка руководств по Dynamics 365.](hololens2-corp-connected-configure.md#setup-guides-application-licenses-dataverse-and-authoring)
 >- [Настройка режима киоска (необязательно).](hololens2-corp-connected-configure.md#optional-kiosk-mode)
 >- [Настройка WDAC (необязательно).](hololens2-corp-connected-configure.md#optional-wdac)
-### <a name="deploy"></a>Развертывание
+### <a name="deploy"></a>Развернуть
 > [!div class="checklist"]
 >-  [Проверка регистрации через устройство и MDM.](hololens2-corp-connected-deploy.md#enrollment-validation)
 >-  [Проверка сертификатов Wi-Fi.](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation)
@@ -92,6 +92,6 @@ ms.locfileid: "113637019"
 >- [Создание плана поддержки.](hololens2-corp-connected-maintain.md#support-plan)
 >- [Параметры управления устройствами.](hololens2-corp-connected-maintain.md#device-management)
 
-## <a name="next-step"></a>Дальнейшие действия 
+## <a name="next-step"></a>Следующий шаг 
 > [!div class="nextstepaction"]
 > [Развертывание с корпоративным подключением — подготовка](hololens2-corp-connected-prepare.md)

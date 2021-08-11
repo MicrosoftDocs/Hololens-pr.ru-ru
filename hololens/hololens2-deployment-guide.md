@@ -13,12 +13,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: acf4b5d730b9a7eee2dedfad2bb3f866931d7455
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 495be858c235931ed591b097e6b5951f7197c3f7a62bd1aaa16bea65a4e3885f
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113636951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115659889"
 ---
 # <a name="deploying-hololens-2-to-external-clients-with-remote-assist"></a>развертывание HoloLens 2 для внешних клиентов с помощью удаленного помощника
 

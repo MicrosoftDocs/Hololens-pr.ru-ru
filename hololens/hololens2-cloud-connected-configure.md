@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: eb96f1cdc799551297c0373268e8cc8f35c6bd06
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 8e6999157c6f5a396812df26f748c771581b61d63709918abb2ae45063810ef8
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113635149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660557"
 ---
 # <a name="configure---cloud-connected-guide"></a>Настройка — Путеводитель по подключению к облаку
 
@@ -56,7 +56,7 @@ Azure и Intune с этим расширением используют поль
 2. Вам&#39;все необходимое для [получения лицензии](/dynamics365/mixed-reality/remote-assist/buy-remote-assist).
 3. [Примените лицензии](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist) к группе.
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 > [!div class="nextstepaction"]
 > [Развертывание с подключением к облаку — развертывание](hololens2-cloud-connected-deploy.md)

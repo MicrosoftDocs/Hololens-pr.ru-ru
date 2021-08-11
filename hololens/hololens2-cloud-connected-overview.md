@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 26fd2def8ce1fa8f960ab930e209c74fb37e2e0a
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: 8bba313e7b5ee3d055c2b6ff2c60810baf428ecfa7d5554a1efb4e0aa9e1e98b
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113639766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660304"
 ---
 # <a name="deployment-guide--cloud-connected-hololens-2-with-remote-assist--overview"></a>руководство по развертыванию: облачное подключение HoloLens 2 с помощью удаленного помощника — обзор
 
@@ -27,7 +27,7 @@ ms.locfileid: "113639766"
 
 В ходе этого руководства мы рассмотрим, как зарегистрировать устройства в управлении устройствами, применить лицензии по мере необходимости и проверить, что конечные пользователи могут немедленно использовать удаленную помощь после настройки устройства. Для этого мы перейдем к важным аспектам инфраструктуры, необходимым для настройки и выполнения, обеспечивая развертывание в масштабе с помощью HoloLens 2. В этом пошаговом руководству не будут применяться никакие другие ограничения или конфигурации устройств, но мы рекомендуем изучить эти варианты после завершения.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Для развертывания HoloLens 2 должна быть выполнена следующая инфраструктура. Если нет, то в этом руководство включена настройка Azure и Intune.
 
@@ -50,19 +50,19 @@ ms.locfileid: "113639766"
 ### <a name="remote-assist-licensing-and-requirements"></a>Лицензирование и требования удаленного помощника
 
 - Учетная запись Azure AD (требуется для приобретения подписки и назначения лицензий)
-- [Подписка на удаленную помощь](/dynamics365/mixed-reality/remote-assist/buy-and-deploy-remote-assist) (или [пробная версия удаленного помощника](/dynamics365/mixed-reality/remote-assist/try-remote-assist))
+- [Подписка на Remote Assist](/dynamics365/mixed-reality/remote-assist/buy-and-deploy-remote-assist) (или [пробная версия Remote Assist](/dynamics365/mixed-reality/remote-assist/try-remote-assist))
     
-#### <a name="dynamics-365-remote-assist-user"></a>Пользователь удаленного помощника Dynamics 365
+#### <a name="dynamics-365-remote-assist-user"></a>Пользователь Dynamics 365 Remote Assist
 
-- Лицензия удаленного помощника
+- Лицензия Remote Assist
 - Сетевое подключение
 
-#### <a name="microsoft-teams-user"></a>Microsoft Teams пользователь
+#### <a name="microsoft-teams-user"></a>Пользователь Microsoft Teams
 
-- Microsoft Teams или [Teams условно](https://products.office.com/microsoft-teams/free).
+- Microsoft Teams или [Teams Freemium](https://products.office.com/microsoft-teams/free).
 - Возможность подключения к сети
 
-Если вы планируете реализовать этот [сценарий для разных клиентов](/dynamics365/mixed-reality/remote-assist/cross-tenant-overview#scenario-2-leasing-services-to-other-tenants), вам может потребоваться лицензия на информационные барьеры. Чтобы определить, требуется ли лицензия на информационный барьер, ознакомьтесь со статьей [поставщики и клиенты, использующие все возможности удаленного помощника по Dynamics 365](/dynamics365/mixed-reality/remote-assist/cross-tenant-licensing-implementation).
+Если вы планируете реализовать этот [сценарий для разных клиентов](/dynamics365/mixed-reality/remote-assist/cross-tenant-overview#scenario-2-leasing-services-to-other-tenants), вам может потребоваться лицензия на Информационные барьеры. Чтобы определить, требуется ли лицензия на информационный барьер, ознакомьтесь со статьей [поставщики и клиенты, использующие все возможности удаленного помощника по Dynamics 365](/dynamics365/mixed-reality/remote-assist/cross-tenant-licensing-implementation).
 
 ## <a name="in-this-guide-you-will"></a>В руководстве описаны следующие действия:
 
@@ -96,7 +96,7 @@ ms.locfileid: "113639766"
 > - [Создание плана поддержки.](hololens2-cloud-connected-maintain.md#support-plan)
 > - [План разработки.](hololens2-cloud-connected-maintain.md#development-plan)
 
-## <a name="next-step"></a>Дальнейшие действия
+## <a name="next-step"></a>Следующий шаг
 
 > [!div class="nextstepaction"]
 > [Развертывание с подключением к облаку — подготовка](hololens2-cloud-connected-prepare.md)

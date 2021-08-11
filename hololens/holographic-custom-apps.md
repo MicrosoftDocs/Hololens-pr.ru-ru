@@ -16,12 +16,12 @@ ms.custom:
 - CSSTroubleshooting
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: a179032978e1fc062273a6754e3b0a1ad50a5211
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 7d564fd00567033060428d5b47b34ddf827dea2fdeeb8955c73bc22e4ba87164
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113635914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115664963"
 ---
 # <a name="manage-custom-apps-for-hololens-1st-gen"></a>управление пользовательскими приложениями для HoloLens (1-й общий)
 

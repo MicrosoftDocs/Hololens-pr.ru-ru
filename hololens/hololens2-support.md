@@ -7,12 +7,12 @@ description: Возможности поддержки смешанной реа
 ms.prod: hololens
 ms.topic: article
 ms.date: 3/19/2021
-ms.openlocfilehash: 0ddc4eb15036a4f5aa2ecf86893d5f671584f9bf
-ms.sourcegitcommit: 5130823947caffd2a444e9d8fb15cd24cbb6414c
+ms.openlocfilehash: 43940fca03dec957c2afc6108e1ce77979aa000c1366bdc873056107d0b7da20
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "114659103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115658768"
 ---
 # <a name="what-are-the-mixed-reality-support-and-help-options"></a>Каковы возможности поддержки смешанной реальности и справки?
 

@@ -12,12 +12,12 @@ ms.reviewer: ''
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: a27a16913873c5245f734dbe084eb2b7ed007c20
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: ab05f1bbe1570d4966932d6f8ac857e5bd2d8a7d3a8f5b93aaba0335eda05b01
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113639936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115665562"
 ---
 # <a name="windows-defender-application-control---wdac"></a>Управление приложениями в Защитнике Windows — WDAC
 
@@ -52,7 +52,7 @@ Get-AppxPackage -name *edge*
 
 | имя приложения;                   | Имя семейства пакетов                                |
 |----------------------------|----------------------------------------------------|
-| Средство просмотра 3D-объектов                  | Microsoft.Microsoft3DViewer_8wekyb3d8bbwe          |
+| Средство 3D-просмотра                  | Microsoft.Microsoft3DViewer_8wekyb3d8bbwe          |
 | Установщик приложений              | Microsoft.DesktopAppInstaller_8wekyb3d8bbwe <sup>1</sup>         |
 | Calendar                   | microsoft.windowscommunicationsapps_8wekyb3d8bbwe  |
 | Камера                     | HoloCamera_cw5n1h2txyewy                           |
@@ -65,7 +65,7 @@ Get-AppxPackage -name *edge*
 | Microsoft Store            | Microsoft.WindowsStore_8wekyb3d8bbwe               |
 | Кино и ТВ                | Microsoft.ZuneVideo_8wekyb3d8bbwe                  |
 | OneDrive                   | microsoft.microsoftskydrive_8wekyb3d8bbwe          |
-| Фотографии                     | NNTP. Windows. Photos_8wekyb3d8bbwe             |
+| "Фото"                     | NNTP. Windows. Photos_8wekyb3d8bbwe             |
 | Параметры                   | HolographicSystemSettings_cw5n1h2txyewy            |
 | Советы                       | Microsoft.HoloLensTips_8wekyb3d8bbwe               |
 

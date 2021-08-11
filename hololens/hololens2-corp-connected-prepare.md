@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 88e7d0614cf95f32eaa0434724eddbcb5b8cf863
-ms.sourcegitcommit: c43cd2f450b643ad4fc8e749235d03ec5aa3ffcf
+ms.openlocfilehash: 76513c2f2458119785b64d8cccac4e42c2957b5af966dfdb0c165ebeda12e069
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113636985"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115660077"
 ---
 # <a name="prepare---corporate-connected-guide"></a>Подготовка — корпоративное подключение
 ## <a name="infrastructure-essentials"></a>Основы инфраструктуры
@@ -104,6 +104,6 @@ Intune также поддерживает использование серти
 ## <a name="guides-playbook"></a>Направляющие сборник тренировочных заданий
 В руководствах используется среда Microsoft инверсия в качестве хранилища данных для приложений для работы с руководствами. Важно понимать, как работает среда обратной работы с вашими приложениями и клиентом. Мы не будем рассматривать, как управлять вашими данными в этом руководстве, но ознакомьтесь с [основными понятиями по развертыванию руководств по dynamics 365 в dynamics 365 Mixed Reality](/dynamics365/mixed-reality/guides/admin-deployment-playbook).
 
-## <a name="next-step"></a>Дальнейшие действия 
+## <a name="next-step"></a>Следующий шаг 
 > [!div class="nextstepaction"]
 > [Развертывание с корпоративным подключением — Настройка](hololens2-corp-connected-configure.md)

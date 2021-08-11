@@ -25,6 +25,8 @@
 #### [Использование голосовых команд для работы с HoloLens](hololens-cortana.md)
 #### [Поиск, открытие и сохранение файлов в HoloLens](holographic-data.md)
 #### [Создание фотографий и видео смешанной реальности](holographic-photos-and-videos.md)
+#### [Новое приложение "Параметры"](hololens-new-settings.md)
+#### [Новая версия Microsoft Edge](hololens-new-edge.md)
 ### Управление приложениями
 #### [Поиск, установка и удаление приложений](holographic-store-apps.md)
 #### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)

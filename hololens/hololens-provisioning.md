@@ -16,12 +16,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 7f712c571df1170badf3bfc832e43881278eec90
-ms.sourcegitcommit: 4c15afc772fba26683d9b75e38c44a018b4889f6
+ms.openlocfilehash: d9a0901a916ec33c076eeae33b680406a45f7feefe82442da1f346e78bc9b383
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "113640140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115663674"
 ---
 # <a name="configure-hololens-by-using-a-provisioning-package"></a>настройка HoloLens с помощью пакета подготовки
 

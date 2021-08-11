@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: e2c5c98eb62f9e8ec19306b2cb460004eb8ae8dd
-ms.sourcegitcommit: 44d5fbee8aa0e2404137484edbeb4653437e79dd
+ms.openlocfilehash: ceb2416ec96db1bdd363e9164ec39eed9247fe37095a52e7f02bafc74416e4f2
+ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "115664140"
 ---
 # <a name="manage-user-identity-and-sign-in-for-hololens"></a>Управление удостоверениями пользователей и входом для HoloLens
 
@@ -38,7 +38,7 @@ HoloLens поддерживает несколько типов удостове
 | --- | --- | --- |
 | [Azure Active Directory](/azure/active-directory/)<sup>1</sup>  | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>приложение Azure Authenticator</li><li>биометрическая (iri) &ndash; HoloLens 2 только<sup>2</sup> </li><li>Ключ безопасности FIDO2</li><li>закрепить &ndash; необязательно для HoloLens (1 общий), требуется для HoloLens 2</li><li>Пароль</li></ul> |
 | [Учетная запись Майкрософт (MSA)](/windows/security/identity-protection/access-control/microsoft-accounts) | 1 | <ul><li>только биометрия (iri) &ndash; HoloLens 2</li><li>закрепить &ndash; необязательно для HoloLens (1 общий), требуется для HoloLens 2</li><li>Пароль</li></ul> |
-| [локальная учетная запись.](/windows/security/identity-protection/access-control/local-accounts) | 1 | Пароль |
+| [Локальная учетная запись](/windows/security/identity-protection/access-control/local-accounts) | 1 | Пароль |
 
 Облачные учетные записи (Azure AD и MSA) предлагают больше функций, так как они могут использовать службы Azure.  
 > [!IMPORTANT]
