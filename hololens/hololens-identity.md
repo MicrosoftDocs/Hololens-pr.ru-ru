@@ -18,12 +18,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: ceb2416ec96db1bdd363e9164ec39eed9247fe37095a52e7f02bafc74416e4f2
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: c19f01fc502a32c7f40a9296f0ddd9651d92284f3550908b1a5b7bbbef7b639a
+ms.sourcegitcommit: 9615ed824bdf3f1747ec346da6136704d8eed015
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120364274"
 ---
 # <a name="manage-user-identity-and-sign-in-for-hololens"></a>Управление удостоверениями пользователей и входом для HoloLens
 
@@ -38,7 +38,7 @@ HoloLens поддерживает несколько типов удостове
 | --- | --- | --- |
 | [Azure Active Directory](/azure/active-directory/)<sup>1</sup>  | 64 | <ul><li>Поставщик веб-учетных данных Azure</li><li>приложение Azure Authenticator</li><li>биометрическая (iri) &ndash; HoloLens 2 только<sup>2</sup> </li><li>Ключ безопасности FIDO2</li><li>закрепить &ndash; необязательно для HoloLens (1 общий), требуется для HoloLens 2</li><li>Пароль</li></ul> |
 | [Учетная запись Майкрософт (MSA)](/windows/security/identity-protection/access-control/microsoft-accounts) | 1 | <ul><li>только биометрия (iri) &ndash; HoloLens 2</li><li>закрепить &ndash; необязательно для HoloLens (1 общий), требуется для HoloLens 2</li><li>Пароль</li></ul> |
-| [Локальная учетная запись](/windows/security/identity-protection/access-control/local-accounts) | 1 | Пароль |
+| [Локальная учетная запись](/windows/security/identity-protection/access-control/local-accounts)<sup>3</sup> | 1 | Пароль |
 
 Облачные учетные записи (Azure AD и MSA) предлагают больше функций, так как они могут использовать службы Azure.  
 > [!IMPORTANT]
@@ -47,13 +47,16 @@ HoloLens поддерживает несколько типов удостове
 > [!NOTE]
 > 2 — хотя HoloLens 2 устройство может поддерживать до 64 учетных записей Azure AD, в ходе проверки подлинности iri может регистрироваться только 31 из этих учетных записей. это согласуется с другими [параметрами биометрической проверки подлинности для Windows Hello для бизнеса](/windows/security/identity-protection/hello-for-business/hello-faq#how-many-users-can-enroll-for-windows-hello-for-business-on-a-single-windows-10-computer).
 
+> [!IMPORTANT]
+> 3. локальную учетную запись можно настроить только на устройстве с [помощью пакета подготовки во время OOBE](hololens-provisioning.md#apply-a-provisioning-package-to-hololens-during-setup), поэтому его нельзя добавить позже в приложении "Параметры". Если вы хотите использовать локальную учетную запись на устройстве, которое уже настроено, необходимо переустановить [или сбросить устройство.](hololens-recovery.md)
+
 ## <a name="setting-up-users"></a>Настройка пользователей
 
 Существует два способа настроить нового пользователя на HoloLens. самый распространенный способ — во время HoloLens стандартного интерфейса (OOBE). при использовании Azure Active Directory [другие пользователи могут войти в систему](#setting-up-multi-user-support-azure-ad-only) после OOBE, используя свои учетные данные Azure AD. HoloLens устройства, изначально настроенные с помощью MSA или локальной учетной записи, во время OOBE не будут поддерживать несколько пользователей. см. раздел настройка [HoloLens (1 gen)](hololens1-start.md) или [HoloLens 2](hololens2-start.md).
 
 если вы используете учетную запись предприятия или организации для входа в HoloLens, HoloLens регистрируется в ит – инфраструктуре организации. Эта регистрация позволяет ИТ-администратору настроить управление мобильными устройствами (MDM) для отправки групповых политик в HoloLens.
 
-как и Windows на других устройствах, при входе в систему во время установки на устройстве создается профиль пользователя. В профиле пользователя хранятся приложения и данные. эта же учетная запись также предоставляет единый вход для приложений, таких как ребро или Microsoft Store, с помощью api-интерфейсов диспетчера учетных записей Windows. 
+как и Windows на других устройствах, при входе в систему во время установки на устройстве создается профиль пользователя. В профиле пользователя хранятся приложения и данные. эта же учетная запись также предоставляет единый вход для приложений, таких как ребро или Microsoft Store, с помощью api-интерфейсов диспетчера учетных записей Windows.
 
 по умолчанию, как и для других Windows 10 устройств, вам потребуется снова войти в систему, когда HoloLens перезапускается или возобновляет работу из ждущего режима. это поведение можно изменить с помощью приложения Параметры, а также управлять поведением групповой политики.
 
