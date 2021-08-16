@@ -34,6 +34,7 @@
 #### [Повышение качества изображения и комфорта](hololens-calibration.md)
 #### [Сопоставление физических пространств с HoloLens](hololens-spaces.md)
 #### [Требования к окружающей обстановке при использовании HoloLens](hololens-environment-considerations.md)
+#### [Движущаяся платформа](hololens2-moving-platform.md)
 ### Подключение HoloLens 2
 #### [Подключение HoloLens к сети](hololens-network.md)
 #### [Подключение к устройствам с Bluetooth и USB-C](hololens-connect-devices.md)
