@@ -53,7 +53,7 @@
 #### [Настройка](hololens2-cloud-connected-configure.md)
 #### [Развертывание](hololens2-cloud-connected-deploy.md)
 #### [Техническое обслуживание](hololens2-cloud-connected-maintain.md)
-#### [Руководство по развертыванию среды, подключенной к облаку (внешние клиенты)](hololens2-deployment-guide.md)
+#### [Внешние клиенты](hololens2-deployment-guide.md)
 ### Руководство по развертыванию корпоративной сети
 #### [Обзор](hololens2-corp-connected-overview.md)
 #### [Подготовка](hololens2-corp-connected-prepare.md)
