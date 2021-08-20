@@ -75,7 +75,7 @@
 ### [Шифрование и защита данных](security-encryption-data-protection.md)
 ### [Безопасность сети](security-network-security.md)
 ### [Техника обеспечения безопасности](security-engineering.md)
-### [Заявление о конфиденциальности HoloLens 2](hololens2-compliance.md)
+### [HoloLens 2: обеспечение конфиденциальности и защита данных](hololens2-privacy.md)
 ## Управление устройствами
 ### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
 ## Регистрация устройств

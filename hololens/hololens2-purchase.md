@@ -14,12 +14,12 @@ audience: HoloLens
 manager: sekerawa
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b94172ebbfeea55964a055f62707fe0b6d94a97c53eee717e7ec4da7281bad0e
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 0c110f332337e58f2b1be11057c7564edfd17a1f
+ms.sourcegitcommit: 9c3e1d29a5381c33a385ec33585e3466a10642d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115658830"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "122176894"
 ---
 # <a name="where-to-buy-hololens-2"></a>Где купить HoloLens 2
 
@@ -47,8 +47,8 @@ HoloLens 2 — это самое комфортное устройство с�
 | **Австралия** | Insight Enterprises Australia Pty Ltd | Дженни Саусон (Jenny Southon) [jenny.southon@insight.com](mailto:%3Cjenny.southon@insight.com)<br>Коста Алиджанис (Costa Aligianis) [costa.aligianis@insight.com](mailto:Costa.Aligianis@insight.com) | [Купить HoloLens 2 — Insight Enterprises Australia Pty Ltd](https://au.insight.com/en_AU/shop/partner/microsoft/surface/hololens.html) | [Купить HoloLens 2 Industrial Edition — Insight Enterprises Australia Pty Ltd](https://au.insight.com/en_AU/shop/partner/microsoft/surface/hololens.html) |
 | | Telstra Purple | Джоанна Бари (Joanna Bari) [joanna.kandias@team.telstra.com](mailto:Joanna.kandias@team.telstra.com) Оливер Эшуорт (Oliver Ashworth) [oliver.ashworth@purple.telstra.com](mailto:Oliver.Ashworth@purple.telstra.com) |  |  |
 | **Китай** | Highly Information (HII) 翰林汇信息产业股份有限公司 | Фен Чжоу (Feng Zhou)<br>[zhouf@tcl.com](mailto:zhouf@tcl.com) | [Купить HoloLens 2 — Highly Information](http://www.ehighly.com.cn/productList.html?key=hololens) | [Купить HoloLens 2 Industrial Edition — Highly Information](https://isite.baidu.com/site/highly.com.cn/849172be-8d31-46c3-b704-a09c8614ec7b?fid=nHD1nWckPjDYnjb3PWbdnH6srHPxnHfvnNtk&amp;ch=4&amp;bd_vid=11025645443434810125) |
-| | 四川长虹佳华信息产品有限责任公司/Changhong IT Information Products Co., Ltd | Цан Вей Чен (Qian Wei Cheng) [qianwch@changhongit.com](mailto:qianwch@changhongit.com)  | [Купить HoloLens 2 Industrial Edition — Changhong IT Information Products Co., Ltd](https://isite.baidu.com/site/wjzw72ux/97379685-b8b5-4abd-8bbf-84c376542b72) | [Купить HoloLens 2 Industrial Edition — Changhong IT Information Products Co., Ltd](https://isite.baidu.com/site/wjzw72ux/43c6ba2e-d6f7-4a6c-9f2c-1bdf4bbb5bbd?title=%E4%BA%A7%E5%93%81&uniqId=32b077d6eeab4f3baf6d88a25696f5a5)  |
-| | Tuomeng黑龙江拓盟科技有限公司, CN, 哈尔滨  | Чжаовен Цу (Zhaowen Qiu)<br>[qiuzw@hljtmkj.com](mailto:qiuzw@hljtmkj.com)<br> lidan<br>[lidan@hljtmkj.com](mailto:lidan@hljtmkj.com) | [Купить HoloLens 2 — Tuomeng](http://hljtmkj.com/buy.html) | [Купить HoloLens 2 Industrial Edition — Tuomeng](http://47.92.113.150:8080/sjtbtm/a/sjtb) | 
+| | 四川长虹佳华信息产品有限责任公司/Changhong IT Information Products Co., Ltd | Цан Вей Чен (Qian Wei Cheng) [qianwch@changhongit.com](mailto:qianwch@changhongit.com)  | [Купить HoloLens 2 Industrial Edition — Changhong IT Information Products Co., Ltd](https://isite.baidu.com/site/wjzw72ux/97379685-b8b5-4abd-8bbf-84c376542b72) | [Купить HoloLens 2 Industrial Edition — Changhong IT Information Product7890-=s Co., Ltd](https://isite.baidu.com/site/wjzw72ux/43c6ba2e-d6f7-4a6c-9f2c-1bdf4bbb5bbd?title=%E4%BA%A7%E5%93%81&uniqId=32b077d6eeab4f3baf6d88a25696f5a5)  |
+| | Tuomeng 黑龙江拓盟科技有限公司, CN, 哈尔滨 |lidan lidan@hljtmkj.com | http://hljtmkj.com/buy.html | http://47.92.113.150:8080/sjtbtm/a/sjtb | 
 | | 英施艾特（上海）软件贸易有限公司 Insight Enterprises (Shanghai) Co. Ltd. | Юлиан Кун (Julian Kung) julian.kung@insight.com<br>Зак Чжан (Zac Zhang)<br> zac.zhang@insight.com | [Купить HoloLens 2 — Insight Enterprises (Shanghai)](https://cn.insight.com/zh_CN/shop/partner/microsoft/surface/hololens.html) | [Купить HoloLens 2 Industrial Edition — Insight Enterprises (Shanghai)](https://cn.insight.com/zh_CN/shop/partner/microsoft/surface/hololens.html) |
 | **Специальный административный регион Гонконг** | GO VR Immersive Ltd. (UFO) | Говард Тиан (Howard Tian) <howard.tian@govrimmersive.com> | [Купить HoloLens 2 — GO VR Immersive Ltd.](https://www.govrimmersive.com/hololens2) | [Купить HoloLens 2 Industrial Edition — GO VR Immersive Ltd.](https://www.govrimmersive.com/hololens-2-industrial-edition) |  
 | | Insight Enterprises Hong Kong | Дженни Саусон (Jenny Southon)<br><jenny.southon@insight.com><br>Эдди Цуй (Eddie Tsui)<br><eddie.tsui@insight.com> | [Купить HoloLens 2 — INSIGHT ENTERPRISES HONG KONG](https://hk.insight.com/en_HK/shop/product/ONEIT_HL2/MICROSOFT/ONEIT_HL2/MICROSOFT-%20HOLOLENS-2/) | [Купить HoloLens 2 Industrial Edition — INSIGHT ENTERPRISES HONG KONG](https://hk.insight.com/en_HK/shop/product/ONEIT_HL2/MICROSOFT/ONEIT_HL2/MICROSOFT-%20HOLOLENS-2/) |
