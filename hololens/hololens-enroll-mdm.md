@@ -14,12 +14,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 5ded375d88740b9367eec87e4e902c423f131689
-ms.sourcegitcommit: 6ce962ede986ebfab21d1665722694eaee13c280
+ms.openlocfilehash: a368c622c137374ea9cc544490d3492fa9d3f8c1
+ms.sourcegitcommit: 749d617f3f0ce3e6363ff6cd1a03f87b9280f418
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "122858989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122979361"
 ---
 # <a name="enroll-hololens-in-mdm"></a>Регистрация HoloLens в MDM
 
@@ -68,4 +68,4 @@ ms.locfileid: "122858989"
 
 ## <a name="ensure-that-mdm-enrollment-isnt-blocked-for-windows-devices"></a>убедитесь, что регистрация MDM не заблокирована для устройств Windows
 
-чтобы выполнить автоматическое пилотное завершение, необходимо убедиться, что ваши HoloLens устройства могут быть зарегистрированы. так как HoloLens считается Windowsным устройством, в нем не должно быть ограничений на регистрацию, которые могут заблокировать развертывание. [Ознакомьтесь с этим списком ограничений](/mem/intune/enrollment/enrollment-restrictions-set) и убедитесь, что вы сможете регистрировать устройства.
+чтобы зарегистрироваться в случае успешности, необходимо убедиться, что ваши HoloLens устройства могут быть зарегистрированы. так как HoloLens считается Windowsным устройством, в нем не должно быть ограничений на регистрацию, которые могут заблокировать развертывание. [Ознакомьтесь с этим списком ограничений](/mem/intune/enrollment/enrollment-restrictions-set) и убедитесь, что вы сможете регистрировать устройства.
