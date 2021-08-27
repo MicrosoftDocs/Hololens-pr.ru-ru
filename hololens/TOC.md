@@ -93,7 +93,7 @@
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
 ### [Общие ограничения устройств](hololens-common-device-restrictions.md)
 ### [Настройка HoloLens в качестве киоска](hololens-kiosk.md)
-### [Глобальный ограниченный доступ — режим киоска](hololens-global-assigned-access-kiosk.md)
+### [Справочные сведения о киоске HoloLens](hololens-kiosk-reference.md)
 ### [Управление приложениями в Защитнике Windows — WDAC](windows-defender-application-control-wdac.md)
 ### [CSP и URI параметров страницы для HoloLens](settings-uri-list.md)
 ## Подключение к сети
