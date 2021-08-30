@@ -7,12 +7,12 @@ description: Возможности поддержки смешанной реа
 ms.prod: hololens
 ms.topic: article
 ms.date: 3/19/2021
-ms.openlocfilehash: 43940fca03dec957c2afc6108e1ce77979aa000c1366bdc873056107d0b7da20
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 17aaf8627384098de240d2c2e79c1ed9b0d39165
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115658768"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190452"
 ---
 # <a name="what-are-the-mixed-reality-support-and-help-options"></a>Каковы возможности поддержки смешанной реальности и справки?
 
@@ -124,18 +124,18 @@ ms.locfileid: "115658768"
 
 1. Открыв [портал Azure](https://azure.microsoft.com/account/), выберите значок справки в верхней строке меню, а затем нажмите кнопку **Справка и поддержка**.
 
-   ![Справка и поддержка портала Azure](../hololens/images/azure-help-support.png)
+   ![Портал Azure справки и поддержки.](../hololens/images/azure-help-support.png)
 
 2. На открытой странице "Справка и поддержка" выберите **+ Новый запрос на поддержку**.
 
-   ![Новый запрос на поддержку портала Azure](../hololens/images/azure-help-support2.png)
+   ![Портал Azure новый запрос в службу поддержки.](../hololens/images/azure-help-support2.png)
 
 3. При заполнении полей заявки в службу поддержки укажите:
 
     + Тип проблемы: "Техническая".
     + Служба: пространственные привязки Azure, удаленная визуализация Azure или привязки объектов Azure
 
-    ![Поля заявок в службу поддержки портала Azure](../hololens/images/azure-help-support3.png)
+    ![Портал Azure поля запроса в службу поддержки.](../hololens/images/azure-help-support3.png)
 
     1. Щелкните **Далее: Solutions (решения** ) в нижней части страницы, чтобы добавить дополнительные сведения, чтобы узнать больше о данной проблемы.
 

@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 80346fd74c9b38ed557d815ed138b1da5702609e
-ms.sourcegitcommit: 6ce962ede986ebfab21d1665722694eaee13c280
+ms.openlocfilehash: b865f9f9a9a734ef6a6c6419fc523049e925d5f8
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "122859023"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189483"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -203,7 +203,7 @@ OMA-URI нового `./Device/Vendor/MSFT/Policy/Config/MixedReality/AutoLogonU
 
 теперь Windows предварительная сборка перемещается на каналы. **Быстрый** звонок станет **каналом разработки**, а **медленный** звонок станет **бета-каналом**, а **выпуск предварительной** версии будет стать **каналом предварительной** версии. Это сопоставление выглядит следующим образом:
 
-![Windows Пояснения к каналам предварительной оценки](images/WindowsInsiderChannels.png)
+![Windows Пояснения к каналам предварительной оценки.](images/WindowsInsiderChannels.png)
 
 дополнительные сведения см. в статье [введение Windows участников предварительной оценки](https://blogs.windows.com/windowsexperience/2020/06/15/introducing-windows-insider-channels) в блогах Windows.
 затем выберите **активная разработка Windows**, выберите, хотите ли вы получить сборки **канала разработки** или **бета-канала** и просмотрите условия программы.

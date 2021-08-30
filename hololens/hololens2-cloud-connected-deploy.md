@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 593dc65ab97eaae65591a5239cd0a978750eac9fa538364ba6bbc7ef0a2a08a4
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 519770badab9f260316fe4cfff4bf453a7c971a7
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660505"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189755"
 ---
 # <a name="deploy---cloud-connected-guide"></a>Развертывание — подключение к облаку
 
@@ -38,7 +38,7 @@ ms.locfileid: "115660505"
 1. выберите приложение **Параметры** и выберите **система.** первая часть информации, которую вы&#39;видите, — это имя устройства, которое будет использоваться для устройства HoloLens 2, &quot; &quot; за которым следует 6-символьная строка.
 1. Запишите это имя.
 
-![Параметры HoloLens 2](./images/hololens2-settings-about.jpg)
+![HoloLens 2 Параметры.](./images/hololens2-settings-about.jpg)
 
 7. вы можете убедиться, что устройство успешно зарегистрировано в Azure AD в приложении Параметры. на **Параметры** выберите **учетные записи**  ->  **доступ к рабочей или учебной заведению**. На этом экране вы можете убедиться, что вы успешно зарегистрировались, просмотрев &quot; Подключение к _намеофаад_&#39;s Azure AD. Подключено с помощью _йоурусернаме_ @ _намеофаад_. onmicrosoft.com &quot; .
 
@@ -46,11 +46,11 @@ ms.locfileid: "115660505"
 чтобы проверить, присоединено ли устройство к Azure AD, можно проверить Azure Active Directory из [портал Azure](https://portal.azure.com/#home)  ->  **Azure Active Directory**  ->  **устройства**  ->  **все устройства** и выполнить поиск по имени устройства. Вы&#39;увидеть, что устройство является частью Azure Active Directory.
 
 
-![Azure Active Directory-Device](./images/aad-enrollment.png)
+![Azure Active Directory-Device.](./images/aad-enrollment.png)
 
 далее&#39;потребоваться войти в [центр администрирования Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home). Войдите в систему и выберите **устройства** , а затем **все устройства**. здесь можно выполнить поиск по имени HoloLens устройства&#39;s. вы сможете просмотреть HoloLens, перечисленные в Intune.
 
-![Intune — устройство](./images/endpoint-all-devices-enrolled.png)
+![Intune — устройство.](./images/endpoint-all-devices-enrolled.png)
 
 ## <a name="remote-assist-call-validation"></a>Проверка удаленного вызова помощника
 

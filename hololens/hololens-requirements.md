@@ -12,16 +12,16 @@ ms.localizationpriority: medium
 ms.date: 11/04/2020
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 27fd7f81d2868134344c7563ebc0a93133a18c0a217d6eff820b5f322e9271a7
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 5a4f251f3ca6eae5e85e4d763074e035039159cb
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115662908"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189245"
 ---
 # <a name="common-deployment-scenarios"></a>Общие сценарии развертывания
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 Если вы впервые попробуете развернуть новое устройство, то это может быть очень трудным. здесь мы совместно используем различные способы развертывания устройств Microsoft HoloLens 2 и управления ими в организации.
 
@@ -39,7 +39,7 @@ ms.locfileid: "115662908"
 
 Этот сценарий сравним с развертыванием управляемых мобильных устройств в компании. HoloLens 2 развертывается для использования в основном в средах, которые являются внешними по отношению к корпоративной сети. Корпоративные ресурсы недоступны или могут быть ограничены через VPN.
 
-[![Сценарий. схема](images/deployment-guides-revised-scenario-a.png)](images/deployment-guides-revised-scenario-a.png#lightbox)
+[![Сценарий схемы.](images/deployment-guides-revised-scenario-a.png)](images/deployment-guides-revised-scenario-a.png#lightbox)
 
 ### <a name="when-to-use"></a>Назначение
 
@@ -75,9 +75,9 @@ ms.locfileid: "115662908"
 
 этот сценарий аналогичен классическому развертыванию большинства Windows 10 пк. HoloLens 2 развертывается для использования в основном в корпоративной сети с доступом к внутренним корпоративным ресурсам. Интернет и облачные службы могут быть ограничены. 
 
-[![Схема "B1"](images/deployment-guides-revised-scenario-b-01-1.png)](images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
+[![Схема «диаграмма B1».](images/deployment-guides-revised-scenario-b-01-1.png)](images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
 
-[![Схема сценария B2](images/deployment-guides-revised-scenario-b-02-1.png)](images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
+[![Схема сценария B2.](images/deployment-guides-revised-scenario-b-02-1.png)](images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
 
 ### <a name="when-to-use"></a>Назначение
 
@@ -111,7 +111,7 @@ ms.locfileid: "115662908"
 
 Это типичное развертывание для очень безопасных или конфиденциальных расположений. HoloLens 2 развертывается для использования в основном автономном режиме без доступа к сети или к интернету.
 
-[![Автономная защита схемы 1](images/deployment-guides-revised-scenario-c-01.png)](images/deployment-guides-revised-scenario-c-01.png#lightbox)
+[![Автономная защита схемы 1.](images/deployment-guides-revised-scenario-c-01.png)](images/deployment-guides-revised-scenario-c-01.png#lightbox)
 
 ### <a name="when-to-use"></a>Назначение
 

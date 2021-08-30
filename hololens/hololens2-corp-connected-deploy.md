@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: f9435ce94986a851bb7744eeea48fa6e411454f5090d7ae11c869ba6f27dc942
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 7df2b00b2d87be7b9ad4a5d84c83251ec0ebec4d
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660196"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189687"
 ---
 # <a name="deploy---corporate-connected-guide"></a>Развертывание — интегрированное с корпоративным руководством
 
@@ -49,14 +49,14 @@ ms.locfileid: "115660196"
 
 7. Запишите это имя.
 
-    ![экран Параметры HoloLens 2](./images/hololens2-settings-about.jpg)
+    ![экран HoloLens 2 Параметры.](./images/hololens2-settings-about.jpg)
 
 8. Убедитесь, что устройство успешно присоединено к Azure AD. Существует два способа.
 
     1.  приложение Параметры. на **Параметры** выберите **учетные записи**  ->  **доступ к рабочей или учебной заведению**. На этом экране вы можете убедиться, что регистрация успешно выполнена, просмотрев &quot; Подключение к намеофаад&#39;s Azure AD. Соединено *yourusername@nameofAAD.onmicrosoft.com* . Это позволит проверить, присоединено ли ваше устройство к вашей организации&#39;s Azure AD.
 
     1. [Портал Azure](https://portal.azure.com/#home). перейдите в **Azure Active Directory**  ->  **устройства**  ->  **все устройства** и выполните поиск по имени устройства. В разделе Тип соединения будет отображаться как "присоединение к Azure AD".
-        ![Проверка типа присоединение в Azure AD](./images/hololens2-devices-all-devices.png)
+        ![Проверьте тип присоединение в Azure AD.](./images/hololens2-devices-all-devices.png)
 
 9. Убедитесь, что устройство зарегистрировано в MDM. Существует два способа.
 
@@ -64,7 +64,7 @@ ms.locfileid: "115660196"
 
     1. [центр администрирования Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home). Войдите в систему и выберите  **устройства**  , а затем  **все устройства**. здесь можно выполнить поиск по имени HoloLens устройства&#39;s. вы сможете просмотреть HoloLens, перечисленные в Intune.
 
-        ![Проверка управления с помощью Intune в Azure AD](./images/hololens2-devices-all-devices2.png)
+        ![Проверьте управление с помощью Intune в Azure AD.](./images/hololens2-devices-all-devices2.png)
 
 
 ## <a name="wi-fi-certificate-validation"></a>Проверка сертификата Wi-Fi

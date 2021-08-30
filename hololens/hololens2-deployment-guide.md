@@ -13,18 +13,18 @@ ms.reviewer: ''
 manager: sekerawa
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 476ea17dfad114741191595fa0ce3bd1c7bca28d
-ms.sourcegitcommit: 7b666c63a0367032a4a3f366b7f9029b2613e345
+ms.openlocfilehash: d5cd9c380e0d276f0a8aa9efac14cf44885446e5
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "122401139"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190333"
 ---
 # <a name="deploy-cloud-connected-hololens-2-to-external-clients"></a>развертывание облачных HoloLens 2, подключенных к внешним клиентам
 
 Данное руководством является дополнением к [руководству по развертыванию, подключенному к облаку](hololens2-cloud-connected-overview.md). она используется в ситуациях, когда организации требуется поставлять HoloLens 2 устройства для использования в качестве краткосрочного или долгосрочного пользования. внешний клиент будет входить в HoloLens 2 устройство, используя учетные данные, предоставленные вашей организацией, и использовать [удаленную помощь](/dynamics365/mixed-reality/remote-assist/ra-overview) для связи с экспертами. в этом разделе приведены [общие рекомендации по развертыванию HoloLens 2](#general-deployment-recommendations) , применимые к большинству сценариев развертывания внешних HoloLens 2, и [распространенные проблемы](#common-external-client-deployment-concerns) , с которыми сталкиваются клиенты при развертывании удаленного помощника для внешнего использования. 
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 для развертывания HoloLens 2 внешне необходимо использовать следующую инфраструктуру в разделе с [руководством по развертыванию Cloud connected](hololens2-cloud-connected-overview.md) .
 
@@ -114,7 +114,7 @@ HoloLens удаленного помощника для HoloLens вызовов 
 
 **Изображение 1,1**
 
-![Образ клиента службы](./images/hololens-service-tenant-image.png)
+![Образ клиента службы.](./images/hololens-service-tenant-image.png)
 
 ### <a name="hidden-or-restricted-apps"></a>Скрытые или ограниченные приложения
 

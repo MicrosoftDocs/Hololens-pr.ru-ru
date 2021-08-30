@@ -16,12 +16,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 999e16f117e4f0838c4a0cb6d6bafcbbf72e1d5a
-ms.sourcegitcommit: 6ce962ede986ebfab21d1665722694eaee13c280
+ms.openlocfilehash: 9474774b47858003cc11363a5f325f589b0732ab
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "122859040"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189007"
 ---
 # <a name="configure-hololens-by-using-a-provisioning-package"></a>настройка HoloLens с помощью пакета подготовки
 
@@ -76,7 +76,7 @@ ms.locfileid: "122859040"
 
 2. выберите **подготавливать HoloLens устройства**.
 
-   ![Параметры запуска ICD](images/icd-create-options-1703.png)
+   ![Параметры запуска ICD.](images/icd-create-options-1703.png)
 
 3. Присвойте проекту имя и нажмите кнопку **Готово**.
 
@@ -110,7 +110,7 @@ ms.locfileid: "122859040"
 
 4. в окне **выберите параметры для просмотра и настройки** выберите **Windows 10 Holographic**, а затем нажмите кнопку **далее**.
 
-5. Нажмите кнопку **Готово**.
+5. Нажмите кнопку **Завершить**.
 
 6. Разверните **Параметры среды выполнения** и настройте пакет с помощью любого из параметров, [описанных далее в этой статье](#what-you-can-configure).
 
@@ -235,7 +235,7 @@ HoloLens 2 устройства [Windows holographic 20H2](hololens-release-note
 
 В конструкторе конфигураций Windows при создании пакета подготовки для Windows Holographic параметры в разделе **Доступные настройки** основаны на [поставщиках CSP, которые поддерживаются в среде Windows Holographic](/windows/client-management/mdm/configuration-service-provider-reference#csps-supported-in-hololens-devices). В следующей таблице рассматриваются параметры, которые можно настроить для HoloLens.
 
-![Общие параметры среды выполнения для HoloLens](images/icd-settings.png)
+![Общие параметры среды выполнения для HoloLens.](images/icd-settings.png)
 
 | Параметр | Описание |
 | --- | --- |

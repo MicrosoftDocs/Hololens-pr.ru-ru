@@ -13,12 +13,12 @@ ms.topic: article
 ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 6e98918c89da7e74157d8fc003e6997f1e44b8538e9006a835707e85c5fd3307
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 98ec5795974fa242225bb1048ead41892d8296e4
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115662753"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189959"
 ---
 # <a name="use-the-hololens-1st-gen-clicker"></a>Использование пульта HoloLens (1-го поколения)
 
@@ -30,7 +30,7 @@ ms.locfileid: "115662753"
 
 у щелчка HoloLens (1-го поколения) есть цикл пальца, чтобы упростить его хранение и индикатор индикатора.
 
-![щелчок HoloLens](images/use-hololens-clicker-1.png)
+![HoloLens щелчком мыши.](images/use-hololens-clicker-1.png)
 
 ### <a name="clicker-indicator-lights"></a>Индикаторы индикаторов щелчков
 
@@ -58,7 +58,7 @@ ms.locfileid: "115662753"
 
 Чтобы разместить указатель мыши, проведите цикл по кругу или посередине пальца, чтобы порт Micro USB был направлен на ваш компьютер. Наведите бегунок в отступы.
 
-![Как удерживать нажатой клавишу](images/use-hololens-clicker-2.png)
+![Как удерживать нажатой кнопку.](images/use-hololens-clicker-2.png)
 
 ### <a name="clicker-gestures"></a>Жесты щелчка
 

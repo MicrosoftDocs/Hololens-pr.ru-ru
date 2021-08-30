@@ -14,12 +14,12 @@ manager: bradke
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 3aa5ed676a9f8864904752da3d965cba5fab7ce98db51abb4ff9444f1a0a370b
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 9b306b10ff82603fd238f195beacc300f1a82bf6
+ms.sourcegitcommit: 6ce962ede986ebfab21d1665722694eaee13c280
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664467"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "122859006"
 ---
 # <a name="configure-your-network-for-hololens"></a>Настройка сети для HoloLens
 
@@ -180,7 +180,7 @@ Intune включает функцию под названием "круги о�
 
 ![Рисунок, на котором показана настройка режима терминала в Intune](images/aad-kioskmode.png)
 
-Инструкции по другим службам MDM см. в документации вашего поставщика. Если вам нужно использовать настраиваемый параметр и полную конфигурацию XML для настройки терминала в службе MDM, воспользуйтесь инструкциями для [терминала HoloLens](hololens-kiosk.md#use-microsoft-intune-or-other-mdm-to-set-up-a-single-app-or-multi-app-kiosk).
+Инструкции по другим службам MDM см. в документации вашего поставщика. Если вам нужно использовать настраиваемый параметр и полную конфигурацию XML для настройки терминала в службе MDM, воспользуйтесь инструкциями для [терминала HoloLens](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens).
 
 ## <a name="certificates-and-authentication"></a>Сертификаты и проверка подлинности
 

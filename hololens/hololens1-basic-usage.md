@@ -14,12 +14,12 @@ ms.topic: article
 ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 74b0c8b78bf6e310965f674098a883acda5ed6101f74619c2dea209beb27e47d
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 70ee881eb0c2ffaade173b31e5168371d042bbb2
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115662799"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190078"
 ---
 # <a name="getting-around-hololens-1st-gen"></a>Начало работы с HoloLens (1-го поколения)
 
@@ -45,7 +45,7 @@ ms.locfileid: "115662799"
 
 Датчики устройства HoloLens могут отслеживать происходящее на расстоянии около метра по обе стороны от вас. При использовании рук они должны оставаться в пределах этого поля, иначе HoloLens не сможет их определить. По мере движения фрейм перемещается вместе с вами.  
 
-![Изображение, показывающее поле отслеживания рук устройства HoloLens](./images/hololens-2-gesture-frame.png)
+![изображение, показывающее кадр отслеживания HoloLens.](./images/hololens-2-gesture-frame.png)
 
 ### <a name="open-the-start-menu-with-bloom"></a>открытие меню с помощью раскрытия
 
@@ -53,7 +53,7 @@ ms.locfileid: "115662799"
 
 1. Держите руку перед вами, чтобы он надержался в рамке жеста.
 1. Раскрытия. Объедините все пальцы вместе, а затем откройте свою руку.
-  ![Анимация, показывающая жест раскрытия](./images/hololens-bloom.gif)
+  ![Анимация, показывающая жест раскрытия.](./images/hololens-bloom.gif)
 
 ### <a name="select-holograms-with-gaze-and-air-tap"></a>Выбор голограмм с помощью взгляда и касания Air
 
@@ -62,7 +62,7 @@ ms.locfileid: "115662799"
 1. Взгляните на голограмму, которую хотите выбрать.
 1. Наведите указательный палец прямо на потолок.
 1. Воздушный нажим: Снизьте палец, а затем быстро повысьте его.
-   ![Анимация жеста касания](./images/hololens-air-tap.gif)
+   ![Анимация жеста касания воздуха.](./images/hololens-air-tap.gif)
 
 ### <a name="select-a-hologram-by-using-your-voice"></a>Выбор голограммы с помощью голоса
 

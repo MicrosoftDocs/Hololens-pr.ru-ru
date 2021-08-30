@@ -13,12 +13,12 @@ ms.reviewer: ''
 manager: laurawi
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 4b07bb87b34ec966472bcbde000106590570fd7e7063ab503724884fa266bb34
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: d5cf7385dd0a53c6b17f79e16364e84ab6ec867d
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115662720"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189942"
 ---
 # <a name="hololens-1st-gen-bitlocker-encryption"></a>Шифрование BitLocker для HoloLens (1-го поколения)
 
@@ -51,7 +51,7 @@ HoloLens (1-й gen) и HoloLens 2 поддерживают шифрование 
 1. [Создайте пакет подготовки для HoloLens.](hololens-provisioning.md)
 1. Перейдите в раздел **Параметры среды выполнения**  >  **политики**  >  **Безопасность** и выберите **рекуиредевицеенкриптион**.
 
-    ![Параметру "Требовать шифрования устройств" установлено значение "Да"](images/device-encryption.png)
+    ![Для параметра требовать шифрование устройства задано значение Да.](images/device-encryption.png)
 
 1. Найдите файл лицензии XML, который был предоставлен при приобретении коммерческого набора.
 
@@ -101,4 +101,4 @@ HoloLens (1-й gen) и HoloLens 2 поддерживают шифрование 
 
 - на HoloLens перейдите в раздел **Параметры**  >  **система**  >  **о программе**. **BitLocker** **включается** , если устройство зашифровано. 
 
-    ![О снимке экрана с включенным BitLocker](images/about-encryption.png)
+    ![О снимке экрана с включенным BitLocker.](images/about-encryption.png)

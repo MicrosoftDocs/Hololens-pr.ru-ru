@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 28c431397385c06fb94de410a0763e24e18e4509
-ms.sourcegitcommit: 749d617f3f0ce3e6363ff6cd1a03f87b9280f418
+ms.openlocfilehash: f717a0323d1b141423fab52e49a38407ba617d02
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122979378"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189347"
 ---
 # <a name="set-up-hololens-as-a-kiosk"></a>Настройка HoloLens в качестве киоска
 
@@ -53,7 +53,7 @@ ms.locfileid: "122979378"
 3. Для режима киоска нескольких приложений определите приложения для отображения в меню "Пуск". Для каждого приложения потребуется [идентификатор модели пользователя приложения (AUMID)](hololens-kiosk-reference.md#hololens-application-user-model-ids-aumids) .
 4. определите, будет ли режим киоска применен к HoloLens через пакеты подготовки среды выполнения или сервер управления мобильными устройствами (MDM).
 
-## <a name="security-considerations"></a>Замечания по безопасности
+## <a name="security-considerations"></a>Вопросы безопасности
 
 Режим киоска не следует рассматривать как метод безопасности, но в качестве средства управления запуском при входе пользователя. Режим киоска можно сочетать с вариантами, упомянутыми ниже, если есть определенные потребности, связанные с безопасностью.
 
@@ -78,6 +78,16 @@ ms.locfileid: "122979378"
 
 ### <a name="for-users-who-sign-in-as-either-local-account-or-msa"></a>Для пользователей, которые входят в локальную учетную запись или MSA.
 
+### <a name="prov-package-step-2-ndash-add-the-kiosk-configuration-xml-file-to-a-provisioning-package"></a><a id="ppconfigadd"></a>Prov. пакет, шаг 2. &ndash; Добавление XML-файла конфигурации киоска в пакет подготовки
+
+1. откройте [конструктор конфигураций Windows](https://www.microsoft.com/store/apps/9nblggh4tx22).
+1. Выберите **Расширенная подготовка**, введите имя проекта и нажмите кнопку **Далее**.
+1. выберите **Windows 10 Holographic**, а затем нажмите кнопку **далее**.
+1. Нажмите кнопку **Завершить**. Откроется рабочая область для вашего пакета.
+1. Выберите **Параметры среды выполнения**  >  **ассигнедакцесс**  >  **мултиаппассигнедакцесссеттингс**.
+1. В центральной области выберите **Обзор** , чтобы найти и выбрать созданный XML-файл конфигурации киоска.
+
+   ![снимок экрана поля мултиаппассигнедакцесссеттингс в конструкторе конфигураций Windows.](./images/multiappassignedaccesssettings.png)
 | **Желаемый опыт в киоске** | **Рекомендуемая конфигурация киоска** | **Способы настройки**  | **Замечания** |
 | --- | --- | --- | --- |
 | Каждый пользователь, вошедший в систему, получает опыт работы в киоске. | [Настройка профиля глобального назначенного доступа к приложению для нескольких приложений](hololens-kiosk-reference.md#multiple-app-global-assigned-access-profile) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | Для глобального назначенного доступа требуется [20H2 и более новые сборки](hololens-release-notes.md#windows-holographic-version-20h2) |
@@ -110,7 +120,7 @@ ms.locfileid: "122979378"
 
 [!INCLUDE[](includes/kiosk-configure-steps.md)]
 
-## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+## <a name="frequently-asked-questions"></a>Вопросы и ответы
 
 ### <a name="how-can-visitor-accounts-automatically-logon-to-kiosk-experience"></a>Как можно автоматически войти в киоск с учетными записями посетителей?
 

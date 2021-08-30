@@ -16,12 +16,12 @@ ms.custom:
 - CSSTroubleshooting
 appliesto:
 - HoloLens (1st gen)
-ms.openlocfilehash: 7d564fd00567033060428d5b47b34ddf827dea2fdeeb8955c73bc22e4ba87164
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b6769c36f821ee3619ac9b62efd637ac561192bb
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664963"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123188854"
 ---
 # <a name="manage-custom-apps-for-hololens-1st-gen"></a>управление пользовательскими приложениями для HoloLens (1-й общий)
 
@@ -55,7 +55,7 @@ HoloLens поддерживает множество существующих п
 1. Выберите **Перейти**.
 
    > [!div class="mx-imgBorder"]
-   > ![установите форму приложения на портале устройств Windows на Microsoft HoloLens](images/deviceportal-appmanager.jpg)
+   > ![установите форму приложения на портале устройств Windows на Microsoft HoloLens.](images/deviceportal-appmanager.jpg)
 
 ### <a name="deploying-from-microsoft-visual-studio-2015"></a>развертывание из Microsoft Visual Studio 2015
 
@@ -73,7 +73,7 @@ HoloLens поддерживает множество существующих п
 
 1. чтобы развернуть приложение с компьютера разработки на HoloLens, выберите **удаленный компьютер**. если у вас уже есть сборка на HoloLens, выберите **да** , чтобы установить эту новую версию.  
 
-   ![развертывание удаленного компьютера для приложений для Microsoft HoloLens в Visual Studio](images/vs2015-remotedeployment.jpg)  
+   ![развертывание удаленного компьютера для приложений, Microsoft HoloLens в Visual Studio.](images/vs2015-remotedeployment.jpg)  
    
 1. Приложение будет установлено и запущено на HoloLens.
 

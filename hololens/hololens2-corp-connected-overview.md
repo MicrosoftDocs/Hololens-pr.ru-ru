@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 67e34ea275ef73adda840ee4f44d9c0c3c9440ef0bd2aef48cb7aaa971219220
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 541c1080d7f5fe9491d6cb11179ea98b160f687c
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660112"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190180"
 ---
 # <a name="deployment-guide---corporate-connected-hololens-2-with-dynamics-365-guides---overview"></a>руководство по развертыванию: корпоративные подключенные HoloLens 2 с руководствами по Dynamics 365 — обзор
 
@@ -38,14 +38,14 @@ ms.locfileid: "115660112"
     - Одно или несколько приложений развертываются с помощью MDM.
 - Сеть 
     - Сертификаты (SCEP или PKCS)
-    - Конфигурация прокси-сервера
+    - настройки прокси-сервера;
 - Пользователи входят с помощью собственной корпоративной учетной записи (Azure AD)
     - Поддерживается одно или несколько пользователей на каждом устройстве.
 - Различные уровни конфигурации блокировки устройств, применяемые на основе конкретных вариантов использования, от полного открытия до одного киоска приложения.
 
 ## <a name="guides-licensing-and-requirements"></a>[Руководства по лицензированию и требованиям](/dynamics365/mixed-reality/guides/requirements#licensing-and-product-requirements)
 
-- Учетная запись Azure AD
+- Учетная запись Azure AD
 - Dynamics 365 предлагает приложениям ПК и HoloLens
 - Подписка на Dynamics 365 Guides
     - Microsoft Инверсия (включена)
@@ -53,12 +53,12 @@ ms.locfileid: "115660112"
 - Power BI Desktop
 - Сетевое подключение
 
-[![Схема сети с подключенной корпоративной сетью, этап 1 ](./images/deployment-guides-revised-scenario-b-01-1.png)](./images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
+[![Схема сети с подключенной корпоративной сетью, этап 1. ](./images/deployment-guides-revised-scenario-b-01-1.png)](./images/deployment-guides-revised-scenario-b-01-1.png#lightbox)
 
-[![Схема сетей, подключенных к корпоративной сети, этап 2 ](./images/deployment-guides-revised-scenario-b-02-1.png)](./images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
+[![Схема сетей, подключенная к корпоративной сети, этап 2. ](./images/deployment-guides-revised-scenario-b-02-1.png)](./images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
 
 ## <a name="in-this-guide-you-will"></a>В руководстве описаны следующие действия:
-### <a name="prepare"></a>Подготовка.
+### <a name="prepare"></a>Подготовка
 > [!div class="checklist"]
 >- [ознакомьтесь с основными сведениями об инфраструктуре для HoloLens 2 устройств.](hololens2-corp-connected-prepare.md#infrastructure-essentials)
 >- [Узнайте больше об Azure AD и настройте его, если у вас его нет.](hololens2-corp-connected-prepare.md#azure-active-directory)
@@ -77,7 +77,7 @@ ms.locfileid: "115660112"
 >- [Настройка руководств по Dynamics 365.](hololens2-corp-connected-configure.md#setup-guides-application-licenses-dataverse-and-authoring)
 >- [Настройка режима киоска (необязательно).](hololens2-corp-connected-configure.md#optional-kiosk-mode)
 >- [Настройка WDAC (необязательно).](hololens2-corp-connected-configure.md#optional-wdac)
-### <a name="deploy"></a>Развернуть
+### <a name="deploy"></a>Развертывание
 > [!div class="checklist"]
 >-  [Проверка регистрации через устройство и MDM.](hololens2-corp-connected-deploy.md#enrollment-validation)
 >-  [Проверка сертификатов Wi-Fi.](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation)

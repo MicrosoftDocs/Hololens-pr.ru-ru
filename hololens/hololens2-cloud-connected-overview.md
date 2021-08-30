@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8bba313e7b5ee3d055c2b6ff2c60810baf428ecfa7d5554a1efb4e0aa9e1e98b
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 66e543dd699edbd54ab41474f3ea86fa313bf6ba
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660304"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189653"
 ---
 # <a name="deployment-guide--cloud-connected-hololens-2-with-remote-assist--overview"></a>руководство по развертыванию: облачное подключение HoloLens 2 с помощью удаленного помощника — обзор
 
@@ -38,7 +38,7 @@ ms.locfileid: "115660304"
 - Пользователи входят с помощью собственной корпоративной учетной записи (Azure AD)
     - Поддерживаются один или несколько пользователей на каждом устройстве.
 
-:::image type="content" alt-text="Сценарий с подключением к облаку" source="./images/deployment-guides-revised-scenario-a.png" lightbox="./images/deployment-guides-revised-scenario-a.png":::
+:::image type="content" alt-text="Сценарий с подключением к облаку." source="./images/deployment-guides-revised-scenario-a.png" lightbox="./images/deployment-guides-revised-scenario-a.png":::
 
 
 ## <a name="learn-about-remote-assist"></a>Дополнительные сведения об удаленной помощи

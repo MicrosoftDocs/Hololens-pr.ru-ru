@@ -12,16 +12,16 @@ ms.localizationpriority: medium
 ms.date: 05/21/2021
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8273813d85c3b2df2c1a551fb0322a867a5a9c64fdd05e9a85a2097b1590fb62
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 8605d1a889fb9facdab0e9585a43a61880155952
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664326"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123188905"
 ---
 # <a name="planning-hololens-2-deployment-in-a-commercial-environment"></a>Планирование развертывания HoloLens 2 в коммерческой среде
 
-## <a name="overview"></a>Общие сведения
+## <a name="overview"></a>Обзор
 
 > [!NOTE]
 > этот обзор предназначен для того, чтобы помочь ит-специалистам в понимании вопросов развертывания и управления устройствами Microsoft HoloLens 2 в организации. сведения для конечных пользователей устройств см. в статье [подготовка HoloLens 2 к использованию](hololens2-setup.md) для начала работы.
@@ -32,17 +32,17 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 
 | &nbsp; | &nbsp; |
 |--|--|
-| ![Шаг 1](images/1green.png)| <br/> **[распространенные сценарии развертывания](hololens-requirements.md)**. ознакомьтесь со сценариями развертывания и изучите основные компоненты, необходимые для развертывания HoloLens 2 устройств. |
-| ![Шаг 2](images/2green.png)| <br/> **[Подготовка](#prepare)**. Ознакомьтесь с основными требованиями к инфраструктуре, необходимыми для HoloLens 2. |
-| ![Шаг 3](images/3green.png) | <br/> **[Настройка](#configure)**: Узнайте, как настроить ключевые компоненты для облачного развертывания. |
-| ![Шаг 4](images/4green.png) | <br/> **[Развертывание](#deploy)**: Узнайте, как развертывать устройства и распространять приложения в безопасном и эффективном режиме. |
-| ![Шаг 5](images/5green.png) | <br/> **[обслуживание](#maintain)**. узнайте, что необходимо для правильного поддержания состояния устройств HoloLens 2 и обеспечения соответствия требованиям корпоративной политики. |
+| ![Шаг 1.](images/1green.png)| <br/> **[распространенные сценарии развертывания](hololens-requirements.md)**. ознакомьтесь со сценариями развертывания и изучите основные компоненты, необходимые для развертывания HoloLens 2 устройств. |
+| ![Шаг 2.](images/2green.png)| <br/> **[Подготовка](#prepare)**. Ознакомьтесь с основными требованиями к инфраструктуре, необходимыми для HoloLens 2. |
+| ![Шаг 3.](images/3green.png) | <br/> **[Настройка](#configure)**: Узнайте, как настроить ключевые компоненты для облачного развертывания. |
+| ![Шаг 4.](images/4green.png) | <br/> **[Развертывание](#deploy)**: Узнайте, как развертывать устройства и распространять приложения в безопасном и эффективном режиме. |
+| ![Шаг 5.](images/5green.png) | <br/> **[обслуживание](#maintain)**. узнайте, что необходимо для правильного поддержания состояния устройств HoloLens 2 и обеспечения соответствия требованиям корпоративной политики. |
 
 <br/>
 
 > [!VIDEO https://channel9.msdn.com/Shows/IT-Ops-Talk/HoloLens-2-Deployment-Overview/player]
 
-## <a name="prepare"></a>Подготовка.
+## <a name="prepare"></a>Подготовка
 
 узнайте о необходимых службах инфраструктуры, необходимых для поддержки полного набора возможностей HoloLens 2.
 
@@ -62,7 +62,7 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | [Лицензии приложений](hololens2-cloud-connected-configure.md#application-licenses)| Может применяться к пользователям, группам пользователей или группам устройств  |
 | [Пользователи и группы Azure](hololens2-cloud-connected-configure.md#azure-users-and-groups) | Помогает назначать конфигурации и лицензии для HoloLens 2  |
 
-## <a name="deploy"></a>Развернуть
+## <a name="deploy"></a>Развертывание
 
 распространение устройств HoloLens 2 и проверка их конфигурации. 
 
@@ -79,4 +79,4 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | Компонент | Описание |
 |-----------|------------|
 | [Обновление HoloLens 2](hololens-updates.md) | настройка обновлений по мере необходимости с помощью Windows обновлений для бизнеса |
-| [Обновить приложения](app-deploy-overview.md) | Настройка с помощью системы MDM или Microsoft Store
+| [Обновление приложений](app-deploy-overview.md) | Настройка с помощью системы MDM или Microsoft Store
