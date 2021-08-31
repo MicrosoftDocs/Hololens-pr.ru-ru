@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 5104a489cebee56938cb1968f253e7e9447e2452
-ms.sourcegitcommit: 6b3b455f66a2b4d5b42f4674a5ff940a2a01c294
+ms.openlocfilehash: cd46e162971ea709d865b2ac998cc7a517d231ec
+ms.sourcegitcommit: 18f6c00a57a6b4608dadcec418d1970455d8ee3a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122610146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122989212"
 ---
 # <a name="moving-platform-mode-on-low-dynamic-motion-moving-platforms"></a>Режим подвижного пола на полу с незначительным динамическим движением
 
@@ -27,6 +27,8 @@ ms.locfileid: "122610146"
 
 > [!NOTE]
 > Сейчас эта функция доступна только [участникам программы предварительной оценки Windows](hololens-insider.md).
+
+![Пример подвижного пола.](./images/mpm-compare.gif)
 
 В этой статье рассматриваются следующие вопросы:
 
