@@ -17,12 +17,12 @@ manager: laurawi
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f717a0323d1b141423fab52e49a38407ba617d02
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.openlocfilehash: e856ac74e959743e8d05ea6acf583700a6450373
+ms.sourcegitcommit: 37611ac0a4efaf69816a734e16b763c810655f1a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189347"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "123411350"
 ---
 # <a name="set-up-hololens-as-a-kiosk"></a>Настройка HoloLens в качестве киоска
 
@@ -78,16 +78,6 @@ ms.locfileid: "123189347"
 
 ### <a name="for-users-who-sign-in-as-either-local-account-or-msa"></a>Для пользователей, которые входят в локальную учетную запись или MSA.
 
-### <a name="prov-package-step-2-ndash-add-the-kiosk-configuration-xml-file-to-a-provisioning-package"></a><a id="ppconfigadd"></a>Prov. пакет, шаг 2. &ndash; Добавление XML-файла конфигурации киоска в пакет подготовки
-
-1. откройте [конструктор конфигураций Windows](https://www.microsoft.com/store/apps/9nblggh4tx22).
-1. Выберите **Расширенная подготовка**, введите имя проекта и нажмите кнопку **Далее**.
-1. выберите **Windows 10 Holographic**, а затем нажмите кнопку **далее**.
-1. Нажмите кнопку **Завершить**. Откроется рабочая область для вашего пакета.
-1. Выберите **Параметры среды выполнения**  >  **ассигнедакцесс**  >  **мултиаппассигнедакцесссеттингс**.
-1. В центральной области выберите **Обзор** , чтобы найти и выбрать созданный XML-файл конфигурации киоска.
-
-   ![снимок экрана поля мултиаппассигнедакцесссеттингс в конструкторе конфигураций Windows.](./images/multiappassignedaccesssettings.png)
 | **Желаемый опыт в киоске** | **Рекомендуемая конфигурация киоска** | **Способы настройки**  | **Замечания** |
 | --- | --- | --- | --- |
 | Каждый пользователь, вошедший в систему, получает опыт работы в киоске. | [Настройка профиля глобального назначенного доступа к приложению для нескольких приложений](hololens-kiosk-reference.md#multiple-app-global-assigned-access-profile) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | Для глобального назначенного доступа требуется [20H2 и более новые сборки](hololens-release-notes.md#windows-holographic-version-20h2) |
@@ -100,7 +90,7 @@ ms.locfileid: "123189347"
 | Каждый пользователь, вошедший в систему, получает опыт работы в киоске. | [Настройка профиля глобального назначенного доступа к приложению для нескольких приложений](hololens-kiosk-reference.md#multiple-app-global-assigned-access-profile) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | Для глобального назначенного доступа требуется [20H2 и более новые сборки](hololens-release-notes.md#windows-holographic-version-20h2) |
 | Каждый пользователь, вошедший в систему, получает опыт работы в киоске, за исключением некоторых пользователей. | [Настройте несколько глобальных назначенных профилей доступа приложения, исключив определенных пользователей (которые должны быть владельцами устройств)](hololens-kiosk-reference.md#multiple-app-global-assigned-access-profile-excluding-device-owners). | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | Для глобального назначенного доступа требуется [20H2 и более новые сборки](hololens-release-notes.md#windows-holographic-version-20h2) |
 | Каждый пользователь AAD получает отдельные специальные возможности для этого пользователя. | [Настройте назначенную конфигурацию доступа для каждого пользователя, который задает имя учетной записи AAD.](hololens-kiosk-reference.md#multiple-app-assigned-access-profiles-for-two-aad-users-or-more) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | &nbsp; |
-| Пользователи в разных группах AAD в полноэкранном режиме, предназначенном только для группы. | [Настройте назначенную конфигурацию доступа для каждой нужной группы AAD.](hololens-kiosk-reference.md#multiple-app-assigned-access-profile-for-two-aad-groups-or-more) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | • когда пользователь входит в систему и HoloLens подключается к интернету, если этот пользователь находится в группе aad, для которой существует конфигурация киоска, пользователь получает доступ к киоску для этой группы aad. <br> • [если при входе пользователя в интернет нет доступа к интернету, пользователь будет работать HoloLens режиме сбоя.](#issue---no-apps-are-shown-in-start-menu-in-kiosk-mode) <br> • Если доступ к Интернету не гарантируется, когда необходимо использовать вход пользователя и киоск на основе группы AAD, [рассмотрите возможность использования аадграупмембершипкачевалидитиндайсполици](hololens-release-notes.md#cache-azure-ad-group-membership-for-offline-kiosk). |
+| Пользователи в разных группах AAD в полноэкранном режиме, предназначенном только для группы. | [Настройте назначенную конфигурацию доступа для каждой нужной группы AAD.](hololens-kiosk-reference.md#multiple-app-assigned-access-profile-for-two-aad-groups-or-more) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — множественное приложение](hololens-kiosk.md?tabs=ppkgmak#steps-in-configuring-kiosk-mode-for-hololens) | • когда пользователь входит в систему и HoloLens подключается к интернету, если этот пользователь находится в группе aad, для которой существует конфигурация киоска, пользователь получает доступ к киоску для этой группы aad. <br> • [если при входе пользователя в интернет нет доступа к интернету, пользователь будет работать HoloLens режиме сбоя.](#issue---no-apps-are-shown-in-start-menu-in-kiosk-mode) <br> • Если доступ к Интернету не гарантируется, когда необходимо использовать вход пользователя и киоск на основе группы AAD, [рассмотрите возможность использования аадграупмембершипкачевалидитиндайсполици](hololens-release-notes.md#cache-azure-ad-group-membership-for-offline-kiosk). <br> • Для обеспечения оптимального опыта работы с группами AAD во время входа рекомендуется использовать [аадграупмембершипкачевалидитиндайсполици](/hololens/hololens-release-notes#cache-azure-ad-group-membership-for-offline-kiosk) |
 | пользователи, которым необходимо использовать HoloLens для временных целей, получают опыт работы в режиме киоска. | [Настройка назначенной конфигурации доступа для посетителей](hololens-kiosk-reference.md#multiple-app-assigned-access-profile-for-visitors) | • [Microsoft Intune настраиваемый шаблон](hololens-kiosk.md?tabs=intunecustom#steps-in-configuring-kiosk-mode-for-hololens) <br> • [Подготовка среды выполнения — одно приложение](hololens-kiosk.md?tabs=ppkgsak#steps-in-configuring-kiosk-mode-for-hololens) | • временная учетная запись пользователя создается автоматически HoloLens при входе и удаляется при выходе из временного пользователя. <br> • Рассмотрите возможность включения [политики автоматического входа посетителя](#how-can-visitor-accounts-automatically-logon-to-kiosk-experience). |
 
 ## <a name="steps-in-configuring-kiosk-mode-for-hololens"></a>Действия по настройке режима киоска для HoloLens
