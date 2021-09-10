@@ -13,12 +13,12 @@ ms.localizationpriority: high
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: c510738595e234b30395aafa309d42bd33affb7889a3174f2e708ba1aac56626
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: f9a6f1692df05e5fd8faec3da07cc85f7c6a32c7
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664909"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189177"
 ---
 # <a name="use-the-start-menu-and-mixed-reality-home"></a>Использование меню "Пуск" и главной страницы смешанной реальности
 
@@ -91,7 +91,7 @@ ms.locfileid: "115664909"
 
 В [Windows Holographic версии 21H1](hololens-release-notes.md#windows-holographic-version-21h1) при открытии гиперссылки или типа файла, которым назначено несколько установленных поддерживаемых приложений, отобразится новое окно с запросом на выбор установленного приложения для открытия такого файла или ссылки. В этом окне также можно открыть файл или ссылку с помощью такого приложения только в этот раз (Once) или и в последующем тоже (Always).
 
-![Окно средства выбора приложений](images/default-app-picker.png)
+![Окно средства выбора приложений.](images/default-app-picker.png)
 
 Если вы выберете Always, но позже захотите изменить, какое приложение открывает файл или ссылку, можно сбросить сохраненные значения по умолчанию в меню **Параметры — Приложения**. Прокрутите страницу вниз и нажмите кнопку **Очистить** в разделе "Default apps for file types" (Приложения по умолчанию для типов файлов) и (или) "Default apps for link types" (Приложения по умолчанию для типов ссылок). В отличие от аналогичных параметров для настольных ПК, вы не можете сбросить значения по умолчанию для отдельных типов файлов.
 

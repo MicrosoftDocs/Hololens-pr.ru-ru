@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 6f50874c39d8bffa43ff94101c81dcffe3dc1b3c34c69e940ed503dc7bd8b4ba
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 8f07ed42c873b62b3b4201c2756b55bbb29707d3
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115659426"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189772"
 ---
 # <a name="set-up-your-hololens-2"></a>Настройка HoloLens 2
 
@@ -82,7 +82,7 @@ ms.locfileid: "115659426"
 
      HoloLens автоматически настроит часовой пояс на основании информации, полученной от сети Wi-Fi. После завершения настройки часовой пояс можно изменить с помощью приложения "Параметры".
 
-    ![Подключение к Wi-Fi](images/11-network.png)
+    ![Подключение к Wi-Fi.](images/11-network.png)
 
     > [!NOTE] 
     > Если вы подключились к Wi-Fi и затем захотели переключиться на другую сеть, находясь в процессе настройки, можно одновременно нажать кнопки **уменьшения громкости** и **увеличения громкости**, чтобы вернуться к этому шагу, если вы используете версию ОС от октября 2019 г. или более позднюю. В более ранних версиях может потребоваться [сбросить устройство](hololens-recovery.md) или перезапустить его в таком месте, где выбранная сеть Wi-Fi недоступна, чтобы предотвратить автоматическое подключение.
@@ -91,15 +91,15 @@ ms.locfileid: "115659426"
 
 1. HoloLens 2 найдет и применит профиль Autopilot, если он существует. На этом экране никаких действий выполнять не нужно.
  
-    ![Поиск профиля Autopilot](images/autopilot-profile-search.png) 
+    ![Поиск профиля Autopilot.](images/autopilot-profile-search.png) 
 
 1. Щелкните **Принять** на экране лицензирования.
 
-    ![Лицензионное соглашение Windows](images/windows-license-agreement.png)
+    ![Лицензионное соглашение Windows.](images/windows-license-agreement.png)
 
 1. Войдите в свою учетную запись. Вы можете выбрать варианты **Моя компания или учебное заведения является владельцем** или **Я являюсь владельцем**.
 
-    ![Настройка пользователя](images/13-device-owner.png)
+    ![Настройка пользователя.](images/13-device-owner.png)
     - При выборе варианта **Моя компания или учебное заведение является владельцем** необходимо выполнить вход с помощью учетной записи Azure AD. Если в вашей организации используется Azure AD Premium и настроена автоматическая регистрация в MDM, устройство HoloLens будет зарегистрировано в MDM автоматически. Если ваша организация не использует Azure AD Premium, автоматическая регистрация в MDM недоступна. В этом случае необходимо [вручную зарегистрировать HoloLens в управлении устройствами](hololens-enroll-mdm.md#different-ways-to-enroll).
 
         1. Введите сведения об учетной записи организации.
@@ -123,11 +123,11 @@ ms.locfileid: "115659426"
   
 1. Теперь вы настроите PIN-код для входа на устройство. Этот PIN-код относится только к конкретному устройству. 
 
-    ![Настройка Windows Hello](images/setup-windows-hello.png)
+    ![Настройка Windows Hello.](images/setup-windows-hello.png)
 
-    ![Настройка PIN-кода Windows Hello](images/windows-hello-pin.png)
+    ![Настройка PIN-кода Windows Hello.](images/windows-hello-pin.png)
 
-    ![Настройка Windows Hello завершена успешно](images/windows-hello-successful.png) 
+    ![Настройка Windows Hello завершена успешно.](images/windows-hello-successful.png) 
 
     
 1. Выберите, нужно ли включить на HoloLens 2 поддержку речи.

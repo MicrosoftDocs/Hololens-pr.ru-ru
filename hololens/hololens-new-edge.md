@@ -9,16 +9,16 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: yannisle
-ms.openlocfilehash: 35d3b38cd442198aec8aaabf46ff7d842c1bf599dbada68718c1d0fa548b2030
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 8ef73733b9fa4f422335977be860371b9570d549
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115663214"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189704"
 ---
 # <a name="introducing-the-new-microsoft-edge"></a>Представляем новое приложение Microsoft Edge
 
-![Анимация: изменение старого логотипа Microsoft Edge на новый логотип Microsoft Edge](images/new-edge.gif)
+![Анимация: изменение старого логотипа Microsoft Edge на новый логотип Microsoft Edge.](images/new-edge.gif)
 
 Новое приложение Microsoft Edge [основано на проекте Chromium с открытым кодом](https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/) для повышения совместимости для клиентов и уменьшения фрагментации для веб-разработчиков.
 
@@ -27,11 +27,11 @@ ms.locfileid: "115663214"
 > [!IMPORTANT]
 > Новое приложение Microsoft Edge автоматически заменит устаревшее приложение Microsoft Edge, которое [больше не поддерживается](https://blogs.windows.com/msedgedev/2021/03/09/microsoft-edge-legacy-end-of-support/) в новых выпусках.
 
-![Снимок экрана: новое приложение Microsoft Edge](images/new-edge-ui.png)
+![Снимок экрана: новое приложение Microsoft Edge.](images/new-edge-ui.png)
 
 ## <a name="launching-the-new-microsoft-edge"></a>Запуск нового приложения Microsoft Edge
 
-Новая версия Microsoft Edge ![Значок нового приложения Microsoft Edge](images/new_edge_logo.png) (сине-зеленый значок вихря) закреплена в меню "Пуск" и запускается автоматически при открытии веб-ссылки.
+Новая версия Microsoft Edge ![Значок нового приложения Microsoft Edge.](images/new_edge_logo.png) (сине-зеленый значок вихря) закреплена в меню "Пуск" и запускается автоматически при открытии веб-ссылки.
 
 > [!NOTE]
 > При первом запуске нового приложения Microsoft Edge на HoloLens 2 ваши параметры и данные будут импортированы из устаревшего приложения Microsoft Edge.
@@ -139,7 +139,7 @@ ms.locfileid: "115663214"
 1. Откройте веб-сайт с поддержкой WebXR.
 1. Нажмите кнопку **Enter VR** (Войти в виртуальную реальность) на веб-сайте. Расположение и визуальное представление такой кнопки на разных сайтах может быть разным, но в целом похожим на такое:
 
-    ![Пример кнопки входа в виртуальную реальность](images/75px-enter-vr.png)
+    ![Пример кнопки входа в виртуальную реальность.](images/75px-enter-vr.png)
 
 1. При первом запуске WebXR на определенном домене браузер запросит согласие на вход в иммерсивный режим. Щелкните **Allow** (Разрешить).
 1. С помощью [жестов HoloLens 2](hololens2-basic-usage.md#the-hand-tracking-frame) вы можете управлять взаимодействием.
@@ -156,7 +156,7 @@ ms.locfileid: "115663214"
 1. Откройте панорамное видео в YouTube.
 1. В кадре видео выберите кнопку гарнитуры смешанной реальности:
 
-    ![Кнопка для активации 360 Viewer](images/enter-360-viewer.jpg)
+    ![Кнопка для активации 360 Viewer.](images/enter-360-viewer.jpg)
 
 1. При первом запуске 360 Viewer на определенном домене браузер запросит согласие на вход в иммерсивный режим. Выберите **Разрешить**.
 1. Используйте [касание](hololens2-basic-usage.md#select-using-air-tap), чтобы отобразить элементы управления воспроизведением. Используйте [телекинез и касания](hololens2-basic-usage.md#select-using-air-tap), чтобы запускать и приостанавливать воспроизведение, переходить вперед или назад, включать или отключать субтитры или останавливать взаимодействие (при этом вы выйдете из иммерсивного режима). Элементы управления воспроизведением скрываются через несколько секунд бездействия.

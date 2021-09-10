@@ -12,16 +12,16 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 759ef671e9a831e23809d5974595ce5928433e3e50ddb26e25a7a74ebe2559a3
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: c1d83577400126903a80999c46ddaeabddaba029
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660043"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190384"
 ---
 # <a name="about-hololens-2"></a>Общие сведения о HoloLens 2
 
-![HoloLens 2, вид сбоку](images/hololens2-breakdown.png)
+![HoloLens 2, вид сбоку.](images/hololens2-breakdown.png)
 
 Microsoft HoloLens 2 — это голографический автономный компьютер.  Он является результатом развития голографического компьютера HoloLens 1-го поколения и обеспечивает более комфортное и иммерсивное взаимодействие в сочетании с дополнительными возможностями для совместной работы в смешанной реальности. HoloLens 2 работает на основе [ОС Windows Holographic](hololens-release-notes.md) (версия Windows 10), которая предоставляет пользователям, администраторам и разработчикам надежную, производительную и защищенную платформу. 
 
@@ -75,7 +75,7 @@ Microsoft HoloLens 2 — это голографический автономн
 | **Инерциальный измерительный блок (IMU)** | Акселерометр, гироскоп, магнитометр |
 | **Камера** | Фотографии: 8 Мп, видео: 1080p, 30 кадров/с |
 
-![Датчики HoloLens 2](images/hololens2-front-view.png)
+![Датчики HoloLens 2.](images/hololens2-front-view.png)
 
 > [!NOTE]
 > Не закрывайте датчики, которые показаны на рисунке. Камеры отслеживания положения головы имеют очень широкое поле обзора, поэтому вокруг них не должно быть ничего и их не нужно закрывать.

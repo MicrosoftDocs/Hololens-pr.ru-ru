@@ -10,12 +10,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: jarrettr
-ms.openlocfilehash: a230538a2bbf33481ef33c992a5b6c76107bb3829774744bc7e9a888f9102692
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: fe1c47de48e413a6f45921ba1e247016873ca996
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115663151"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189109"
 ---
 # <a name="connect-hololens-to-a-network"></a>Подключение HoloLens к сети
 
@@ -39,7 +39,7 @@ ms.locfileid: "115663151"
 1. Выберите сеть и щелкните **Подключить**.
 1. В ответ на соответствующий запрос введите пароль от сети и щелкните **Далее**.
 
-![Параметры Wi-Fi для HoloLens](./images/hololens-2-wifi-settings.jpg)
+![Параметры Wi-Fi для HoloLens.](./images/hololens-2-wifi-settings.jpg)
 
 Чтобы подтвердить подключение к сети Wi-Fi, проверьте состояние Wi-Fi в меню **Пуск**:
 
@@ -211,7 +211,7 @@ ms.locfileid: "115663151"
 1. При необходимости добавьте имя пользователя и пароль.
 1. Примените параметры VPN. 
 
-![Параметры VPN для HoloLens](./images/vpn-settings-ui.jpg)
+![Параметры VPN для HoloLens.](./images/vpn-settings-ui.jpg)
 
 ### <a name="vpn-set-via-provisioning-package"></a>Настройка VPN с помощью пакета подготовки
 
@@ -354,7 +354,7 @@ ms.locfileid: "115663151"
 1. Выберите **Сеть и Интернет**.
 1. Прокрутите список доступных сетей Wi-Fi вниз до пункта **Свойства оборудования**.
 
-    ![Свойства оборудования в параметрах Wi-Fi](./images/wifi-hololens-hwdetails.jpg)
+    ![Свойства оборудования в параметрах Wi-Fi.](./images/wifi-hololens-hwdetails.jpg)
 
    IP-адрес отображается рядом с **адресом IPv4**.
 

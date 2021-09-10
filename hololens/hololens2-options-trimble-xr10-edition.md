@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 7bf6896ee14b730e7c8f7f6c38e6a3c4279555429fb17f5b30a0c866123a3712
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b6c2c6c10232fb8f1817dddabebaf207e51d35d7
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115658855"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190316"
 ---
 # <a name="trimble-xr10-with-hololens-2"></a>Trimble XR10 с HoloLens 2
 
@@ -29,13 +29,13 @@ ms.locfileid: "115658855"
 
 Trimble XR10 с HoloLens 2 — это первое устройство, созданное в рамках программы Майкрософт по созданию индивидуальных версий HoloLens. Это устройство HoloLens 2 интегрировано в защитный шлем, то есть это решение смешанной реальности с обеспечением безопасности.
 
-![Номер SKU Trimble](./images/trimble-ed.png)
+![SKU Trimble.](./images/trimble-ed.png)
 
 См. [дополнительные сведения о Trimble XR10](https://fieldtech.trimble.com/en/product/trimble-xr10-with-hololens-2).
 
-## <a name="next-steps&quot;></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие действия
 
-1. Начните взаимодействовать со смешанной реальностью и осуществлять навигацию по Windows 10 на вашем устройстве HoloLens. В приложении **Советы** вы найдете пошаговые инструкции по взаимодействию с помощью рук. Используйте жест &quot;Пуск&quot; для перехода в одноименное меню или произнесите &quot;Go to Start&quot; (Перейти в меню &quot;Пуск") и выберите "Советы".
+1. Начните взаимодействовать со смешанной реальностью и осуществлять навигацию по Windows 10 на вашем устройстве HoloLens. В приложении **Советы** вы найдете пошаговые инструкции по взаимодействию с помощью рук. Используйте жест "Пуск" для перехода в одноименное меню или произнесите "Go to Start" (Перейти в меню "Пуск") и выберите "Советы".
 1. Щелкните ниже, чтобы продолжить чтение инструкций по началу работы с HoloLens 2.
 
 > [!div class="nextstepaction"]

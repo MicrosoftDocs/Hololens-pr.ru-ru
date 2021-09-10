@@ -13,12 +13,12 @@ audience: ITPro
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 1be1a8aa021c2a588b120fc9fa148b6c5dafd2840bbefa0d8ea9701751834521
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: d21a63aae94f5ea5269f61fe319a9036626de1b4
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115665592"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189534"
 ---
 # <a name="enterprise-enrollment-of-hololens-devices-in-mac-address-restricted-wi-fi-environment"></a>Корпоративная регистрация устройств HoloLens в среде Wi-Fi с ограниченным количеством MAC-адресов
 
@@ -126,7 +126,7 @@ ms.locfileid: "115665592"
 
 6. MAC-адрес сети Wi-Fi будут указаны на портале Intune.
 
-   ![MAC-адрес в Intune](images/mac-address-intune.jpg)
+   ![MAC-адрес в Intune.](images/mac-address-intune.jpg)
 
 7. Технический специалист добавит этот MAC-адрес в качестве адреса разрешенного устройства.
 
@@ -155,7 +155,7 @@ Get-IntuneManagedDevice -Filter "model eq 'Hololens 2'" | where {$_.enrolledDate
 
 В результате вернется имя и MAC-адрес всех устройств HoloLens, зарегистрированных за последние 30 дней.
 
-![MAC-адрес в PowerShell](images/mac-address-powershell.jpg)
+![MAC-адрес в PowerShell.](images/mac-address-powershell.jpg)
 
 ### <a name="process"></a>Процесс
 

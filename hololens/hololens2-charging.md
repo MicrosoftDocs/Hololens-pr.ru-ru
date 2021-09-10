@@ -12,12 +12,12 @@ ms.date: 05/14/2021
 manager: evmill
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b117542704968150639a47956a8142d7232fcc66d696feb61ec4fffdaa49df59
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b4692468942da88877370864eda2ce173cc499af
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660577"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189806"
 ---
 # <a name="hololens-2-battery-and-charging"></a>Аккумулятор и зарядка HoloLens 2
 
@@ -41,7 +41,7 @@ ms.locfileid: "115660577"
     - Если уровень заряда аккумулятора имеет критически низкий уровень, при попытке включить устройство быстро мигнет и погаснет один индикатор.
 - На главном компьютере откройте **проводник** и найдите свое устройство HoloLens 2 в левой части раздела **Этот компьютер**. Щелкните устройство правой кнопкой мыши и выберите **Свойства**. В диалоговом окне отобразится уровень заряда аккумулятора.
 
-   ![Экран свойств HoloLens 2 с информацией об уровне заряда аккумулятора](images/ResetRecovery2.png)
+   ![Экран свойств HoloLens 2 с информацией об уровне заряда аккумулятора.](images/ResetRecovery2.png)
 
 ## <a name="alternative-charging-specifications"></a>Альтернативные спецификации зарядки
 

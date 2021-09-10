@@ -12,12 +12,12 @@ ms.topic: article
 ms.localizationpriority: high
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 13f7000f608e6375efce201f1edd1627900ecdda2f86ddca8a174ac0b8e43ceb
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 77c061c53806e7410d73ecf3aaa20d74c217ea33
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115658960"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190418"
 ---
 # <a name="get-your-hololens-2-ready-to-use"></a>Подготовка HoloLens 2 к использованию
 
@@ -42,7 +42,7 @@ ms.locfileid: "115658960"
 
 При необходимости расширьте оголовье с помощью колесика регулировки, а затем ослабьте верхний ремешок.
 
-![Подгонка и корректировка HoloLens 2](images/hololens2-fit.png)
+![Подгонка и корректировка HoloLens 2.](images/hololens2-fit.png)
 
 ### <a name="attach-and-detach-the-overhead-strap"></a>Прикрепление и открепление верхнего ремешка
 
@@ -52,7 +52,7 @@ ms.locfileid: "115658960"
 
 Чтобы отсоединить заднюю часть ремешка, нажмите кнопку под каждой соединительной петлей и слегка потяните за ремешок. Чтобы снова прикрепить ремешок, вставьте соединительные петли обратно в разъемы до щелчка.
 
-![Прикрепление и открепление верхнего ремешка HoloLens 2](images/hololens2-headstrap.png)
+![Прикрепление и открепление верхнего ремешка HoloLens 2.](images/hololens2-headstrap.png)
 
 ## <a name="turn-on-the-hololens-2"></a>Включение HoloLens 2
 

@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: jarrettr
-ms.openlocfilehash: 7dbe77c8c5999d5be1a61ca9deaa8071d152c87a
-ms.sourcegitcommit: d0c7bf5b055fa1fa8ac5562eef904583a655da99
+ms.openlocfilehash: 4782b5d4d3c51038f7810c57d2144758ce0dc1ac
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122782813"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190197"
 ---
 # <a name="windows-autopilot-for-hololens-2"></a>Windows Autopilot для HoloLens 2
 
@@ -191,7 +191,7 @@ ms.locfileid: "122782813"
    Вы увидите список, включающий **HoloLens**. Если этот параметр не отображается, свяжитесь с нами с помощью одного из способов предоставления [отзывов](hololens2-autopilot.md#feedback-and-support-for-autopilot).
 
    > [!div class="mx-imgBorder"]
-   > ![Добавление имени профиля и описания](./images/hololens-ap-profile-name.png)
+   > ![Добавление имени профиля и описания.](./images/hololens-ap-profile-name.png)
 
 1. На странице **Первое включение (OOBE)** большинство параметров уже настроены предварительно, чтобы упростить OOBE для этой оценки. При желании вы можете настроить следующие параметры:  
 
@@ -202,7 +202,7 @@ ms.locfileid: "122782813"
      > Если вы используете шаблон имени устройства, процесс OOBE дополнительно перезапустит устройство после применения имени устройства и до присоединения устройства к Azure AD. Этот перезапуск позволяет применить новое имя.  
 
    > [!div class="mx-imgBorder"]
-   > ![Настройка параметров OOBE](./images/hololens-ap-profile-oobe.png)
+   > ![Настройка параметров OOBE.](./images/hololens-ap-profile-oobe.png)
 
 1. После настройки параметров нажмите **Далее**.
 1. На странице **Теги области** при необходимости добавьте теги области, которые нужно применить для этого профиля. Дополнительные сведения о тегах области см. в статье [Use role-based access control (RBAC) and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags.md) (Использование управления доступом на основе ролей (RBAC) и тегов области для распределенной ИТ-разработки). По завершении выберите **Далее**.
@@ -218,14 +218,14 @@ ms.locfileid: "122782813"
 1. На странице **Проверка и создание** просмотрите параметры и щелкните **Создать**, чтобы создать профиль.  
 
    > [!div class="mx-imgBorder"]
-   > ![Отзыв и создание](./images/hololens-ap-profile-summ.png)
+   > ![Просмотр и создание.](./images/hololens-ap-profile-summ.png)
 
 ### <a name="7-verify-the-esp-configuration"></a>7. Проверка конфигурации ESP
 
 Страница состояния регистрации (ESP) отображает состояние завершенного процесса настройки устройства, выполняемого при первом входе в устройство пользователя, управляемого MDM. Убедитесь, что ваша конфигурация ESP выглядит примерно следующим образом, и проверьте правильность назначений.  
 
 > [!div class="mx-imgBorder"]
-> ![Конфигурация ESP](./images/hololens-ap-profile-settings.png)
+> ![Конфигурация ESP.](./images/hololens-ap-profile-settings.png)
 
 ### <a name="8-verify-the-profile-status-of-the-hololens-devices"></a>8. Проверка состояния профиля устройств HoloLens
 
@@ -263,9 +263,9 @@ ms.locfileid: "122782813"
 
    Позвольте HoloLens 2 определить сетевое подключение и завершить OOBE автоматически. В процессе OOBE устройство может перезапускаться. Экраны OOBE должны выглядеть примерно так.
 
-   ![Шаг 1 OOBE](./images/autopilot-welcome.jpg)
-   ![Шаг 2 OOBE](./images/autopilot-step-complete.jpg)
-   ![Шаг 3 OOBE](./images/autopilot-device-setup.jpg)
+   ![Шаг 1 OOBE.](./images/autopilot-welcome.jpg)
+   ![Шаг 2 OOBE.](./images/autopilot-step-complete.jpg)
+   ![Шаг 3 OOBE.](./images/autopilot-device-setup.jpg)
 
 1. В конце процесса OOBE вы можете войти в устройство, используя свое имя пользователя и пароль.
 
@@ -290,7 +290,7 @@ ms.locfileid: "122782813"
 У параметра OMA-URI должно быть значение ./Vendor/MSFT/TenantLockdown/RequireNetworkInOOBE.
 
    > [!div class="mx-imgBorder"]
-   > ![Настройка блокировки арендатора через OMA-URI](images/hololens-tenant-lockdown.png)
+   > ![Настройка блокировки арендатора через OMA-URI.](images/hololens-tenant-lockdown.png)
 
 1. Создайте группу и назначьте профиль конфигурации устройства этой группе устройств.
 
@@ -306,7 +306,7 @@ ms.locfileid: "122782813"
 У параметра OMA-URI должно быть значение ./Vendor/MSFT/TenantLockdown/RequireNetworkInOOBE.
 
    > [!div class="mx-imgBorder"]
-   > ![Снимок экрана: установка для параметра RequireNetworkInOOBE значения "false" через OMA URI в Intune](images/hololens-tenant-lockdown-false.png)
+   > ![Снимок экрана: установка для параметра RequireNetworkInOOBE значения "false" через OMA URI в Intune.](images/hololens-tenant-lockdown-false.png)
 
 1. Создайте группу и назначьте профиль конфигурации устройства этой группе устройств. 
 

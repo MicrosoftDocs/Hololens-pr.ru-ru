@@ -13,12 +13,12 @@ ms.reviewer: widuff
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: d2747da37ae198f7a2c051593da3ffd4cb4476dfaa7a3078a7749fa1fc912ba2
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 92040019b093c5ef63d74f095dcb3809112ae7a0
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115665630"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190435"
 ---
 # <a name="page-settings-visibility"></a>Видимость параметров страницы
 
@@ -74,7 +74,7 @@ ms.locfileid: "115665630"
 
 Независимо от выбранного метода ваше устройство теперь будет получать изменения и пользователи получат приложение "Параметры", как показано ниже.
 
-![Снимок экрана: изменение периода активности в приложении "Параметры"](images/hololens-page-visibility-list.jpg)
+![Снимок экрана: изменение периода активности в приложении "Параметры".](images/hololens-page-visibility-list.jpg)
 
 Чтобы настроить отображение или скрытие выбранных страниц в приложении "Параметры", изучите URI параметров, доступные в HoloLens.
 

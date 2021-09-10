@@ -1,9 +1,9 @@
 ---
 title: Возможности и решения HoloLens 2
-description: Узнайте о функциях коммерческого пакета Microsoft HoloLens, которые упрощают управление устройствами HoloLens для предприятий.
-author: joyjaz
-ms.author: v-jjaswinski
-ms.date: 06/28/2021
+description: Сведения о функциях коммерческого пакета Microsoft HoloLens для управления устройствами HoloLens для предприятий.
+author: qianw211
+ms.author: v-qianwen
+ms.date: 9/1/2021
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
@@ -17,20 +17,22 @@ manager: skerewa
 appliesto:
 - HoloLens 2
 keywords: HoloLens 2, коммерческий, функции, MDM, управление мобильными устройствами, режим терминала, приложения, удостоверение, BitLocker, радужная оболочка глаза, Windows Hello, на основе Azure, Autopilot, смешанная реальность, WDAC
-ms.openlocfilehash: 88a75224909fd64e387cfb5677056e2ae5d62e4b3518aa758f22ec66a86a8355
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 0c47eedad0d5a23249c48356765b74e4dbeac33e
+ms.sourcegitcommit: 58b124ba1722b2dff31d93723dd269df0f8319c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115665351"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "123483242"
 ---
 # <a name="hololens-2-capabilities-and-solutions"></a>Возможности и решения HoloLens 2
 
-## <a name="what-can-hololens-2-do-for-you"></a>Что HoloLens 2 может делать за вас?
+## <a name="why-hololens"></a>В чем преимущества HoloLens?
 
-Работайте совместно без ограничений и действуйте точно, чтобы повысить продуктивность сотрудников, с приложениями смешанной реальности на HoloLens 2. Концентрируйтесь на решаемой задаче дольше и эффективнее и освободите руки благодаря встроенным голосовым командам, отслеживанию глаз и привязке голограмм к объектам реального мира, позволяющим безопасно выполнять задачи без ошибок. Связывайтесь с удаленными коллегами в режиме реального времени и работайте совместно на обширном голографическом холсте, накладываемом на физическую среду, чтобы быстро решать рабочие задачи. Оцените рентабельность инвестиций сразу же с надежной экосистемой поддерживаемых приложений и безопасностью, надежностью и масштабируемостью от корпорации Майкрософт.  
+С помощью HoloLens 2 и приложений смешанной реальности сотрудники теперь могут продуктивно работать совместно из любой точки и точно выполнять задания.
 
-[!INCLUDE [solutions](includes/hlsolutions.md)]
+Работайте совместно без ограничений и действуйте точно, чтобы повысить продуктивность сотрудников, с приложениями смешанной реальности на HoloLens 2. Концентрируйтесь на решаемой задаче дольше и эффективнее и освободите руки благодаря встроенным голосовым командам, отслеживанию глаз и привязке голограмм к объектам реального мира, позволяющим безопасно выполнять задачи без ошибок. Связывайтесь с удаленными коллегами в режиме реального времени и работайте совместно на обширном голографическом холсте, накладываемом на физическую среду, чтобы быстро решать рабочие задачи. Оцените реализуемую без предварительной подготовки рентабельность инвестиций с надежной экосистемой приложений, для которых корпорация Майкрософт обеспечивает безопасность, надежность и масштабируемость.  
+
+Надеемся, что эта статья поможет вам оценить различные преимущества смешанной реальности для бизнеса.
 
 ## <a name="hololens-2-capabilities"></a>Возможности HoloLens 2
 
@@ -46,15 +48,80 @@ ms.locfileid: "115665351"
 | Широкое поле зрения | Расширьте свой голографический холст благодаря дисплеям высокого разрешения с широким полем зрения. |
 | Никаких препятствий | Перемещайтесь свободно, без проводов и внешних модулей, мешающих в работе. |
 | На базе Azure | Выполняйте потоковую передачу трехмерного содержимого высокой точности, которое может быть привязано к расположению и/или объекту, доступному для пользователей в службах смешанной реальности Azure.
-| Смешанный захват реальности | Документируйте свой опыт в фотографиях и видео и делитесь им с другими в режиме реального времени. |
+| Смешанный захват реальности | Документируйте свой опыт в фотографиях и видео и делитесь им с другими в реальном времени. |
 | Windows Hello для бизнеса | Биометрическая проверка подлинности на основе радужной оболочки глаза позволяет быстро и безопасно влиться в работу. |
 | Windows Autopilot | Выберите и предварительно настройте службы для HoloLens 2, чтобы они сразу же были готовы к использованию на распределенных рабочих местах. |
 | обновления ОС; | Поддерживайте защиту с помощью ежемесячных обновлений для обслуживания и воспользуйтесь новыми возможностями для обеспечения производительности и управляемости в выпусках, выходящих дважды в год. |
 | Простое управление устройствами | Управляйте несколькими устройствами HoloLens 2 одновременно с помощью таких решений как Microsoft Intune, VMware Workspace One, MobileIron и многих других. |
 | Работа в регулируемых средах | HoloLens 2 включает обширное портфолио устройств, поддерживающее среды с высокой степенью регулирования, в том числе среды, соответствующие ISO класса 5.0 и UL класса I, раздел 2. |
 
+[!INCLUDE [solutions](includes/hlsolutions.md)]
+
+## <a name="how-hololens-2-is-transforming-industries"></a>Как HoloLens 2 преображает целые отрасли
+
+:::row:::
+    :::column:::
+        [<img src="images/eaton.png" alt="Eaton Vehicle Group" width=350px>](https://customers.microsoft.com/en-us/story/1406696349549504197-eaton-vehicle-group-dynamics-365-mixed-reality)
+    :::column-end:::
+    :::column span="2":::
+        ### <a name="eatons-vehicle-group-uses-dynamics-365-mixed-reality-to-drive-savings-efficiencies"></a>[Eaton’s Vehicle Group использует смешанную реальность Dynamics 365 для повышения экономии и эффективности.](https://customers.microsoft.com/en-us/story/1406696349549504197-eaton-vehicle-group-dynamics-365-mixed-reality)
+        "Представьте себе, что вы описываете проблему, но мы говорим на разных языках. При объяснении проблемы другие люди могут не совсем понимать вас, но HoloLens позволяет наглядно показать им происходящее". <br> – Александр Морас (Alexandre M. Moraes), директор завода Eaton.
+    :::column-end:::
+:::row-end:::
+
+---
+
+:::row:::
+    :::column:::
+        [<img src="images/sheba.png" alt="Sheba Medical Center" width=350px>](https://customers.microsoft.com/en-us/story/1388628932382960935-sheba-health-provider-azure-en-israel)
+    :::column-end:::
+    :::column span="2":::
+        ### <a name="sheba-medical-center-uses-microsofts-hololens-for-ventilators-training"></a>[Медицинский центр им. Шибы использует Microsoft HoloLens для обучения работе с аппаратами ИВЛ.](https://customers.microsoft.com/en-us/story/1388628932382960935-sheba-health-provider-azure-en-israel)
+        HoloLens помогает медикам обучаться во время кризиса.
+    :::column-end:::
+:::row-end:::
+
+---
+
+:::row:::
+    :::column:::
+        [<img src="images/zf-group.jpg" alt="ZF Group" width=350px>](https://customers.microsoft.com/en-us/story/1341470537472393895-zfgroup-gray-court-chapter-automotive-microsoft365)
+    :::column-end:::
+    :::column span="2":::
+        ### <a name="zf-builds-agile-facility-at-gray-court-with-microsoft-365-improves-operational-equipment-efficiency"></a>[ZF строит в городе Грей-Корт (штат Южная Каролина, США) современный производственный комплекс с использованием Microsoft 365 и повышает КПД оборудования.](https://customers.microsoft.com/en-us/story/1341470537472393895-zfgroup-gray-court-chapter-automotive-microsoft365)
+        Microsoft 365 помогает компании ZF Group ускорить поиск неполадок, упростить обмен знаниями и взаимодействие между сотрудниками в реальном времени. 
+    :::column-end:::
+:::row-end:::
+
+---
+
+:::row:::
+    :::column:::
+        [<img src="images/tokyu.png" alt="Tokyu Construction" width=350px>](https://customers.microsoft.com/en-us/story/1333933369626897988-tokyu-construction-manufacturing-azure-holo-lens-2)
+    :::column-end:::
+    :::column span="2":::
+        ### <a name="tokyu-construction-improves-engineering-precision-and-increases-productivity-with-azure-remote-rendering-on-hololens-2"></a>[Компания Tokyu Construction улучшила точность проектирования и увеличила продуктивность с помощью Удаленной отрисовки Azure на HoloLens 2.](https://customers.microsoft.com/en-us/story/1333933369626897988-tokyu-construction-manufacturing-azure-holo-lens-2)
+        Если вы не учились в инженерно-строительном вузе, представить себе, как будет выглядеть здание, по одному лишь двухмерному чертежу довольно сложно. 
+    :::column-end:::
+:::row-end:::
+
+---
+
+:::row:::
+    :::column:::
+        [<img src="images/mda-hl2.jpg" alt="MDA" width=350px>](https://customers.microsoft.com/en-us/story/1377057233739728271-mda-manufacturing-hololens-canada)
+    :::column-end:::
+    :::column span="2":::
+        ### <a name="mda-takes-mixed-reality-into-orbit-with-hololens-2"></a>[Компания MDA отправляет смешанную реальность на орбиту с HoloLens 2.](https://customers.microsoft.com/en-us/story/1377057233739728271-mda-manufacturing-hololens-canada)
+        Компания MDA использует иммерсивные возможности смешанной реальности, чтобы упростить инженерам визуализацию проектов, ускорить диагностику проблем, а также усовершенствовать обучение космонавтов и наземных диспетчеров.
+    :::column-end:::
+:::row-end:::
+<br>
+
+---
 
 ## <a name="managing-hololens-2-in-your-organization"></a>Управление HoloLens 2 в организации
+
 HoloLens 2 включает в себя функции, которые упрощают управление устройствами HoloLens и их использование в организациях. Некоторые функции входят в состав устройства, а другие можно включить с помощью [Управления мобильными устройствами (MDM) для HoloLens](hololens-mdm-configure.md) или путем [подготовки пакетов](hololens-provisioning.md) с использованием [Конструктора конфигураций Windows](app-deploy-provisioning-package.md#setup).
 
 | Я хочу... | Решение | Описание |  

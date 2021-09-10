@@ -12,12 +12,12 @@ ms.localizationpriority: high
 ms.reviewer: ''
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 3567c1f33f10240a9cacbf258669a0e3274f4c6bb3c90fc1317a57a3a415fc7f
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 38bab16d2d0d4ace5879f00c133d66b9974e4b2a
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115659956"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123190367"
 ---
 # <a name="hololens-2-display-troubleshooting"></a>Устранение неполадок с дисплеем HoloLens 2
 
@@ -46,7 +46,7 @@ ms.locfileid: "115659956"
     > Если у вас возникают проблемы с просмотром сцены со сниженной яркостью, вы можете вручную настроить яркость HoloLens 2 с помощью кнопок яркости на левой стороне устройства.
 1. Нажимайте кнопки 1–6, чтобы опробовать каждый цветовой профиль, и выберите оптимальный для вас (обычно это профиль с самым нейтральным отображением сцены, с ожидаемыми уровнями серого и естественными тонами кожи).
 
-    ![Сцена калибровки цвета для дисплея](images/color-cal-ui.png)
+    ![Сцена калибровки цвета для дисплея.](images/color-cal-ui.png)
     
 6. Выбрав профиль, нажмите кнопку **Сохранить и выйти**.
 1. Если вы не хотите вносить изменения, нажмите кнопку **Отменить и выйти**.
@@ -79,7 +79,7 @@ ms.locfileid: "115659956"
 
 Иногда HoloLens 2 отображает разные узоры в левом нижнем и правом углах дисплея. Примеры показаны ниже (анимированные изображения GIF). Узоры появляются при нормальном функционировании устройства HoloLens 2 для калибровки дисплея для оптимального взаимодействия.
 
-![Двухфазный узор](./images/DAT-Biphase-Fiducial.gif) ![ГЕО-узор](./images/DAT-GEO-Fiducial.gif)
+![Двухфазный узор.](./images/DAT-Biphase-Fiducial.gif) ![ГЕО-узор](./images/DAT-GEO-Fiducial.gif)
 
 ### <a name="why-am-i-unable-to-take-an-accurate-photograph-of-my-hololens-2-display"></a>Почему я не могу сделать точную фотографию своего дисплея HoloLens 2?
 

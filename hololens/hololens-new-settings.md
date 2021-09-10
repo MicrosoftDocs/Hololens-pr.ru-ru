@@ -9,12 +9,12 @@ ms.sitesec: library
 ms.localizationpriority: high
 ms.reviewer: ''
 manager: yannisle
-ms.openlocfilehash: 4187ae99a25fc6dd3f407410da27568d4b2b6865934b0c615680f295ec7977be
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: bcde697b5887573826a3a1a61e8c3707b4d0337a
+ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115663059"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "123189670"
 ---
 # <a name="new-settings-app"></a>Новое приложение "Параметры"
 
@@ -23,7 +23,7 @@ ms.locfileid: "115663059"
 > [!NOTE]
 > Так как новое приложение "Параметры" не имеет ничего общего с прежним приложением "Параметры", все ранее размещенные в вашей среде окна "Параметров" будут удалены после этого обновления.
 
-![Домашняя страница нового приложения "Параметры"](images/new-settings-app.png)
+![Домашняя страница нового приложения "Параметры".](images/new-settings-app.png)
 
 **Новые возможности и настройки**
 - Поиск по настройкам: теперь вы можете найти нужный параметр с главной страницы "Параметры" по ключевым словам или названию.
