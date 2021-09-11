@@ -15,11 +15,11 @@ appliesto:
 - HoloLens 2
 keywords: калибровка, комфорт, визуальная составляющая, качество, расстояние между зрачками, HoloLens, Windows Mixed Reality, гарнитуры виртуальной реальности
 ms.openlocfilehash: b3d917c71ac7441aeaf8dcbc25748ee07b9fbfa3
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: 05537014d27d9cb60d5485ce93654371d914d5e3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189211"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "124428626"
 ---
 # <a name="improve-visual-quality-and-comfort"></a>Повышение качества изображения и комфорта
 
