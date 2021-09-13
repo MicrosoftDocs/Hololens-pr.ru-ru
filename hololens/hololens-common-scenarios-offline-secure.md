@@ -15,15 +15,15 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 10d1955249630202a05fbf2057e1d175855ce0b5
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189126"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126032984"
 ---
 # <a name="common-scenarios--offline-secure-hololens-2"></a>Распространенные сценарии — безопасные автономные HoloLens 2
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 в этом руководстве приводятся инструкции по применению примера пакета подготовки, который блокирует HoloLens 2 для использования в безопасных средах со следующими ограничениями:
 
@@ -35,7 +35,7 @@ ms.locfileid: "123189126"
 
 [![Автономный сценарий защиты. ](./images/deployment-guides-revised-scenario-c-01.png)](./images/deployment-guides-revised-scenario-c-01.png#lightbox)
 
-## <a name="prepare"></a>Подготовка
+## <a name="prepare"></a>Подготовка.
 
 Windows 10 Настройка ПК
 1. [скачайте последнюю версию файла HoloLens 2 OS](https://aka.ms/hololens2download) непосредственно на пк. 
@@ -90,12 +90,12 @@ Windows 10 Настройка ПК
    > [!div class="mx-imgBorder"]
    > ![Снимок экрана кнопки экспорта для этого пакета в WCD.](images/offline-secure-sample-wcd-export.png)
 
-## <a name="deploy"></a>Развертывание
+## <a name="deploy"></a>Развернуть
 
 1. Подключение HL2 Windows 10 пк по USB-кабелю.
 1. Запустите инструмент ARC и выберите **HoloLens 2**
 
-   ![HoloLens 2 начальный экран очистки flash-памяти.](images/ARC2.png)
+   ![Первоначальный экран чистой установки образа HoloLens 2.](images/ARC2.png)
 
 1. На следующем экране выберите **Ручное выделение пакетов**.
 

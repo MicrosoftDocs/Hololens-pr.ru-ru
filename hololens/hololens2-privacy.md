@@ -1,5 +1,5 @@
 ---
-title: HoloLens 2 Конфиденциальность и защита данных
+title: 'HoloLens 2: обеспечение конфиденциальности и защита данных'
 description: Документация по конфиденциальности
 keywords: HoloLens, GDPR, конфиденциальность, персональные данные, защита данных
 author: golish
@@ -15,13 +15,13 @@ manager: yannisle
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 74f74645a3fc1282f48cb7ce0f6f722979c91b04
-ms.sourcegitcommit: 548550f309010fa95f674a7ff688166a31cf1963
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "122336748"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033295"
 ---
-# <a name="hololens-2-privacy-and-data-protection"></a>HoloLens 2 Конфиденциальность и защита данных
+# <a name="hololens-2-privacy-and-data-protection"></a>HoloLens 2: обеспечение конфиденциальности и защита данных
 
 Одним из основных элементов GDPR является "Защита данных по проектам". эта концепция особенно применима к мобильным устройствам, таким как HoloLens 2, из-за их переносимости, неограниченного подключения к интернету и открытия каналов связи. в итоге, [безопасность](/hololens/security-architecture) HoloLens 2 была переработана, чтобы обеспечить усовершенствованную, инновационную безопасность и защиту конфиденциальности, обеспечивающую подход корпорации майкрософт к [конфиденциальности и GDPR нормативам](https://privacy.microsoft.com/).
 

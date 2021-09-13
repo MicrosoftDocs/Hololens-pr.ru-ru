@@ -14,11 +14,11 @@ ms.custom:
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, справка, поддержка, HoloLens, эмулятор
 ms.openlocfilehash: 6ac86acf85e8e4fc1b97473732ea358d3d612d12
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123190027"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033808"
 ---
 # <a name="device-troubleshooting"></a>Устранение неполадок устройства
 
@@ -39,7 +39,7 @@ ms.locfileid: "123190027"
 - [Синий экран после отмены регистрации в предварительной версии программы предварительной оценки на устройстве, на котором произошла Пробная сборка](#blue-screen-after-unenrolling-from-insider-preview-on-a-device-flashed-with-an-insider-build)
 - [OneDrive не отправляет изображения автоматически](#onedrive-doesnt-automatically-upload-pictures)
 
-**Общие**
+**Общие сведения**
 - [HoloLens не отвечает или не запускается](#hololens-is-unresponsive-or-wont-start)
 - [Ошибка "недостаточно места на диске"](#low-disk-space-error)
 - [Сбой калибровки](#calibration-fails)

@@ -15,12 +15,12 @@ keywords: ''
 manager: jarrettr
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 8b14ebd9639495d2b174678518b4562a2b3c85fa
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.openlocfilehash: 286e90fab7be0c4132cfab15306cc57c52607ccf
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189449"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033352"
 ---
 # <a name="hololens-2-cleaning-faq"></a>Очистка HoloLens 2: вопросы и ответы
 
@@ -79,7 +79,7 @@ ms.locfileid: "123189449"
 
 ## <a name="can-i-use-ultraviolet-uv-light-to-sanitize-the-device"></a>Можно ли использовать ултравиолет (UV) Light для очистки устройства?
 
-УВК иррадианце с использованием УВК LED, который работает на 265nm с уровнем интенсивности 0,5-0,6 mW/cm<sup>2</sup>и не создает озоне, можно использовать для очистки HoloLens2. Следуйте спецификациям изготовителя по обработке и раскрытию времени.
+УВК иррадианце с использованием УВК LED или фильтрованного дневного УВКа, который работает на уровне интенсивности 0,5-0,6 mW/cm2 и не выдает озоне, можно использовать для очистки HoloLens 2. Следуйте спецификациям изготовителя по обработке и раскрытию времени.
 
 > [!CAUTION]  
 > Высокий уровень выдержки UV-A и UV-B может привести к снижению качества отображения устройства и повреждению коатингных делителей. Чрезмерная экспозиция для излучения UV-A и UV-B приводит к следующим последствиям в порядке длительности и интенсивности раскрытия:

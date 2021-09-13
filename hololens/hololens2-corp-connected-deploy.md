@@ -15,11 +15,11 @@ manager: yannisle
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 7df2b00b2d87be7b9ad4a5d84c83251ec0ebec4d
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189687"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033495"
 ---
 # <a name="deploy---corporate-connected-guide"></a>Развертывание — интегрированное с корпоративным руководством
 

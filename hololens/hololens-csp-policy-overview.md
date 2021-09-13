@@ -13,12 +13,12 @@ manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: ed28033f10f7a6d0e826775e95d040d0cac7f9e9c6266acd6975d3532f6d8067
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b312f9d20c9a75c5e4c1906c4ec55f42fda977f6
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664252"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126032943"
 ---
 # <a name="configure-csps-and-device-management-overview"></a>Обзор настройки CSP и управления устройством
 
@@ -27,7 +27,7 @@ ms.locfileid: "115664252"
 дополнительные сведения о Windows 10 Holographic csp для управления устройствами см. в полном списке [csp, поддерживаемых в HoloLens устройствах](/windows/client-management/mdm/configuration-service-provider-reference#hololens).
 ИТ администраторы также могут управлять CSP политики на устройствах. полный список [CSP политик, поддерживаемых HoloLens 2](/windows/client-management/mdm/policy-csps-supported-by-hololens2).
 
-## <a name="configuration-methods"></a>Методы настройки
+## <a name="configuration-methods"></a>Методы конфигурации
 
 ### <a name="configure-with-mdm"></a>Настройка с помощью MDM
 

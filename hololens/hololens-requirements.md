@@ -13,15 +13,15 @@ ms.date: 11/04/2020
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 5a4f251f3ca6eae5e85e4d763074e035039159cb
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189245"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033826"
 ---
 # <a name="common-deployment-scenarios"></a>Общие сценарии развертывания
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 Если вы впервые попробуете развернуть новое устройство, то это может быть очень трудным. здесь мы совместно используем различные способы развертывания устройств Microsoft HoloLens 2 и управления ими в организации.
 

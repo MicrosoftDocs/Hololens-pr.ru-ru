@@ -15,12 +15,12 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: 54e9959c03b69db39ff2738e5d4f41f9740ae562b38e8d85998521a4733edad7
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: daced6fab65f779b7bd670bf1275f99ae5311d3f
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664865"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033279"
 ---
 # <a name="create-mixed-reality-photos-and-videos"></a>Создание фотографий и видео смешанной реальности
 
@@ -177,12 +177,12 @@ HoloLens дает пользователям возможность смешив
 
 |  Устройство  |  Формат  |  Расширение  |  Решение  |
 |----------|----------|----------|----------|
-| HoloLens 2 | [Рисунок](https://en.wikipedia.org/wiki/JPEG) | .jpg | 3904x2196px |
-| HoloLens (1-го поколения) | [Рисунок](https://en.wikipedia.org/wiki/JPEG) | .jpg | 1408x792px |
+| HoloLens 2 | [JPEG](https://en.wikipedia.org/wiki/JPEG) | .jpg | 3904x2196px |
+| HoloLens (1-го поколения) | [JPEG](https://en.wikipedia.org/wiki/JPEG) | .jpg | 1408x792px |
 
 ### <a name="recorded-video-format-and-resolution"></a>Записанный формат видео и разрешение
 
-| Устройство | Формат | Расширение | Решение | Speed | звук; |
+| Устройство | Формат | Расширение | Решение | Speed | Аудио |
 |----------|----------|----------|----------|----------|----------|
 | HoloLens 2 | [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) | .mp4 | 1920x1080px | 30fps | Стерео 48kHz |
 | HoloLens (1-го поколения) |  [MPEG-4](https://en.wikipedia.org/wiki/MPEG-4) | .mp4 | 1216x684px | 24fps | Стерео 48kHz |

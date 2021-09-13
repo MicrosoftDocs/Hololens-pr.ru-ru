@@ -12,11 +12,11 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 ms.openlocfilehash: 06b7142be471d0db3f45812654288a33425abd60
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189874"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033628"
 ---
 # <a name="set-up-your-hololens-1st-gen"></a>Настройка HoloLens (1-го поколения)
 
@@ -67,9 +67,9 @@ HoloLens (первое поколение) использует расстоян
 
 во время калибровки HoloLens предложит вам согласовать палец с рядом шести целей на глаз. HoloLens использует этот процесс, чтобы установить правильную процедуру IPD для ваших глаз. Если необходимо обновить или настроить калибровку для нового пользователя, новый пользователь может запустить приложение калибровки за пределами программы установки.
 
-![Экран по отпечатку пальца IPD на втором шаге.](./images/ipd-finger-alignment-300px.jpg)
+![Экран настройки расстояния между зрачками на втором шаге.](./images/ipd-finger-alignment-300px.jpg)
 
-*Экран настройки расстояния между зрачками на втором шаге*
+*Экран с поддержкой фильтра IPD на втором шаге*
 
 Поздравляем! Установка завершена, и вы можете начать использовать HoloLens.
 

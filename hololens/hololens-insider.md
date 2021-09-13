@@ -3,25 +3,25 @@ title: Предварительная версия Microsoft HoloLens
 description: Узнайте, как приступить к работе со сборками Insider Preview, и предоставьте ценные сведения о следующем основном обновлении операционной системы для HoloLens.
 ms.prod: hololens
 ms.sitesec: library
-author: scooley
-ms.author: scooley
+author: evmill
+ms.author: v-evmill
 ms.topic: article
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
 ms.localizationpriority: medium
 audience: ITPro
-ms.date: 08/16/2021
+ms.date: 09/10/2021
 ms.reviewer: ''
-manager: laurawi
+manager: ranjibb
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: b865f9f9a9a734ef6a6c6419fc523049e925d5f8
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.openlocfilehash: 84ec45a4bb05eb28106e4bfdc915a18ae6330767
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189483"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033272"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -186,8 +186,11 @@ OMA-URI нового `./Device/Vendor/MSFT/Policy/Config/MixedReality/AutoLogonU
 - Исправлена [известная проблема на портале устройств, при которой не было выводится запрос на загрузку заблокированных файлов.](hololens-troubleshooting.md#downloading-locked-files-doesnt-error)
 - Исправлена [известная проблема с порталом устройств с истечением времени ожидания при отправке и скачивании файлов.](hololens-troubleshooting.md#device-portal-file-uploaddownload-times-out)
 - устраняет проблемы, связанные с отчетами о свойствах соответствия от HoloLens устройств; для правильного создания отчетов в сборках предварительной оценки может потребоваться перезагрузка.  
-- включили [доступ к назначенному API доступа](/uwp/api/windows.system.userprofile.assignedaccesssettings?view=winrt-20348) , чтобы приложения могли определить, работает ли HoloLens в полноэкранном режиме для пользователя, вошедшего в HoloLens.
+- включили [доступ к назначенному API доступа](/uwp/api/windows.system.userprofile.assignedaccesssettings?view=winrt-20348&preserve-view=true) , чтобы приложения могли определить, работает ли HoloLens в полноэкранном режиме для пользователя, вошедшего в HoloLens.
 - Обновлена Встроенная версия Remote Assist, установленная на новых Flash.
+- Обработка планшета для 2D-приложений была отключена в сборках Insider. Благодаря его удалению приложения теперь могут использовать интерфейсы API игровой планшета напрямую и иметь доступ ко всему набору элементов управления и выполнять любые нужные элементы. Разработчики должны использовать интерфейсы API игровой планшета для ввода данных с игрового планшета. Ниже приведен пример для [класса игрового планшета (Windows. игровые. Input) — Windows приложений UWP](/uwp/api/windows.gaming.input.gamepad?view=winrt-20348&preserve-view=true)
+- Исправлена проблема, из-за которой после входа первого пользователя OOBE завершает работу в сценариях, где использовались конфигурации киоска на основе группы AAD.
+- Исправлена ошибка отображения уведомлений об обновлениях и диалоговых окон для перезапуска устройства.
 
 ## <a name="start-receiving-insider-builds"></a>Начало получения сборок для предварительной оценки
 

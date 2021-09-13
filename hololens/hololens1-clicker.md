@@ -4,7 +4,7 @@ description: в этой статье описывается использов�
 ms.assetid: 7d4a30fd-cf1d-4c9a-8eb1-1968ccecbe59
 ms.date: 09/16/2019
 manager: jarrettr
-keywords: hololens
+keywords: HoloLens
 ms.prod: hololens
 ms.sitesec: library
 author: v-miegge
@@ -14,11 +14,11 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 ms.openlocfilehash: 98ec5795974fa242225bb1048ead41892d8296e4
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189959"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033790"
 ---
 # <a name="use-the-hololens-1st-gen-clicker"></a>Использование пульта HoloLens (1-го поколения)
 

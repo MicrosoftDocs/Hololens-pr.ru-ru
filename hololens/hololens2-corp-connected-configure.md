@@ -14,12 +14,12 @@ audience: HoloLens
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 2b855f5891dfa4ca695e4ae3b2a2e82510c5b626f08b434643169be239b48291
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 9457acd2f53d0d3127d6c68d620b660f6e09866d
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115660187"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033502"
 ---
 # <a name="configure---corporate-connected-guide"></a>Настройка — корпоративное по для подключения
 
@@ -125,7 +125,7 @@ Azure и Intune с этим расширением используют поль
 
 8. В разделе обязательно добавьте созданную ранее группу, чтобы это приложение требовалось для группы. Это приведет к автоматической загрузке приложения на зарегистрированные устройства в группе. Выберите **Далее**.
 
-9. Щелкните **Создать**.
+9. Нажмите кнопку **создания**.
 
 Дополнительные сведения: [назначение приложений группам в Microsoft Intune](/mem/intune/apps/apps-deploy#assign-an-app)
 

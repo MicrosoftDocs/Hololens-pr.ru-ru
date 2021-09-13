@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: ad210c9d31d8d7c226345618b6dfabf8457ee2398882935920d7b3217259a644
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: 18dc962b869dafaea9ff9c605eef51fcbb35bfb2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115664882"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033183"
 ---
 # <a name="find-open-and-save-files-on-hololens"></a>Поиск, открытие и сохранение файлов в HoloLens
 

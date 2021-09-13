@@ -17,18 +17,18 @@ manager: yannisle
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f1c178c940224ed3cd07c58b886b176108614caf7a8463af089e2f2357f45553
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b192732f5e7edffaa1d0ab081454e4034c416191
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115665256"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033055"
 ---
 # <a name="intune--company-portal"></a>Intune и Корпоративный портал
 
 с помощью управления мобильными устройствами (MDM) вы можете использовать собственные пользовательские приложения с помощью [Microsoft Endpoint Manager (Intune)](/intune/windows-holographic-for-business) , чтобы развернуть его непосредственно на HoloLens устройствах. Microsoft Intune — это облачная служба, в которой основное внимание уделяется управлению мобильными устройствами (MDM) и управлению мобильными приложениями (MAM). Intune входит в состав пакета Microsoft [Enterprise Mobility + Security (EMS)](https://www.microsoft.com/microsoft-365/enterprise-mobility-security) и позволяет пользователям быть продуктивными, обеспечивая защиту данных организации. Дополнительные сведения о Intune см. в статье [что такое Intune](/mem/intune/fundamentals/what-is-intune).
 
-## <a name="setup"></a>Установка
+## <a name="setup"></a>Настройка
 
 1. Upload приложение в отрасль или передать пользовательское приложение в клиент Intune. см. также: [Enterprise управления приложениями](/windows/client-management/mdm/enterprise-app-management).
 

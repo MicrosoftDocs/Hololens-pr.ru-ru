@@ -15,11 +15,11 @@ manager: yannisle
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 541c1080d7f5fe9491d6cb11179ea98b160f687c
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123190180"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033423"
 ---
 # <a name="deployment-guide---corporate-connected-hololens-2-with-dynamics-365-guides---overview"></a>руководство по развертыванию: корпоративные подключенные HoloLens 2 с руководствами по Dynamics 365 — обзор
 
@@ -27,7 +27,7 @@ ms.locfileid: "123190180"
 
 В этом руководство мы рассмотрим, как зарегистрировать устройства в существующем управлении устройствами, применить лицензии по мере необходимости и проверить, что конечные пользователи могут работать с руководством по Dynamics 365, а также использовать настраиваемые бизнес-приложения после настройки устройства. 
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Уже должна быть выполнена следующая инфраструктура:
 - Wi-Fi
@@ -45,7 +45,7 @@ ms.locfileid: "123190180"
 
 ## <a name="guides-licensing-and-requirements"></a>[Руководства по лицензированию и требованиям](/dynamics365/mixed-reality/guides/requirements#licensing-and-product-requirements)
 
-- Учетная запись Azure AD
+- Учетная запись Azure AD
 - Dynamics 365 предлагает приложениям ПК и HoloLens
 - Подписка на Dynamics 365 Guides
     - Microsoft Инверсия (включена)
@@ -58,7 +58,7 @@ ms.locfileid: "123190180"
 [![Схема сетей, подключенная к корпоративной сети, этап 2. ](./images/deployment-guides-revised-scenario-b-02-1.png)](./images/deployment-guides-revised-scenario-b-02-1.png#lightbox)
 
 ## <a name="in-this-guide-you-will"></a>В руководстве описаны следующие действия:
-### <a name="prepare"></a>Подготовка
+### <a name="prepare"></a>Подготовка.
 > [!div class="checklist"]
 >- [ознакомьтесь с основными сведениями об инфраструктуре для HoloLens 2 устройств.](hololens2-corp-connected-prepare.md#infrastructure-essentials)
 >- [Узнайте больше об Azure AD и настройте его, если у вас его нет.](hololens2-corp-connected-prepare.md#azure-active-directory)
@@ -77,7 +77,7 @@ ms.locfileid: "123190180"
 >- [Настройка руководств по Dynamics 365.](hololens2-corp-connected-configure.md#setup-guides-application-licenses-dataverse-and-authoring)
 >- [Настройка режима киоска (необязательно).](hololens2-corp-connected-configure.md#optional-kiosk-mode)
 >- [Настройка WDAC (необязательно).](hololens2-corp-connected-configure.md#optional-wdac)
-### <a name="deploy"></a>Развертывание
+### <a name="deploy"></a>Развернуть
 > [!div class="checklist"]
 >-  [Проверка регистрации через устройство и MDM.](hololens2-corp-connected-deploy.md#enrollment-validation)
 >-  [Проверка сертификатов Wi-Fi.](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation)

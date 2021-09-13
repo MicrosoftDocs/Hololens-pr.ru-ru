@@ -1,6 +1,6 @@
 ### YamlMime:FAQ
 metadata:
-  title: HoloLens 2 Вопросы и ответы по выпуску разработки
+  title: 'HoloLens 2 Development Edition: вопросы и ответы'
   description: ознакомьтесь с наиболее часто задаваемыми вопросами о работе устройства HoloLens 2 Development Edition mixed reality.
   keywords: Hololens 2 purchasing options, HoloLens options, Developer Edition
   author: evmill
@@ -16,11 +16,11 @@ metadata:
   appliesto:
   - HoloLens 2
   ms.openlocfilehash: 85631d756285f4111016e39dc946733bb1e12d3c
-  ms.sourcegitcommit: 6b3b455f66a2b4d5b42f4674a5ff940a2a01c294
+  ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/20/2021
-  ms.locfileid: "122610256"
+  ms.lasthandoff: 09/13/2021
+  ms.locfileid: "126033394"
 title: 'HoloLens 2 Development Edition: вопросы и ответы'
 summary: ''
 sections:
@@ -33,7 +33,7 @@ sections:
   - question: >
       в чем разница между HoloLens 2 и HoloLens 2 Development Edition?
     answer: >
-      выпуск HoloLens 2 Development Edition можно использовать только для создания и тестирования внутренних корпоративных приложений, которые будут использоваться с HoloLens 2 (коммерческом выпуске) в производственном параметре. В рамках приобретения выпуска Development Корпорация Майкрософт может, по своему усмотрению, предоставлять вам определенные права, идентифицированные в процессе извлечения. Эти права включают право на получение определенных кредитов на скидку или пробный доступ к определенным службам Майкрософт или сторонним средствам или инструментам в течение ограниченного периода. [Дополнительные сведения](hololens2-options-dev-edition.md)
+      выпуск HoloLens 2 Development Edition можно использовать только для создания и тестирования внутренних корпоративных приложений, которые будут использоваться с HoloLens 2 (коммерческом выпуске) в производственном параметре. В рамках приобретения выпуска Development Корпорация Майкрософт может, по своему усмотрению, предоставлять вам определенные права, идентифицированные в процессе извлечения. Эти права включают право на получение определенных кредитов на скидку или пробный доступ к определенным службам Майкрософт или сторонним средствам или инструментам в течение ограниченного периода. [Подробнее](hololens2-options-dev-edition.md)
   - question: >
       можно ли использовать любой выпуск HoloLens 2 для разработки?
     answer: >
@@ -49,11 +49,11 @@ sections:
   - question: >
       Что такое Pro Unity?
     answer: >
-      Pro Unity — это трехмерная платформа в режиме реального времени для малых и средних studiosов и компаний. Оно предназначено для групп, которым не нужны технические и нетехнические навыки. [Дополнительные сведения](https://store.unity.com/products/unity-pro)
+      Pro Unity — это трехмерная платформа в режиме реального времени для малых и средних studiosов и компаний. Оно предназначено для групп, которым не нужны технические и нетехнические навыки. [Подробнее](https://store.unity.com/products/unity-pro)
   - question: >
       Что такое подключаемый модуль Пиксиз?
     answer: >
-      Подключаемый модуль Пиксиз считывает и преобразует почти любой формат, оптимизирует и размещает его в Unity, а также предоставляет готовые ресурсы для приложений в реальном времени. [Дополнительные сведения](https://unity.com/products/pixyz)
+      Подключаемый модуль Пиксиз считывает и преобразует почти любой формат, оптимизирует и размещает его в Unity, а также предоставляет готовые ресурсы для приложений в реальном времени. [Подробнее](https://unity.com/products/pixyz)
   - question: >
       является ли финансирование доступным для выпуска HoloLens 2 Development?
     answer: "да, [финансирование за выпуск HoloLens 2 Development Edition](https://ms.liftforward.com/hololens?product=hololens-development-edition) теперь доступен только в США. \n"
@@ -77,11 +77,11 @@ sections:
   - question: >
       как использовать смешанную реальность набор средств – Unity для разработки в моем выпуске HoloLens 2 Development?
     answer: >
-      MRTK-Unity — это проект, управляемый Майкрософт, который предоставляет набор компонентов и функций для ускорения кроссплатформенной разработки приложений смешанной реальности в Unity. [Дополнительные сведения](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
+      MRTK-Unity — это проект, управляемый Майкрософт, который предоставляет набор компонентов и функций для ускорения кроссплатформенной разработки приложений смешанной реальности в Unity. [Подробнее](https://microsoft.github.io/MixedRealityToolkit-Unity/README.html)
   - question: >
       как использовать смешанную реальность набор средств – нереал укст для разработки на моем HoloLens 2 Development Edition?
     answer: >
-      MRTK-Unreal — это первый компонент средств UX, который должен быть выпущен и сейчас поддерживается только в HoloLens 2. Подключаемый модуль компонента включает код, схемы и примеры ресурсов распространенных функций пользовательского интерфейса для имитации ввода, субъектов взаимодействия с рукой, компонентов кнопок для нажатия, компонентов манипуляторов и компонентов следования поведению. [Дополнительные сведения](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/WelcomeToUXTools.html)
+      MRTK-Unreal — это первый компонент средств UX, который должен быть выпущен и сейчас поддерживается только в HoloLens 2. Подключаемый модуль компонента включает код, схемы и примеры ресурсов распространенных функций пользовательского интерфейса для имитации ввода, субъектов взаимодействия с рукой, компонентов кнопок для нажатия, компонентов манипуляторов и компонентов следования поведению. [Подробнее](https://microsoft.github.io/MixedReality-UXTools-Unreal/version/public/0.9.x/Docs/WelcomeToUXTools.html)
   - question: >
       являются ли выпуски ос для выпуска HoloLens 2 Edition такими же, как HoloLens 2?
     answer: >
@@ -93,15 +93,15 @@ sections:
   - question: >
       где можно узнать больше о выпуске HoloLens 2 Development Edition?
     answer: >
-      посетите страницу документации по HoloLens 2 Development Edition. [Дополнительные сведения](hololens2-options.md?tabs=device)
+      посетите страницу документации по HoloLens 2 Development Edition. [Подробнее](hololens2-options.md?tabs=device)
   - question: >
       Где можно узнать больше о разработке решений смешанной реальности?
     answer: >
-      См. статью введение в документацию по разработке смешанной реальности. [Дополнительные сведения](/windows/mixed-reality/develop/development?tabs=unity)
+      См. статью введение в документацию по разработке смешанной реальности. [Подробнее](/windows/mixed-reality/develop/development?tabs=unity)
   - question: >
       Где можно узнать больше о проектировании решений смешанной реальности?
     answer: >
-      Ознакомьтесь со статьей введение в документацию по проектированию смешанной реальности. [Дополнительные сведения](/windows/mixed-reality/design/design)
+      Ознакомьтесь со статьей введение в документацию по проектированию смешанной реальности. [Подробнее](/windows/mixed-reality/design/design)
   - question: >
       где можно получить поддержку для HoloLens Developer Edition?
     answer: >
@@ -176,7 +176,7 @@ sections:
   - question: >
       Как активировать $500 Azure для кредита?
     answer: >
-      Чтобы активировать $500 Azure на счете, активируйте Azure Pass код Акционная и активизируйте подписку. [Дополнительные сведения](https://www.microsoftazurepass.com/Home/HowTo?Length=5)
+      Чтобы активировать $500 Azure на счете, активируйте Azure Pass код Акционная и активизируйте подписку. [Подробнее](https://www.microsoftazurepass.com/Home/HowTo?Length=5)
 
 
       Ознакомьтесь с [соглашением о подписке](https://azure.microsoft.com/support/legal/subscription-agreement/?country=US) Azure Pass и [сведениями о предложении](https://azure.microsoft.com/en-us/offers/azure-pass/).

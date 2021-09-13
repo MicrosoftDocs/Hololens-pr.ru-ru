@@ -13,15 +13,15 @@ ms.date: 05/21/2021
 appliesto:
 - HoloLens 2
 ms.openlocfilehash: 8605d1a889fb9facdab0e9585a43a61880155952
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123188905"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126032975"
 ---
 # <a name="planning-hololens-2-deployment-in-a-commercial-environment"></a>Планирование развертывания HoloLens 2 в коммерческой среде
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a>Общие сведения
 
 > [!NOTE]
 > этот обзор предназначен для того, чтобы помочь ит-специалистам в понимании вопросов развертывания и управления устройствами Microsoft HoloLens 2 в организации. сведения для конечных пользователей устройств см. в статье [подготовка HoloLens 2 к использованию](hololens2-setup.md) для начала работы.
@@ -42,7 +42,7 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 
 > [!VIDEO https://channel9.msdn.com/Shows/IT-Ops-Talk/HoloLens-2-Deployment-Overview/player]
 
-## <a name="prepare"></a>Подготовка
+## <a name="prepare"></a>Подготовка.
 
 узнайте о необходимых службах инфраструктуры, необходимых для поддержки полного набора возможностей HoloLens 2.
 
@@ -62,14 +62,14 @@ HoloLens 2 работает на Windows 10 Holographic, который пред
 | [Лицензии приложений](hololens2-cloud-connected-configure.md#application-licenses)| Может применяться к пользователям, группам пользователей или группам устройств  |
 | [Пользователи и группы Azure](hololens2-cloud-connected-configure.md#azure-users-and-groups) | Помогает назначать конфигурации и лицензии для HoloLens 2  |
 
-## <a name="deploy"></a>Развертывание
+## <a name="deploy"></a>Развернуть
 
 распространение устройств HoloLens 2 и проверка их конфигурации. 
 
 | Компонент | Описание |
 |-----------|------------|
 | [Проверка регистрации](hololens2-corp-connected-deploy.md#enrollment-validation) | проверьте, присоединен ли к устройству azure AD из Параметры или с помощью портала azure. |
-| [Проверка сертификатов](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation) | Проверьте параметры и проверьте, правильно ли они были распределены. |
+| [Проверка сертификата](hololens2-corp-connected-deploy.md#wi-fi-certificate-validation) | Проверьте параметры и проверьте, правильно ли они были распределены. |
 | [Проверка установок приложения](hololens2-corp-connected-deploy.md#validate-lob-app-install) | Убедитесь, что приложение имеется и работает на HoloLens 2 |
 
 ## <a name="maintain"></a>Техническое обслуживание

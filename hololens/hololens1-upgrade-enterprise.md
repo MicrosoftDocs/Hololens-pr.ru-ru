@@ -13,11 +13,11 @@ manager: jarrettr
 appliesto:
 - HoloLens (1st gen)
 ms.openlocfilehash: c6d1225dc6da1c039a34fc2782f23330ae40f280
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189194"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033621"
 ---
 # <a name="unlock-windows-holographic-for-business-features"></a>Разблокировка функций Windows Holographic for Business
 
@@ -55,7 +55,7 @@ Microsoft HoloLens доступен в *выпуске Development edition*, к�
     > [!NOTE]
     > Вы можете настроить [дополнительные параметры в пакете подготовки](hololens-provisioning.md).
 
-1. В меню **Файл** выберите пункт **Сохранить**. 
+1. В меню **File** (Файл) выберите пункт **Save** (Сохранить). 
 
 1. Прочтите предупреждение о том, что файлы проекта могут содержать конфиденциальные сведения, и нажмите кнопку **ОК**.
 

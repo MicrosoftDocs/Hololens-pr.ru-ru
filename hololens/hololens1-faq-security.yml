@@ -16,12 +16,12 @@ metadata:
   - CI 111456
   - CSSTroubleshooting
   manager: bradke
-  ms.openlocfilehash: b09670ee24139c129629d061edae4d5bb43b2d766c90df152aeddb202cc1fe55
-  ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+  ms.openlocfilehash: 108f2e4c0aa9af251ecb6bc5185c7803ae51b5f7
+  ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "115662653"
+  ms.lasthandoff: 09/13/2021
+  ms.locfileid: "126033693"
 title: Часто задаваемые вопросы о безопасности HoloLens (1-го поколения)
 summary: ''
 sections:

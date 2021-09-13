@@ -1,5 +1,5 @@
 ---
-title: Управление приложениями в Защитнике Windows — WDAC
+title: Управление приложениями в Защитнике Windows (WDAC)
 description: общие сведения о том, что такое Защитник Windows управления приложениями и как его использовать для управления устройствами HoloLens смешанной реальности.
 ms.prod: hololens
 ms.sitesec: library
@@ -7,26 +7,28 @@ author: evmill
 ms.author: v-evmill
 ms.topic: article
 ms.localizationpriority: medium
-ms.date: 10/26/2020
+ms.date: 9/3/2021
 ms.reviewer: ''
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: ab05f1bbe1570d4966932d6f8ac857e5bd2d8a7d3a8f5b93aaba0335eda05b01
-ms.sourcegitcommit: f8e7cc2fbdcdf8962700fd50b9c017bd83d1ad65
+ms.openlocfilehash: b5c3b55273346f330580b07e5294e7e8e65ea12d
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "115665562"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033945"
 ---
 # <a name="windows-defender-application-control---wdac"></a>Управление приложениями в Защитнике Windows — WDAC
 
-WDAC позволяет ИТ – администратору настроить устройства для блокировки запуска приложений на устройствах. Это отличается от методов ограниченного использования устройств, таких как режим киоска, где пользователю предоставляется пользовательский интерфейс, который скрывает приложения на устройстве, но их все еще можно запустить. В то время как WDAC реализован, приложения по-прежнему отображаются в списке все приложения, но при этом эти приложения и процессы не смогут быть запущены пользователем устройства.
+## <a name="overview"></a>Общие сведения
 
-Устройству может быть назначено более одной политики WDAC. Если в системе задано несколько политик WDAC, то большинство их максимальных приоритетов вступают в силу. 
+WDAC позволяет настроить HoloLens для блокировки запуска приложений. Он отличается от режима киоска, в котором пользовательский интерфейс скрывает приложения, но они по-прежнему могут быть запущены. С помощью WDAC вы видите приложения, но не можете их запускать.
 
 > [!NOTE]
-> когда конечные пользователи пытаются запустить приложение, заблокированное WDAC, на HoloLens они не получат уведомление о том, что не сможет запустить это приложение.
+> когда конечные пользователи пытаются запустить приложение, заблокированное с помощью WDAC на HoloLens, они не будут уведомлены о том, что не сможет запустить приложение.
+
+Устройству может быть назначено более одной политики WDAC. Если в системе задано несколько политик WDAC, то большинство их максимальных приоритетов вступают в силу. 
 
 ниже приведено руководство для пользователей о том, как [использовать WDAC и Windows PowerShell для разрешения или блокировки приложений на HoloLens 2 устройствах с помощью Microsoft Intune](/mem/intune/configuration/custom-profile-hololens).
 
@@ -38,7 +40,7 @@ $package1 = Get-AppxPackage -name *<applicationname>*
 
 Если полное имя пакета неизвестно, может потребоваться выполнить команду "Get-AppxPackage-Name \* йоурбестгуесс \* " несколько раз, чтобы найти его. После этого введите имя "$package 1 = Get-AppxPackage-Name Actual. PackageName"
 
-например, при выполнении следующей команды для Microsoft Edge будет возвращено несколько результатов, но из этого списка можно будет выяснить, что все необходимое имя — Microsoft. микрософтедже.
+например, при выполнении следующего кода для Microsoft Edge будет возвращено несколько результатов, но из этого списка можно будет выяснить, что все необходимое имя — Microsoft. микрософтедже.
 
 ```powershell
 Get-AppxPackage -name *edge*
@@ -54,7 +56,7 @@ Get-AppxPackage -name *edge*
 |----------------------------|----------------------------------------------------|
 | Средство 3D-просмотра                  | Microsoft.Microsoft3DViewer_8wekyb3d8bbwe          |
 | Установщик приложений              | Microsoft.DesktopAppInstaller_8wekyb3d8bbwe <sup>1</sup>         |
-| Calendar                   | microsoft.windowscommunicationsapps_8wekyb3d8bbwe  |
+| Календарь                   | microsoft.windowscommunicationsapps_8wekyb3d8bbwe  |
 | Камера                     | HoloCamera_cw5n1h2txyewy                           |
 | Кортана                    | Microsoft.549981C3F5F10_8wekyb3d8bbwe              |
 | Dynamics 365 Guides        | Microsoft.Dynamics365.Guides_8wekyb3d8bbwe         |
@@ -67,7 +69,7 @@ Get-AppxPackage -name *edge*
 | OneDrive                   | microsoft.microsoftskydrive_8wekyb3d8bbwe          |
 | "Фото"                     | NNTP. Windows. Photos_8wekyb3d8bbwe             |
 | Параметры                   | HolographicSystemSettings_cw5n1h2txyewy            |
-| Советы                       | Microsoft.HoloLensTips_8wekyb3d8bbwe               |
+| "Советы"                       | Microsoft.HoloLensTips_8wekyb3d8bbwe               |
 
 - 1. блокировка установщика приложений блокирует только приложение установщика приложений, а не приложения, установленные из других источников, таких как Microsoft Store или из решения MDM.
 
@@ -81,6 +83,5 @@ Get-AppxPackage -name *edge*
 1. После подключения портала устройств перейдите к **представлениям** , а затем **приложения**. 
 1. На панели установленные приложения в раскрывающемся списке выберите установленное приложение. 
 1. Нахождение Паккажерелативеид. 
-1. Копировать символы приложения перед!, эти символы будут Паккажефамилинаме.
-
+1. Скопируйте символы приложения перед `!` , эти символы будут паккажефамилинаме.
 

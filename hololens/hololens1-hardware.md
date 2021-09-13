@@ -3,7 +3,7 @@ title: Оборудование HoloLens (1-го поколения)
 description: узнайте о компонентах, составляющих Microsoft HoloLens (1-й выпуск), о последнем развитии неизвестного компьютера корпорации майкрософт под управлением Windows 10.
 ms.assetid: 527d494e-2ab6-46ca-bd5a-bfc6b43cc833
 ms.date: 09/16/2019
-keywords: hololens
+keywords: HoloLens
 ms.prod: hololens
 ms.sitesec: library
 author: mattzmsft
@@ -14,11 +14,11 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 ms.openlocfilehash: 587253a7ec3d3959e7861fedc474d6a2e39dd369
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189908"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033664"
 ---
 # <a name="hololens-1st-gen-hardware"></a>Оборудование HoloLens (1-го поколения)
 

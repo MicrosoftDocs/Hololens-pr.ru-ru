@@ -7,11 +7,11 @@ ms.date: 01/04/2021
 ms.topic: article
 ms.prod: hololens
 ms.openlocfilehash: d511156d6940574deda7448a6f634c0004b8f053
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123188990"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126032968"
 ---
 # <a name="contributing-to-the-hololens-documentation"></a>дополнение к документации по HoloLens
 
@@ -29,7 +29,7 @@ HoloLensные документы отображаются на платформ
 | Смешанная реальность | [MicrosoftDocs/Mixed-Reality](/windows/mixed-reality) |
 | Руководством для энтузиастов | [MicrosoftDocs/Mixed-Reality/энтузиаст-Guide](https://github.com/MicrosoftDocs/mixed-reality/tree/docs/enthusiast-guide) |
 
-## <a name="before-you-start"></a>Перед началом работы
+## <a name="before-you-start"></a>Прежде чем начать
 
 если у вас его еще нет, необходимо [создать учетную запись GitHub](https://github.com/join).
 
@@ -81,9 +81,9 @@ HoloLensные документы отображаются на платформ
 
 ## <a name="renaming-or-deleting-an-existing-article"></a>Переименование или удаление существующей статьи
 
-Если изменение приведет к переименованию или удалению существующей статьи, обязательно добавьте перенаправление. Таким образом, любой пользователь, имеющий ссылку на существующую статью, останется в нужном месте. Перенаправления управляются .openpublishing.redirection.jsв файле в корне репозитория.
+Если изменение приведет к переименованию или удалению существующей статьи, обязательно добавьте перенаправление. Таким образом, любой пользователь, имеющий ссылку на существующую статью, останется в нужном месте. Перенаправления управляются файлом. openpublishing. Redirect. JSON в корне репозитория.
 
-Чтобы добавить перенаправление к .openpublishing.redirection.jsв, добавьте запись в `redirections` массив:
+Чтобы добавить перенаправление в. openpublishing. Redirect. JSON, добавьте запись в `redirections` массив:
 
 ```json
 {

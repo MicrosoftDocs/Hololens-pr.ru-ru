@@ -17,11 +17,11 @@ appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
 ms.openlocfilehash: 9474774b47858003cc11363a5f325f589b0732ab
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123189007"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033905"
 ---
 # <a name="configure-hololens-by-using-a-provisioning-package"></a>настройка HoloLens с помощью пакета подготовки
 
@@ -110,7 +110,7 @@ ms.locfileid: "123189007"
 
 4. в окне **выберите параметры для просмотра и настройки** выберите **Windows 10 Holographic**, а затем нажмите кнопку **далее**.
 
-5. Нажмите кнопку **Завершить**.
+5. Нажмите кнопку **Готово**.
 
 6. Разверните **Параметры среды выполнения** и настройте пакет с помощью любого из параметров, [описанных далее в этой статье](#what-you-can-configure).
 

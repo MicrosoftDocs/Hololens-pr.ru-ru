@@ -5,7 +5,7 @@ ms.assetid: 064f7eb0-190e-4643-abeb-ed3b09312042
 ms.date: 9/16/2019
 ms.reviewer: jarrettr
 manager: jarrettr
-keywords: hololens
+keywords: HoloLens
 ms.prod: hololens
 ms.sitesec: library
 author: v-miegge
@@ -15,11 +15,11 @@ ms.localizationpriority: medium
 appliesto:
 - HoloLens (1st gen)
 ms.openlocfilehash: 70ee881eb0c2ffaade173b31e5168371d042bbb2
-ms.sourcegitcommit: f04f631fbe7798a82a57cc01fc56dc2edf13c5f2
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "123190078"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033801"
 ---
 # <a name="getting-around-hololens-1st-gen"></a>Начало работы с HoloLens (1-го поколения)
 
@@ -45,7 +45,7 @@ ms.locfileid: "123190078"
 
 Датчики устройства HoloLens могут отслеживать происходящее на расстоянии около метра по обе стороны от вас. При использовании рук они должны оставаться в пределах этого поля, иначе HoloLens не сможет их определить. По мере движения фрейм перемещается вместе с вами.  
 
-![изображение, показывающее кадр отслеживания HoloLens.](./images/hololens-2-gesture-frame.png)
+![Изображение: поле отслеживания рук устройства HoloLens.](./images/hololens-2-gesture-frame.png)
 
 ### <a name="open-the-start-menu-with-bloom"></a>открытие меню с помощью раскрытия
 
@@ -62,7 +62,7 @@ ms.locfileid: "123190078"
 1. Взгляните на голограмму, которую хотите выбрать.
 1. Наведите указательный палец прямо на потолок.
 1. Воздушный нажим: Снизьте палец, а затем быстро повысьте его.
-   ![Анимация жеста касания воздуха.](./images/hololens-air-tap.gif)
+   ![Анимация жеста касания.](./images/hololens-air-tap.gif)
 
 ### <a name="select-a-hologram-by-using-your-voice"></a>Выбор голограммы с помощью голоса
 

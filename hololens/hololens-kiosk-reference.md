@@ -14,13 +14,13 @@ appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
 ms.openlocfilehash: 9f8cfd0013ac5b8cf85a334cbb89c458440820d9
-ms.sourcegitcommit: 6ce962ede986ebfab21d1665722694eaee13c280
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "122863949"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126033208"
 ---
-# <a name="hololens-kiosk-reference-information"></a>HoloLens Справочные сведения о киоске
+# <a name="hololens-kiosk-reference-information"></a>Справочные сведения о киоске HoloLens
 
 на этой странице содержатся полезные сведения о настройке режима киоска устройства HoloLens. Эти ссылки включают в себя Аумидс для входящих и нахождения ваших приложений, а также несколько примеров XML для полноэкранного режима. это всего лишь несколько изменений, готовых к использованию в нескольких различных сценариях. Сведения о настройке киоска см [. на странице Настройка киоска.](hololens-kiosk.md)
 
