@@ -17,12 +17,12 @@ manager: skerewa
 appliesto:
 - HoloLens 2
 keywords: HoloLens 2, коммерческий, функции, MDM, управление мобильными устройствами, режим терминала, приложения, удостоверение, BitLocker, радужная оболочка глаза, Windows Hello, на основе Azure, Autopilot, смешанная реальность, WDAC
-ms.openlocfilehash: 0c47eedad0d5a23249c48356765b74e4dbeac33e
-ms.sourcegitcommit: 05537014d27d9cb60d5485ce93654371d914d5e3
+ms.openlocfilehash: aef0bfd8672464eb71d147eeffa3e0ea245dbbd0
+ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "124427663"
+ms.lasthandoff: 09/13/2021
+ms.locfileid: "126034501"
 ---
 # <a name="hololens-2-capabilities-and-solutions"></a>Возможности и решения HoloLens 2
 
@@ -77,7 +77,7 @@ ms.locfileid: "124427663"
     :::column-end:::
     :::column span="2":::
         ### <a name="sheba-medical-center-uses-microsofts-hololens-for-ventilators-training"></a>[Медицинский центр им. Шибы использует Microsoft HoloLens для обучения работе с аппаратами ИВЛ.](https://customers.microsoft.com/en-us/story/1388628932382960935-sheba-health-provider-azure-en-israel)
-        HoloLens помогает медикам обучаться во время кризиса.
+        Сотрудники медицинского центра "Шиба" использовали HoloLens для обучения медсестер и другого вспомогательного персонала использованию аппаратов ИВЛ, сотни которых были развернуты во время пандемии COVID-19.
     :::column-end:::
 :::row-end:::
 
