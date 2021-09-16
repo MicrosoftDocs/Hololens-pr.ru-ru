@@ -8,19 +8,19 @@ ms.prod: hololens
 ms.sitesec: library
 ms.topic: article
 ms.localizationpriority: medium
-ms.date: 9/8/2021
+ms.date: 9/16/2021
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
 audience: ITPro
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: f27a469e76df1ccf29a2823b48f3640bdf414050
-ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
+ms.openlocfilehash: 80b23e1cc851081179e6deee2e5fd13d374946f1
+ms.sourcegitcommit: f1c50b39430026fd5e3c92ac1a09f07b69733325
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126033837"
+ms.lasthandoff: 09/16/2021
+ms.locfileid: "127862482"
 ---
 # <a name="hololens-2-release-notes"></a>Заметки о выпуске HoloLens 2
 
@@ -31,6 +31,22 @@ ms.locfileid: "126033837"
 
 > [!IMPORTANT]
 > из-за решенной [известной проблемы в нашей сборке 21H1, которая влияла на пользователей удаленного помощника](hololens-troubleshooting.md#remote-assist-video-freezes-after-20-minutes), мы временно приостановили предложение Windows holographic, 21H1 обновлений. мы также изменили стандартную сборку расширенного помощника по восстановлению по умолчанию на [Windows с обновлением 2021 holographic, 20H2 – июнь](hololens-release-notes.md#windows-holographic-version-20h2--june-2021-update). Теперь сборка ARC будет возобновлена на целевую сборку 21H1.
+
+## <a name="windows-holographic-version-21h1---september-2021-update"></a>Windows Holographic, версия 21H1-Сентябрь 2021 обновление
+
+- Сборка 20348,1018
+
+Улучшения и исправления в обновлении:
+
+- Исправления для устранения проблемы, при которой системное время может неожиданно завершить работу.
+
+## <a name="windows-holographic-version-20h2---september-2021-update"></a>Windows Holographic, версия 20H2-Сентябрь 2021 обновление
+
+- Сборка 19041,1165
+
+Улучшения и исправления в обновлении:
+
+- Исправления для устранения проблемы, при которой системное время может неожиданно завершить работу.
 
 ## <a name="windows-holographic-version-21h1---august-2021-update"></a>Windows Holographic, версия 21H1 — обновление 2021 августа
 

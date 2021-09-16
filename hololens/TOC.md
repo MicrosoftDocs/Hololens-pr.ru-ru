@@ -76,8 +76,6 @@
 ### [Безопасность сети](security-network-security.md)
 ### [Техника обеспечения безопасности](security-engineering.md)
 ### [HoloLens 2: обеспечение конфиденциальности и защита данных](hololens2-privacy.md)
-## Управление устройствами
-### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
 ## Регистрация устройств
 ### [Регистрация HoloLens в MDM](hololens-enroll-mdm.md)
 ### [Windows Autopilot для HoloLens 2](hololens2-autopilot.md) 
@@ -90,6 +88,7 @@
 ### [Установщик приложений](app-deploy-app-installer.md)
 ## Политики (участники программы CSP)
 ### [Обзор настройки CSP и управления устройством](hololens-csp-policy-overview.md)
+### [Использование MDM для управления устройствами HoloLens](hololens-mdm-configure.md)
 ### [Настройка HoloLens с помощью пакетов подготовки](hololens-provisioning.md)
 ### [Общие ограничения устройств](hololens-common-device-restrictions.md)
 ### [Настройка HoloLens в качестве киоска](hololens-kiosk.md)
