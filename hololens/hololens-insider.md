@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: ranjibb
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: e3b067987fb339bc070fcb64ed01c28dee21ec35
-ms.sourcegitcommit: 20ea1ed37772655504ccb11a7e185ed19d85f336
+ms.openlocfilehash: bdfdcda8cc890691f6112e7798d402ca9e7f4c6d
+ms.sourcegitcommit: 6c8406bbcc79c1f624736cc68e1aaeab70436902
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2021
-ms.locfileid: "127833545"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "127904316"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -65,7 +65,7 @@ ms.locfileid: "127833545"
 
 #### <a name="overview-to-try-out-moving-platform-mode"></a>Обзор для пробного перехода в режим платформы
 
-1. [Включите режим разработчика и портал устройств](/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal).
+1. [Включите режим разработчика и портал устройств](/windows/mixed-reality/develop/platform-capabilities-and-apis/using-the-windows-device-portal).
 1. [Включите режим перемещения платформы через портал устройств](hololens2-moving-platform.md#enabling-moving-platform-mode).
 1. Перенесите устройство на крупную платформу для перемещения и посмотрите, насколько стабильными голограммами.
 
