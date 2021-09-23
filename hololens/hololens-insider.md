@@ -16,12 +16,12 @@ ms.reviewer: ''
 manager: ranjibb
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: bdfdcda8cc890691f6112e7798d402ca9e7f4c6d
-ms.sourcegitcommit: 6c8406bbcc79c1f624736cc68e1aaeab70436902
+ms.openlocfilehash: 22d635fd3fc32b8aedc36bcb19d900128cdcb718
+ms.sourcegitcommit: ab86b31357004726d8a28ebae76123728adc8e59
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "127904316"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "128306171"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -225,7 +225,7 @@ OMA-URI нового `./Device/Vendor/MSFT/Policy/Config/MixedReality/AutoLogonU
 
 ### <a name="use-only-private-store-apps-for-microsoft-store"></a>Используйте только приложения частного магазина для Microsoft Store
 
-Политика Рекуиреприватестореонли включена для HoloLens. эта политика позволяет настроить приложение Microsoft Store для отображения только частного хранилища, настроенного для вашей организации. Ограничение доступа только для приложений, которые были сделаны доступными.
+Политика Рекуиреприватестореонли включена для HoloLens. эта политика позволяет настроить Microsoft Storeное приложение для отображения только частного хранилища, настроенного для вашей организации с помощью [Microsoft Store для бизнеса](/microsoft-store/microsoft-store-for-business-overview). Ограничение доступа только для приложений, которые были сделаны доступными.
 
 Дополнительные сведения о [аппликатионманажемент и рекуиреприватестореонли](/windows/client-management/mdm/policy-csp-applicationmanagement#applicationmanagement-requireprivatestoreonly).
 
