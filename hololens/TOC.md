@@ -28,7 +28,7 @@
 #### [Новое приложение "Параметры"](hololens-new-settings.md)
 #### [Новая версия Microsoft Edge](hololens-new-edge.md)
 ### Управление приложениями
-#### [Поиск, установка и удаление приложений](holographic-store-apps.md)
+#### [Поиск, установка и удаление приложений Microsoft Store](holographic-store-apps.md)
 #### [Управление пользовательскими приложениями для HoloLens 2](hololens2-holographic-custom-apps.md)
 ### Голографическая оптика и размещение в пространстве
 #### [Повышение качества изображения и комфорта](hololens-calibration.md)
