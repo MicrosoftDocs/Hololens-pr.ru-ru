@@ -1,24 +1,24 @@
 ---
 title: HoloLens Устранение неполадок устройства
 description: следите за наиболее распространенными решениями HoloLens проблем с устройствами и методов устранения неполадок.
-author: mattzmsft
-ms.author: mazeller
-ms.date: 9/30/2021
+author: evmill
+ms.author: v-evmill
+ms.date: 10/7/2021
 ms.prod: hololens
 ms.topic: article
 audience: HoloLens
 ms.localizationpriority: medium
-manager: jarrettr
+manager: ranjibb
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, справка, поддержка, HoloLens, эмулятор
-ms.openlocfilehash: 3c4d6e22660e365acd2c3aca3119632c73926391
-ms.sourcegitcommit: b9cd7ed5edb98249c609b547b90587863ea1cb9e
+ms.openlocfilehash: ceb6f2670b15f46d17a0cb36f6602ae3d4e3ec1d
+ms.sourcegitcommit: 8a3f925d2bda13c095b35f14d80afdd876aa859c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "129364619"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "129800544"
 ---
 # <a name="device-troubleshooting"></a>Устранение неполадок устройства
 
@@ -31,6 +31,7 @@ ms.locfileid: "129364619"
 
 **Известные проблемы**
 - [Каждый раз, когда мощность переходит на 18%, устройство внезапно автоматически завершает работу](#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically)
+- [OneDrive Приложение UWP не работает для пользователей Azure AD](#onedrive-uwp-app-doesnt-work-for-azure-ad-users)
 - [Видео удаленного помощника зависает через 20 минут](#remote-assist-video-freezes-after-20-minutes)
 - [Автоматический вход с запросом на вход](#auto-login-asks-for-log-in)
 - [не удается запустить Microsoft Edge](#microsoft-edge-fails-to-launch)
@@ -70,6 +71,23 @@ ms.locfileid: "129364619"
 1. Отправка проблемы в [центре отзывов](hololens-feedback.md)
 1. Поделитесь URL-адресом проблемы с отзывом
 1. [Обратиться в службу поддержки](https://aka.ms/hololenssupport).
+
+[Назад к списку](#list)
+
+## <a name="onedrive-uwp-app-doesnt-work-for-azure-ad-users"></a>OneDrive Приложение UWP не работает для пользователей Azure AD
+
+если вы используете OneDrive для бизнеса, используя учетную запись Azure AD, возможно, возникла ошибка при входе в папку "входящие" OneDrive приложении. невозможность входа в приложение OneDrive не влияет на автоматическую передачу образов и видео, захваченных приложением камеры. файлы по-прежнему можно сохранить и получить к ним доступ из OneDrive для бизнеса облачного хранилища. группы OneDrive и HoloLens работают над проблемой.
+
+### <a name="workarounds"></a>Методы обхода проблемы
+
+необходимое условие: клиенты могут использовать Microsoft Edge и ос устройства обновляются до Windows holographic, 21H1 сборки или более новой версии.
+
+Если у вас возникла эта проблема, попробуйте выполнить одно из следующих действий.
+
+- пользователи могут напрямую получать доступ к OneDrive для бизнеса из Microsoft Edge и взаимодействовать с файлами веб-сайта из браузера.
+- пользователи могут установить OneDrive приложение PWA для HoloLens, загрузив его из Microsoft Edge. Это позволит пользователям снова просматривать и управлять файлами на устройстве. прочтите следующие [инструкции по установке приложения OneDrive PWA на HoloLens.](holographic-store-apps.md#install-microsoft-onedrive-pwa-app)
+
+[Назад к списку](#list)
 
 ## <a name="remote-assist-video-freezes-after-20-minutes"></a>Видео удаленного помощника зависает через 20 минут
 
@@ -158,7 +176,7 @@ ms.locfileid: "129364619"
 
 Некоторые клиенты обнаружили, что при попытке отправить или скачать файлы может показаться, что операция зависает, а затем истекает или не завершится. это отделено от[известной проблемы "файл заблокирована"](#downloading-locked-files-doesnt-error) — это влияет Windows holographic, версии 2004, 20H2 и 21H1 в сборках на рынке. Проблема была вызвана ошибкой в обработке определенных запросов на портале устройств, и при использовании протокола HTTPS это происходит чаще всего, чем по умолчанию.
 
-### <a name="workaround"></a>Возможное решение
+### <a name="workaround"></a>Обходной путь
 
 Этот обходной путь, который применяется поровну к Wi-Fi и Усбнкм, — отключение параметра Required в разделе "SSL-соединение". Для этого перейдите на портал устройств, **систему** и выберите страницу **предпочтения** . В разделе " **безопасность устройства** " выберите **SSL-подключение** и снимите флажок " **требуется** отключить".
 
