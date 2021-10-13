@@ -13,12 +13,12 @@ ms.custom:
 - CI 111456
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, справка, поддержка, HoloLens, эмулятор
-ms.openlocfilehash: ceb6f2670b15f46d17a0cb36f6602ae3d4e3ec1d
-ms.sourcegitcommit: 8a3f925d2bda13c095b35f14d80afdd876aa859c
+ms.openlocfilehash: afbbc1ab0e018f668381137849738ec7d274fe37
+ms.sourcegitcommit: 9574db58592b7302bd2386bdf7fda3f6721de818
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "129800544"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "129924379"
 ---
 # <a name="device-troubleshooting"></a>Устранение неполадок устройства
 
@@ -32,6 +32,7 @@ ms.locfileid: "129800544"
 **Известные проблемы**
 - [Каждый раз, когда мощность переходит на 18%, устройство внезапно автоматически завершает работу](#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically)
 - [OneDrive Приложение UWP не работает для пользователей Azure AD](#onedrive-uwp-app-doesnt-work-for-azure-ad-users)
+- [Почему я вижу кодом 0x80180014 во время автопилота?](#why-do-i-see-0x80180014-during-autopilot)
 - [Видео удаленного помощника зависает через 20 минут](#remote-assist-video-freezes-after-20-minutes)
 - [Автоматический вход с запросом на вход](#auto-login-asks-for-log-in)
 - [не удается запустить Microsoft Edge](#microsoft-edge-fails-to-launch)
@@ -88,6 +89,12 @@ ms.locfileid: "129800544"
 - пользователи могут установить OneDrive приложение PWA для HoloLens, загрузив его из Microsoft Edge. Это позволит пользователям снова просматривать и управлять файлами на устройстве. прочтите следующие [инструкции по установке приложения OneDrive PWA на HoloLens.](holographic-store-apps.md#install-microsoft-onedrive-pwa-app)
 
 [Назад к списку](#list)
+
+## <a name="why-do-i-see-0x80180014-during-autopilot"></a>Почему я вижу кодом 0x80180014 во время автопилота?
+
+эта ошибка обычно возникает при сбросе устройства и повторном использовании потоков, где HoloLens устройство проходило через автопилот по крайней мере один раз. чтобы устранить эту проблему, [удалите устройство из Microsoft Intune](/mem/autopilot/troubleshoot-device-enrollment#error-code-0x80180014-when-re-enrolling-using-self-deployment-or-pre-provisioning-mode) и снова сбросьте его, чтобы завершить процесс автоматического пилотного развертывания.
+
+Дополнительные сведения см. в разделе [действия по устранению неполадок на странице автопилота.](hololens2-autopilot.md#why-do-i-see-0x80180014-during-autopilot)
 
 ## <a name="remote-assist-video-freezes-after-20-minutes"></a>Видео удаленного помощника зависает через 20 минут
 
