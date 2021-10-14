@@ -3,7 +3,7 @@ title: HoloLens Устранение неполадок устройства
 description: следите за наиболее распространенными решениями HoloLens проблем с устройствами и методов устранения неполадок.
 author: evmill
 ms.author: v-evmill
-ms.date: 10/7/2021
+ms.date: 10/13/2021
 ms.prod: hololens
 ms.topic: article
 audience: HoloLens
@@ -13,12 +13,12 @@ ms.custom:
 - CI 111456
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, справка, поддержка, HoloLens, эмулятор
-ms.openlocfilehash: afbbc1ab0e018f668381137849738ec7d274fe37
-ms.sourcegitcommit: 9574db58592b7302bd2386bdf7fda3f6721de818
+ms.openlocfilehash: 247cf9d34da723e587f6796178ad9a917b93ac08
+ms.sourcegitcommit: 39accbc8e35728969c500da052035af4fd317a65
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/13/2021
-ms.locfileid: "129924379"
+ms.locfileid: "129964570"
 ---
 # <a name="device-troubleshooting"></a>Устранение неполадок устройства
 
@@ -33,12 +33,14 @@ ms.locfileid: "129924379"
 - [Каждый раз, когда мощность переходит на 18%, устройство внезапно автоматически завершает работу](#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically)
 - [OneDrive Приложение UWP не работает для пользователей Azure AD](#onedrive-uwp-app-doesnt-work-for-azure-ad-users)
 - [Почему я вижу кодом 0x80180014 во время автопилота?](#why-do-i-see-0x80180014-during-autopilot)
-- [Видео удаленного помощника зависает через 20 минут](#remote-assist-video-freezes-after-20-minutes)
+- [код ошибки Microsoft Store 0x80131500](#microsoft-store-error-code-0x80131500)
+- [Microsoft Edge не удается запустить микрофон](#microsoft-edge-fails-to-start-the-microphone)
+- [**Исправлено** — видео по удаленному помощнику зависает через 20 минут](#remote-assist-video-freezes-after-20-minutes)
 - [Автоматический вход с запросом на вход](#auto-login-asks-for-log-in)
 - [не удается запустить Microsoft Edge](#microsoft-edge-fails-to-launch)
 - [Клавиатура не переключается на специальные символы](#keyboard-doesnt-switch-to-special-characters)
-- [При скачивании заблокированных файлов не отображается сообщение об ошибке](#downloading-locked-files-doesnt-error)
-- [Время ожидания отправки или скачивания файла на портале устройств истекло](#device-portal-file-uploaddownload-times-out)
+- [**Исправлено** — при скачивании заблокированных файлов не отображается сообщение об ошибке](#downloading-locked-files-doesnt-error)
+- [Истечение **времени ожидания при** отправке или скачивании файла на портале устройств](#device-portal-file-uploaddownload-times-out)
 - [Синий экран после отмены регистрации в предварительной версии программы предварительной оценки на устройстве, на котором произошла Пробная сборка](#blue-screen-after-unenrolling-from-insider-preview-on-a-device-flashed-with-an-insider-build)
 - [OneDrive не отправляет изображения автоматически](#onedrive-doesnt-automatically-upload-pictures)
 
@@ -95,6 +97,32 @@ ms.locfileid: "129924379"
 эта ошибка обычно возникает при сбросе устройства и повторном использовании потоков, где HoloLens устройство проходило через автопилот по крайней мере один раз. чтобы устранить эту проблему, [удалите устройство из Microsoft Intune](/mem/autopilot/troubleshoot-device-enrollment#error-code-0x80180014-when-re-enrolling-using-self-deployment-or-pre-provisioning-mode) и снова сбросьте его, чтобы завершить процесс автоматического пилотного развертывания.
 
 Дополнительные сведения см. в разделе [действия по устранению неполадок на странице автопилота.](hololens2-autopilot.md#why-do-i-see-0x80180014-during-autopilot)
+
+## <a name="microsoft-store-error-code-0x80131500"></a>код ошибки Microsoft Store 0x80131500
+
+некоторые пользователи могут столкнуться с Microsoft Store работать не так, как ожидалось, и просмотреть код ошибки 0x80131500. это проблема вызвана тем, что регион, заданный на HoloLens недоступен в Microsoft Store приложении на HoloLens. Если вы столкнулись с кодом ошибки 0x80131500, то для решения этой проблемы выполните следующие действия.
+
+1. задайте для Параметры > времени & язык > региона > страну или регион, один из следующих:
+    - США, Япония, Китая, Германия, Канада, Великобритания, Ирландия, Франция, Австралия, Новая Зеландия.
+1. Перезапустите приложение Магазина.
+1. Чтобы все устройство отражало изменение, необходимо перезапустить устройство.
+
+группа HoloLens работает над добавлением поддержки дополнительных регионов.
+
+[Дополнительные сведения о странах покупки HoloLens 2.](hololens2-purchase.md)
+
+## <a name="microsoft-edge-fails-to-start-the-microphone"></a>Microsoft Edge не удается запустить микрофон
+
+если пользователь, использующий Microsoft Edge микрофон, может не запуститься, поэтому не сможет взаимодействовать с ребром в HoloLens. эта известная проблема связана с версией приложения Microsoft Edge. не переносите устройство на более раннюю версию, так как это не устраняет эту проблему.
+
+### <a name="who-is-affected"></a>Кто затронуты?
+
+пользователи, имеющие Microsoft Edge версии 93, 94 или 95.
+вы можете проверить, какая версия Microsoft Edge у вас с помощью приложения Microsoft Store, а затем нажмите кнопку "подробнее", представленную **...** , а затем выберите **загрузки и обновления**.
+
+### <a name="work-around"></a>Обойти
+
+текущее исправление находится в версии 96, доступной для пользователей, которые зарегистрировались в Microsoft Edge участников. это отличается от регистрации устройства в качестве Windowsной предварительной оценки. Дополнительные сведения о [регистрации в программе предварительной оценки см.](hololens-new-edge.md#microsoft-edge-insider-channels) в этой статье.
 
 ## <a name="remote-assist-video-freezes-after-20-minutes"></a>Видео удаленного помощника зависает через 20 минут
 
