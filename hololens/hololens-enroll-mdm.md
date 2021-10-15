@@ -14,12 +14,12 @@ manager: ranjibb
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: b6206f7121d1ba78908d96f71c5c809ec97b06d5
-ms.sourcegitcommit: 6c8406bbcc79c1f624736cc68e1aaeab70436902
+ms.openlocfilehash: fa114633afe70a11a180c67fedbd40eb423ece99
+ms.sourcegitcommit: 19d1abb7589cebf14ba45e830f49224f7b4fcfe9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "127904350"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "130034184"
 ---
 # <a name="enroll-hololens-in-mdm"></a>Регистрация HoloLens в MDM
 
@@ -52,7 +52,7 @@ ms.locfileid: "127904350"
 
 ## <a name="auto-enrollment-in-mdm"></a>Автоматическая регистрация в MDM
 
-если ваша организация имеет [подписку azure Premium](https://azure.microsoft.com/overview/), использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure ad для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ит-администратор может настроить автоматическое разрешение регистрации MDM после входа пользователя с помощью учетной записи Azure ad. [Сведения о настройке регистрации в Azure AD.](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+если ваша организация имеет [подписку azure Premium](https://azure.microsoft.com/overview/), использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure ad для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ит-администратор может настроить автоматическое разрешение регистрации MDM после входа пользователя с помощью azure ad. учетной записи. [Сведения о настройке регистрации в Azure AD.](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
 
 Если включена автоматическая регистрация, Дополнительная регистрация вручную не требуется. Когда пользователь входит в систему с использованием учетной записи Azure AD, устройство регистрируется в MDM после завершения процесса первого запуска.
 
@@ -62,7 +62,7 @@ ms.locfileid: "127904350"
 
 Отмена регистрации устройства может быть недоступна в зависимости от метода регистрации.
 
-Если ваше устройство было зарегистрировано в учетной записи Azure AD или на автопилоте, зарегистрировать его в Intune невозможно. если вы хотите отменить присоединение HoloLens из Azure ad или повторно присоединить его к другому клиенту azure ad, необходимо [сбросить или восстановить](hololens-recovery.md#reset-the-device) устройство.
+Если ваше устройство было зарегистрировано в учетной записи Azure AD или на автопилоте, зарегистрировать его в Intune невозможно. если вы хотите отменить присоединение HoloLens из Azure ad или повторно присоединить его к другому клиенту azure ad, необходимо [сбросить или восстановить](hololens-recovery.md#restart-the-device) устройство.
 
 Если устройство было зарегистрировано в учетной записи MSA, которая добавила рабочую учетную запись или из локальной учетной записи, зарегистрированной только в управлении устройствами, вы можете отменять регистрацию устройства. откройте меню, а затем выберите **Параметры**  ->  **доступ к приложению работа или школьный**  ->  *йоураккаунт*  ->  **отключить** кнопку.
 
