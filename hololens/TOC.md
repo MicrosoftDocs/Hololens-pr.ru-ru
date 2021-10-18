@@ -117,7 +117,7 @@
 ## [Заметки о выпуске HoloLens 2](hololens-release-notes.md)
 ## [Предварительная версия Microsoft HoloLens](hololens-insider.md)
 ## [Поддерживаемые языки](hololens2-language-support.md)
-## [Разработка с помощью Microsoft Mesh (предварительная версия)](/mesh/overview)
+## [Сведения о Microsoft Mesh (предварительная версия)](/mesh/overview)
 ## HoloLens (1-го поколения)
 ### Первое использование
 #### [Общие сведения о HoloLens (1-го поколения)](hololens1-hardware.md)
