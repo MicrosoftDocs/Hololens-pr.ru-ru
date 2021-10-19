@@ -14,12 +14,12 @@ ms.reviewer: ''
 manager: sekerawa
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 49036135ba13a93d2e8be97a7f3a95d50785c5c5
-ms.sourcegitcommit: 19d1abb7589cebf14ba45e830f49224f7b4fcfe9
+ms.openlocfilehash: 080fb184c7eca3fdb978e860a29764f5012a179e
+ms.sourcegitcommit: f105a770814ccd61e88b650448902a03c95b7a3c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "130034269"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130151693"
 ---
 # <a name="update-hololens-2"></a>Обновление HoloLens 2
 
@@ -86,7 +86,11 @@ HoloLens применяет одно обновление за раз.  если
     1. В [обратном отношении обратная связь файлов](hololens-feedback.md) должна быть как можно более описательной. Запишите название или используйте функцию общего доступа, чтобы вы могли поделиться своей ошибкой с поддержкой.
     1. Обратитесь в [службу поддержки](https://aka.ms/hlsupport). Если вы хотите решить проблему, вернувшись к предыдущей версии, они могут предоставить вам ФФУ для флэш-памяти устройства.
 
-1. если это не поможет, воссоздайте [HoloLens 2 с помощью дополнительного помощника по восстановлению](hololens-recovery.md#clean-reflash-the-device).
+1. кроме того, вы можете [восстановить HoloLens 2 с помощью дополнительного помощника по восстановлению](hololens-recovery.md#clean-reflash-the-device).
+    1.  Выберите версию для вспышки: 
+        1.  вы можете скачать [самую последнюю версию HoloLens 2](https://aka.ms/hololens2download).
+        1.  Можно использовать сборку по умолчанию, на которой размещаются дуги.
+        1.  Вы можете использовать поддержку сборки, предоставленную в.
 
 > [!NOTE]
 > При возврате к более ранней версии удаляются личные файлы и параметры.
