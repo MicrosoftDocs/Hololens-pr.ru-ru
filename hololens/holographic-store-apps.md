@@ -15,12 +15,12 @@ ms.localizationpriority: high
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: f7d4ddf41f02b083000c1e57f5140c38527826d7
-ms.sourcegitcommit: b9cd7ed5edb98249c609b547b90587863ea1cb9e
+ms.openlocfilehash: 4705112ee41ce6de0598358b9c81775f261bb2fa
+ms.sourcegitcommit: 8a3f925d2bda13c095b35f14d80afdd876aa859c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "129364421"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "129800561"
 ---
 # <a name="find-install-and-uninstall-applications-from-the-microsoft-store"></a>Поиск, установка и удаление приложений Microsoft Store
 
@@ -74,6 +74,9 @@ HoloLens поддерживает многие существующие прил
 1. Нажмите **Получить** или **Установить** на странице приложения (может потребоваться покупка).
 
 ### <a name="install-microsoft-onedrive-pwa-app"></a>Установка приложения PWA Microsoft OneDrive
+
+> [!NOTE]
+> PWA нельзя управлять или развертывать через Microsoft Intune или MDM.
 
 Предварительные требования: к рабочему клиенту пользователя должно быть присоединено устройство HoloLens 2.
 
