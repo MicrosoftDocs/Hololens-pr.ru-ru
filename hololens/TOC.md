@@ -108,7 +108,7 @@
 ## [Дисплей](hololens2-display.md)
 ## [Реализация и управляемые устройства](hololens2-enterprise-troubleshooting.md#)
 ## [Включение журналов диагностики](hololens-diagnostic-logs.md)
-## [Сброс HoloLens 2](hololens-recovery.md)
+## [Перезапуск, сброс или восстановление HoloLens 2](hololens-recovery.md)
 
 # Ресурсы
 ## [Где купить HoloLens 2](hololens2-purchase.md)
@@ -131,7 +131,7 @@
 #### [Управление пользовательскими приложениями для HoloLens](holographic-custom-apps.md)
 #### [Установка локализованной версии HoloLens (1-го поколения)](hololens1-install-localized.md)
 #### [Разблокировка функций Windows Holographic for Business](hololens1-upgrade-enterprise.md)
-#### [Сброс HoloLens (1-го поколения)](hololens1-recovery.md)
+#### [Перезапуск, сброс и восстановление HoloLens (1-го поколения)](hololens1-recovery.md)
 ### Безопасность HoloLens (1-го поколения)
 #### [Часто задаваемые вопросы о безопасности HoloLens (1-го поколения)](hololens1-faq-security.yml)
 #### [Шифрование BitLocker для HoloLens (1-го поколения)](hololens1-encryption.md)
