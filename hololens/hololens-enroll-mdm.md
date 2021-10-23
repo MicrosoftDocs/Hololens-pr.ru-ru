@@ -14,12 +14,12 @@ manager: ranjibb
 appliesto:
 - HoloLens (1st gen)
 - HoloLens 2
-ms.openlocfilehash: fa114633afe70a11a180c67fedbd40eb423ece99
-ms.sourcegitcommit: 19d1abb7589cebf14ba45e830f49224f7b4fcfe9
+ms.openlocfilehash: 9f466abe45a1a9ad676f8dd6a94244473c084be7
+ms.sourcegitcommit: 38b5e4d92da6fc5d6a6a2ef875644d6db2cce822
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "130034184"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130202885"
 ---
 # <a name="enroll-hololens-in-mdm"></a>Регистрация HoloLens в MDM
 
@@ -52,7 +52,7 @@ ms.locfileid: "130034184"
 
 ## <a name="auto-enrollment-in-mdm"></a>Автоматическая регистрация в MDM
 
-если ваша организация имеет [подписку azure Premium](https://azure.microsoft.com/overview/), использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure ad для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ит-администратор может настроить автоматическое разрешение регистрации MDM после входа пользователя с помощью azure ad. учетной записи. [Сведения о настройке регистрации в Azure AD.](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment)
+если ваша организация имеет [подписку azure Premium](https://azure.microsoft.com/overview/), использует Azure Active Directory (Azure AD) и решение MDM, которое принимает маркер Azure ad для проверки подлинности (в настоящее время поддерживается только в Microsoft Intune и AirWatch), ит-администратор может настроить автоматическое разрешение регистрации MDM после входа пользователя с помощью azure ad. учетной записи. [Узнайте, как настроить регистрацию Azure AD](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment) и [интеграцию Azure Active Directory с MDM](/windows/client-management/mdm/azure-active-directory-integration-with-mdm) для получения подробных сведений.
 
 Если включена автоматическая регистрация, Дополнительная регистрация вручную не требуется. Когда пользователь входит в систему с использованием учетной записи Azure AD, устройство регистрируется в MDM после завершения процесса первого запуска.
 
@@ -67,6 +67,14 @@ ms.locfileid: "130034184"
 Если устройство было зарегистрировано в учетной записи MSA, которая добавила рабочую учетную запись или из локальной учетной записи, зарегистрированной только в управлении устройствами, вы можете отменять регистрацию устройства. откройте меню, а затем выберите **Параметры**  ->  **доступ к приложению работа или школьный**  ->  *йоураккаунт*  ->  **отключить** кнопку.
 
 ## <a name="enrollment-troubleshooting"></a>Устранение неполадок регистрации
+
+### <a name="ensure-device-is-successfully-connected-to-internet-before-attempting-enrollment-post-oobe"></a>Убедитесь, что устройство успешно подключено к Интернету, прежде чем пытаться выполнить регистрацию OOBE
+
+После входа пользователя убедитесь в наличии подключения к Интернету, перейдя на любой веб-сайт, подключенный к Интернету на устройстве.
+
+### <a name="ensure-that-azure-active-directory-aad-join-is-not-disabled-in-your-aad-tenant"></a>убедитесь, что соединение Azure Active Directory (AAD) не отключено в клиенте AAD
+
+Сведения о доступных параметрах в портал Azure см. в разделе [Настройка параметров устройства](/azure/active-directory/devices/azureadjoin-plan#configure-your-device-settings) .
 
 ### <a name="ensure-valid-license-is-assigned-to-the-user"></a>Убедитесь, что пользователю назначена действительная лицензия.
 
