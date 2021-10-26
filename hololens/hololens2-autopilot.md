@@ -13,12 +13,12 @@ audience: ITPro
 ms.localizationpriority: high
 keywords: autopilot
 manager: sekerawa
-ms.openlocfilehash: 05eb629e05395f04ddb8723d58d41db4161896fa
-ms.sourcegitcommit: 39accbc8e35728969c500da052035af4fd317a65
+ms.openlocfilehash: b343e4dc6e217319574efa068cd72c5f5a8675a8
+ms.sourcegitcommit: 38b5e4d92da6fc5d6a6a2ef875644d6db2cce822
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "129964587"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "130202919"
 ---
 # <a name="windows-autopilot-for-hololens-2"></a>Windows Autopilot для HoloLens 2
 
@@ -320,12 +320,6 @@ ms.locfileid: "129964587"
 
 ![Представление на устройстве при применении политики на устройстве.](images/hololens-autopilot-lockdown.png)
 
-#### <a name="why-did-i-not-see-autopilot-experience-even-though-the-autopilot-profile-is-assigned-in-intune"></a>Почему я не вижу интерфейс Autopilot, хотя профиль Autopilot назначен в Intune?
-
-По умолчанию устройство HoloLens 2 ожидает обнаружения Autopilot в течение 15 секунд после обнаружения подключения к Интернету. Если профиль Autopilot не обнаружен в течение 15 секунд, это означает, что Autopilot не удалось обнаружить правильно, и вы увидите страницу лицензионного соглашения.
-
-Перезагрузите устройство и повторите попытку. Дополнительные сведения см. в разделах [Известные проблемы и ограничения](hololens2-autopilot.md#known-issues-and-limitations) и [Устранение неполадок](hololens2-autopilot.md#troubleshooting).
-
 ## <a name="known-issues-and-limitations"></a>Известные проблемы и ограничения
 
 ### <a name="why-do-i-see-0x80180014-during-autopilot"></a>Почему я вижу код 0x80180014 при работе Autopilot?
@@ -355,6 +349,12 @@ ms.locfileid: "129964587"
 - [Известные проблемы с Windows Autopilot](/mem/autopilot/known-issues)
 - [Устранение проблем с регистрацией устройств Windows в Microsoft Intune](/mem/intune/enrollment/troubleshoot-windows-enrollment-errors)
 - [Windows Autopilot — конфликты политик](/mem/autopilot/policy-conflicts)
+
+#### <a name="why-did-i-not-see-autopilot-experience-even-though-the-autopilot-profile-is-assigned-in-intune"></a>Почему я не вижу интерфейс Autopilot, хотя профиль Autopilot назначен в Intune?
+
+По умолчанию устройство HoloLens 2 ожидает обнаружения Autopilot в течение 15 секунд после обнаружения подключения к Интернету. Если профиль Autopilot не обнаружен в течение 15 секунд, это означает, что Autopilot не удалось обнаружить правильно, и вы увидите страницу лицензионного соглашения.
+
+Перезагрузите устройство и повторите попытку. Дополнительные сведения см. в разделе [Известные проблемы и ограничения](hololens2-autopilot.md#known-issues-and-limitations).
 
 ## <a name="feedback-and-support-for-autopilot"></a>Отзывы и поддержка для Autopilot
 

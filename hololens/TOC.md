@@ -108,7 +108,7 @@
 ## [Дисплей](hololens2-display.md)
 ## [Реализация и управляемые устройства](hololens2-enterprise-troubleshooting.md#)
 ## [Включение журналов диагностики](hololens-diagnostic-logs.md)
-## [Перезапуск, сброс или восстановление HoloLens 2](hololens-recovery.md)
+## [Перезапуск, сброс и восстановление HoloLens 2](hololens-recovery.md)
 
 # Ресурсы
 ## [Где купить HoloLens 2](hololens2-purchase.md)

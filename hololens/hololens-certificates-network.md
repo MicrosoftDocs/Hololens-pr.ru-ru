@@ -13,12 +13,12 @@ audience: ITPro
 manager: yannisle
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 62eedd0c05bb23f11a4e17a97b4ab5441a2931cf
-ms.sourcegitcommit: e9f746aa41139859edc12fbc21f926c9461da4b3
+ms.openlocfilehash: c7c15cc0630f11d1687db19f2e6b28b8347dd4c3
+ms.sourcegitcommit: f105a770814ccd61e88b650448902a03c95b7a3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/13/2021
-ms.locfileid: "126034502"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130151672"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-hololens-2"></a>Подготовка сертификатов и сетевых профилей для HoloLens 2
 
@@ -27,7 +27,7 @@ ms.locfileid: "126034502"
 Так как устройства HoloLens 2 обычно подключаются к Azure Active Directory (Azure AD) и управляются через Intune или другой поставщик MDM, такие сертификаты следует развертывать с помощью инфраструктуры регистрации сертификатов для сетевых устройств (SCEP) или стандартов криптографии с открытым ключом (PKCS), которая интегрирована с вашим решением MDM. 
 
 >[!NOTE]
-> Если у вас нет поставщика MDM, вы можете развернуть сертификаты с помощью [пакета подготовки](hololens-provisioning.md#steps-for-creating-provisioning-packages) в [конструкторе конфигурации Windows](https://www.microsoft.com/p/windows-configuration-designer/9nblggh4tx22?rtc=1&activetab=pivot:regionofsystemrequirementstab) или с помощью [диспетчера сертификатов](certificate-manager.md). Для этого откройте меню **Параметры > Обновление и безопасность > Диспетчер сертификатов**.
+> Если у вас нет поставщика MDM, вы можете развернуть сертификаты с помощью [пакета подготовки](hololens-provisioning.md#create-the-provisioning-package) в [конструкторе конфигурации Windows](https://www.microsoft.com/p/windows-configuration-designer/9nblggh4tx22?rtc=1&activetab=pivot:regionofsystemrequirementstab) или с помощью [диспетчера сертификатов](certificate-manager.md). Для этого откройте меню **Параметры > Обновление и безопасность > Диспетчер сертификатов**.
 
 ## <a name="certificate-requirements"></a>Требования к сертификатам
 Корневые сертификаты необходимы для развертывания сертификатов через инфраструктуру SCEP или PKCS. Для других приложений и служб в вашей организации может потребоваться также наличие корневых сертификатов на устройствах HoloLens 2. 

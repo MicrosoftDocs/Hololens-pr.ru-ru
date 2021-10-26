@@ -1,13 +1,13 @@
 ---
-title: Перезапуск, сброс настроек и восстановление HoloLens
+title: Перезапуск, сброс и восстановление HoloLens 2
 ms.reviewer: Follow along with our basic and advanced instructions for rebooting or resetting your HoloLens 2 device.
 description: Сведения о том, как использовать Advanced Recovery Companion для установки образа на HoloLens 2.
 keywords: инструкции, перезагрузка, сброс, восстановление, аппаратный сброс, программный сброс, включение и выключение питания, HoloLens, завершение работы, arc, advanced recovery companion
 ms.prod: hololens
 ms.sitesec: library
 author: mattzmsft
-ms.author: mazeller
-ms.date: 08/30/2021
+ms.author: v-beehanson
+ms.date: 10/15/2021
 ms.custom:
 - CI 111456
 - CSSTroubleshooting
@@ -16,12 +16,12 @@ ms.localizationpriority: high
 manager: jarrettr
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 0efcfd0adf9bd380007e5ed4f905cb130b76d4b8
-ms.sourcegitcommit: 19d1abb7589cebf14ba45e830f49224f7b4fcfe9
+ms.openlocfilehash: 9f8969d018059a3b38d2b3001f8bc983b72d58c7
+ms.sourcegitcommit: f105a770814ccd61e88b650448902a03c95b7a3c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "130034252"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "130151655"
 ---
 # <a name="restart-reset-or-recover-hololens-2"></a>Перезапуск, сброс и восстановление HoloLens 2
 
@@ -67,7 +67,7 @@ ms.locfileid: "130034252"
 
 4. Подключите устройство к главному компьютеру и откройте диспетчер устройств (в Windows 10 нажмите клавишу **Windows** и клавишу **X**, а затем выберите **Диспетчер устройств**). Убедитесь, что устройство правильно указано как устройство *Microsoft HoloLens* (см. изображение ниже):
 
-   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery.](images/MicrosoftHoloLens_DeviceManager.png)
+   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery.](images/MicrosoftHoloLens_DeviceManager.png)
 
 ### <a name="hard-restart-procedure"></a>Процедура принудительного перезапуска
 
@@ -81,7 +81,15 @@ ms.locfileid: "130034252"
 
 1. Откройте диспетчер устройств (в Windows 10 нажмите клавишу **Windows** и клавишу **X**, а затем выберите **Диспетчер устройств**). Убедитесь, что устройство правильно указано как устройство *Microsoft HoloLens* (см. изображение ниже):
 
-   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery 2.](images/MicrosoftHoloLens_DeviceManager.png)
+   ![Диспетчер устройства HoloLens 2 MicrosoftHoloLensRecovery 2.](images/MicrosoftHoloLens_DeviceManager.png)
+
+## <a name="reset-the-device"></a>Сброс настроек устройства
+
+Вы можете сбросить устройство непосредственно с помощью гарнитуры. Щелкните **Параметры**, а затем выберите **Обновление и безопасность > Сброс и восстановление > Сбросить это устройство**.
+
+   ![Сброс гарнитуры HoloLens.](images/headset-reset-recovery.png)
+
+При сбросе с помощью этого способа все учетные записи пользователей и все данные будут удалены.
 
 ## <a name="clean-reflash-the-device"></a>Чистая установка образа на устройство
 
