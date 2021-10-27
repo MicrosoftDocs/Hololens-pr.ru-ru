@@ -13,12 +13,12 @@ ms.custom:
 - CI 111456
 - CSSTroubleshooting
 keywords: проблемы, ошибка, устранение неполадок, исправление, справка, поддержка, HoloLens, эмулятор
-ms.openlocfilehash: 5c79e119352146ac249ef02ab888141391c9cea1
-ms.sourcegitcommit: 19d1abb7589cebf14ba45e830f49224f7b4fcfe9
+ms.openlocfilehash: deed0d14b2567ae0a1fb2cde8ad1fbe3dbb20bb3
+ms.sourcegitcommit: 73a1555fb8b84f3d20c480282c648d8d800a6c98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "130034201"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "130351771"
 ---
 # <a name="device-troubleshooting"></a>Устранение неполадок устройства
 
@@ -30,9 +30,9 @@ ms.locfileid: "130034201"
 <a id="list"></a>
 
 **Известные проблемы**
-- [Каждый раз, когда мощность переходит на 18%, устройство внезапно автоматически завершает работу](#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically)
+- [Исправление Insider Preview — при каждом выходе питания на 18% устройство неожиданно завершает работу автоматически.](#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically)
 - [OneDrive Приложение UWP не работает для пользователей Azure AD](#onedrive-uwp-app-doesnt-work-for-azure-ad-users)
-- [Почему я вижу кодом 0x80180014 во время автопилота?](#why-do-i-see-0x80180014-during-autopilot)
+- [Почему я вижу код 0x80180014 при работе Autopilot?](#why-do-i-see-0x80180014-during-autopilot)
 - [код ошибки Microsoft Store 0x80131500](#microsoft-store-error-code-0x80131500)
 - [Microsoft Edge не удается запустить микрофон](#microsoft-edge-fails-to-start-the-microphone)
 - [**Исправлено** — видео по удаленному помощнику зависает через 20 минут](#remote-assist-video-freezes-after-20-minutes)
@@ -67,6 +67,9 @@ ms.locfileid: "130034201"
 
 ## <a name="every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically"></a>Каждый раз, когда мощность переходит на 18%, устройство внезапно автоматически завершает работу
 
+> [!NOTE]
+> существует исправление для этой проблемы, которое можно найти в [Windows предварительных](hololens-insider.md) выпусках.
+
 Существует известная известная ситуация, когда устройство достигает 18% от аккумулятора, оно неожиданно завершает работу. Это проблема программного обеспечения, не связанная с оборудованием или батареей, поэтому не следует использовать устройства Exchange. Если вы не уверены, соответствует ли проблема этой ошибке, сделайте следующее:
 
 1. Убедитесь, что на ваших устройствах включена необязательная диагностика
@@ -92,11 +95,11 @@ ms.locfileid: "130034201"
 
 [Назад к списку](#list)
 
-## <a name="why-do-i-see-0x80180014-during-autopilot"></a>Почему я вижу кодом 0x80180014 во время автопилота?
+## <a name="why-do-i-see-0x80180014-during-autopilot"></a>Почему я вижу код 0x80180014 при работе Autopilot?
 
 эта ошибка обычно возникает при сбросе устройства и повторном использовании потоков, где HoloLens устройство проходило через автопилот по крайней мере один раз. чтобы устранить эту проблему, [удалите устройство из Microsoft Intune](/mem/autopilot/troubleshoot-device-enrollment#error-code-0x80180014-when-re-enrolling-using-self-deployment-or-pre-provisioning-mode) и снова сбросьте его, чтобы завершить процесс автоматического пилотного развертывания.
 
-Дополнительные сведения см. в разделе [действия по устранению неполадок на странице автопилота.](hololens2-autopilot.md#why-do-i-see-0x80180014-during-autopilot)
+Дополнительные сведения см. в разделе [действия по устранению неполадок на странице автопилота.](hololens2-autopilot.md#issue---mdm-enrollment-fails-with-error-0x80180014-error-code-during-autopilot)
 
 ## <a name="microsoft-store-error-code-0x80131500"></a>код ошибки Microsoft Store 0x80131500
 

@@ -11,17 +11,17 @@ ms.custom:
 - CSSTroubleshooting
 ms.localizationpriority: medium
 audience: ITPro
-ms.date: 10/12/2021
+ms.date: 10/19/2021
 ms.reviewer: ''
 manager: ranjibb
 appliesto:
 - HoloLens 2
-ms.openlocfilehash: 080eb5949bc80d1ce922d57f099c375668f5633f
-ms.sourcegitcommit: 9574db58592b7302bd2386bdf7fda3f6721de818
+ms.openlocfilehash: 382c979138068ab1d9682ee4e84831accc9e4553
+ms.sourcegitcommit: 73a1555fb8b84f3d20c480282c648d8d800a6c98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "129924353"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "130351661"
 ---
 # <a name="insider-preview-for-microsoft-hololens"></a>Предварительная версия Microsoft HoloLens
 
@@ -29,7 +29,26 @@ ms.locfileid: "129924353"
 
 ## <a name="windows-insider-release-notes"></a>Windows Заметки о выпуске Insider
 
-Мы рады, что все наши последние функции предварительной версии уже открыты. Если вы хотите узнать о них, ознакомьтесь со [страницей заметок о выпуске](hololens-release-notes.md) .
+Что нового и в горизонте для HoloLens? Ознакомьтесь с новыми обновлениями, которые появятся HoloLens!
+
+### <a name="colorblind-mode"></a>Режим колорблинд
+
+Добавлено в сборку Insider Build 20348,1463
+
+режим колорблинд — это полезная функция, которая делает HoloLens более доступной. новый режим колорблинд можно найти в приложении Параметры в разделе **Параметры**  ->  фильтры **по**  ->  **цветам** специальных возможностей. Доступно несколько новых фильтров. Ниже приведен визуальный пример некоторых доступных фильтров.
+
+| Выключено | Растров | тританопиа |
+|-----|-----------|------------|
+| ![Фильтр цвета выкл.](images/colorblind-off.png)   | ![Цветовая фильтрация оттенков серого](images/colorblind-greyscale.png)         | ![Фильтр цвета тританопиа](images/colorblind-tritanopia.png)          |
+
+### <a name="fixes-and-improvements"></a>Исправления и улучшения
+
+- Исправлена известная проблема, при которой [при каждом переходе на 18% устройство неожиданно завершает работу автоматически](hololens-troubleshooting.md#every-time-the-power-goes-to-18-percent-the-device-suddenly-shuts-down-automatically).
+- Улучшения при переходе в режим платформы при обнаружении направления вниз.
+- Исправлена проблема в диалоговых окнах обновления.
+- обновленная папка "входящие" Microsoft Edge версии браузера.
+- Исправлена проблема, из-за которой при переключении необязательных диагностических данных выбранный параметр на странице параметры телеметрии не сохранялся после перезагрузки.
+- Исправлена и проблема, когда QR-коды не были распознаны при повороте на угол в 45 градусов относительно устройства.
 
 ## <a name="start-receiving-insider-builds"></a>Начало получения сборок для предварительной оценки
 
